@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "language": "ja",
+  "apps": {
+    "frappe": {
+      "type": "core",
+      "repo": "https://github.com/frappe/frappe",
+      "managed": true
+    },
+    "erpnext": {
+      "type": "core",
+      "repo": "https://github.com/frappe/erpnext",
+      "managed": true
+    },
+    "hrms": {
+      "type": "core",
+      "repo": "https://github.com/frappe/hrms",
+      "managed": true
+    },
+    "healthcare": {
+      "type": "community",
+      "repo": "https://github.com/frappe/health",
+      "managed": true
+    },
+    "hospitality": {
+      "type": "community",
+      "repo": "https://github.com/aakvatech/Hotel-Management",
+      "managed": true
+    },
+    "lending": {
+      "type": "community",
+      "repo": "https://github.com/frappe/lending",
+      "managed": true
+    },
+    "posawesome": {
+      "type": "community",
+      "repo": "https://github.com/yrestom/POS-Awesome",
+      "managed": true
+    }
+  },
+  "defaults": {
+    "bench_path": "~/work/frappe-bench",
+    "site": "dev.localhost",
+    "docker_bench": "bench-01",
+    "docker_container_bench_path": "/home/frappe/frappe-bench"
+  },
+  "glossary_path": "glossary/glossary.csv"
+}

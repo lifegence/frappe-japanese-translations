@@ -1,0 +1,268 @@
+source,target,domain,notes
+Account,勘定科目,Accounting,General ledger account
+Accounting Dimension,会計ディメンション,Accounting,Additional accounting axis
+Accounting Entries,会計入力,Accounting,Posted transactions
+Accounting Period,会計期間,Accounting,Fiscal period for accounting
+Accounts Payable,買掛金,Accounting,Amounts owed to suppliers
+Accounts Payable Summary,買掛金サマリ,Accounting,Summary of amounts owed
+Accounts Receivable,売掛金,Accounting,Amounts owed by customers
+Accounts Receivable Summary,売掛金サマリ,Accounting,Summary of amounts due
+Accounts Settings,会計設定,Accounting,Accounting configuration
+Accrued Expenses,未払費用,Accounting,Expenses incurred but not yet paid
+Accumulated Depreciation,減価償却累計額,Accounting,Total depreciation to date
+Adjustment,調整,Accounting,Correction or modification entry
+Advance Payment,前払い,Accounting,Payment made before delivery
+Against,対象,Accounting,Referenced document or account
+Against Account,勘定科目に対して,Accounting,Counter-party account
+Asset,資産,Accounting,Company-owned resource
+Asset Category,資産カテゴリ,Accounting,Asset classification
+Balance Sheet,貸借対照表,Accounting,Financial position statement
+Bank Account,銀行口座,Accounting,Account at a bank
+Base Amount,基本金額,Accounting,Amount in company base currency
+Budget,予算,Accounting,Planned financial allocation
+Chart of Accounts,勘定科目表,Accounting,Hierarchical list of accounts
+Closing,期末,Accounting,End of period
+Cost Center,コストセンター,Accounting,Cost tracking unit
+Cost Center Allocation,コストセンター配分,Accounting,Distribution across cost centers
+Credit,貸方,Accounting,Right side of ledger entry
+Credit Note,貸方票,Accounting,Document reducing receivables
+Current Asset,流動資産,Accounting,Short-term assets
+Current Liability,流動負債,Accounting,Short-term liabilities
+Debit,借方,Accounting,Left side of ledger entry
+Debit Note,借方票,Accounting,Document reducing payables
+Depreciation,減価償却,Accounting,Asset value reduction over time
+Dunning,督促状,Accounting,Payment reminder document
+Equity,純資産,Accounting,Owner's stake in company
+Expense,経費,Accounting,Cost incurred in operations
+Fixed Asset,固定資産,Accounting,Long-term tangible asset
+General Ledger,総勘定元帳,Accounting,Main accounting record
+Gross Profit,売上総利益,Accounting,Revenue minus cost of goods sold
+In Words,金額表記,Accounting,Amount expressed in text
+Income,収入,Accounting,Money received
+Journal Entry,仕訳伝票,Accounting,Manual accounting entry
+Ledger,元帳,Accounting,Book of financial records
+Liability,負債,Accounting,Financial obligations
+Net Amount,純額,Accounting,Amount after deductions
+Net Profit,純利益,Accounting,Final profit after all expenses
+Net Total,純合計,Accounting,Total after deductions
+Opening,期首,Accounting,Beginning of period
+Outstanding,未回収,Accounting,Not yet collected or paid
+Payment,支払い,Accounting,Transfer of money
+Payment Entry,入出金伝票,Accounting,Document recording payment
+Payment Terms,支払条件,Accounting,Agreed payment schedule
+Profit and Loss,損益計算書,Accounting,Income statement
+Retained Earnings,繰越利益剰余金,Accounting,Accumulated undistributed profits
+Revenue,収益,Accounting,Income from business activities
+Shareholder,株主,Accounting,Owner of company shares
+Tax,税金,Accounting,Government levy
+Tax Amount,税額,Accounting,Calculated tax value
+Tax Rule,税ルール,Accounting,Rule for tax application
+Trial Balance,試算表,Accounting,Summary of all ledger balances
+Voucher,伝票,Accounting,Transaction document
+Write Off,償却,Accounting,Remove uncollectable amount
+Lead,見込み客,CRM,Potential customer
+Opportunity,商談,CRM,Sales opportunity
+Sales Partner,販売パートナー,CRM,External sales partner
+Sales Person,営業担当者,CRM,Internal sales representative
+Sales Team,営業チーム,CRM,Group of sales people
+About,概要,General,Overview or summary section
+Action,アクション,General,User-initiated operation
+Actions,アクション,General,Available operations
+Activity,アクティビティ,General,Logged action or task
+Add,追加,General,Create or append
+Administration,管理,General,System management
+Alert,アラート,General,Urgent notification
+Amend,修正,General,Correct a submitted document
+Analytics,分析,General,Data analysis
+Announcement,お知らせ,General,Public notification
+App,アプリ,General,Application
+Apply,適用,General,Execute or put into effect
+Approve,承認,General,Grant authorization
+Approved,承認済,General,Authorization granted
+Archived,アーカイブ済,General,Stored for reference
+Assign,割り当て,General,Delegate to a user
+Assignee,担当者,General,Person assigned
+Authentication,認証,General,Identity verification
+Author,著者,General,Creator of content
+Automation,自動化,General,Automated process
+Beginner,初級,General,Entry-level
+Brand,ブランド,General,Product or company brand
+Browser,ブラウザ,General,Web browser
+Button,ボタン,General,Clickable UI element
+Calendar,カレンダー,General,Date-based view
+Cancel,キャンセル,General,Abort or void
+Category,カテゴリ,General,Classification group
+Color,色,General,Visual attribute
+Comment,コメント,General,User remark
+Completed,完了,General,Finished successfully
+Condition,条件,General,Logical requirement
+Confirm,確認,General,Verify or acknowledge
+Connections,接続,General,Related documents
+Continue,続行,General,Proceed to next step
+Conversion Rate,換算レート,General,Currency conversion multiplier
+Create,作成,General,Make new
+Criteria,条件,General,Evaluation standard
+Custom,カスタム,General,User-defined
+Dashboard,ダッシュボード,General,Overview display
+Date,日付,General,Calendar date
+Default,デフォルト,General,Standard preset value
+Delete,削除,General,Remove permanently
+Description,説明,General,Explanatory text
+Details,詳細,General,Additional information
+Disabled,無効,General,Turned off
+Draft,下書き,General,Unsaved or unsubmitted
+Duplicate,複製,General,Create a copy
+Edit,編集,General,Modify existing content
+Enable,有効化,General,Turn on
+Enabled,有効,General,Currently turned on
+Error,エラー,General,System or validation error
+Event,イベント,General,Scheduled occurrence
+Export,エクスポート,General,Save data externally
+Filter,フィルター,General,Criteria to narrow results
+Footer,フッター,General,Bottom section of page
+Formula,数式,General,Calculation expression
+Frequency,頻度,General,How often something occurs
+Group,グループ,General,Collection of related items
+Header,ヘッダー,General,Top section of page
+Help,ヘルプ,General,Assistance information
+Hidden,非表示,General,Not visible
+Import,インポート,General,Load data from external source
+Kanban,カンバン,General,Card-based board view
+Language,言語,General,Localization language
+List,リスト,General,Collection displayed as rows
+Loading,読み込み中,General,Data being fetched
+Log,ログ,General,Record of events
+Maintenance,メンテナンス,General,Upkeep activities
+Mandatory,必須,General,Required field
+Module,モジュール,General,Functional grouping
+Name,名前,General,Identifier
+New,新規,General,Not yet existing
+No,いいえ,General,Negative response
+Notification,通知,General,Alert or message
+Number,番号,General,Numeric identifier
+Overdue,期限超過,General,Past the deadline
+Page,ページ,General,Single view or screen
+Party,取引先,General,Customer or Supplier
+Party Type,取引先タイプ,General,Customer or Supplier type
+Pending,保留中,General,Awaiting action
+Permission,権限,General,Access right
+Print,印刷,General,Output to paper or PDF
+Priority,優先度,General,Importance level
+Published,公開済,General,Made visible to users
+Read,読み取り,General,View access
+Redo,やり直し,General,Repeat last undone action
+Refresh,更新,General,Reload current data
+Rejected,却下,General,Not approved
+Rename,名前変更,General,Change identifier
+Report,レポート,General,Data summary view
+Reset,リセット,General,Return to initial state
+Restore,復元,General,Bring back from archive
+Role,ロール,General,Permission group for users
+Save,保存,General,Persist changes
+Saving,保存中,General,In process of saving
+Search,検索,General,Find by keyword
+Settings,設定,General,Configuration options
+Setup,セットアップ,General,Initial configuration
+Share,共有,General,Grant access to others
+Standard,標準,General,System default
+Status,ステータス,General,Current state
+Submit,提出,General,Finalize document
+Submitted,提出済,General,Document finalized
+Success,成功,General,Operation completed without error
+Summary,サマリー,General,Condensed overview
+Support,サポート,General,Customer assistance
+System,システム,General,The application platform
+Target,ターゲット,General,Goal or objective
+Template,テンプレート,General,Reusable pattern
+Time,時刻,General,Clock time
+Title,タイトル,General,Display heading
+Tools,ツール,General,Utility functions
+Total,合計,General,Sum of values
+Translation,翻訳,General,Language conversion
+Type,種類,General,Classification
+Undo,元に戻す,General,Reverse last action
+Update,更新,General,Modify with new data
+Upload,アップロード,General,Send file to server
+User,ユーザー,General,System user account
+Warning,警告,General,Caution message
+Website,ウェブサイト,General,Public-facing site
+Workspace,ワークスペース,General,Module home page
+Write,書き込み,General,Edit access
+Yes,はい,General,Affirmative response
+Appraisal,人事評価,HR,Employee performance review
+Attendance,勤怠,HR,Employee presence tracking
+Basic,基本,HR,Base component
+Bonus,賞与,HR,Additional compensation
+Company,会社,HR,Business entity
+Customer,顧客,HR,Buyer of goods or services
+Employee,従業員,HR,Staff member
+Employee Onboarding,入社手続き,HR,New hire process
+Expense Claim,経費精算,HR,Reimbursement request
+Holiday,休日,HR,Non-working day
+Holiday List,休日リスト,HR,Calendar of holidays
+Leave Allocation,休暇割当,HR,Assigned leave balance
+Leave Application,休暇申請,HR,Request for time off
+Payroll Entry,給与伝票,HR,Payroll processing document
+Salary,給与,HR,Employee compensation
+Salary Slip,給与明細,HR,Payslip document
+Salary Structure,給与体系,HR,Compensation framework
+Shift,シフト,HR,Work period assignment
+Actual,実際,Inventory,Real or measured value
+Bin,ビン,Inventory,Stock storage unit
+Delivered,納品済,Inventory,Goods sent to customer
+FIFO,先入先出法,Inventory,First In First Out valuation
+Item,品目,Inventory,Product or material
+Item Name,品目名,Inventory,Display name of item
+Manufacture,製造,Inventory,Stock entry type for production
+Material Request,資材要求,Inventory,Request for materials
+Material Transfer,倉庫間移動,Inventory,Move stock between warehouses
+Moving Average,移動平均法,Inventory,Valuation method
+Ordered,発注済,Inventory,Purchase order placed
+Packing Slip,梱包伝票,Inventory,Packaging document
+Pick List,ピッキングリスト,Inventory,Warehouse picking document
+Quantity,数量,Inventory,Count of items
+Repack,再梱包,Inventory,Re-packaging operation
+Safety Stock,安全在庫,Inventory,Minimum stock level
+Stock,在庫,Inventory,Goods held in warehouse
+Stock Ledger,在庫元帳,Inventory,Stock transaction record
+Stock Reconciliation,在庫照合,Inventory,Stock adjustment document
+Valuation,評価,Inventory,Stock value assessment
+Warehouse,倉庫,Inventory,Storage location
+BOM,部品表,Manufacturing,Bill of Materials
+Capacity,定員,Manufacturing,Production capacity
+Finished Good,完成品,Manufacturing,Manufactured product
+Manufacturing,製造,Manufacturing,Production module
+Raw Material,原材料,Manufacturing,Input material for production
+Routing,ルーティング,Manufacturing,Production process sequence
+Subcontracting,外注,Manufacturing,Outsourced production
+Subcontracting Order,外注指示,Manufacturing,Order for outsourced work
+Work Order,製造指示,Manufacturing,Production order
+Workstation,ワークステーション,Manufacturing,Production equipment location
+Project,プロジェクト,Projects,Planned undertaking
+Task,タスク,Projects,Unit of work
+Amount,金額,Purchasing,Monetary value
+Billed,請求済,Purchasing,Invoice issued
+Blanket Order,包括注文,Purchasing,Framework agreement
+Buying,購買,Purchasing,Procurement module
+Discount,値引き,Purchasing,Price reduction
+Invoice,請求書,Purchasing,Bill for goods or services
+Landed Cost,諸掛コスト,Purchasing,Total cost including charges
+Purchase Invoice,仕入請求書,Purchasing,Supplier invoice
+Purchase Order,発注書,Purchasing,Order to supplier
+Purchase Receipt,入荷伝票,Purchasing,Goods received document
+Rate,単価,Purchasing,Price per unit
+Request for Quotation,見積依頼書,Purchasing,RFQ document
+Supplier,仕入先,Purchasing,Vendor or seller
+Supplier Group,仕入先グループ,Purchasing,Vendor classification
+Supplier Name,仕入先名,Purchasing,Vendor display name
+Supplier Quotation,仕入先見積書,Purchasing,Vendor price quote
+Customer Name,顧客名,Selling,Buyer display name
+Delivery Note,納品書,Selling,Goods dispatch document
+Forecast,予測,Selling,Sales projection
+Pricing Rule,価格ルール,Selling,Rule for automatic pricing
+Quotation,見積書,Selling,Price proposal to customer
+Return,返品,Selling,Goods sent back
+Sales Invoice,売上請求書,Selling,Customer invoice
+Sales Order,受注,Selling,Customer order
+Selling,販売,Selling,Sales module
+Shipping Rule,配送ルール,Selling,Rule for shipping charges
