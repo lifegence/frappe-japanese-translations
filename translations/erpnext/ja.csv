@@ -9323,7 +9323,7 @@ You have enabled {0} and {1} in {2}. This can lead to prices from the default pr
 You have entered a duplicate Delivery Note on Row,You have entered a duplicate Delivery Note on Row,
 You have to enable auto re-order in Stock Settings to maintain re-order levels.,You have to enable auto re-order in Stock Settings to maintain re-order levels.,
 You have unsaved changes. Do you want to save the invoice?,You have unsaved changes. Do you want to save the invoice?,
-You haven't created a {0} yet,You haven't created a {0} yet,
+You haven't created a {0} yet,{0} はまだ作成されていません,
 You must select a customer before adding an item.,You must select a customer before adding an item.,
 You need to cancel POS Closing Entry {} to be able to cancel this document.,You need to cancel POS Closing Entry {} to be able to cancel this document.,
 You selected the account group {1} as {2} Account in row {0}. Please select a single account.,You selected the account group {1} as {2} Account in row {0}. Please select a single account.,
