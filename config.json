@@ -1,48 +1,56 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "language": "ja",
   "apps": {
     "frappe": {
       "type": "core",
+      "format": "po",
+      "crowdin": true,
       "repo": "https://github.com/frappe/frappe",
-      "managed": true
+      "pot_path": "frappe/locale/main.pot"
     },
     "erpnext": {
       "type": "core",
+      "format": "po",
+      "crowdin": true,
       "repo": "https://github.com/frappe/erpnext",
-      "managed": true
+      "pot_path": "erpnext/locale/main.pot"
     },
     "hrms": {
       "type": "core",
+      "format": "po",
+      "crowdin": true,
       "repo": "https://github.com/frappe/hrms",
-      "managed": true
+      "pot_path": "hrms/locale/main.pot"
     },
     "healthcare": {
       "type": "community",
+      "format": "po",
+      "crowdin": true,
       "repo": "https://github.com/frappe/health",
-      "managed": true
-    },
-    "hospitality": {
-      "type": "community",
-      "repo": "https://github.com/aakvatech/Hotel-Management",
-      "managed": true
+      "pot_path": "healthcare/locale/main.pot"
     },
     "lending": {
       "type": "community",
+      "format": "po",
+      "crowdin": true,
       "repo": "https://github.com/frappe/lending",
-      "managed": true
+      "pot_path": "lending/locale/main.pot"
     },
     "posawesome": {
       "type": "community",
+      "format": "csv",
+      "crowdin": false,
       "repo": "https://github.com/yrestom/POS-Awesome",
-      "managed": true
+      "notes": "Legacy CSV format; no upstream PO / Crowdin path. Local bench deploy only."
     }
   },
   "defaults": {
     "bench_path": "~/work/frappe-bench",
     "site": "dev.localhost",
     "docker_bench": "bench-01",
-    "docker_container_bench_path": "/home/frappe/frappe-bench"
+    "docker_container_bench_path": "/home/frappe/frappe-bench",
+    "pot_root": "~/work/frappe-i18n-upstream"
   },
   "glossary_path": "glossary/glossary.csv"
 }
