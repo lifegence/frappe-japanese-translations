@@ -27,53 +27,79 @@ translations.
 (`aakvatech/Hotel-Management`) is no longer available. The historical CSV is
 preserved in git history.
 
-## Workflows
+## Two formats, one source of truth
 
-This repo supports two parallel paths, depending on the app:
+The PO file is the **source of truth** (matches the upstream POT and the
+Crowdin project). The CSV file is **derived** for bench-side deployment via
+`scripts/deploy.sh` and the Frappe bench's
+`apps/{app}/{app}/translations/{lang}.csv` loader. Both are first-class
+artifacts and both are kept in sync.
 
-### A. PO + Crowdin (the 5 apps in the table above)
+```
+upstream main.pot ──► ja.po ──► Crowdin upload (upstream contribution)
+                       │
+                       └──► ja.csv ──► bench deploy (local / internal patch)
+```
 
-Translate / proofread on the Crowdin project; Frappe's bot syncs translations
-back to upstream GitHub PRs (see each app's `crowdin.yml`). The PO files in
-`translations/{app}/ja.po` here are the seed data uploaded into Crowdin.
+`scripts/sync-csv.sh` regenerates ja.csv from ja.po after every translate /
+fixup pass.
 
-### B. Legacy CSV (posawesome, and any local-only fork)
-
-Edit `translations/{app}/ja.csv` directly and deploy to a local Frappe bench
-using `scripts/deploy.sh`. There is no upstream contribution path for these
-apps.
+For `posawesome` (no upstream PO / Crowdin path), CSV is edited directly and
+remains the source of truth for that app alone.
 
 ## Quick Start
 
-```bash
-# Deploy current translations to a local bench
-./scripts/setup-locale.sh --site dev.localhost   # full ja locale bring-up
+### Deploy current translations to a Frappe bench
 
-# Refresh the PO files against the latest upstream POTs and AI-fill gaps
+```bash
+./scripts/setup-locale.sh --site dev.localhost   # full ja locale bring-up
+# or
+./scripts/deploy.sh --site dev.localhost         # CSV deploy only
+```
+
+### Refresh PO + CSV against the latest upstream POTs
+
+```bash
+# 1. Update the upstream POT mirror (see "Upstream POT Mirror" below)
+for d in ~/work/frappe-i18n-upstream/*/; do git -C "$d" pull --quiet; done
+
+# 2. Rebuild PO from CSV + latest POT (preserves real translations, drops
+#    obsolete strings, applies glossary auto-fill)
 ./scripts/csv-to-po.py --pot ~/work/frappe-i18n-upstream/frappe/frappe/locale/main.pot \
                       --csv translations/frappe/ja.csv \
                       --output translations/frappe/ja.po \
                       --apply-glossary glossary/glossary.csv
 
+# 3. AI-fill remaining empty msgstr (all 5 PO apps)
 export GEMINI_API_KEY=...                        # https://aistudio.google.com/apikey
-./scripts/translate-all.sh                       # AI-fill empty msgstr in all 5 PO apps
+./scripts/translate-all.sh
 
-# Push to Crowdin (once Japanese is enabled on the project)
+# 4. Post-pass cleanup (whitespace pad + strip-translate-reattach)
+for app in frappe erpnext hrms healthcare lending; do
+  ./scripts/fixup-po.py --po translations/$app/ja.po --glossary glossary/glossary.csv
+done
+
+# 5. Sync ja.po back into ja.csv for bench deploy
+./scripts/sync-csv.sh
+
+# 6. Push to Crowdin (once Japanese is enabled on the project)
 crowdin upload translations -l ja --import-eq-suggestions
 ```
 
 ## Scripts
 
-### PO workflow (current primary)
+### PO ⇄ CSV pipeline
 
 | Script | Purpose |
 |--------|---------|
-| `csv-to-po.py` | Convert legacy `ja.csv` into gettext PO using the upstream `main.pot` as the canonical msgid source; applies glossary auto-fill; emits a sub-POT of remaining gaps |
-| `translate-po.py` | AI-fill empty `msgstr` via Gemini 2.5 Flash (default) or Anthropic Claude. Validates placeholders / Jinja / newlines / brackets / surrounding whitespace. Marks all AI output `#, fuzzy` |
+| `csv-to-po.py` | CSV → PO using upstream `main.pot` as the canonical msgid source; applies glossary auto-fill; emits a sub-POT of remaining gaps |
+| `translate-po.py` | Fill empty `msgstr` via Gemini 2.5 Flash (default) or Anthropic Claude; strict placeholder / Jinja / newline / bracket / whitespace validation; marks AI output `#, fuzzy` |
 | `translate-all.sh` | Runs `translate-po.py` over all Crowdin-managed apps |
-| `fixup-po.py` | Post-pass cleanup: pads dropped leading/trailing whitespace; AI strip-translate-reattach for whitespace-bearing entries the strict validator would otherwise reject |
+| `fixup-po.py` | Post-pass cleanup: pads dropped surrounding whitespace; AI strip-translate-reattach for whitespace-bearing entries |
+| `po-to-csv.py` | PO → CSV (legacy Frappe shape). The PO is the source of truth; the CSV is regenerated for bench deploy |
+| `sync-csv.sh` | Run `po-to-csv.py` over all PO apps in one go |
 
-### Bench / CSV workflow
+### Bench deploy / locale setup
 
 | Script | Purpose |
 |--------|---------|
@@ -81,14 +107,14 @@ crowdin upload translations -l ja --import-eq-suggestions
 | `setup-locale.sh` | Full ja locale bring-up: deploy + Language doctype + System Settings + cache clear |
 | `import-back.sh` | Pull `ja.csv` from a bench back into this repo |
 | `extract.sh` | Run `bench get-untranslated` per app |
-| `coverage.sh` | Per-app coverage report (CSV-format) |
+| `coverage.sh` | Per-app coverage report against a bench |
 | `validate-csv.py` | CSV format / placeholder / duplicate check |
 
-### Legacy
+### Alternative AI provider
 
 | Script | Status |
 |--------|--------|
-| `translate-ai.py` | Anthropic Claude + CSV input. Superseded by `translate-po.py`; kept for reference and for ad-hoc CSV translation against `posawesome` |
+| `translate-ai.py` | Anthropic Claude + CSV input. Kept as an alternative provider and for ad-hoc CSV-only translation (e.g. `posawesome`); the PO workflow above is preferred for the five Crowdin-managed apps |
 
 ## AI Translation
 

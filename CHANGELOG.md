@@ -7,6 +7,12 @@ All notable changes to this project are recorded here.
 ### Added
 - **PO-format translation files** (`translations/{app}/ja.po`) for the five
   Crowdin-managed apps: `frappe`, `erpnext`, `hrms`, `healthcare`, `lending`.
+  PO is now the source of truth (matches upstream POT and Crowdin); CSV is
+  regenerated from PO for bench deploy.
+- **Refreshed `translations/{app}/ja.csv`** for the same five apps, derived
+  from the new PO files. The deployable CSV picks up the AI-assisted coverage
+  (≈ 99.9 %) so `scripts/deploy.sh` and `scripts/setup-locale.sh` carry the
+  full Japanese surface to the bench, not just the legacy 15 - 80 %.
 - `scripts/csv-to-po.py` — converts legacy `ja.csv` into gettext PO using the
   upstream `main.pot` as the authoritative source of msgids; applies glossary
   auto-fill on exact matches; emits a sub-POT of untranslated entries.
@@ -20,6 +26,8 @@ All notable changes to this project are recorded here.
   otherwise reject.
 - `scripts/translate-all.sh` — orchestrates `translate-po.py` over all
   Crowdin-managed apps.
+- `scripts/po-to-csv.py` + `scripts/sync-csv.sh` — sync ja.po back into the
+  Frappe legacy CSV shape consumed by the existing bench deploy scripts.
 - `CHANGELOG.md` — this file.
 
 ### Changed
