@@ -2,7 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
-"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"Report-Msgid-Bugs-To: contact@frappe.io\n"
+"POT-Creation-Date: 2026-05-31 10:16+0000\n"
 "PO-Revision-Date: 2026-05-01 03:40+0000\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Japanese\n"
@@ -178,7 +179,7 @@ msgstr "最終EMIに追加"
 msgid "Add to first repayment"
 msgstr "最初の返済に追加"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2122
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2142
 msgid "Addition Interest Waiver Account is mandatory"
 msgstr "追加利息免除アカウントは必須です"
 
@@ -216,7 +217,7 @@ msgstr "追加利息金額"
 msgid "Additional Interest Income"
 msgstr "追加利息収入"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2138
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2158
 msgid "Additional Interest Income Account is mandatory"
 msgstr "追加利息収入アカウントは必須です"
 
@@ -226,7 +227,7 @@ msgstr "追加利息収入アカウントは必須です"
 msgid "Additional Interest Receivable"
 msgstr "追加利息受取"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2132
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2152
 msgid "Additional Interest Receivable Account is mandatory"
 msgstr "追加利息受取アカウントは必須です"
 
@@ -248,7 +249,7 @@ msgstr "追加利息仮勘定エントリ"
 msgid "Additional Interest Waiver"
 msgstr "追加利息免除"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2141
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2161
 msgid "Additional Interest Waiver Account is mandatory"
 msgstr "追加利息免除アカウントは必須です"
 
@@ -367,7 +368,7 @@ msgstr "調整"
 msgid "Advance Payment"
 msgstr "前払い"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2189
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2209
 msgid "Against Account is mandatory"
 msgstr "相手アカウントは必須です"
 
@@ -384,8 +385,8 @@ msgstr "ローンに対して "
 
 #: lending/loan_management/doctype/loan_refund/loan_refund.py:160
 #: lending/loan_management/doctype/loan_refund/loan_refund.py:176
-#: lending/loan_management/doctype/loan_write_off/loan_write_off.py:221
-#: lending/loan_management/doctype/loan_write_off/loan_write_off.py:239
+#: lending/loan_management/doctype/loan_write_off/loan_write_off.py:229
+#: lending/loan_management/doctype/loan_write_off/loan_write_off.py:247
 msgid "Against Loan:"
 msgstr "対象ローン:"
 
@@ -522,7 +523,7 @@ msgstr "金額"
 msgid "Amount Paid"
 msgstr "支払い済み金額"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:411
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:415
 #, fuzzy
 msgid ""
 "Amount Paid must equal the sum of Principal, Interest, Penalty, Charges, "
@@ -537,7 +538,7 @@ msgstr "金額は負の値にできません"
 msgid "Amount cannot be zero"
 msgstr "金額はゼロにできません"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:1736
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:1747
 msgid "Amount for advance payment must be between one to two EMI amount"
 msgstr "前払い金額はEMI金額の1～2倍の範囲でなければなりません"
 
@@ -547,19 +548,19 @@ msgstr "前払い金額はEMI金額の1～2倍の範囲でなければなりま�
 msgid "Amount on which interest is calculated"
 msgstr "利息が計算される金額"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:886
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:890
 msgid "Amount paid cannot be greater than available security deposit"
 msgstr "支払い金額は利用可能な担保預り金を超えることはできません"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:964
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:968
 msgid "Amount paid cannot be greater than payable amount"
 msgstr "支払い金額は支払い予定額を超えることはできません"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:979
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:983
 msgid "Amount paid cannot be less than payable amount for loan closure"
 msgstr "ローン終了の場合、支払い金額は支払い予定額を下回ることはできません"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:971
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:975
 msgid "Amount paid cannot be zero"
 msgstr "支払い金額はゼロにできません"
 
@@ -583,7 +584,8 @@ msgstr "このローンに対して別のローン再編が既に開始されて
 #. Accrual'
 #. Label of the applicant (Dynamic Link) field in DocType 'Loan Repayment'
 #. Label of the applicant (Dynamic Link) field in DocType 'Loan Restructure'
-#. Label of the applicant (Data) field in DocType 'Loan Security Assignment'
+#. Label of the applicant (Dynamic Link) field in DocType 'Loan Security
+#. Assignment'
 #. Label of the applicant (Data) field in DocType 'Loan Security Release'
 #. Label of the applicant (Dynamic Link) field in DocType 'Loan Security
 #. Shortfall'
@@ -761,7 +763,7 @@ msgstr "承認済"
 msgid "As on Date"
 msgstr "基準日"
 
-#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:92
+#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:90
 #, fuzzy
 msgid "Atlest one security needs to be assigned"
 msgstr "少なくとも1つの担保を割り当てる必要があります。"
@@ -855,7 +857,7 @@ msgstr "BPI回収方法"
 msgid "BPI Treatment"
 msgstr "BPI処理"
 
-#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:223
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:226
 msgid "BPI difference entry"
 msgstr "BPI差異エントリ"
 
@@ -1067,7 +1069,7 @@ msgstr "全額返済されるまでこのローンを終了できません"
 msgid "Cannot create loan until application is approved"
 msgstr "申し込みが承認されるまでローンを作成できません"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2479
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2500
 msgid ""
 "Cannot make Advance or Pre Payments during moratorium period. (Moratorium "
 "End Date: {}, Posting Date: {})"
@@ -1103,12 +1105,12 @@ msgstr "資本化"
 msgid "Capitalize Amount"
 msgstr "資本化金額"
 
-#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:544
+#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:556
 #, fuzzy
 msgid "Capitalize amount for charge {0} cannot be negative"
 msgstr "費用 {0} の資本化金額は負の値にすることはできません。"
 
-#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:547
+#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:559
 #, fuzzy
 msgid "Capitalize amount for charge {0} cannot exceed overdue amount {1}"
 msgstr "費用 {0} の資本化金額は、期限超過金額 {1} を超えることはできません。"
@@ -1187,12 +1189,12 @@ msgstr "手数料タイプ"
 msgid "Charge applied successfully for amount {0}"
 msgstr "金額 {0} の費用が正常に適用されました。"
 
-#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:519
+#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:525
 #, fuzzy
 msgid "Charge {0} does not exist in unpaid demands"
 msgstr "費用 {0} は未払い請求に存在しません。"
 
-#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:531
+#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:537
 #, fuzzy
 msgid ""
 "Charge {0} with overdue amount {1} is missing from the charges table. Please"
@@ -1584,7 +1586,7 @@ msgstr "貸方 ({0})"
 msgid "Credit Account"
 msgstr "貸方アカウント"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2247
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2267
 msgid "Credit Account is mandatory"
 msgstr "貸方アカウントは必須です"
 
@@ -1683,7 +1685,7 @@ msgstr "顧客"
 msgid "Customer Refund Account"
 msgstr "顧客返金アカウント"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2160
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2180
 msgid "Customer Refund Account is mandatory"
 msgstr "顧客返金アカウントは必須です"
 
@@ -1949,7 +1951,7 @@ msgstr "実行済み"
 msgid "Disbursed Amount"
 msgstr "実行金額"
 
-#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:425
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:513
 #, fuzzy
 msgid ""
 "Disbursed Amount cannot be more than {0} as per loan limit or assigned "
@@ -1960,7 +1962,7 @@ msgstr "実行金額は、融資限度額または割り当てられた担保価
 msgid "Disbursed Amount: {0}"
 msgstr "実行金額: {0}"
 
-#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:420
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:508
 msgid "Disbursed amount cannot be zero"
 msgstr "実行金額はゼロにできません"
 
@@ -2021,11 +2023,11 @@ msgstr "実行詳細"
 msgid "Disbursement References"
 msgstr "実行参照"
 
-#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:675
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:763
 msgid "Disbursement against loan:"
 msgstr "ローンに対する実行:"
 
-#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:437
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:525
 msgid "Disbursement amount cannot be greater than available limit amount"
 msgstr "実行金額は利用可能な限度額を超えることはできません"
 
@@ -2035,7 +2037,7 @@ msgstr "実行金額は利用可能な限度額を超えることはできませ
 msgid "Disbursement and Repayment"
 msgstr "支払および返済"
 
-#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:432
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:520
 msgid "Disbursement date is out of approved limit dates"
 msgstr "実行日が承認された限度日の範囲外です"
 
@@ -2400,7 +2402,7 @@ msgstr "全額清算"
 msgid "Full Settlement Job"
 msgstr "全額決済ジョブ"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:924
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:928
 #, fuzzy
 msgid ""
 "Full Settlement cannot be backdated. The value date {0} cannot be earlier "
@@ -2454,6 +2456,15 @@ msgstr "ヘアカット率は、ローン担保の市場価値と、そのロー
 msgid "Home"
 msgstr "ホーム"
 
+#. Description of the 'No Interest Accrual Till Month End' (Check) field in
+#. DocType 'Loan Product'
+#: lending/loan_management/doctype/loan_product/loan_product.json
+msgid ""
+"If enabled, no interest will be accrued from each disbursement date till the"
+" end of the calendar month. Interest accrual will begin from the 1st of the "
+"following month."
+msgstr ""
+
 #. Label of the ignore_on_cancel_amount_update (Check) field in DocType 'Loan
 #. Repayment Repost'
 #: lending/loan_management/doctype/loan_repayment_repost/loan_repayment_repost.json
@@ -2477,7 +2488,7 @@ msgstr "収入"
 msgid "Income Account"
 msgstr "収入勘定科目"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:967
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:971
 msgid "Incorrect repayment type, please write off the loan first"
 msgstr "返済タイプが正しくありません。先にローンを償却してください"
 
@@ -2572,7 +2583,7 @@ msgstr "利息繰り越し"
 msgid "Interest Income Account"
 msgstr "受取利息勘定科目"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2078
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2098
 msgid "Interest Income Account is mandatory"
 msgstr "利息収入アカウントは必須です"
 
@@ -2598,7 +2609,7 @@ msgstr "金利(%)"
 msgid "Interest Receivable Account"
 msgstr "利息受取アカウント"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2073
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2093
 msgid "Interest Receivable Account is mandatory"
 msgstr "利息受取アカウントは必須です"
 
@@ -2627,7 +2638,7 @@ msgstr "利息免除"
 msgid "Interest Waiver Account"
 msgstr "利息免除アカウント"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2155
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2175
 msgid "Interest Waiver Account is mandatory"
 msgstr "利息免除アカウントは必須です"
 
@@ -2637,7 +2648,7 @@ msgstr "利息免除アカウントは必須です"
 msgid "Interest Waiver Amount"
 msgstr "利息免除金額"
 
-#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:416
+#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:417
 msgid "Interest Waiver Amount cannot be greater than overdue interest"
 msgstr "利息免除金額は延滞利息を超えることはできません"
 
@@ -2657,7 +2668,7 @@ msgstr "利息: {0}"
 msgid "Internal Foreclosure"
 msgstr "内部期限前返済"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:845
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:849
 msgid "Invalid Loan Disbursement linked for payment"
 msgstr "支払いに紐付けられた無効なローン実行"
 
@@ -2953,9 +2964,9 @@ msgstr "融資口座"
 msgid "Loan Account and Payment Account cannot be same"
 msgstr "ローンアカウントと支払アカウントは同一にできません"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2069
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2099
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2127
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2089
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2119
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2147
 msgid "Loan Account is mandatory"
 msgstr "ローンアカウントは必須です"
 
@@ -2965,7 +2976,7 @@ msgstr "ローンアカウントは必須です"
 msgid "Loan Accounts"
 msgstr "ローンアカウント"
 
-#: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.py:1114
+#: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.py:1121
 msgid "Loan Accrual Frequency not set for company {0}"
 msgstr "会社{0}のローン見越頻度が設定されていません"
 
@@ -3697,7 +3708,7 @@ msgstr "ローン再編限度ログ"
 msgid "Loan Restructure is in process. Cannot make any loan adjustment"
 msgstr "ローン再編が処理中です。ローン調整を行うことはできません"
 
-#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:151
+#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:149
 msgid "Loan Securities worth {0} needed more to book the loan"
 msgstr "ローンの成立にはさらに{0}相当のローン担保が必要です"
 
@@ -3823,7 +3834,7 @@ msgstr "ローン担保名"
 msgid "Loan Security Price"
 msgstr "ローン担保価格"
 
-#: lending/loan_management/doctype/loan_security_price/loan_security_price.py:49
+#: lending/loan_management/doctype/loan_security_price/loan_security_price.py:77
 msgid "Loan Security Price overlapping with {0}"
 msgstr "ローン担保価格が{0}と重複しています"
 
@@ -3842,7 +3853,7 @@ msgstr "融資担保価格が正常に更新されました"
 msgid "Loan Security Release"
 msgstr "ローン担保解除"
 
-#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:107
+#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:108
 msgid "Loan Security Release Error"
 msgstr "ローン担保解除エラー"
 
@@ -3889,11 +3900,11 @@ msgstr "ローン担保タイプ"
 msgid "Loan Security Value"
 msgstr "ローン担保価値"
 
-#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:133
+#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:134
 msgid "Loan Security Value after unpledge is {0}"
 msgstr "質権解除後のローン担保価値は{0}です"
 
-#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:100
+#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:98
 msgid "Loan Security {0} added multiple times"
 msgstr "ローン担保{0}が複数回追加されています"
 
@@ -3903,7 +3914,7 @@ msgstr "ローン担保{0}が複数回追加されています"
 msgid "Loan Statement of Account"
 msgstr "融資口座明細書"
 
-#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:139
+#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:140
 msgid "Loan To Security Value ratio must always be {0}"
 msgstr "ローン対担保価値比率は常に{0}でなければなりません"
 
@@ -3926,7 +3937,7 @@ msgstr ""
 "ローン・トゥ・バリュー・レシオは、質権設定された証券の価値に対するローン金額の比率を表します。これがいずれかのローンの指定された値を下回ると、ローンのセキュリティ不足がトリガーされます"
 " "
 
-#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:140
+#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:141
 msgid "Loan To Value ratio breach"
 msgstr "ローン対担保価値比率の違反"
 
@@ -3981,11 +3992,11 @@ msgstr "ローン金額は必須です"
 msgid "Loan is a Non Performing Asset"
 msgstr "ローンは不良債権（NPA）です"
 
-#: lending/loan_management/doctype/loan_write_off/loan_write_off.py:282
+#: lending/loan_management/doctype/loan_write_off/loan_write_off.py:290
 msgid "Loan {0} closed"
 msgstr "ローン{0}が終了しました"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:948
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:952
 #, fuzzy
 msgid ""
 "Loan {0}: Cannot post {1} after Full Settlement. Only Interest, Penalty, or "
@@ -4190,6 +4201,14 @@ msgstr "月次返済額"
 msgid "Monthly Repayment Amount cannot be greater than Loan Amount"
 msgstr "月次返済額はローン金額を超えることはできません"
 
+#: lending/loan_management/doctype/loan_repayment_schedule/utils.py:48
+msgid "Monthly Repayment Amount must be greater than periodic interest amount"
+msgstr ""
+
+#: lending/loan_management/doctype/loan_repayment_schedule/utils.py:37
+msgid "Monthly Repayment Amount must be greater than zero"
+msgstr ""
+
 #. Option for the 'Repayment Schedule Type' (Select) field in DocType 'Loan
 #. Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
@@ -4305,6 +4324,14 @@ msgid ""
 "New maximum limit amount cannot be lesser than the utilized limit amount"
 msgstr "新しい最大限度額は利用済み限度額を下回ることはできません"
 
+#. Label of the no_interest_till_month_end (Check) field in DocType 'Loan'
+#. Label of the no_interest_till_month_end (Check) field in DocType 'Loan
+#. Product'
+#: lending/loan_management/doctype/loan/loan.json
+#: lending/loan_management/doctype/loan_product/loan_product.json
+msgid "No Interest Accrual Till Month End"
+msgstr ""
+
 #: lending/loan_management/doctype/loan/loan.py:1125
 msgid "No excess amount pending for refund"
 msgstr "返金対象の超過金額はありません"
@@ -4314,7 +4341,7 @@ msgid "No loans found for this applicant or branch"
 msgstr "この申請者または支店のローンは見つかりません"
 
 #: lending/loan_management/doctype/loan_application/loan_application.py:212
-#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:118
+#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:116
 msgid "No valid Loan Security Price found for {0}"
 msgstr "{0}の有効なローン担保価格が見つかりません"
 
@@ -4589,7 +4616,7 @@ msgstr "パートナー回収率"
 msgid "Partner Interest Share"
 msgstr "パートナー利息分担"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2251
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2271
 msgid "Partner Interest Share is mandatory"
 msgstr "パートナー利息分担は必須です"
 
@@ -4667,7 +4694,7 @@ msgstr "過去のキャッシュフローレポート"
 msgid "Payable Account"
 msgstr "支払勘定科目"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2249
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2269
 msgid "Payable Account is mandatory"
 msgstr "支払アカウントは必須です"
 
@@ -4681,12 +4708,12 @@ msgstr "支払い予定額"
 msgid "Payable Charges"
 msgstr "支払い手数料"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:130
-#, fuzzy
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:131
 msgid ""
-"Payable Charges can only be added if Charge Payment, or for Charges "
-"Waiver/Capitalization during Loan Restructure"
-msgstr "支払可能手数料は、手数料支払の場合、または融資再構築時の手数料免除/資本化の場合にのみ追加できます"
+"Payable Charges can only be added for Charge Payment, or for Charges "
+"Waiver/Charges Capitalization/Principal Capitalization during Loan "
+"Restructure"
+msgstr ""
 
 #. Label of the payable_principal_amount (Currency) field in DocType 'Loan
 #. Repayment'
@@ -4702,9 +4729,9 @@ msgstr "支払い予定元本金額"
 msgid "Payment Account"
 msgstr "支払勘定科目"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2080
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2226
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2368
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2100
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2246
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2389
 msgid "Payment Account is mandatory"
 msgstr "Payment Accountは必須です"
 
@@ -4804,7 +4831,7 @@ msgstr "ペナルティ手数料率"
 msgid "Penalty Income Account"
 msgstr "ペナルティ収入アカウント"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2109
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2129
 msgid "Penalty Income Account is mandatory"
 msgstr "ペナルティ収入アカウントは必須です"
 
@@ -4834,7 +4861,7 @@ msgstr "延滞ペナルティ"
 msgid "Penalty Receivable Account"
 msgstr "ペナルティ受取アカウント"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2103
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2123
 msgid "Penalty Receivable Account is mandatory"
 msgstr "ペナルティ受取アカウントは必須です"
 
@@ -4857,7 +4884,7 @@ msgstr "ペナルティ免除"
 msgid "Penalty Waiver Account"
 msgstr "ペナルティ免除アカウント"
 
-#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:425
+#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:426
 msgid "Penalty Waiver cannot be greater than overdue penalty interest"
 msgstr "延滞利息免除は延滞ペナルティ利息を超えることはできません"
 
@@ -4895,7 +4922,7 @@ msgstr "未払い元本金額"
 msgid "Pending Principal: {0}"
 msgstr "未払い元本: {0}"
 
-#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:135
+#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:136
 msgid "Pending principal amount for loan {0} is {1}"
 msgstr "ローン{0}の未払い元本金額は{1}です"
 
@@ -4946,7 +4973,7 @@ msgstr "基準日を選択してください。"
 msgid "Please select Company."
 msgstr "会社を選択してください。"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:836
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:840
 msgid "Please select Loan Disbursement for Line of Credit repayment"
 msgstr "クレジットライン返済のローン実行を選択してください"
 
@@ -4972,13 +4999,13 @@ msgstr "ローン商品{0}に追加利息見越アカウントを設定してく
 msgid "Please set Additional Interest Income Account in Loan Product {0}"
 msgstr "ローン商品{0}に追加利息収入アカウントを設定してください"
 
-#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:214
-#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:711
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:217
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:799
 msgid ""
 "Please set Broken Period Interest Recovery Account for the Loan Product {0}"
 msgstr "ローン商品{0}の端数期間利息回収アカウントを設定してください"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2164
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2184
 msgid "Please set Customer Refund Account in Loan Product {0}"
 msgstr "ローン商品{0}に顧客返金アカウントを設定してください"
 
@@ -5000,7 +5027,7 @@ msgstr "融資商品 {0} の融資口座を設定してください"
 msgid "Please set Payment Account for the Loan Product {0}"
 msgstr "融資商品 {0} の支払勘定科目を設定してください"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:823
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:827
 msgid "Please set Payroll Payable Account in Loan Repayment"
 msgstr "ローン返済に給与支払アカウントを設定してください"
 
@@ -5012,7 +5039,7 @@ msgstr "ローン商品{0}にペナルティ見越アカウントを設定して
 msgid "Please set Penalty Income Account in Loan Product {0}"
 msgstr "ローン商品{0}にペナルティ収入アカウントを設定してください"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:606
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:610
 msgid "Please set Write Off Recovery Account in Loan Product {0}"
 msgstr "ローン商品{0}に償却回収アカウントを設定してください"
 
@@ -5030,7 +5057,7 @@ msgstr "ローン商品{1}に{0}見越アカウントを設定してください
 msgid "Please set {0} Receivable Account in Loan Product {1}"
 msgstr "ローン商品{1}に{0}受取アカウントを設定してください"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2419
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2440
 msgid "Please set {0} in either Company or Loan Product"
 msgstr "会社またはローン商品に{0}を設定してください"
 
@@ -5089,6 +5116,12 @@ msgstr "ポータルロゴ"
 #: lending/loan_management/doctype/proposed_pledge/proposed_pledge.json
 msgid "Post Haircut Amount"
 msgstr "ヘアカット後金額"
+
+#. Label of the is_post_restructure_charge (Check) field in DocType 'Loan
+#. Restructure Charges'
+#: lending/loan_management/doctype/loan_restructure_charges/loan_restructure_charges.json
+msgid "Post Restructure Charge (No Existing Demand)"
+msgstr ""
 
 #. Label of the posting_date (Date) field in DocType 'Days Past Due Log'
 #. Label of the posting_date (Date) field in DocType 'Loan'
@@ -5369,7 +5402,7 @@ msgid "Provision Rate"
 msgstr "引当率"
 
 #: lending/loan_management/doctype/loan_application/loan_application.py:203
-#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:109
+#: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:107
 msgid "Qty is mandatory for loan security!"
 msgstr "ローン担保の数量は必須です！"
 
@@ -5785,7 +5818,7 @@ msgstr "返済開始日"
 msgid "Repayment Start Date is mandatory for term loans"
 msgstr "期間ローンには返済開始日が必須です"
 
-#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:395
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.py:413
 #, fuzzy
 msgid "Repayment Start Date {0} cannot be before Disbursement Date {1}"
 msgstr "返済開始日 {0} は実行日 {1} より前であることはできません"
@@ -5795,7 +5828,7 @@ msgstr "返済開始日 {0} は実行日 {1} より前であることはでき�
 msgid "Repayment Type"
 msgstr "返済タイプ"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:903
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:907
 msgid "Repayment cannot be made for closed loan"
 msgstr "終了済みローンに対する返済はできません"
 
@@ -5803,7 +5836,7 @@ msgstr "終了済みローンに対する返済はできません"
 msgid "Repayment periods is mandatory for term loans"
 msgstr "期間ローンには返済期間が必須です"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:958
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:962
 msgid "Repayment type can only be Write Off Recovery or Write Off Settlement"
 msgstr "返済タイプは償却回収または償却清算のみ指定できます"
 
@@ -5839,6 +5872,12 @@ msgstr "リクエスト済"
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Rescheduled"
 msgstr "リスケジュール済み"
+
+#. Label of the restructure_charge_amount (Currency) field in DocType 'Loan
+#. Restructure Charges'
+#: lending/loan_management/doctype/loan_restructure_charges/loan_restructure_charges.json
+msgid "Restructure Charge Amount (No Existing Demand)"
+msgstr ""
 
 #. Label of the restructure_charges (Currency) field in DocType 'Loan
 #. Restructure'
@@ -5879,15 +5918,15 @@ msgstr "ローン再編適用可能"
 msgid "Restructured"
 msgstr "再編済み"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2228
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2248
 msgid "Round Off Account is mandatory"
 msgstr "端数処理アカウントは必須です"
 
-#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:54
+#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:55
 msgid "Row {0}: Loan Security {1} added multiple times"
 msgstr "行{0}: ローン担保{1}が複数回追加されています"
 
-#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:99
+#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:100
 msgid "Row {0}: {1} of {2} is pledged against Loan {3}."
 msgstr "行{0}: {2}の{1}はローン{3}に対して質権設定されています。"
 
@@ -6261,21 +6300,21 @@ msgstr "再編後期間"
 msgid "Term Details"
 msgstr "期間詳細"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:1003
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:1007
 msgid "The Loan Disbursement {0} has been closed."
 msgstr "ローン実行{0}は終了しました。"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:889
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:893
 msgid ""
 "The amount paid cannot be greater than the payable amount for Security "
 "Deposit Adjustment repayments."
 msgstr "担保預り金調整返済の支払い金額は支払い予定額を超えることはできません。"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:3277
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:3298
 msgid "The following disbursements do not exist or are not submitted: {}"
 msgstr "次の実行が存在しないか未提出です: {}"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:3263
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:3284
 msgid "The following loans do not exist: {}"
 msgstr "次のローンが存在しません: {}"
 
@@ -6480,7 +6519,7 @@ msgstr ""
 "支払純合計額は {0} で、調整合計額は {1} です。手動または内部の差押えの場合、不足額 {2} "
 "は、融資商品の自動償却金額に従って許可されている償却限度額 {3} を超えています。"
 
-#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:524
+#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:530
 #, fuzzy
 msgid ""
 "Total overdue amount for charge {0} is {1}, but table shows {2}. Please "
@@ -6508,6 +6547,11 @@ msgstr "トレースID"
 #, fuzzy
 msgid "Traceback"
 msgstr "トレースバック"
+
+#. Label of the tranche_number (Int) field in DocType 'Loan Disbursement'
+#: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
+msgid "Tranche Number"
+msgstr ""
 
 #: lending/loan_management/report/loan_statement_of_account/loan_statement_of_account.html:77
 #: lending/loan_management/report/loan_statement_of_account/loan_statement_of_account.py:37
@@ -6576,7 +6620,7 @@ msgstr "未見越利息の取り扱い"
 msgid "Unaccrued Interest Waiver"
 msgstr "未見越利息免除"
 
-#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:430
+#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:431
 msgid "Unaccrued Interest Waiver cannot be greater than overdue amount"
 msgstr "未見越利息免除は延滞金額を超えることはできません"
 
@@ -6671,7 +6715,7 @@ msgstr "利用済み担保価値"
 msgid "Valid From"
 msgstr "有効開始日"
 
-#: lending/loan_management/doctype/loan_security_price/loan_security_price.py:33
+#: lending/loan_management/doctype/loan_security_price/loan_security_price.py:61
 msgid "Valid From Time must be lesser than Valid Upto Time."
 msgstr "有効開始時間は有効終了時間より前でなければなりません。"
 
@@ -6739,7 +6783,7 @@ msgstr "免除金額"
 msgid "Waived amount {0} cannot be greater than outstanding amount {1}"
 msgstr "免除金額{0}は未払い金額{1}を超えることはできません"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:987
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:991
 msgid "Waived {0} amount {1} cannot be greater than overdue amount {2}"
 msgstr "免除{0}金額{1}は延滞金額{2}を超えることはできません"
 
@@ -6748,11 +6792,11 @@ msgstr "免除{0}金額{1}は延滞金額{2}を超えることはできません
 msgid "Waiver Account"
 msgstr "免除アカウント"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2379
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2400
 msgid "Waiver account not set for charge {0} in Loan Product {1}"
 msgstr "ローン商品{1}の費用{0}に免除アカウントが設定されていません"
 
-#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:420
+#: lending/loan_management/doctype/loan_restructure/loan_restructure.py:421
 #, fuzzy
 msgid "Waiver amount for charge {0} cannot exceed overdue amount {1}"
 msgstr "手数料 {0} の免除金額は、期限超過金額 {1} を超えることはできません"
@@ -6834,7 +6878,7 @@ msgstr "償却回収"
 msgid "Write Off Recovery Account"
 msgstr "償却回収アカウント"
 
-#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2181
+#: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2201
 msgid "Write Off Recovery Account is mandatory"
 msgstr "償却回収アカウントは必須です"
 
@@ -6862,7 +6906,7 @@ msgstr "償却済み"
 msgid "Written Off Amount"
 msgstr "償却済み金額"
 
-#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:106
+#: lending/loan_management/doctype/loan_security_release/loan_security_release.py:107
 msgid "You are trying to unpledge more."
 msgstr "質権解除の数量が多すぎます。"
 

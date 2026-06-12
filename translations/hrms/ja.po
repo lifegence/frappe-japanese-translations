@@ -2,7 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: frappe\n"
-"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"Report-Msgid-Bugs-To: contact@frappe.io\n"
+"POT-Creation-Date: 2026-06-07 10:18+0000\n"
 "PO-Revision-Date: 2026-05-01 03:40+0000\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Japanese\n"
@@ -261,8 +262,8 @@ msgstr ""
 "<b>例:</b> SAL-{first_name}-{date_of_birth.year} <br>これにより、SAL-"
 "Jane-1972のようなパスワードが生成されます"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:314
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:322
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:315
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:323
 #, fuzzy
 msgid ""
 "<b>Total Leaves Allocated</b> are more than the number of days in the "
@@ -379,10 +380,11 @@ msgstr "<span style=\"font-size: 18px;\"><b>マスター &amp; レポート</b><
 msgid "<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>"
 msgstr "<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>"
 
-#: hrms/hr/doctype/job_requisition/job_requisition.py:57
-#, fuzzy
-msgid "A Job Requisition for {0} requested by {1} already exists: {2}"
-msgstr "{0}の求人票で、{1}によって要求されたものが既に存在します: {2}"
+#: hrms/hr/doctype/job_requisition/job_requisition.js:101
+msgid ""
+"A Job Requisition already exists for {0} requested by {1} for the same "
+"department.<br> Do you want to continue?"
+msgstr ""
 
 #: hrms/controllers/employee_reminders.py:123
 #: hrms/controllers/employee_reminders.py:216
@@ -411,7 +413,7 @@ msgstr "{1}と{2}の間に{0}が存在します ("
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 #: hrms/hr/doctype/training_event_employee/training_event_employee.json
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:736
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:793
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 #, fuzzy
 msgid "Absent"
@@ -429,7 +431,7 @@ msgstr "欠勤日数"
 msgid "Absent Records"
 msgstr "欠勤記録"
 
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:56
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:58
 #, fuzzy
 msgid "Account No"
 msgstr "口座番号"
@@ -509,7 +511,7 @@ msgid ""
 "accrual payout methods."
 msgstr "未払計上構成要素は、未払計上支払方法を持つフレキシブル福利厚生給与構成要素に設定する必要があります。"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:667
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:673
 #, fuzzy
 msgid "Accrual Journal Entry for salaries from {0} to {1}"
 msgstr "{0}から{1}までの給与に対する未払計上仕訳伝票"
@@ -578,7 +580,7 @@ msgstr "実際換金可能日数"
 msgid "Actual Overtime Duration"
 msgstr "実際の残業時間"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:476
+#: hrms/hr/doctype/leave_application/leave_application.py:469
 #, fuzzy
 msgid ""
 "Actual balances aren't available because the leave application spans over "
@@ -634,7 +636,7 @@ msgid ""
 "Add unused leaves from previous leave period's allocation to this allocation"
 msgstr "以前の休暇期間の割当からの未使用休暇をこの割当に追加"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1685
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1686
 #, fuzzy
 msgid ""
 "Added tax components from the Salary Component master as the salary "
@@ -660,7 +662,7 @@ msgstr "追加金額"
 msgid "Additional Information "
 msgstr "追加情報 "
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:46
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:48
 #, fuzzy
 msgid "Additional PF"
 msgstr "追加PF"
@@ -717,7 +719,7 @@ msgstr "主催者の住所"
 msgid "Adjust Allocation"
 msgstr "割当を調整"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:452
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:453
 #, fuzzy
 msgid "Adjustment Created Successfully"
 msgstr "調整が正常に作成されました"
@@ -733,19 +735,19 @@ msgstr "Adjustment種類"
 msgid "Advance"
 msgstr "前払い"
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:83
+#: hrms/hr/doctype/employee_advance/employee_advance.py:78
 #, fuzzy
 msgid "Advance Account Required"
 msgstr "前払い勘定科目が必要です"
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:87
+#: hrms/hr/doctype/employee_advance/employee_advance.py:82
 #, fuzzy
 msgid ""
 "Advance Account is mandatory. Please set the {0} in the Company {1} and "
 "submit this document."
 msgstr "前払い勘定科目は必須です。会社{1}で{0}を設定し、このドキュメントを提出してください。"
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:130
+#: hrms/hr/doctype/employee_advance/employee_advance.py:125
 #, fuzzy
 msgid ""
 "Advance Account {} currency should be same as Salary Currency of Employee "
@@ -766,7 +768,7 @@ msgstr "前払い勘定科目{}の通貨は、従業員{}の給与通貨と同�
 msgid "Advanced Filters"
 msgstr "高度なフィルター"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:476
+#: hrms/hr/doctype/expense_claim/expense_claim.py:467
 #, fuzzy
 msgid "All Exchange Gain/Loss amount of {0} has been booked through {1}"
 msgstr "{0}のすべて為替差損益額は{1}を通じて計上されました"
@@ -906,9 +908,8 @@ msgstr "位置情報追跡を許可"
 
 #. Label of the applicable_after (Int) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
-#, fuzzy
-msgid "Allow Leave Application After (Working Days)"
-msgstr "休暇申請を許可する日数 (営業日)"
+msgid "Allow Leave Application After (Calendar Days)"
+msgstr ""
 
 #. Label of the allow_multiple_shift_assignments (Check) field in DocType 'HR
 #. Settings'
@@ -1064,10 +1065,14 @@ msgstr "勤怠記録がこのチェックインにリンクされています。
 msgid "Annual Allocation"
 msgstr "年間割り当て"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:406
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:407
 #, fuzzy
 msgid "Annual Allocation Exceeded"
 msgstr "年間割り当て超過"
+
+#: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:123
+msgid "Annual CTC"
+msgstr ""
 
 #: hrms/setup.py:410
 #, fuzzy
@@ -1164,12 +1169,12 @@ msgstr "申請ステータス"
 msgid "Application Web Form Route"
 msgstr "申請ウェブフォームルート"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:248
+#: hrms/hr/doctype/leave_application/leave_application.py:241
 #, fuzzy
 msgid "Application period cannot be across two allocation records"
 msgstr "申請期間は2つの割り当て記録にまたがることはできません"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:245
+#: hrms/hr/doctype/leave_application/leave_application.py:238
 #, fuzzy
 msgid "Application period cannot be outside leave allocation period"
 msgstr "申請期間は休暇割り当て期間外にすることはできません"
@@ -1388,7 +1393,7 @@ msgstr "承認"
 msgid "Approval Status"
 msgstr "承認ステータス"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:202
+#: hrms/hr/doctype/expense_claim/expense_claim.py:201
 #, fuzzy
 msgid "Approval Status must be 'Approved' or 'Rejected'"
 msgstr "承認ステータスは「承認済」または「却下済」である必要があります"
@@ -1543,6 +1548,10 @@ msgstr "体系を割り当て中..."
 msgid "Assigning Structures..."
 msgstr "体系を割り当て中..."
 
+#: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:108
+msgid "Assignment Date: "
+msgstr ""
+
 #. Label of the from_date (Date) field in DocType 'Holiday List Assignment'
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.json
 #, fuzzy
@@ -1689,7 +1698,8 @@ msgstr "Attendance設定"
 msgid "Attendance To Date"
 msgstr "勤怠終了日"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:187
+#: hrms/hr/doctype/attendance_request/attendance_request.py:189
+#: hrms/hr/doctype/attendance_request/attendance_request.py:208
 #, fuzzy
 msgid "Attendance Updated"
 msgstr "勤怠更新済"
@@ -1724,7 +1734,7 @@ msgstr "従業員{0}の勤怠は、重複するシフト{1}（{2}）に対して
 msgid "Attendance for employee {0} is already marked for the date {1}: {2}"
 msgstr "従業員{0}の勤怠は、日付{1}（{2}）に対してすでに記録されています。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:641
+#: hrms/hr/doctype/leave_application/leave_application.py:634
 #, fuzzy
 msgid ""
 "Attendance for employee {0} is already marked for the following dates: {1}"
@@ -1766,12 +1776,12 @@ msgstr "勤怠が正常に記録されました"
 msgid "Attendance marked successfully."
 msgstr "勤怠が正常に記録されました。"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:206
+#: hrms/hr/doctype/attendance_request/attendance_request.py:227
 #, fuzzy
 msgid "Attendance not submitted for {0} as it is a Holiday."
 msgstr "{0}は休日であるため、勤怠は提出されませんでした。"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:215
+#: hrms/hr/doctype/attendance_request/attendance_request.py:236
 #, fuzzy
 msgid "Attendance not submitted for {0} as {1} is on leave."
 msgstr "{1}が休暇中のため、{0}の勤怠は提出されませんでした。"
@@ -1888,12 +1898,12 @@ msgstr "実証されたスキルの平均評価"
 msgid "Avg Feedback Score"
 msgstr "平均フィードバック評価"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:218
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:220
 #, fuzzy
 msgid "Avg Utilization"
 msgstr "平均稼働率"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:224
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:226
 #, fuzzy
 msgid "Avg Utilization (Billed Only)"
 msgstr "平均稼働率 (請求済のみ)"
@@ -1904,12 +1914,12 @@ msgstr "平均稼働率 (請求済のみ)"
 msgid "Awaiting Response"
 msgstr "返信待ち"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:216
+#: hrms/hr/doctype/leave_application/leave_application.py:209
 #, fuzzy
 msgid "Backdated Leave Application is restricted. Please set the {} in {}"
 msgstr "過去日付の休暇申請は制限されています。{}で{}を設定してください。"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:290
+#: hrms/hr/doctype/expense_claim/expense_claim.js:281
 #, fuzzy
 msgid "Bank Entries"
 msgstr "銀行入力"
@@ -2011,7 +2021,7 @@ msgstr "福利厚生"
 msgid "Bill Amount"
 msgstr "請求金額"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:249
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:251
 #, fuzzy
 msgid "Billed Hours"
 msgstr "請求済時間"
@@ -2100,7 +2110,7 @@ msgstr "賞与支払日"
 msgid "Bonus Payment Date cannot be a past date"
 msgstr "賞与支払日は過去の日付にすることはできません。"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:273
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:279
 #, fuzzy
 msgid "Branch: {0}"
 msgstr "支店: {0}"
@@ -2157,6 +2167,10 @@ msgstr ""
 msgid "CTC"
 msgstr "CTC"
 
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:62
+msgid "CTC Missing for Employee"
+msgstr ""
+
 #. Label of the calculate_final_score_based_on_formula (Check) field in
 #. DocType
 #. 'Appraisal Cycle'
@@ -2200,31 +2214,31 @@ msgstr "キャンセル待ち"
 msgid "Cannot Modify Time"
 msgstr "時刻を変更できません"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:357
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:358
 #, fuzzy
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
 msgstr "割当期間 {0} - {1} の外では休暇を割り当てできません"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:486
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:487
 #, fuzzy
 msgid ""
 "Cannot allocate more leaves due to maximum leave allocation limit of {0} in "
 "leave policy assignment"
 msgstr "休暇ポリシー割り当ての最大休暇割当制限 {0} のため、これ以上休暇を割り当てできません"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:478
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:479
 #, fuzzy
 msgid ""
 "Cannot allocate more leaves due to maximum leaves allowed limit of {0} in "
 "{1} leave type."
 msgstr "{1} 休暇タイプの最大許可休暇数 {0} のため、これ以上休暇を割り当てできません。"
 
-#: hrms/api/roster.py:134
+#: hrms/api/roster.py:187
 #, fuzzy
 msgid "Cannot break shift after end date"
 msgstr "終了日以降にシフトを分割できません"
 
-#: hrms/api/roster.py:136
+#: hrms/api/roster.py:189
 #, fuzzy
 msgid "Cannot break shift before start date"
 msgstr "開始日より前にシフトを分割できません"
@@ -2240,12 +2254,12 @@ msgid ""
 "Cannot cancel Shift Assignment: {0} as it is linked to Employee Checkin: {1}"
 msgstr "シフト割り当て: {0} は従業員チェックイン: {1} にリンクされているため、キャンセルできません"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:389
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:390
 #, fuzzy
 msgid "Cannot create Salary Slip for Employee joining after Payroll Period"
 msgstr "給与期間後に参加する従業員の給与明細を作成できません"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:392
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:393
 #, fuzzy
 msgid ""
 "Cannot create Salary Slip for Employee who has left before Payroll Period"
@@ -2263,7 +2277,7 @@ msgid ""
 "{0}."
 msgstr "ステータスが {0} の人事評価サイクルに対して取引を作成または変更することはできません。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:658
+#: hrms/hr/doctype/leave_application/leave_application.py:651
 #, fuzzy
 msgid "Cannot find active Leave Period"
 msgstr "有効な休暇期間が見つかりません"
@@ -2317,14 +2331,20 @@ msgstr "有給休暇"
 msgid "Cause of Grievance"
 msgstr "苦情の原因"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:171
+#: hrms/hr/doctype/attendance_request/attendance_request.py:194
+msgid ""
+"Changed the Status for Other Half from {0} to {1} via Attendance Request as "
+"the status is Half Day"
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:173
 #, fuzzy
 msgid ""
 "Changed the status from {0} to {1} and Status for Other Half to {2} via "
 "Attendance Request"
 msgstr "勤怠申請によりステータスを {0} から {1} に、もう一方の半分のステータスを {2} に変更しました"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:175
+#: hrms/hr/doctype/attendance_request/attendance_request.py:177
 #, fuzzy
 msgid "Changed the status from {0} to {1} via Attendance Request"
 msgstr "勤怠申請によりステータスを {0} から {1} に変更しました"
@@ -2350,7 +2370,7 @@ msgstr ""
 "詳細については、<a href='/app/List/Error Log?reference_doctype={0}'>{1}</a> "
 "を確認してください"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1582
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1588
 #, fuzzy
 msgid "Check Error Log {0} for more details."
 msgstr "詳細については、エラーログ {0} を確認してください。"
@@ -2371,7 +2391,7 @@ msgstr "チェックアウト"
 msgid "Check Vacancies On Job Offer Creation"
 msgstr "採用通知書作成時に欠員を確認"
 
-#: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:488
+#: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:492
 #: hrms/hr/utils.py:947
 #, fuzzy
 msgid "Check {0} for more details"
@@ -2483,14 +2503,6 @@ msgstr "従業員 {0} の請求金額は0より大きい必要があります"
 msgid "Claims"
 msgstr "請求"
 
-#. Option for the 'Status' (Select) field in DocType 'Interview'
-#. Option for the 'Result' (Select) field in DocType 'Interview Feedback'
-#: hrms/hr/doctype/interview/interview.json
-#: hrms/hr/doctype/interview_feedback/interview_feedback.json
-#, fuzzy
-msgid "Cleared"
-msgstr "クリア済"
-
 #: hrms/payroll/doctype/salary_slip/salary_slip.js:300
 #, fuzzy
 msgid "Click {0} to change the configuration and then resave salary slip"
@@ -2524,7 +2536,7 @@ msgstr "終了日:"
 msgid "Closing Notes"
 msgstr "クローズノート"
 
-#: frontend/src/views/Profile.vue:177
+#: frontend/src/views/Profile.vue:178
 #, fuzzy
 msgid "Company Information"
 msgstr "会社情報"
@@ -2645,7 +2657,7 @@ msgstr "連絡先番号"
 msgid "Copy of Invitation/Announcement"
 msgstr "招待状/お知らせのコピー"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1647
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1653
 #, fuzzy
 msgid "Could not submit some Salary Slips: {}"
 msgstr "一部の給与明細を提出できませんでした: {}"
@@ -2778,7 +2790,7 @@ msgstr "人事評価を作成中"
 msgid "Creating Payment Entries......"
 msgstr "入出金伝票を作成中......"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1605
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1611
 #, fuzzy
 msgid "Creating Salary Slips..."
 msgstr "給与明細を作成中..."
@@ -2826,7 +2838,7 @@ msgstr "パフォーマンスフィードバックと自己人事評価におい
 msgid "Currency "
 msgstr "通貨 "
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:127
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:128
 #, fuzzy
 msgid "Currency of selected Income Tax Slab should be {0} instead of {1}"
 msgstr "選択された所得税スラブの通貨は{1}ではなく{0}である必要があります"
@@ -2878,6 +2890,10 @@ msgstr "現在のオドメーター値 "
 #, fuzzy
 msgid "Current Openings"
 msgstr "現在の募集"
+
+#: frontend/src/views/ChangePassword.vue:22
+msgid "Current Password"
+msgstr ""
 
 #. Label of the current_payroll_period (Link) field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
@@ -3086,7 +3102,7 @@ msgstr "控除滞納"
 msgid "Deduction Reports"
 msgstr "控除レポート"
 
-#: hrms/hr/doctype/employee_advance/employee_advance.js:84
+#: hrms/hr/doctype/employee_advance/employee_advance.js:79
 #, fuzzy
 msgid "Deduction from Salary"
 msgstr "給与からの控除"
@@ -3177,12 +3193,12 @@ msgstr "部署承認者"
 msgid "Department Wise Openings"
 msgstr "部署別募集"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:161
+#: hrms/hr/doctype/expense_claim/expense_claim.py:160
 #, fuzzy
 msgid "Department {0} does not belong to company: {1}"
 msgstr "部署{0}は会社:{1}に属していません"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:275
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:281
 #, fuzzy
 msgid "Department: {0}"
 msgstr "部署: {0}"
@@ -3221,7 +3237,7 @@ msgstr "求人募集の説明"
 msgid "Designation Skill"
 msgstr "役職スキル"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:277
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:283
 #, fuzzy
 msgid "Designation: {0}"
 msgstr "役職: {0}"
@@ -3252,7 +3268,7 @@ msgstr ""
 msgid "Disable {0} or {1} to proceed."
 msgstr "続行するには{0}または{1}を無効にしてください。"
 
-#: frontend/src/views/AppSettings.vue:40
+#: frontend/src/views/AppSettings.vue:65
 #, fuzzy
 msgid "Disabling Push Notifications..."
 msgstr "プッシュ通知を無効にしています..."
@@ -3313,11 +3329,6 @@ msgstr "勤怠の重複"
 #, fuzzy
 msgid "Duplicate Claim Detected"
 msgstr "重複する請求を検出しました"
-
-#: hrms/hr/doctype/job_requisition/job_requisition.py:62
-#, fuzzy
-msgid "Duplicate Job Requisition"
-msgstr "求人依頼の重複"
 
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:66
 #, fuzzy
@@ -3624,6 +3635,13 @@ msgstr "従業員の誕生日"
 msgid "Employee Boarding Activity"
 msgstr "従業員入社アクティビティ"
 
+#. Name of a report
+#. Label of a Workspace Sidebar Item
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.json
+#: hrms/workspace_sidebar/payroll.json
+msgid "Employee CTC Break-up"
+msgstr ""
+
 #. Name of a DocType
 #. Label of a Link in the HR Setup Workspace
 #. Label of a Link in the Shift & Attendance Workspace
@@ -3674,7 +3692,7 @@ msgstr "従業員コストセンター"
 #. Other Income'
 #. Label of the section_break_24 (Section Break) field in DocType 'Payroll
 #. Entry'
-#: frontend/src/views/Profile.vue:165
+#: frontend/src/views/Profile.vue:166
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.json
 #: hrms/hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 #: hrms/hr/doctype/exit_interview/exit_interview.json
@@ -4085,8 +4103,8 @@ msgstr "Employee Transfer詳細"
 msgid "Employee Transfer cannot be submitted before Transfer Date"
 msgstr "従業員異動は異動日より前に提出できません。"
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:120
-#: hrms/hr/doctype/employee_advance/employee_advance.py:190
+#: hrms/hr/doctype/employee_advance/employee_advance.py:115
+#: hrms/hr/doctype/employee_advance/employee_advance.py:185
 #, fuzzy
 msgid "Employee advance account {0} should be of type {1}."
 msgstr "従業員前払い勘定 {0} は {1} の種類である必要があります。"
@@ -4134,12 +4152,12 @@ msgid ""
 "Employee was marked Absent for other half due to missing Employee Checkins."
 msgstr "従業員チェックインがないため、従業員は後半が欠勤とマークされました。"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:480
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:479
 #, fuzzy
 msgid "Employee {0} : {1}"
 msgstr "従業員 {0} : {1}"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:133
+#: hrms/hr/doctype/attendance_request/attendance_request.py:135
 #, fuzzy
 msgid ""
 "Employee {0} already has an Attendance Request {1} that overlaps with this "
@@ -4166,7 +4184,7 @@ msgid ""
 "this period"
 msgstr "従業員 {0} は、この期間内に重複するシフト {1}: {2} を既に申請しています。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:530
+#: hrms/hr/doctype/leave_application/leave_application.py:523
 #, fuzzy
 msgid "Employee {0} has already applied for {1} between {2} and {3} : {4}"
 msgstr "従業員 {0} は、{2} から {3} の期間で {1} を既に申請しています : {4}"
@@ -4201,7 +4219,7 @@ msgstr "従業員 {0} は研修イベント参加者に見つかりません。"
 msgid "Employee {0} on Half day on {1}"
 msgstr "従業員 {0} は {1} に半日勤務です"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:731
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:732
 #, fuzzy
 msgid "Employee {0} relieved on {1} must be set as 'Left'"
 msgstr "{1} に退職した従業員 {0} は「退職済」として設定する必要があります"
@@ -4322,7 +4340,7 @@ msgstr "早退マークを有効化"
 msgid "Enable Late Entry Marking"
 msgstr "遅刻マークを有効化"
 
-#: frontend/src/views/AppSettings.vue:25
+#: frontend/src/views/AppSettings.vue:50
 #, fuzzy
 msgid "Enable Push Notifications"
 msgstr "プッシュ通知を有効化"
@@ -4354,7 +4372,7 @@ msgid ""
 "Assignment"
 msgstr "給与体系割当からの従業員福利厚生コンポーネントにのみ有効"
 
-#: frontend/src/views/AppSettings.vue:40
+#: frontend/src/views/AppSettings.vue:65
 #, fuzzy
 msgid "Enabling Push Notifications..."
 msgstr "プッシュ通知を有効にしています..."
@@ -4400,7 +4418,7 @@ msgstr "給与明細をメールで暗号化する"
 msgid "End Date cannot be before Start Date"
 msgstr "終了日は開始日より前にすることはできません"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:281
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:287
 #, fuzzy
 msgid "End date: {0}"
 msgstr "終了日: {0}"
@@ -4449,6 +4467,11 @@ msgstr "期間に割り当てる休暇日数を入力してください。"
 msgid "Enter yearly benefit amounts"
 msgstr "年間福利厚生金額を入力"
 
+#: frontend/src/views/ForgotPassword.vue:22
+msgid ""
+"Enter your email address and we'll send you a link to reset your password."
+msgstr ""
+
 #: frontend/src/components/FormField.vue:40
 #: frontend/src/components/FormField.vue:52
 #, fuzzy
@@ -4470,12 +4493,12 @@ msgstr "{0} の削除エラー"
 msgid "Error downloading PDF"
 msgstr "PDFダウンロードエラー"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1407
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1408
 #, fuzzy
 msgid "Error in formula or condition"
 msgstr "数式または条件にエラー"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2630
+#: hrms/payroll/doctype/income_tax_slab/income_tax_slab.py:128
 #, fuzzy
 msgid "Error in formula or condition: {0} in Income Tax Slab"
 msgstr "数式または条件にエラー: 所得税率区分における {0}"
@@ -4490,7 +4513,7 @@ msgstr "一部の行にエラー"
 msgid "Error updating {0}"
 msgstr "{0} の更新エラー"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2709
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2640
 #, fuzzy
 msgid ""
 "Error while evaluating the {doctype} {doclink} at row {row_id}. <br><br> "
@@ -4848,7 +4871,7 @@ msgstr "経費精算サマリー"
 #. Label of the expense_type (Data) field in DocType 'Expense Claim Type'
 #. Label of a Link in the Expenses Workspace
 #. Label of a Workspace Sidebar Item
-#: hrms/hr/doctype/expense_claim/expense_claim.py:747
+#: hrms/hr/doctype/expense_claim/expense_claim.py:665
 #: hrms/hr/doctype/expense_claim_detail/expense_claim_detail.json
 #: hrms/hr/doctype/expense_claim_type/expense_claim_type.json
 #: hrms/hr/workspace/expenses/expenses.json
@@ -4936,7 +4959,7 @@ msgstr "割当の期限切れ"
 msgid "Expire Carry Forwarded Leaves (Days)"
 msgstr "繰越休暇の期限切れ (日数)"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:608
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:609
 #, fuzzy
 msgid "Expire Leaves"
 msgstr "休暇の期限切れ"
@@ -4973,10 +4996,14 @@ msgstr "従業員に対する {0} の作成/提出に失敗しました:"
 msgid "Failed to delete defaults for country {0}."
 msgstr "{0}国のデフォルト設定の削除に失敗しました。"
 
-#: hrms/api/__init__.py:784
+#: hrms/api/__init__.py:796
 #, fuzzy
 msgid "Failed to download PDF: {0}"
 msgstr "PDFのダウンロードに失敗しました: {0}"
+
+#: frontend/src/views/ForgotPassword.vue:83
+msgid "Failed to send reset link"
+msgstr ""
 
 #: hrms/hr/doctype/interview/interview.py:146
 #, fuzzy
@@ -4990,12 +5017,16 @@ msgstr "面接再スケジュール通知の送信に失敗しました。メー
 msgid "Failed to setup defaults for country {0}."
 msgstr "{0}国のデフォルト設定のセットアップに失敗しました。"
 
-#: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:485
+#: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:489
 #, fuzzy
 msgid "Failed to submit some leave policy assignments:"
 msgstr "一部の休暇ポリシー割り当ての提出に失敗しました:"
 
-#: hrms/hr/doctype/interview/interview.py:237
+#: frontend/src/views/ChangePassword.vue:94
+msgid "Failed to update password"
+msgstr ""
+
+#: hrms/hr/doctype/interview/interview.py:239
 #, fuzzy
 msgid "Failed to update the Job Applicant status"
 msgstr "求職者のステータスの更新に失敗しました"
@@ -5199,7 +5230,7 @@ msgstr "初日"
 msgid "First Name "
 msgstr "名 "
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1565
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1571
 msgid "Fiscal Year {0} not found"
 msgstr "Fiscal Year {0}が見つかりません"
 
@@ -5284,7 +5315,7 @@ msgstr "従業員向け"
 #. Description of the 'Fraction of Daily Salary per Leave' (Float) field in
 #. DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid ""
 "For a day of leave taken, if you still pay (say) 50% of the daily salary, "
 "then enter 0.50 in this field."
@@ -5296,6 +5327,10 @@ msgstr "取得した休暇1日につき、日給の例えば50%を支払う場�
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
 msgid "Formula"
 msgstr "数式"
+
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:229
+msgid "Formula/Amount"
+msgstr ""
 
 #. Label of the fraction_of_applicable_earnings (Float) field in DocType
 #. 'Gratuity Rule Slab'
@@ -5345,7 +5380,7 @@ msgstr "開始日は終了日より前である必要があります"
 msgid "From Date {0} cannot be after Payroll Period end date {1}"
 msgstr "開始日{0}は給与期間終了日{1}より後であることはできません"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:92
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:93
 #, fuzzy
 msgid "From Date {0} cannot be after employee's relieving Date {1}"
 msgstr "開始日{0}は従業員の退職日{1}より後であることはできません"
@@ -5355,7 +5390,7 @@ msgstr "開始日{0}は従業員の退職日{1}より後であることはでき
 msgid "From Date {0} cannot be before Payroll Period start date {1}"
 msgstr "開始日{0}は給与期間開始日{1}より前であることはできません"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:84
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:85
 #, fuzzy
 msgid "From Date {0} cannot be before employee's joining Date {1}"
 msgstr "開始日{0}は従業員の入社日{1}より前であることはできません"
@@ -5530,7 +5565,7 @@ msgstr "グルテンフリー"
 msgid "Go to Login"
 msgstr "ログインに移動"
 
-#: frontend/src/views/Login.vue:72
+#: frontend/src/views/Login.vue:29
 #, fuzzy
 msgid "Go to Reset Password page"
 msgstr "パスワードリセットページに移動"
@@ -5678,7 +5713,7 @@ msgstr "総収入"
 #: frontend/src/components/SalarySlipItem.vue:13
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/report/income_tax_deductions/income_tax_deductions.py:54
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:42
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:44
 #: hrms/payroll/report/salary_register/salary_register.py:211
 #, fuzzy
 msgid "Gross Pay"
@@ -5725,7 +5760,9 @@ msgstr "HR & Payroll設定"
 #. Name of a DocType
 #. Label of a Link in the HR Setup Workspace
 #: hrms/hr/doctype/hr_settings/hr_settings.json
-#: hrms/hr/doctype/leave_application/leave_application.py:218
+#: hrms/hr/doctype/leave_application/leave_application.py:211
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:37
+#: hrms/hr/report/project_profitability/project_profitability.py:103
 #: hrms/hr/workspace/hr_setup/hr_setup.json
 msgid "HR Settings"
 msgstr "HR設定"
@@ -5771,7 +5808,7 @@ msgstr "半日"
 msgid "Half Day Date"
 msgstr "半日休暇日"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:916
+#: hrms/hr/doctype/leave_application/leave_application.py:909
 #, fuzzy
 msgid "Half Day Date cannot be a holiday"
 msgstr "半日休暇日は休日であってはなりません。"
@@ -5780,7 +5817,7 @@ msgstr "半日休暇日は休日であってはなりません。"
 msgid "Half Day Date is mandatory"
 msgstr "Half Day Dateは必須です"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:919
+#: hrms/hr/doctype/leave_application/leave_application.py:912
 #, fuzzy
 msgid "Half Day Date should be between From Date and To Date"
 msgstr "半日休暇日は開始日と終了日の間である必要があります。"
@@ -5923,22 +5960,22 @@ msgstr "時間単価 (会社通貨)"
 msgid "Hourly Rate"
 msgstr "時間単価"
 
-#: hrms/regional/india/utils.py:184
+#: hrms/regional/india/utils.py:183
 #, fuzzy
 msgid "House rent paid days overlapping with {0}"
 msgstr "家賃支払い日が {0} と重複しています。"
 
-#: hrms/regional/india/utils.py:162
+#: hrms/regional/india/utils.py:161
 #, fuzzy
 msgid "House rented dates required for exemption calculation"
 msgstr "控除計算には家賃支払い日が必要です。"
 
-#: hrms/regional/india/utils.py:165
+#: hrms/regional/india/utils.py:164
 #, fuzzy
 msgid "House rented dates should be atleast 15 days apart"
 msgstr "家賃支払い日は少なくとも15日間隔である必要があります。"
 
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:60
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:62
 #, fuzzy
 msgid "IFSC"
 msgstr "IFSC"
@@ -6322,26 +6359,30 @@ msgstr "所得税スラブ"
 msgid "Income Tax Slab Other Charges"
 msgstr "所得税スラブその他費用"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:112
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:113
 #, fuzzy
 msgid ""
 "Income Tax Slab is mandatory since the Salary Structure {0} has a tax "
 "component {1}"
 msgstr "給与体系 {0} に税金コンポーネント {1} があるため、所得税スラブは必須です。"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1962
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1963
 #, fuzzy
 msgid ""
 "Income Tax Slab must be effective on or before Payroll Period Start Date: "
 "{0}"
 msgstr "所得税スラブは、給与期間開始日 {0} 以前に有効である必要があります。"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1950
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1951
 #, fuzzy
 msgid "Income Tax Slab not set in Salary Structure Assignment: {0}"
 msgstr "給与体系割り当てに所得税スラブが設定されていません: {0}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1958
+#: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:107
+msgid "Income Tax Slab: "
+msgstr ""
+
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1959
 #, fuzzy
 msgid "Income Tax Slab: {0} is disabled"
 msgstr "所得税スラブ: {0} は無効です。"
@@ -6387,12 +6428,12 @@ msgstr "インストール"
 msgid "Install Frappe HR"
 msgstr "Frappe HRをインストール"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:489
+#: hrms/hr/doctype/leave_application/leave_application.py:482
 #, fuzzy
 msgid "Insufficient Balance"
 msgstr "残高不足"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:487
+#: hrms/hr/doctype/leave_application/leave_application.py:480
 #, fuzzy
 msgid "Insufficient leave balance for Leave Type {0}"
 msgstr "休暇タイプ {0} の休暇残高が不足しています"
@@ -6468,7 +6509,7 @@ msgstr "面接フィードバック"
 msgid "Interview Feedback Reminder"
 msgstr "面接フィードバックリマインダー"
 
-#: hrms/hr/doctype/interview/interview.py:372
+#: hrms/hr/doctype/interview/interview.py:374
 #, fuzzy
 msgid "Interview Feedback {0} submitted successfully"
 msgstr "面接フィードバック {0} が正常に提出されました"
@@ -6611,11 +6652,11 @@ msgstr "無効なArrear Component"
 msgid "Invalid Benefit Amounts"
 msgstr "無効なBenefit Amounts"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:360
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:361
 msgid "Invalid Dates"
 msgstr "無効なDates"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2741
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2672
 msgid "Invalid LWP Days Reversed"
 msgstr "無効なLWP Days Reversed"
 
@@ -6633,9 +6674,17 @@ msgstr "無効なPayroll Payable Account. The account currency must be {0} or {1
 msgid "Invalid Shift Times"
 msgstr "無効なShift Times"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:995
+#: hrms/api/roster.py:31
+msgid "Invalid employee filter: {0}"
+msgstr ""
+
+#: hrms/hr/doctype/expense_claim/expense_claim.py:879
 msgid "Invalid parameters provided. Please pass the required arguments."
 msgstr "無効なparameters provided. Please pass the required arguments"
+
+#: hrms/api/roster.py:40
+msgid "Invalid shift filter: {0}"
+msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
@@ -6892,7 +6941,7 @@ msgstr "採用通知: {0} はすでに求職者: {1} のものです"
 msgid "Job Opening"
 msgstr "求人"
 
-#: hrms/hr/doctype/job_requisition/job_requisition.py:78
+#: hrms/hr/doctype/job_requisition/job_requisition.py:68
 #, fuzzy
 msgid "Job Opening Associated"
 msgstr "関連する求人"
@@ -6936,7 +6985,7 @@ msgstr "求人ポータル"
 msgid "Job Requisition"
 msgstr "求人申請"
 
-#: hrms/hr/doctype/job_requisition/job_requisition.py:75
+#: hrms/hr/doctype/job_requisition/job_requisition.py:65
 #, fuzzy
 msgid "Job Requisition {0} has been associated with Job Opening {1}"
 msgstr "求人申請 {0} は求人 {1} に関連付けられました"
@@ -7036,7 +7085,7 @@ msgstr "主要責任分野"
 msgid "Key Result Area"
 msgstr "主要成果分野"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2738
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2669
 #, fuzzy
 msgid ""
 "LWP Days Reversed ({0}) does not match actual Payroll Corrections total "
@@ -7122,7 +7171,7 @@ msgstr "緯度: {0}°"
 
 #. Option for the 'Calculate Payroll Working Days Based On' (Select) field in
 #. DocType 'Payroll Settings'
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:738
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:795
 #: hrms/overrides/dashboard_overrides.py:12
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 #, fuzzy
@@ -7179,7 +7228,7 @@ msgstr "休暇割当"
 msgid "Leave Application"
 msgstr "休暇申請"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:811
+#: hrms/hr/doctype/leave_application/leave_application.py:804
 #, fuzzy
 msgid ""
 "Leave Application period cannot be across two non-consecutive leave "
@@ -7287,7 +7336,7 @@ msgstr "休暇ブロックリスト日付"
 msgid "Leave Block List Name"
 msgstr "Leave Block List名"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:1448
+#: hrms/hr/doctype/leave_application/leave_application.py:1440
 #, fuzzy
 msgid "Leave Blocked"
 msgstr "休暇ブロック済"
@@ -7502,7 +7551,7 @@ msgstr "Leave Typeは必須です"
 msgid "Leave Type {0} cannot be allocated since it is leave without pay"
 msgstr "休暇タイプ{0}は無給休暇であるため、割り当てることはできません。"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:597
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:598
 #, fuzzy
 msgid "Leave Type {0} cannot be carry-forwarded"
 msgstr "休暇タイプ{0}は繰り越すことができません。"
@@ -7520,12 +7569,12 @@ msgstr "休暇タイプ{0}は買い上げできません。"
 msgid "Leave Without Pay"
 msgstr "無給休暇"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:596
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:597
 #, fuzzy
 msgid "Leave Without Pay does not match with approved {} records"
 msgstr "無給休暇は、承認済みの{}レコードと一致しません。"
 
-#: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:151
+#: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:155
 #, fuzzy
 msgid ""
 "Leave allocation is skipped for {0}, because number of leaves to be "
@@ -7556,7 +7605,7 @@ msgid ""
 "carry-forwarded in the future leave allocation record {1}"
 msgstr "休暇は{0}より前に割り当てることはできません。休暇残高が将来の休暇割り当てレコード{1}で既に繰り越されているためです。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:286
+#: hrms/hr/doctype/leave_application/leave_application.py:279
 #, fuzzy
 msgid ""
 "Leave cannot be applied/cancelled before {0}, as leave balance has already "
@@ -7569,7 +7618,7 @@ msgstr "休暇は{0}より前に申請/キャンセルすることはできま�
 msgid "Leave for optional holiday"
 msgstr "任意休日用の休暇"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:557
+#: hrms/hr/doctype/leave_application/leave_application.py:550
 #, fuzzy
 msgid "Leave of type {0} cannot be longer than {1}."
 msgstr "休暇タイプ{0}は{1}より長くすることはできません。"
@@ -7631,7 +7680,7 @@ msgstr "調整後の休暇"
 msgid "Leaves Allocated"
 msgstr "割り当て済休暇"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:602
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:603
 #, fuzzy
 msgid "Leaves Expired"
 msgstr "期限切れ休暇"
@@ -7755,7 +7804,7 @@ msgstr "場所 / デバイスID"
 msgid "Lodging Required"
 msgstr "宿泊必要"
 
-#: frontend/src/views/Profile.vue:107
+#: frontend/src/views/Profile.vue:106
 #, fuzzy
 msgid "Log Out"
 msgstr "ログアウト"
@@ -7776,7 +7825,7 @@ msgstr "ログタイプは、シフト{0}に該当するチェックインに必
 msgid "Login Failed"
 msgstr "ログイン失敗"
 
-#: frontend/src/views/Login.vue:8
+#: frontend/src/views/Login.vue:38
 #, fuzzy
 msgid "Login to Frappe HR"
 msgstr "Frappe HRにログイン"
@@ -7798,7 +7847,7 @@ msgstr "経度: {0}°"
 msgid "Lower Range"
 msgstr "下限範囲"
 
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:61
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:63
 #, fuzzy
 msgid "MICR"
 msgstr "MICR"
@@ -7820,6 +7869,10 @@ msgstr "必須福利厚生申請"
 #, fuzzy
 msgid "Mandatory fields required for this action:"
 msgstr "このアクションには必須フィールドが必要です:"
+
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.js:213
+msgid "Mandatory fields required in {0}"
+msgstr ""
 
 #. Option for the 'KRA Evaluation Method' (Select) field in DocType 'Appraisal
 #. Cycle'
@@ -7968,7 +8021,7 @@ msgstr "最大福利厚生 (年間)"
 msgid "Max Exemption Amount"
 msgstr "最大免除金額"
 
-#: hrms/payroll/doctype/employee_tax_exemption_sub_category/employee_tax_exemption_sub_category.py:31
+#: hrms/payroll/doctype/employee_tax_exemption_sub_category/employee_tax_exemption_sub_category.py:32
 #, fuzzy
 msgid ""
 "Max Exemption Amount cannot be greater than maximum exemption amount {0} of "
@@ -8011,7 +8064,7 @@ msgstr "最大繰り越し休暇数"
 msgid "Maximum Consecutive Leaves Allowed"
 msgstr "最大連続休暇許可数"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:567
+#: hrms/hr/doctype/leave_application/leave_application.py:560
 #, fuzzy
 msgid "Maximum Consecutive Leaves Exceeded"
 msgstr "最大連続休暇超過"
@@ -8113,25 +8166,24 @@ msgstr "最低課税所得"
 msgid "Minimum Year for Gratuity"
 msgstr "退職金支給の最低勤続年数"
 
-#. Description of the 'Allow Leave Application After (Working Days)' (Int)
+#. Description of the 'Allow Leave Application After (Calendar Days)' (Int)
 #. field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
-#, fuzzy
 msgid ""
-"Minimum working days required since Date of Joining to apply for this leave"
-msgstr "この休暇を申請するために、入社日からの最低勤務日数が必要です"
+"Minimum calendar days required since Date of Joining to apply for this leave"
+msgstr ""
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:95
+#: hrms/hr/doctype/employee_advance/employee_advance.py:90
 #, fuzzy
 msgid "Missing Advance Account"
 msgstr "前払い勘定科目がありません"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:118
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:119
 #, fuzzy
 msgid "Missing Mandatory Field"
 msgstr "必須項目がありません"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:200
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:201
 #, fuzzy
 msgid "Missing Opening Entries"
 msgstr "期首会計入力がありません"
@@ -8141,15 +8193,19 @@ msgstr "期首会計入力がありません"
 msgid "Missing Relieving Date"
 msgstr "解放日がありません"
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:18
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:20
 #, fuzzy
 msgid "Missing Salary Components"
 msgstr "給与構成要素がありません"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1953
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1954
 #, fuzzy
 msgid "Missing Tax Slab"
 msgstr "税率区分がありません"
+
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:313
+msgid "Missing value for filters"
+msgstr ""
 
 #. Label of the mode_of_travel (Select) field in DocType 'Travel Itinerary'
 #: hrms/hr/doctype/travel_itinerary/travel_itinerary.json
@@ -8157,7 +8213,7 @@ msgstr "税率区分がありません"
 msgid "Mode of Travel"
 msgstr "移動手段"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:493
+#: hrms/hr/doctype/expense_claim/expense_claim.py:484
 #, fuzzy
 msgid "Mode of payment is required to make a payment"
 msgstr "支払いを行うには、支払方法が必要です"
@@ -8234,8 +8290,8 @@ msgstr "私の休暇"
 msgid "My Requests"
 msgstr "私の申請"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1393
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2625
+#: hrms/payroll/doctype/income_tax_slab/income_tax_slab.py:123
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1394
 #, fuzzy
 msgid "Name error"
 msgstr "名前エラー"
@@ -8250,7 +8306,7 @@ msgstr "主催者名"
 #. Label of the net_pay (Currency) field in DocType 'Salary Structure'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
-#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:49
+#: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:51
 #: hrms/payroll/report/salary_register/salary_register.py:251
 #, fuzzy
 msgid "Net Pay"
@@ -8268,7 +8324,7 @@ msgstr "差引支給額（会社通貨）"
 msgid "Net Pay Info"
 msgstr "差引支給額情報"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:292
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:293
 #, fuzzy
 msgid "Net Pay cannot be less than 0"
 msgstr "差引支給額は0未満にすることはできません"
@@ -8323,13 +8379,17 @@ msgstr "新規Leaves Allocated"
 msgid "New Leaves Allocated (In Days)"
 msgstr "新規Leaves Allocated (In Days)"
 
+#: frontend/src/views/ChangePassword.vue:112
+msgid "New passwords do not match"
+msgstr ""
+
 #. Description of the 'Create Shifts After' (Date) field in DocType 'Shift
 #. Schedule Assignment'
 #: hrms/hr/doctype/shift_schedule_assignment/shift_schedule_assignment.json
 msgid "New shift assignments will be created after this date."
 msgstr "新規shift assignments will be created after this date."
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:426
+#: hrms/hr/doctype/employee_advance/employee_advance.py:380
 #, fuzzy
 msgid ""
 "No Bank/Cash Account found for currency {0}. Please create one under company"
@@ -8430,7 +8490,7 @@ msgstr ""
 "メールアドレス {0} "
 "に関連付けられた有効な従業員が見つかりません。従業員のメールアドレスでログインするか、アクセスについては人事マネージャーにお問い合わせください。"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:522
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:523
 #, fuzzy
 msgid ""
 "No active or default Salary Structure found for employee {0} for the given "
@@ -8488,12 +8548,12 @@ msgstr "arrear detailsが見つかりません"
 msgid "No attendance records found for employee {0} between {1} and {2}"
 msgstr "従業員 {0} の {1} から {2} までの勤怠記録が見つかりません"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:71
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:75
 #, fuzzy
 msgid "No attendance records found for this criteria."
 msgstr "この条件の勤怠記録は見つかりません。"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:64
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:68
 msgid "No attendance records found."
 msgstr "attendance recordsが見つかりません"
 
@@ -8507,11 +8567,11 @@ msgstr "以下の理由により、作成する勤怠記録がありません"
 msgid "No changes found in timings."
 msgstr "時間に変更は見つかりません。"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:282
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:288
 msgid "No employees found"
 msgstr "employeesが見つかりません"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:265
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:271
 #, fuzzy
 msgid ""
 "No employees found for the mentioned criteria:<br>Company: {0}<br> Currency:"
@@ -8558,7 +8618,7 @@ msgstr "従業員 {0} の {1} の休暇記録が見つかりません"
 msgid "No leaves have been allocated."
 msgstr "休暇は割り当てられていません。"
 
-#: frontend/src/views/Login.vue:53
+#: frontend/src/views/Login.vue:91
 #, fuzzy
 msgid "No login methods are available. Please contact your administrator."
 msgstr "ログイン方法がありません。管理者にお問い合わせください。"
@@ -8579,7 +8639,7 @@ msgstr "ポジション数"
 msgid "No replies from"
 msgstr "返信なし"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1633
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1639
 #, fuzzy
 msgid ""
 "No salary slip found to submit for the above selected criteria OR salary "
@@ -8629,7 +8689,7 @@ msgstr "非日記"
 msgid "Non Taxable Earnings"
 msgstr "非課税所得"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:250
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:252
 #, fuzzy
 msgid "Non-Billed Hours"
 msgstr "未請求時間"
@@ -8665,7 +8725,7 @@ msgid ""
 "leaves {1} for the period"
 msgstr "注: 期間中の割り当てられた休暇合計 {0} は、すでに承認された休暇 {1} より少なくないはずです"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2262
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2263
 #, fuzzy
 msgid ""
 "Note: Your salary slip is password protected, the password to unlock the PDF"
@@ -8736,12 +8796,12 @@ msgstr "源泉徴収サイクル数"
 msgid "Number of leaves eligible for encashment based on leave type settings"
 msgstr "休暇タイプ設定に基づき換金可能な休暇日数"
 
-#: frontend/src/views/Login.vue:88
+#: frontend/src/views/Login.vue:105
 #, fuzzy
 msgid "OTP Code"
 msgstr "OTPコード"
 
-#: frontend/src/views/Login.vue:79
+#: frontend/src/views/Login.vue:96
 #, fuzzy
 msgid "OTP Verification"
 msgstr "OTP認証"
@@ -8855,7 +8915,7 @@ msgstr "完了した文書のみ提出できます"
 msgid "Only Employee Grievance with status {0} or {1} can be submitted"
 msgstr "ステータスが{0}または{1}の従業員苦情のみ提出できます"
 
-#: hrms/hr/doctype/interview/interview.py:354
+#: hrms/hr/doctype/interview/interview.py:356
 #, fuzzy
 msgid "Only Interviewer Are allowed to submit Interview Feedback"
 msgstr "面接官のみが面接フィードバックを提出できます"
@@ -8888,7 +8948,7 @@ msgstr "期限切れの割り当てのみキャンセルできます"
 msgid "Only interviewers can submit feedback"
 msgstr "面接官のみがフィードバックを提出できます"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:224
+#: hrms/hr/doctype/leave_application/leave_application.py:217
 #, fuzzy
 msgid "Only users with the {0} role can create backdated leave applications"
 msgstr "{0}ロールを持つユーザーのみが遡及休暇申請を作成できます"
@@ -8931,7 +8991,7 @@ msgstr "履歴書を新しいタブで開く"
 msgid "Opening closed."
 msgstr "募集は終了しました。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:664
+#: hrms/hr/doctype/leave_application/leave_application.py:657
 #, fuzzy
 msgid "Optional Holiday List not set for leave period {0}"
 msgstr "休暇期間{0}の任意休日リストが設定されていません"
@@ -8970,7 +9030,7 @@ msgstr "退勤時刻"
 msgid "Outgoing Salary"
 msgstr "支給給与"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:326
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:327
 #, fuzzy
 msgid "Over Allocation"
 msgstr "過剰割り当て"
@@ -8980,7 +9040,7 @@ msgstr "過剰割り当て"
 msgid "Overall Average Rating"
 msgstr "全体平均評価"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:138
+#: hrms/hr/doctype/attendance_request/attendance_request.py:140
 #, fuzzy
 msgid "Overlapping Attendance Request"
 msgstr "重複する勤怠申請"
@@ -9058,12 +9118,12 @@ msgstr "残業給与構成要素"
 msgid "Overtime Slip"
 msgstr "残業伝票"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:481
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:480
 #, fuzzy
 msgid "Overtime Slip Creation Error for {0}"
 msgstr "{0}の残業伝票作成エラー"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:492
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:491
 #, fuzzy
 msgid "Overtime Slip Creation Failed"
 msgstr "残業伝票作成失敗"
@@ -9074,32 +9134,32 @@ msgstr "残業伝票作成失敗"
 msgid "Overtime Slip Step"
 msgstr "残業伝票ステップ"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:515
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:514
 #, fuzzy
 msgid "Overtime Slip Submission Error for {0}"
 msgstr "{0}の残業伝票提出エラー"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:526
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:525
 #, fuzzy
 msgid "Overtime Slip Submission Failed"
 msgstr "残業伝票提出失敗"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:521
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:520
 #, fuzzy
 msgid "Overtime Slip Submitted"
 msgstr "残業伝票提出済"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:485
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:484
 #, fuzzy
 msgid "Overtime Slip created for {0} employee(s)"
 msgstr "{0}名の従業員の残業伝票が作成されました"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1290
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1296
 #, fuzzy
 msgid "Overtime Slip creation is queued. It may take a few minutes"
 msgstr "残業伝票の作成がキューに追加されました。数分かかる場合があります"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1314
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1320
 #, fuzzy
 msgid "Overtime Slip submission is queued. It may take a few minutes"
 msgstr "残業伝票の提出がキューに追加されました。数分かかる場合があります"
@@ -9109,12 +9169,12 @@ msgstr "残業伝票の提出がキューに追加されました。数分かか
 msgid "Overtime Slip:{0} has been created between {1} and {2}"
 msgstr "残業伝票:{0}が{1}から{2}の間に作成されました"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:487
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:486
 #, fuzzy
 msgid "Overtime Slips Created"
 msgstr "作成された残業伝票"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:519
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:518
 #, fuzzy
 msgid "Overtime Slips submitted for {0} employee(s)"
 msgstr "{0}名の従業員の残業伝票が提出されました"
@@ -9167,17 +9227,17 @@ msgstr "給与構成要素:{0}が給与体系:{1}の一部ではないため、�
 msgid "PAN Number"
 msgstr "PAN番号"
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:43
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:45
 #, fuzzy
 msgid "PF Account"
 msgstr "PF口座"
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:44
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:46
 #, fuzzy
 msgid "PF Amount"
 msgstr "PF金額"
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:51
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:53
 #, fuzzy
 msgid "PF Loan"
 msgstr "PFローン"
@@ -9237,6 +9297,10 @@ msgstr "パスワードポリシーにはスペースや連続するハイフン
 msgid "Password policy for Salary Slips is not set"
 msgstr "給与明細のパスワードポリシーが設定されていません"
 
+#: frontend/src/views/ForgotPassword.vue:74
+msgid "Password reset link has been sent to your email."
+msgstr ""
+
 #. Label of the pay_details_tab (Tab Break) field in DocType 'Job Opening'
 #. Label of the pay_details_section (Section Break) field in DocType 'Job
 #. Opening Template'
@@ -9266,7 +9330,7 @@ msgstr "入出金伝票で支払う"
 msgid "Pay via Salary Slip"
 msgstr "給与明細で支払う"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:191
+#: hrms/hr/doctype/expense_claim/expense_claim.py:190
 #, fuzzy
 msgid "Payable Account is mandatory to submit an Expense Claim"
 msgstr "経費精算を提出するには、買掛金勘定科目が必須です"
@@ -9312,7 +9376,7 @@ msgstr "Payment Days calculations are based on these Payroll設定"
 msgid "Payment and Accounting"
 msgstr "支払いと会計"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1140
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1146
 #, fuzzy
 msgid "Payment of {0} from {1} to {2}"
 msgstr "{1}から{2}への{0}の支払い"
@@ -9558,6 +9622,10 @@ msgstr "保留中のアンケート"
 msgid "Percent Deduction"
 msgstr "控除率"
 
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:252
+msgid "Percent of CTC (%)"
+msgstr ""
+
 #. Label of a Desktop Icon
 #. Name of a Workspace
 #. Title of a Workspace Sidebar
@@ -9599,7 +9667,7 @@ msgstr "まず、自動勤怠を有効にしてセットアップを完了して
 msgid "Please Select Company First"
 msgstr "まず会社を選択してください"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:919
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:920
 #, fuzzy
 msgid ""
 "Please assign a Salary Structure for Employee {0} applicable from or before "
@@ -9628,9 +9696,21 @@ msgid ""
 "Group"
 msgstr "日次作業サマリーグループを作成する前に、デフォルトの入金勘定科目を有効にしてください"
 
+#: frontend/src/views/ForgotPassword.vue:109
+msgid "Please enter a valid email address"
+msgstr ""
+
 #: hrms/hr/doctype/staffing_plan/staffing_plan.js:97
 msgid "Please enter the designation"
 msgstr "the designationを入力してください"
+
+#: frontend/src/views/ForgotPassword.vue:104
+msgid "Please enter your email address"
+msgstr ""
+
+#: frontend/src/views/ChangePassword.vue:107
+msgid "Please fill all fields"
+msgstr ""
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.js:11
 #, fuzzy
@@ -9644,7 +9724,7 @@ msgstr "残業詳細を取得する前に、従業員、転記日、および会
 msgid "Please reduce {0} to avoid shift time overlapping with itself"
 msgstr "シフト時間が重複しないように {0} を減らしてください"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2251
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2252
 #, fuzzy
 msgid "Please see attachment"
 msgstr "添付ファイルを参照してください"
@@ -9662,7 +9742,7 @@ msgstr "Employeeを選択してください"
 msgid "Please select Employee first."
 msgstr "Employee firstを選択してください"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:41
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:45
 msgid "Please select Filter Based On"
 msgstr "Filter Based Onを選択してください"
 
@@ -9720,7 +9800,7 @@ msgstr "at least one employee to perform this actionを選択してください"
 msgid "Please select at least one row to perform this action."
 msgstr "at least one row to perform this actionを選択してください"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:55
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:59
 msgid "Please select company."
 msgstr "companyを選択してください"
 
@@ -9737,7 +9817,7 @@ msgstr "employees to create appraisals forを選択してください"
 msgid "Please select half day attendance status."
 msgstr "half day attendance statusを選択してください"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:44
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:48
 msgid "Please select month and year."
 msgstr "month and yearを選択してください"
 
@@ -9777,7 +9857,7 @@ msgstr "休暇タイプ: {0} の収益コンポーネントを設定してくだ
 msgid "Please set Leave Approver for the Employee: {0}"
 msgstr "従業員: {0} の休暇承認者を設定してください"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:580
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:581
 #, fuzzy
 msgid "Please set Payroll based on in Payroll settings"
 msgstr "給与設定で「給与計算基準」を設定してください"
@@ -9788,29 +9868,37 @@ msgid "Please set Relieving Date for employee: {0}"
 msgstr "従業員: {0} の退職日を設定してください"
 
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.js:186
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:52
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:56
 #, fuzzy
 msgid "Please set a date range less than 90 days."
 msgstr "90日未満の日付範囲を設定してください。"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:397
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:403
 #, fuzzy
 msgid "Please set account in Salary Component {0}"
 msgstr "給与コンポーネント {0} で勘定科目を設定してください"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:719
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:54
+msgid "Please set cost to company(CTC) for employee {0} in the {1}"
+msgstr ""
+
+#: hrms/hr/doctype/leave_application/leave_application.py:712
 #, fuzzy
 msgid ""
 "Please set default template for Leave Approval Notification in HR Settings."
 msgstr "HR設定で休暇承認通知のデフォルトテンプレートを設定してください。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:694
+#: hrms/hr/doctype/leave_application/leave_application.py:687
 #, fuzzy
 msgid ""
 "Please set default template for Leave Status Notification in HR Settings."
 msgstr "HR設定で休暇ステータス通知のデフォルトテンプレートを設定してください。"
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:79
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.js:78
+msgid "Please set employee's total cost to company to see CTC breakup."
+msgstr ""
+
+#: hrms/hr/doctype/employee_advance/employee_advance.py:74
 #, fuzzy
 msgid "Please set the Advance Account {0} or in {1}"
 msgstr "前払勘定科目 {0} または {1} で設定してください"
@@ -9822,12 +9910,12 @@ msgid ""
 "the Employees table below."
 msgstr "すべての {0} の人事評価テンプレートを設定するか、以下の従業員テーブルでテンプレートを選択してください。"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:527
+#: hrms/hr/doctype/expense_claim/expense_claim.js:514
 #, fuzzy
 msgid "Please set the Company"
 msgstr "会社を設定してください"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:385
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:386
 #, fuzzy
 msgid "Please set the Date Of Joining for employee {0}"
 msgstr "従業員 {0} の入社日を設定してください"
@@ -9837,7 +9925,7 @@ msgstr "従業員 {0} の入社日を設定してください"
 msgid "Please set the Holiday List."
 msgstr "休日リストを設定してください。"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:48
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:52
 #, fuzzy
 msgid "Please set the date range."
 msgstr "日付範囲を設定してください。"
@@ -9863,6 +9951,10 @@ msgstr "従業員 {1} の {0} を設定してください"
 msgid "Please set {0} for the Employee: {1}"
 msgstr "従業員: {1} の {0} を設定してください"
 
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:312
+msgid "Please set {0} to get CTC report"
+msgstr ""
+
 #: hrms/hr/doctype/shift_type/shift_type.js:21
 #: hrms/hr/doctype/shift_type/shift_type.js:26
 #, fuzzy
@@ -9886,12 +9978,12 @@ msgid ""
 "Feedback' and then 'New'"
 msgstr "「トレーニングフィードバック」をクリックし、「新規」をクリックしてトレーニングへのフィードバックを共有してください"
 
-#: hrms/hr/doctype/interview/interview.py:223
+#: hrms/hr/doctype/interview/interview.py:225
 #, fuzzy
 msgid "Please specify the job applicant to be updated."
 msgstr "更新する求職者を指定してください。"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:191
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:192
 #, fuzzy
 msgid ""
 "Please specify {0} and {1} (if any), for the correct tax calculation in "
@@ -9907,12 +9999,6 @@ msgstr "サイクルを完了としてマークする前に {0} を提出して�
 #, fuzzy
 msgid "Please update your status for this training event"
 msgstr "このトレーニングイベントのステータスを更新してください"
-
-#. Label of the posted_on (Datetime) field in DocType 'Job Opening'
-#: hrms/hr/doctype/job_opening/job_opening.json
-#, fuzzy
-msgid "Posted On"
-msgstr "投稿日"
 
 #. Label of the posting_date (Date) field in DocType 'Gratuity'
 #: hrms/payroll/doctype/gratuity/gratuity.json
@@ -9942,7 +10028,7 @@ msgstr "希望宿泊エリア"
 #: hrms/hr/doctype/attendance/attendance.json
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 #: hrms/hr/doctype/training_event_employee/training_event_employee.json
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:737
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:794
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 #, fuzzy
 msgid "Present"
@@ -9969,7 +10055,7 @@ msgstr "ユーザーに権限がある場合でも、休暇の自己承認を防
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:155
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:193
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.js:73
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.js:89
 #, fuzzy
 msgid "Preview Salary Slip"
 msgstr "給与明細プレビュー"
@@ -10161,17 +10247,17 @@ msgstr "目的と金額"
 msgid "Purpose of Travel"
 msgstr "出張の目的"
 
-#: frontend/src/views/AppSettings.vue:128
+#: frontend/src/views/AppSettings.vue:152
 #, fuzzy
 msgid "Push Notification permission denied"
 msgstr "プッシュ通知の権限が拒否されました"
 
-#: frontend/src/views/AppSettings.vue:96
+#: frontend/src/views/AppSettings.vue:121
 #, fuzzy
 msgid "Push notifications disabled"
 msgstr "プッシュ通知が無効"
 
-#: frontend/src/views/AppSettings.vue:80
+#: frontend/src/views/AppSettings.vue:106
 #, fuzzy
 msgid "Push notifications have been disabled on your site"
 msgstr "あなたのサイトでプッシュ通知が無効になりました"
@@ -10337,8 +10423,8 @@ msgid ""
 "Reduction is more than {0}'s available leave balance {1} for leave type {2}"
 msgstr "削減額が、休暇タイプ{2}の{0}の利用可能な休暇残高{1}を超えています"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:405
-#: hrms/hr/doctype/leave_application/leave_application.py:561
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:406
+#: hrms/hr/doctype/leave_application/leave_application.py:554
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:218
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:141
 #, fuzzy
@@ -10577,6 +10663,11 @@ msgstr "職務"
 msgid "Restrict Backdated Leave Application"
 msgstr "遡及日休暇申請を制限"
 
+#. Label of a field in the job-application Web Form
+#: hrms/hr/web_form/job_application/job_application.json
+msgid "Resume Attachment"
+msgstr ""
+
 #. Label of the resume_link (Data) field in DocType 'Employee Referral'
 #. Label of a field in the job-application Web Form
 #: hrms/hr/doctype/employee_referral/employee_referral.json
@@ -10610,8 +10701,8 @@ msgstr "リテンションボーナス"
 msgid "Retirement Age (In Years)"
 msgstr "定年年齢 (年単位)"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:481
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:489
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:482
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:490
 #, fuzzy
 msgid "Retry Failed"
 msgstr "失敗したものを再試行"
@@ -10633,7 +10724,7 @@ msgstr "再試行成功"
 msgid "Retrying allocations"
 msgstr "割り当てを再試行中"
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:236
+#: hrms/hr/doctype/employee_advance/employee_advance.py:231
 #, fuzzy
 msgid "Return amount cannot be greater than unclaimed amount"
 msgstr "返金額は未請求金額を超えることはできません"
@@ -10667,7 +10758,7 @@ msgstr "改訂済CTC"
 #. field
 #. in DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
-#: hrms/hr/doctype/leave_application/leave_application.py:217
+#: hrms/hr/doctype/leave_application/leave_application.py:210
 #, fuzzy
 msgid "Role Allowed to Create Backdated Leave Application"
 msgstr "遡及日休暇申請の作成を許可されるロール"
@@ -10732,14 +10823,14 @@ msgid ""
 "the Salary Component {1}"
 msgstr "行 #{0}: タイムシート金額は、給与構成要素 {1} の支給構成要素金額を上書きします"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:963
+#: hrms/hr/doctype/expense_claim/expense_claim.py:847
 #, fuzzy
 msgid ""
 "Row No {0}: Amount cannot be greater than the Outstanding Amount against "
 "Expense Claim {1}. Outstanding Amount is {2}"
 msgstr "行番号 {0}: 金額は経費精算 {1} の未回収金額を超えることはできません。未回収金額は {2} です"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:561
+#: hrms/hr/doctype/expense_claim/expense_claim.py:552
 #, fuzzy
 msgid ""
 "Row {0}# Allocated amount {1} cannot be greater than unclaimed amount {2}"
@@ -10755,7 +10846,7 @@ msgstr "行 {0}#: 支払金額は現金化金額を超えることはできま�
 msgid "Row {0}# Paid Amount cannot be greater than Total amount"
 msgstr "行 {0}#: 支払金額は合計金額を超えることはできません"
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:228
+#: hrms/hr/doctype/employee_advance/employee_advance.py:223
 #, fuzzy
 msgid "Row {0}# Paid Amount cannot be greater than requested advance amount"
 msgstr "行 {0}#: 支払金額は申請された前払い金額を超えることはできません"
@@ -10782,7 +10873,7 @@ msgstr "行 {0}: 支払金額 {1} は、ローン {3} の保留中の未払金�
 msgid "Row {0}: {1}"
 msgstr "行 {0}: {1}"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:486
+#: hrms/hr/doctype/expense_claim/expense_claim.py:477
 #, fuzzy
 msgid ""
 "Row {0}: {1} is required in the expenses table to book an expense claim."
@@ -10888,7 +10979,7 @@ msgstr "給与詳細"
 msgid "Salary Expectation"
 msgstr "希望給与"
 
-#: frontend/src/views/Profile.vue:200
+#: frontend/src/views/Profile.vue:201
 #, fuzzy
 msgid "Salary Information"
 msgstr "給与情報"
@@ -11002,7 +11093,7 @@ msgstr "給与明細タイムシート"
 msgid "Salary Slip already exists for {0} for the given dates"
 msgstr "指定された日付の {0} の給与明細はすでに存在します"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:330
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:336
 #, fuzzy
 msgid "Salary Slip creation is queued. It may take a few minutes"
 msgstr "給与明細の作成はキューに登録されました。数分かかる場合があります"
@@ -11011,22 +11102,22 @@ msgstr "給与明細の作成はキューに登録されました。数分かか
 msgid "Salary Slip not found."
 msgstr "Salary Slipが見つかりません"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:419
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:420
 #, fuzzy
 msgid "Salary Slip of employee {0} already created for this period"
 msgstr "従業員 {0} の給与明細はこの期間にすでに作成されています"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:425
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:426
 #, fuzzy
 msgid "Salary Slip of employee {0} already created for time sheet {1}"
 msgstr "従業員 {0} の給与明細はタイムシート {1} に対してすでに作成されています"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:375
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:381
 #, fuzzy
 msgid "Salary Slip submission is queued. It may take a few minutes"
 msgstr "給与明細の提出はキューに登録されました。数分かかる場合があります"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1570
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1576
 #, fuzzy
 msgid "Salary Slip {0} failed for Payroll Entry {1}"
 msgstr "給与明細 {0} は給与伝票 {1} に対して失敗しました"
@@ -11054,14 +11145,14 @@ msgstr "作成された給与明細"
 msgid "Salary Slips Submitted"
 msgstr "提出された給与明細"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1612
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1618
 #, fuzzy
 msgid ""
 "Salary Slips already exist for employees {}, and will not be processed by "
 "this payroll."
 msgstr "従業員 {} の給与明細はすでに存在するため、この給与計算では処理されません。"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1639
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1645
 #, fuzzy
 msgid "Salary Slips submitted for period from {0} to {1}"
 msgstr "{0} から {1} の期間の給与明細が提出されました"
@@ -11092,6 +11183,7 @@ msgstr "給与体系"
 #. Label of a Workspace Sidebar Item
 #: hrms/payroll/doctype/income_tax_slab/income_tax_slab.js:8
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
+#: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.js:51
 #: hrms/payroll/workspace/payroll/payroll.json
 #: hrms/workspace_sidebar/payroll.json
 #, fuzzy
@@ -11103,7 +11195,7 @@ msgstr "給与体系の割り当て"
 msgid "Salary Structure Assignment field"
 msgstr "給与体系割り当てフィールド"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:79
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:80
 msgid "Salary Structure Assignment for Employee already exists"
 msgstr "Salary Structure Assignment for Employeeは既に存在します"
 
@@ -11112,7 +11204,7 @@ msgstr "Salary Structure Assignment for Employeeは既に存在します"
 msgid "Salary Structure Assignment not found for employee {0} on date {1}"
 msgstr "従業員 {0} の日付 {1} の給与体系割り当てが見つかりません"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:525
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:526
 #, fuzzy
 msgid "Salary Structure Missing"
 msgstr "給与体系が見つかりません"
@@ -11127,10 +11219,14 @@ msgstr "{0} の提出前に給与体系を提出する必要があります"
 msgid "Salary Structure not assigned for employee {0} for date {1}"
 msgstr "従業員 {0} の日付 {1} に給与体系が割り当てられていません"
 
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:103
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:104
 #, fuzzy
 msgid "Salary Structure {0} does not belong to company {1}"
 msgstr "給与体系 {0} は会社 {1} に属していません"
+
+#: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:106
+msgid "Salary Structure: "
+msgstr ""
 
 #: hrms/payroll/doctype/salary_component/salary_component.js:150
 #, fuzzy
@@ -11164,7 +11260,7 @@ msgid ""
 "period"
 msgstr "選択された期間の従業員 {1} の給与源泉徴収 {0} はすでに存在します"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:402
+#: hrms/hr/doctype/leave_application/leave_application.py:395
 #, fuzzy
 msgid ""
 "Salary already processed for period between {0} and {1}, Leave application "
@@ -11178,7 +11274,7 @@ msgstr "{0} から {1} の期間の給与はすでに処理されています。
 msgid "Salary breakup based on Earning and Deduction."
 msgstr "支給と控除に基づく給与内訳。"
 
-#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:15
+#: hrms/payroll/report/provident_fund_deductions/provident_fund_deductions.py:17
 #, fuzzy
 msgid ""
 "Salary components of type Provident Fund, Additional Provident Fund or "
@@ -11193,7 +11289,7 @@ msgstr "厚生年金、追加厚生年金、または厚生年金ローンタイ
 msgid "Salary components should be part of the Salary Structure."
 msgstr "給与構成要素は給与体系の一部である必要があります。"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2805
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2736
 #, fuzzy
 msgid ""
 "Salary slip emails have been enqueued for sending. Check {0} for status."
@@ -11214,7 +11310,7 @@ msgstr "承認金額"
 msgid "Sanctioned Amount (Company Currency)"
 msgstr "承認金額 (会社通貨)"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:585
+#: hrms/hr/doctype/expense_claim/expense_claim.py:576
 #, fuzzy
 msgid "Sanctioned Amount cannot be greater than Claim Amount in Row {0}."
 msgstr "承認金額は、行 {0} の請求金額より大きくすることはできません。"
@@ -11246,6 +11342,10 @@ msgstr "スコア"
 msgid "Search for Jobs"
 msgstr "求人を検索"
 
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.js:73
+msgid "See CTC Break-up"
+msgstr ""
+
 #: hrms/hr/doctype/overtime_type/overtime_type.py:40
 msgid "Select Applicable Components for Overtime Type"
 msgstr "Select Applicable Components for Overtime種類"
@@ -11274,7 +11374,7 @@ msgstr "LWP取り消しの月を選択"
 msgid "Select Payment Account to make Bank Entry"
 msgstr "銀行入力を行う支払勘定科目を選択してください"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1783
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1789
 #, fuzzy
 msgid "Select Payroll Frequency."
 msgstr "給与計算頻度を選択してください。"
@@ -11307,7 +11407,7 @@ msgstr "利用規約を選択"
 msgid "Select Users"
 msgstr "ユーザーを選択"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:572
+#: hrms/hr/doctype/expense_claim/expense_claim.js:559
 #, fuzzy
 msgid "Select an employee to get the employee advance."
 msgstr "従業員の前払いを取得するために従業員を選択してください。"
@@ -11387,12 +11487,12 @@ msgid ""
 "leaves."
 msgstr "休暇を承認または却下する人、つまり休暇承認者を選択してください。"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.js:607
+#: hrms/hr/doctype/expense_claim/expense_claim.js:594
 #, fuzzy
 msgid "Selected employee advance is not of employee {0}"
 msgstr "選択された従業員の前払いは従業員 {0} のものではありません"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:554
+#: hrms/hr/doctype/expense_claim/expense_claim.py:545
 #, fuzzy
 msgid "Selected employee advance is not of employee {}"
 msgstr "選択された従業員の前払いは従業員 {} のものではありません"
@@ -11426,12 +11526,12 @@ msgstr "自己スコア"
 msgid "Self-Study"
 msgstr "自己学習"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:175
+#: hrms/hr/doctype/expense_claim/expense_claim.py:174
 #, fuzzy
 msgid "Self-approval for Expense Claims is not allowed"
 msgstr "経費精算の自己承認は許可されていません"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:902
+#: hrms/hr/doctype/leave_application/leave_application.py:895
 #, fuzzy
 msgid "Self-approval for leaves is not allowed"
 msgstr "休暇の自己承認は許可されていません"
@@ -11477,6 +11577,10 @@ msgstr "面接リマインダーを送信"
 #, fuzzy
 msgid "Send Leave Notification"
 msgstr "休暇通知を送信"
+
+#: frontend/src/views/ForgotPassword.vue:45
+msgid "Send Reset Link"
+msgstr ""
 
 #. Label of the sender_copy (Link) field in DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
@@ -11571,7 +11675,7 @@ msgstr "前職からの収入と税金の期首残高を設定"
 msgid "Set optional filters to fetch employees in the appraisee list"
 msgstr "評価対象者リストの従業員を取得するためのオプションフィルターを設定"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:746
+#: hrms/hr/doctype/expense_claim/expense_claim.py:664
 #, fuzzy
 msgid "Set the default account for the {0} {1}"
 msgstr "{0} {1} のデフォルト勘定科目を設定"
@@ -11995,7 +12099,7 @@ msgid ""
 "Structure Assignment records already exists against them. {0}"
 msgstr "以下の従業員については、給与体系割り当てレコードが既に存在するため、給与体系割り当てをスキップします。{0}"
 
-#: hrms/api/roster.py:95
+#: hrms/api/roster.py:137
 #, fuzzy
 msgid "Source and target shifts cannot be the same"
 msgstr "元のシフトと対象のシフトは同じにできません"
@@ -12064,7 +12168,7 @@ msgstr "標準税控除額"
 msgid "Standard Working Hours"
 msgstr "標準労働時間"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1889
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1890
 #, fuzzy
 msgid ""
 "Start and end dates not in a valid Payroll Period, cannot calculate {0}."
@@ -12075,12 +12179,12 @@ msgstr "開始日と終了日が有効な給与期間内にありません。{0}
 msgid "Start date cannot be greater than end date"
 msgstr "開始日は終了日より大きくすることはできません"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:50
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:54
 #, fuzzy
 msgid "Start date cannot be greater than end date."
 msgstr "開始日は終了日より大きくすることはできません。"
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:279
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:285
 #, fuzzy
 msgid "Start date: {0}"
 msgstr "開始日: {0}"
@@ -12140,7 +12244,7 @@ msgstr "構造は正常に割り当てられました"
 msgid "Submission Date"
 msgstr "提出日"
 
-#: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:496
+#: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:500
 #, fuzzy
 msgid "Submission Failed"
 msgstr "提出失敗"
@@ -12199,7 +12303,7 @@ msgstr "給与伝票経由で提出済"
 msgid "Submitting Salary Slips and creating Journal Entry..."
 msgstr "給与明細を提出し、仕訳伝票を作成しています..."
 
-#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1694
+#: hrms/payroll/doctype/payroll_entry/payroll_entry.py:1700
 #, fuzzy
 msgid "Submitting Salary Slips..."
 msgstr "給与明細を提出しています..."
@@ -12246,12 +12350,12 @@ msgstr "要約ビュー"
 msgid "Sync {0}"
 msgstr "{0} を同期"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1400
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1401
 #, fuzzy
 msgid "Syntax error"
 msgstr "構文エラー"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2628
+#: hrms/payroll/doctype/income_tax_slab/income_tax_slab.py:126
 #, fuzzy
 msgid "Syntax error in condition: {0} in Income Tax Slab"
 msgstr "条件に構文エラー: 所得税スラブの {0}"
@@ -12276,7 +12380,7 @@ msgstr "税金と福利厚生"
 #. Label of the tax_deducted_till_date (Currency) field in DocType 'Salary
 #. Structure Assignment'
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:195
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:196
 #, fuzzy
 msgid "Tax Deducted Till Date"
 msgstr "現在までに控除された税金"
@@ -12328,7 +12432,7 @@ msgstr "柔軟な福利厚生に対する税金"
 #. Label of the taxable_earnings_till_date (Currency) field in DocType 'Salary
 #. Structure Assignment'
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:194
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:195
 #, fuzzy
 msgid "Taxable Earnings Till Date"
 msgstr "現在までの課税対象所得"
@@ -12438,7 +12542,7 @@ msgstr "金額を含む給与コンポーネントが給与明細の収益/控�
 msgid "The day of the month when leaves should be allocated"
 msgstr "休暇が割り当てられるべき月の日にち"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:445
+#: hrms/hr/doctype/leave_application/leave_application.py:438
 #, fuzzy
 msgid ""
 "The day(s) on which you are applying for leave are holidays. You need not "
@@ -12524,7 +12628,7 @@ msgstr "シフト開始時刻前で、従業員のチェックインが出勤と
 msgid "Theory"
 msgstr "理論"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:577
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:578
 #, fuzzy
 msgid "There are more holidays than working days this month."
 msgstr "今月は営業日よりも休日が多いです。"
@@ -12550,7 +12654,7 @@ msgstr "人員計画{0}の下に空きはありません"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:82
 #: hrms/payroll/doctype/employee_incentive/employee_incentive.py:39
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:240
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:241
 #, fuzzy
 msgid ""
 "There is no Salary Structure assigned to {0}. First assign a Salary "
@@ -12599,17 +12703,17 @@ msgstr "この代償休暇は{0}から適用されます。"
 msgid "This employee already has a log with the same timestamp.{0}"
 msgstr "この従業員はすでに同じタイムスタンプのログを持っています。{0}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1408
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1409
 #, fuzzy
 msgid "This error can be due to invalid formula or condition."
 msgstr "このエラーは、無効な数式または条件が原因である可能性があります。"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1401
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1402
 #, fuzzy
 msgid "This error can be due to invalid syntax."
 msgstr "このエラーは、無効な構文が原因である可能性があります。"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:1394
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:1395
 #, fuzzy
 msgid "This error can be due to missing or deleted field."
 msgstr "このエラーは、フィールドの欠落または削除が原因である可能性があります。"
@@ -12632,11 +12736,6 @@ msgstr "このフィールドでは、休暇ポリシー作成時にこの休暇
 #, fuzzy
 msgid "This is based on the attendance of this Employee"
 msgstr "これはこの従業員の勤怠に基づいています"
-
-#: hrms/www/hrms.py:20
-#, fuzzy
-msgid "This method is only meant for developer mode"
-msgstr "このメソッドは開発者モード専用です"
 
 #: hrms/payroll/doctype/additional_salary/additional_salary.py:231
 #, fuzzy
@@ -12741,7 +12840,7 @@ msgid "To date can not greater than employee's relieving date"
 msgstr "終了日は従業員の退職日より大きくすることはできません"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:214
-#: hrms/hr/doctype/leave_application/leave_application.py:230
+#: hrms/hr/doctype/leave_application/leave_application.py:223
 #, fuzzy
 msgid "To date cannot be before from date"
 msgstr "終了日は開始日より前にすることはできません"
@@ -12779,7 +12878,7 @@ msgstr "本日、{0}が弊社に！🎉"
 msgid "Today {0} completed {1} {2} at our Company! 🎉"
 msgstr "本日、{0}が弊社で{1}{2}を完了しました！🎉"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:149
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:153
 msgid "Total Absent"
 msgstr "Absent合計"
 
@@ -12845,6 +12944,11 @@ msgstr "Claimed Amount合計"
 msgid "Total Claimed Amount (Company Currency)"
 msgstr "Claimed Amount (Company Currency)合計"
 
+#. Label of the ctc (Currency) field in DocType 'Salary Structure Assignment'
+#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
+msgid "Total Cost To Company (CTC)"
+msgstr ""
+
 #. Label of the lwp_days (Float) field in DocType 'Payroll Correction'
 #: hrms/payroll/doctype/payroll_correction/payroll_correction.json
 msgid "Total Days Without Pay"
@@ -12861,7 +12965,7 @@ msgstr "Declared Amount合計"
 #. Label of the total_deduction (Currency) field in DocType 'Salary Structure'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
-#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:148
+#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:155
 #: hrms/payroll/report/salary_register/salary_register.py:244
 msgid "Total Deduction"
 msgstr "Deduction合計"
@@ -12871,7 +12975,7 @@ msgstr "Deduction合計"
 msgid "Total Deduction (Company Currency)"
 msgstr "Deduction (Company Currency)合計"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:174
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:178
 msgid "Total Early Exits"
 msgstr "Early Exits合計"
 
@@ -12927,7 +13031,7 @@ msgstr "Expense Claim (via Expense Claims)合計"
 msgid "Total Goal Score"
 msgstr "Goal Score合計"
 
-#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:141
+#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:148
 msgid "Total Gross Pay"
 msgstr "Gross Pay合計"
 
@@ -12944,7 +13048,7 @@ msgstr "Income Tax合計"
 msgid "Total Interest Amount"
 msgstr "Interest Amount合計"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:168
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:172
 msgid "Total Late Entries"
 msgstr "Late Entries合計"
 
@@ -12953,7 +13057,7 @@ msgstr "Late Entries合計"
 msgid "Total Leave Days"
 msgstr "Leave Days合計"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:148
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:152
 msgid "Total Leaves"
 msgstr "Leaves合計"
 
@@ -12977,11 +13081,11 @@ msgstr "Leaves Encashed合計"
 msgid "Total Loan Repayment"
 msgstr "Loan Repayment合計"
 
-#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:155
+#: hrms/payroll/report/salary_payments_based_on_payment_mode/salary_payments_based_on_payment_mode.py:162
 msgid "Total Net Pay"
 msgstr "Net Pay合計"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:228
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:230
 msgid "Total Non-Billed Hours"
 msgstr "Non-Billed Hours合計"
 
@@ -13006,7 +13110,7 @@ msgstr "支払い合計"
 msgid "Total Payout"
 msgstr "Payout合計"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:143
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:147
 msgid "Total Present"
 msgstr "Present合計"
 
@@ -13047,7 +13151,7 @@ msgstr "スコア合計"
 msgid "Total Self Score"
 msgstr "Self Score合計"
 
-#: hrms/hr/doctype/expense_claim/expense_claim.py:579
+#: hrms/hr/doctype/expense_claim/expense_claim.py:570
 msgid "Total advance amount cannot be greater than total sanctioned amount"
 msgstr "advance amount cannot be greater than total sanctioned amount合計"
 
@@ -13077,11 +13181,11 @@ msgstr "in words合計"
 msgid "Total in words (Company Currency)"
 msgstr "in words (Company Currency)合計"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:401
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:402
 msgid "Total leaves allocated cannot exceed annual allocation of {0}."
 msgstr "leaves allocated cannot exceed annual allocation of {0}.合計"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:287
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:288
 msgid "Total leaves allocated is mandatory for Leave Type {0}"
 msgstr "leaves allocated is mandatory for Leave Type {0}合計"
 
@@ -13133,7 +13237,7 @@ msgstr "weightage for all {0} must add up to 100. Currently, it is {1}%合計"
 msgid "Total working Days Per Year"
 msgstr "working Days Per Year合計"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:262
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:263
 msgid "Total working hours should not be greater than max working hours {0}"
 msgstr "working hours should not be greater than max working hours {0}合計"
 
@@ -13398,7 +13502,7 @@ msgstr "未マークの勤怠日数"
 msgid "Unmarked Check-in Logs Found"
 msgstr "未マークのチェックインログが見つかりました"
 
-#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:157
+#: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.py:161
 #: hrms/public/js/templates/employees_with_unmarked_attendance.html:19
 #, fuzzy
 msgid "Unmarked Days"
@@ -13456,7 +13560,7 @@ msgstr "未決済取引"
 msgid "Unsubmitted Appraisals"
 msgstr "未提出の人事評価"
 
-#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:251
+#: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:253
 #, fuzzy
 msgid "Untracked Hours"
 msgstr "未追跡時間"
@@ -13522,13 +13626,19 @@ msgstr "ステータスの更新"
 msgid "Update Tax"
 msgstr "税金の更新"
 
-#: hrms/hr/doctype/attendance_request/attendance_request.py:181
+#: hrms/hr/doctype/attendance_request/attendance_request.py:200
+msgid ""
+"Updated Status for Other Half from {0} to {1} for date {2} in the attendance"
+" record {3}"
+msgstr ""
+
+#: hrms/hr/doctype/attendance_request/attendance_request.py:183
 #, fuzzy
 msgid ""
 "Updated status from {0} to {1} for date {2} in the attendance record {3}"
 msgstr "勤怠記録 {3} の {2} 日付のステータスを {0} から {1} に更新しました"
 
-#: hrms/hr/doctype/interview/interview.py:230
+#: hrms/hr/doctype/interview/interview.py:232
 #, fuzzy
 msgid "Updated the Job Applicant status to {0}"
 msgstr "求職者のステータスを {0} に更新しました"
@@ -13562,12 +13672,6 @@ msgstr "HTMLのアップロード"
 #, fuzzy
 msgid "Upload images or documents"
 msgstr "画像またはドキュメントをアップロード"
-
-#: frontend/src/components/FormView.vue:124
-#: frontend/src/components/FormView.vue:163
-#, fuzzy
-msgid "Uploading..."
-msgstr "アップロード中..."
 
 #. Label of the upper_range (Currency) field in DocType 'Job Applicant'
 #. Label of the upper_range (Currency) field in DocType 'Job Opening'
@@ -13631,13 +13735,6 @@ msgstr "値 / 説明"
 #, fuzzy
 msgid "Value missing"
 msgstr "値が不足しています"
-
-#. Label of the variable (Currency) field in DocType 'Salary Structure
-#. Assignment'
-#: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:185
-#: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
-msgid "Variable"
-msgstr "変数"
 
 #. Label of the variable_based_on_taxable_salary (Check) field in DocType
 #. 'Salary Component'
@@ -13727,18 +13824,18 @@ msgstr "スミレ色"
 msgid "WARNING: Loan Management module has been separated from ERPNext."
 msgstr "警告: ローン管理モジュールはERPNextから分離されました。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:472
+#: hrms/hr/doctype/leave_application/leave_application.py:465
 #, fuzzy
 msgid ""
 "Warning: Insufficient leave balance for Leave Type {0} in this allocation."
 msgstr "警告: この割当では、休暇タイプ {0} の休暇残高が不足しています。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:480
+#: hrms/hr/doctype/leave_application/leave_application.py:473
 #, fuzzy
 msgid "Warning: Insufficient leave balance for Leave Type {0}."
 msgstr "警告: 休暇タイプ {0} の休暇残高が不足しています。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:418
+#: hrms/hr/doctype/leave_application/leave_application.py:411
 #, fuzzy
 msgid "Warning: Leave application contains following block dates"
 msgstr "警告: 休暇申請には以下のブロック日付が含まれています"
@@ -13962,7 +14059,7 @@ msgstr "年間給付"
 msgid "Yes, Proceed"
 msgstr "はい、続行します"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:428
+#: hrms/hr/doctype/leave_application/leave_application.py:421
 #, fuzzy
 msgid "You are not authorized to approve leaves on Block Dates"
 msgstr "ブロック日付の休暇を承認する権限がありません"
@@ -13996,7 +14093,7 @@ msgstr "親会社{4}の人員計画{3}に従い、{2}に対して{0}件までの
 msgid "You can only submit Leave Encashment for a valid encashment amount"
 msgstr "有効な買い上げ金額の場合のみ、休暇買い上げを提出できます。"
 
-#: hrms/api/__init__.py:741
+#: hrms/api/__init__.py:751
 #, fuzzy
 msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."
 msgstr "JPG、PNG、PDF、TXT、またはMicrosoftドキュメントのみをアップロードできます。"
@@ -14008,8 +14105,8 @@ msgid ""
 "reversed {1} days for this employee."
 msgstr "合計LWP日数{0}を超えて取り消すことはできません。この従業員については、すでに{1}日取り消しています。"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:457
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:620
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:458
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:621
 #, fuzzy
 msgid "You do not have permission to complete this action"
 msgstr "このアクションを完了する権限がありません"
@@ -14072,7 +14169,11 @@ msgid ""
 "Your Interview session is rescheduled from {0} {1} - {2} to {3} {4} - {5}"
 msgstr "面接セッションが {0} {1} - {2} から {3} {4} - {5} へ再スケジュールされました"
 
-#: frontend/src/views/Login.vue:63
+#: frontend/src/views/ChangePassword.vue:85
+msgid "Your password has been updated."
+msgstr ""
+
+#: frontend/src/views/Login.vue:22
 #, fuzzy
 msgid "Your password has expired. Please reset your password to continue"
 msgstr "パスワードの有効期限が切れました。続行するにはパスワードをリセットしてください"
@@ -14112,12 +14213,12 @@ msgstr "作成/提出"
 msgid "created"
 msgstr "作成済"
 
-#: hrms/hr/doctype/employee_advance/employee_advance.py:80
+#: hrms/hr/doctype/employee_advance/employee_advance.py:75
 #, fuzzy
 msgid "here"
 msgstr "こちら"
 
-#: frontend/src/views/Login.vue:16
+#: frontend/src/views/Login.vue:46
 #, fuzzy
 msgid "johndoe@mail.com"
 msgstr "johndoe@mail.com"
@@ -14147,16 +14248,6 @@ msgstr "処理済"
 #, fuzzy
 msgid "reason"
 msgstr "理由"
-
-#: hrms/www/jobs/index.html:122
-#, fuzzy
-msgid "result"
-msgstr "結果"
-
-#: hrms/www/jobs/index.html:122
-#, fuzzy
-msgid "results"
-msgstr "結果"
 
 #: hrms/public/js/templates/feedback_summary.html:16
 #, fuzzy
@@ -14205,12 +14296,12 @@ msgstr "{0} と {1}"
 msgid "{0} & {1} more"
 msgstr "{0} とその他 {1} 件"
 
-#: hrms/hr/doctype/overtime_slip/overtime_slip.py:513
+#: hrms/hr/doctype/overtime_slip/overtime_slip.py:512
 #, fuzzy
 msgid "{0} : {1}"
 msgstr "{0} : {1}"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2624
+#: hrms/payroll/doctype/income_tax_slab/income_tax_slab.py:122
 #, fuzzy
 msgid "{0} <br> This error can be due to missing or deleted field."
 msgstr "{0} <br> このエラーは、フィールドの欠落または削除が原因である可能性があります。"
@@ -14264,10 +14355,9 @@ msgid ""
 "{0} already has an active Shift Assignment {1} for some/all of these dates."
 msgstr "{0}には、これらの日付の一部またはすべてに対して、すでに有効なシフト割り当て{1}があります。"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:201
-#, fuzzy
-msgid "{0} applicable after {1} working days"
-msgstr "{1}営業日後に{0}が適用されます"
+#: hrms/hr/doctype/leave_application/leave_application.py:194
+msgid "{0} applicable after {1} calendar days"
+msgstr ""
 
 #: frontend/src/components/LeaveBalance.vue:37
 #, fuzzy
@@ -14323,16 +14413,16 @@ msgstr "{0} は休日ではありません。"
 msgid "{0} is not allowed to submit Interview Feedback for the Interview: {1}"
 msgstr "{0}は面接: {1} に対して面接フィードバックを提出することを許可されていません"
 
-#: hrms/hr/doctype/leave_application/leave_application.py:672
+#: hrms/hr/doctype/leave_application/leave_application.py:665
 msgid "{0} is not in Optional Holiday List"
 msgstr "{0} is not in Optional Holidayリスト"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:395
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:396
 #, fuzzy
 msgid "{0} leaves allocated successfully"
 msgstr "{0}件の休暇が正常に割り当てられました"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:603
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:604
 #, fuzzy
 msgid ""
 "{0} leaves from allocation for {1} leave type have expired and will be "
@@ -14341,7 +14431,7 @@ msgid ""
 msgstr ""
 "{1}休暇タイプの割り当てからの{0}件の休暇は期限切れになり、次回のスケジュールされたジョブで処理されます。新しい休暇ポリシーの割り当てを作成する前に、今すぐ期限切れにすることをお勧めします。"
 
-#: hrms/hr/doctype/leave_allocation/leave_allocation.py:390
+#: hrms/hr/doctype/leave_allocation/leave_allocation.py:391
 #, fuzzy
 msgid "{0} leaves were manually allocated by {1} on {2}"
 msgstr "{2}に{1}によって{0}件の休暇が手動で割り当てられました"
@@ -14401,7 +14491,7 @@ msgstr "{0} {1} {2} ですか？"
 msgid "{0}. Check error log for more details."
 msgstr "{0}。詳細についてはエラーログを確認してください。"
 
-#: hrms/payroll/doctype/salary_slip/salary_slip.py:2285
+#: hrms/payroll/doctype/salary_slip/salary_slip.py:2286
 #, fuzzy
 msgid "{0}: Employee email not found, hence email not sent"
 msgstr "{0}: 従業員のメールアドレスが見つかりません、そのためメールは送信されませんでした"
