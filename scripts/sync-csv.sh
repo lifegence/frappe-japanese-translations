@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # sync-csv.sh — Regenerate translations/{app}/ja.csv from translations/{app}/ja.po.
+# Version-specific sets (translations/{app}/version-*/ja.po) are synced too.
 #
 # Run after translate-po.py / fixup-po.py to bring the deployable CSV files up
 # to the latest coverage level. The PO is the source of truth (matches Crowdin
@@ -24,8 +25,9 @@ done
 cd "$REPO_DIR"
 for app in "${APPS[@]}"; do
   [[ -n "$ONLY" && "$ONLY" != "$app" ]] && continue
-  po="translations/$app/ja.po"
-  csv="translations/$app/ja.csv"
-  [[ ! -f "$po" ]] && { echo "[skip] $po missing"; continue; }
-  python3 scripts/po-to-csv.py --po "$po" --csv "$csv" "${INCLUDE_EMPTY[@]}"
+  for po in "translations/$app/ja.po" translations/"$app"/version-*/ja.po; do
+    [[ ! -f "$po" ]] && { [[ "$po" != *version-* ]] && echo "[skip] $po missing"; continue; }
+    csv="${po%ja.po}ja.csv"
+    python3 scripts/po-to-csv.py --po "$po" --csv "$csv" "${INCLUDE_EMPTY[@]}"
+  done
 done

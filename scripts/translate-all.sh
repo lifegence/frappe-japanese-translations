@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # translate-all.sh — Run translate-po.py across all Crowdin-managed apps.
+# Covers the develop-tracking ja.po and any translations/{app}/version-*/ja.po.
 #
 # Requires: GEMINI_API_KEY exported.
 # Usage:
@@ -31,16 +32,17 @@ cd "$REPO_DIR"
 START=$(date +%s)
 for app in "${APPS[@]}"; do
   [[ -n "$ONLY" && "$ONLY" != "$app" ]] && continue
-  po="translations/$app/ja.po"
-  [[ ! -f "$po" ]] && { echo "[skip] $po missing"; continue; }
-  echo
-  echo "================================================================"
-  echo "  $app"
-  echo "================================================================"
-  python3 scripts/translate-po.py \
-    --po "$po" \
-    --glossary glossary/glossary.csv \
-    "${LIMIT_ARGS[@]}"
+  for po in "translations/$app/ja.po" translations/"$app"/version-*/ja.po; do
+    [[ ! -f "$po" ]] && { [[ "$po" != *version-* ]] && echo "[skip] $po missing"; continue; }
+    echo
+    echo "================================================================"
+    echo "  $po"
+    echo "================================================================"
+    python3 scripts/translate-po.py \
+      --po "$po" \
+      --glossary glossary/glossary.csv \
+      "${LIMIT_ARGS[@]}"
+  done
 done
 echo
 echo "[total] $(($(date +%s) - START))s elapsed"

@@ -4,6 +4,20 @@ All notable changes to this project are recorded here.
 
 ## [Unreleased]
 
+### Added (2026-06-12 version-16 support)
+- **Version-specific translation sets** under
+  `translations/{app}/version-16/` (ja.po + ja.csv) for all five PO apps,
+  seeded from the develop set via `msgmerge` against each app's `version-16`
+  POT (`version-16-hotfix` for `lending`, which has no `version-16` branch).
+  v16-specific gaps (frappe 48, erpnext 67, hrms 40) were AI-filled and
+  flagged `#, fuzzy`; healthcare and lending needed no new strings.
+- `deploy.sh --version <name>` — prefer `translations/{app}/<name>/ja.csv`,
+  falling back to the develop-tracking CSV per app.
+- `config.json` v2.1.0: `apps.{app}.versions` maps local version directories
+  to upstream branches.
+- `translate-all.sh` and `sync-csv.sh` now automatically cover
+  `translations/{app}/version-*/ja.po` alongside the develop set.
+
 ### Changed (2026-06-12 upstream refresh)
 - Refreshed `ja.po` for all five Crowdin-managed apps against the upstream
   POTs as of 2026-06-12 via `msgmerge --no-fuzzy-matching` (preserves

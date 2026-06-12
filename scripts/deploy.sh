@@ -3,11 +3,13 @@
 # deploy.sh — Deploy Japanese translation files to a Frappe bench
 #
 # Copies translations/{app}/ja.csv → {bench}/apps/{app}/{app}/translations/ja.csv
+# With --version, prefers translations/{app}/{version}/ja.csv when it exists.
 #
 # Usage:
 #   ./scripts/deploy.sh                                    # Local (default bench)
 #   ./scripts/deploy.sh --bench-path ~/work/frappe-bench   # Local (custom path)
 #   ./scripts/deploy.sh --app frappe                       # Single app
+#   ./scripts/deploy.sh --version version-16               # v16 bench
 #   ./scripts/deploy.sh --docker --project bench-01        # Docker
 # ============================================================================
 
@@ -24,6 +26,7 @@ DOCKER_MODE=false
 DOCKER_PROJECT="bench-01"
 DOCKER_BENCH_PATH="/home/frappe/frappe-bench"
 TARGET_APP=""
+VERSION=""
 
 # ── Logging ─────────────────────────────────────────
 log()       { echo "[$(date '+%H:%M:%S')] $*"; }
@@ -39,6 +42,8 @@ Deploy Japanese translation CSV files to a Frappe bench.
 Options:
   --bench-path <path>   Path to frappe-bench (default: ~/work/frappe-bench)
   --app <name>          Deploy only this app (default: all managed apps)
+  --version <name>      Prefer translations/{app}/<name>/ja.csv when present,
+                        fall back to the develop-tracking ja.csv (e.g. version-16)
   --docker              Run in Docker environment
   --project <name>      Docker compose project name (default: bench-01)
   -h, --help            Show this help
@@ -47,6 +52,7 @@ Examples:
   $(basename "$0")                                    # Local default
   $(basename "$0") --bench-path /opt/frappe-bench     # Custom bench
   $(basename "$0") --app hrms                         # Single app
+  $(basename "$0") --version version-16               # v16 bench
   $(basename "$0") --docker --project bench-01        # Docker
 EOF
     exit 0
@@ -57,6 +63,7 @@ while [[ $# -gt 0 ]]; do
     case $1 in
         --bench-path) BENCH_PATH="$2"; shift 2 ;;
         --app)        TARGET_APP="$2"; shift 2 ;;
+        --version)    VERSION="$2"; shift 2 ;;
         --docker)     DOCKER_MODE=true; shift ;;
         --project)    DOCKER_PROJECT="$2"; shift 2 ;;
         -h|--help)    usage ;;
@@ -103,6 +110,15 @@ deploy() {
 
     for app in $apps; do
         local src="$TRANSLATIONS_DIR/$app/ja.csv"
+        local variant="develop"
+        if [ -n "$VERSION" ]; then
+            if [ -f "$TRANSLATIONS_DIR/$app/$VERSION/ja.csv" ]; then
+                src="$TRANSLATIONS_DIR/$app/$VERSION/ja.csv"
+                variant="$VERSION"
+            else
+                log "  NOTE: $app has no $VERSION CSV, falling back to develop"
+            fi
+        fi
 
         if [ ! -f "$src" ]; then
             log "  SKIP: $app (no ja.csv in repo)"
@@ -135,7 +151,7 @@ deploy() {
 
         local lines
         lines=$(wc -l < "$src")
-        log "  OK: $app ($lines lines)"
+        log "  OK: $app ($lines lines, $variant)"
         count=$((count + 1))
     done
 
