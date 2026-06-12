@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "language": "ja",
   "apps": {
     "frappe": {
@@ -7,35 +7,50 @@
       "format": "po",
       "crowdin": true,
       "repo": "https://github.com/frappe/frappe",
-      "pot_path": "frappe/locale/main.pot"
+      "pot_path": "frappe/locale/main.pot",
+      "versions": {
+        "version-16": "version-16"
+      }
     },
     "erpnext": {
       "type": "core",
       "format": "po",
       "crowdin": true,
       "repo": "https://github.com/frappe/erpnext",
-      "pot_path": "erpnext/locale/main.pot"
+      "pot_path": "erpnext/locale/main.pot",
+      "versions": {
+        "version-16": "version-16"
+      }
     },
     "hrms": {
       "type": "core",
       "format": "po",
       "crowdin": true,
       "repo": "https://github.com/frappe/hrms",
-      "pot_path": "hrms/locale/main.pot"
+      "pot_path": "hrms/locale/main.pot",
+      "versions": {
+        "version-16": "version-16"
+      }
     },
     "healthcare": {
       "type": "community",
       "format": "po",
       "crowdin": true,
       "repo": "https://github.com/frappe/health",
-      "pot_path": "healthcare/locale/main.pot"
+      "pot_path": "healthcare/locale/main.pot",
+      "versions": {
+        "version-16": "version-16"
+      }
     },
     "lending": {
       "type": "community",
       "format": "po",
       "crowdin": true,
       "repo": "https://github.com/frappe/lending",
-      "pot_path": "lending/locale/main.pot"
+      "pot_path": "lending/locale/main.pot",
+      "versions": {
+        "version-16": "version-16-hotfix"
+      }
     },
     "posawesome": {
       "type": "community",

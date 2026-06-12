@@ -9,15 +9,19 @@ seed data, a backup mirror, and the source for local-bench deploys.
 
 | App | Type | Format | Source strings | Coverage | AI-fuzzy¹ |
 |-----|------|--------|---------------:|---------:|----------:|
-| `frappe` | Core | PO + Crowdin | 6,143 | 99.9% | 5,213 |
-| `erpnext` | Core | PO + Crowdin | 9,350 | 100% | 5,981 |
-| `hrms` | Core | PO + Crowdin | 2,216 | 100% | 1,982 |
+| `frappe` | Core | PO + Crowdin | 6,226 | 100% | 5,305 |
+| `erpnext` | Core | PO + Crowdin | 9,937 | 100% | 6,646 |
+| `hrms` | Core | PO + Crowdin | 2,239 | 100% | 2,006 |
 | `healthcare` (`frappe/health`) | Community | PO + Crowdin | 1,947 | 100% | 1,549 |
-| `lending` | Community | PO + Crowdin | 967 | 100% | 198 |
+| `lending` | Community | PO + Crowdin | 974 | 100% | 205 |
 | `posawesome` | Community | Legacy CSV² | — | — | — |
 
-Snapshot taken 2026-05-01 against the latest upstream POTs.
+Snapshot taken 2026-06-12 against the latest upstream POTs.
 Refresh with `scripts/translate-all.sh`.
+
+Each PO app additionally ships a `version-16/` set (100% coverage, seeded
+from the develop set) for stable benches — see
+[Version-specific translations](#version-specific-translations).
 
 ¹ Entries flagged `#, fuzzy` are AI-suggested (Gemini 2.5 Flash) and require
 proofreader review on Crowdin before publication. They are *not* approved
@@ -47,6 +51,43 @@ fixup pass.
 For `posawesome` (no upstream PO / Crowdin path), CSV is edited directly and
 remains the source of truth for that app alone.
 
+## Version-specific translations
+
+`translations/{app}/ja.po` tracks the upstream **develop** branch (matching
+the Crowdin develop branch). Stable releases have their own POTs, so each
+supported release gets a subdirectory seeded from the develop set:
+
+```
+translations/{app}/ja.po                 # develop (Crowdin contribution path)
+translations/{app}/version-16/ja.po      # v16 stable (bench deploy path)
+translations/{app}/version-16/ja.csv     # derived, deployed via deploy.sh --version
+```
+
+`config.json` maps each local version directory to its upstream branch
+(`apps.{app}.versions`); note `lending` has no `version-16` branch, so its
+v16 set tracks `version-16-hotfix`.
+
+To refresh (or add) a version set, merge the develop ja.po — which acts as
+the translation memory — with the version branch's POT, then AI-fill the
+small remainder:
+
+```bash
+for app in frappe erpnext hrms healthcare lending; do
+  src=$app; [ "$app" = healthcare ] && src=health
+  br=$(python3 -c "import json;print(json.load(open('config.json'))['apps']['$app']['versions']['version-16'])")
+  git -C ~/work/frappe-i18n-upstream/$src fetch --depth=1 origin "+refs/heads/$br:refs/remotes/origin/$br"
+  git -C ~/work/frappe-i18n-upstream/$src show "origin/$br:$app/locale/main.pot" > /tmp/$app-v16.pot
+  mkdir -p translations/$app/version-16
+  msgmerge --no-fuzzy-matching --quiet -o translations/$app/version-16/ja.po \
+    translations/$app/ja.po /tmp/$app-v16.pot
+  msgattrib --no-obsolete -o translations/$app/version-16/ja.po translations/$app/version-16/ja.po
+done
+./scripts/translate-all.sh      # picks up version-*/ja.po automatically
+./scripts/sync-csv.sh           # regenerates version-*/ja.csv too
+```
+
+Only the develop ja.po goes to Crowdin; version sets exist for bench deploy.
+
 ## Quick Start
 
 ### Deploy current translations to a Frappe bench
@@ -54,7 +95,9 @@ remains the source of truth for that app alone.
 ```bash
 ./scripts/setup-locale.sh --site dev.localhost   # full ja locale bring-up
 # or
-./scripts/deploy.sh --site dev.localhost         # CSV deploy only
+./scripts/deploy.sh                              # CSV deploy only
+# v16 bench: use the version-16 CSV set
+./scripts/deploy.sh --version version-16
 ```
 
 ### Refresh PO + CSV against the latest upstream POTs
@@ -63,12 +106,17 @@ remains the source of truth for that app alone.
 # 1. Update the upstream POT mirror (see "Upstream POT Mirror" below)
 for d in ~/work/frappe-i18n-upstream/*/; do git -C "$d" pull --quiet; done
 
-# 2. Rebuild PO from CSV + latest POT (preserves real translations, drops
-#    obsolete strings, applies glossary auto-fill)
-./scripts/csv-to-po.py --pot ~/work/frappe-i18n-upstream/frappe/frappe/locale/main.pot \
-                      --csv translations/frappe/ja.csv \
-                      --output translations/frappe/ja.po \
-                      --apply-glossary glossary/glossary.csv
+# 2. Merge the latest POT into the existing PO (preserves translations AND
+#    fuzzy flags, drops obsolete strings). Do NOT rebuild via csv-to-po.py —
+#    the CSV round-trip cannot carry fuzzy flags, so AI suggestions would be
+#    silently promoted to approved translations.
+for app in frappe erpnext hrms healthcare lending; do
+  src=$app; [ "$app" = healthcare ] && src=health
+  msgmerge --no-fuzzy-matching --backup=none --quiet --update \
+    translations/$app/ja.po \
+    ~/work/frappe-i18n-upstream/$src/$app/locale/main.pot
+  msgattrib --no-obsolete -o translations/$app/ja.po translations/$app/ja.po
+done
 
 # 3. AI-fill remaining empty msgstr (all 5 PO apps)
 export GEMINI_API_KEY=...                        # https://aistudio.google.com/apikey
