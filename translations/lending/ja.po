@@ -2459,11 +2459,12 @@ msgstr "ホーム"
 #. Description of the 'No Interest Accrual Till Month End' (Check) field in
 #. DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
+#, fuzzy
 msgid ""
 "If enabled, no interest will be accrued from each disbursement date till the"
 " end of the calendar month. Interest accrual will begin from the 1st of the "
 "following month."
-msgstr ""
+msgstr "有効な場合、各支払日から暦月の月末まで利息は発生しません。利息の発生は翌月の1日から開始されます。"
 
 #. Label of the ignore_on_cancel_amount_update (Check) field in DocType 'Loan
 #. Repayment Repost'
@@ -4202,12 +4203,14 @@ msgid "Monthly Repayment Amount cannot be greater than Loan Amount"
 msgstr "月次返済額はローン金額を超えることはできません"
 
 #: lending/loan_management/doctype/loan_repayment_schedule/utils.py:48
+#, fuzzy
 msgid "Monthly Repayment Amount must be greater than periodic interest amount"
-msgstr ""
+msgstr "月々の返済額は定期的な利息額より大きくなければなりません"
 
 #: lending/loan_management/doctype/loan_repayment_schedule/utils.py:37
+#, fuzzy
 msgid "Monthly Repayment Amount must be greater than zero"
-msgstr ""
+msgstr "月々の返済額はゼロより大きくなければなりません"
 
 #. Option for the 'Repayment Schedule Type' (Select) field in DocType 'Loan
 #. Product'
@@ -4329,8 +4332,9 @@ msgstr "新しい最大限度額は利用済み限度額を下回ることはで
 #. Product'
 #: lending/loan_management/doctype/loan/loan.json
 #: lending/loan_management/doctype/loan_product/loan_product.json
+#, fuzzy
 msgid "No Interest Accrual Till Month End"
-msgstr ""
+msgstr "月末まで利息発生なし"
 
 #: lending/loan_management/doctype/loan/loan.py:1125
 msgid "No excess amount pending for refund"
@@ -4709,11 +4713,12 @@ msgid "Payable Charges"
 msgstr "支払い手数料"
 
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.py:131
+#, fuzzy
 msgid ""
 "Payable Charges can only be added for Charge Payment, or for Charges "
 "Waiver/Charges Capitalization/Principal Capitalization during Loan "
 "Restructure"
-msgstr ""
+msgstr "支払手数料は、手数料支払い、またはローン再構築時の手数料免除/手数料の元本組入/元本の元本組入の場合にのみ追加できます。"
 
 #. Label of the payable_principal_amount (Currency) field in DocType 'Loan
 #. Repayment'
@@ -5120,8 +5125,9 @@ msgstr "ヘアカット後金額"
 #. Label of the is_post_restructure_charge (Check) field in DocType 'Loan
 #. Restructure Charges'
 #: lending/loan_management/doctype/loan_restructure_charges/loan_restructure_charges.json
+#, fuzzy
 msgid "Post Restructure Charge (No Existing Demand)"
-msgstr ""
+msgstr "再構築後の手数料 (既存の請求なし)"
 
 #. Label of the posting_date (Date) field in DocType 'Days Past Due Log'
 #. Label of the posting_date (Date) field in DocType 'Loan'
@@ -5876,8 +5882,9 @@ msgstr "リスケジュール済み"
 #. Label of the restructure_charge_amount (Currency) field in DocType 'Loan
 #. Restructure Charges'
 #: lending/loan_management/doctype/loan_restructure_charges/loan_restructure_charges.json
+#, fuzzy
 msgid "Restructure Charge Amount (No Existing Demand)"
-msgstr ""
+msgstr "再構築手数料額 (既存の請求なし)"
 
 #. Label of the restructure_charges (Currency) field in DocType 'Loan
 #. Restructure'
@@ -6550,8 +6557,9 @@ msgstr "トレースバック"
 
 #. Label of the tranche_number (Int) field in DocType 'Loan Disbursement'
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
+#, fuzzy
 msgid "Tranche Number"
-msgstr ""
+msgstr "トランシェ番号"
 
 #: lending/loan_management/report/loan_statement_of_account/loan_statement_of_account.html:77
 #: lending/loan_management/report/loan_statement_of_account/loan_statement_of_account.py:37

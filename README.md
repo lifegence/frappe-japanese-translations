@@ -9,14 +9,14 @@ seed data, a backup mirror, and the source for local-bench deploys.
 
 | App | Type | Format | Source strings | Coverage | AI-fuzzy¹ |
 |-----|------|--------|---------------:|---------:|----------:|
-| `frappe` | Core | PO + Crowdin | 6,143 | 99.9% | 5,213 |
-| `erpnext` | Core | PO + Crowdin | 9,350 | 100% | 5,981 |
-| `hrms` | Core | PO + Crowdin | 2,216 | 100% | 1,982 |
+| `frappe` | Core | PO + Crowdin | 6,226 | 100% | 5,305 |
+| `erpnext` | Core | PO + Crowdin | 9,937 | 100% | 6,646 |
+| `hrms` | Core | PO + Crowdin | 2,239 | 100% | 2,006 |
 | `healthcare` (`frappe/health`) | Community | PO + Crowdin | 1,947 | 100% | 1,549 |
-| `lending` | Community | PO + Crowdin | 967 | 100% | 198 |
+| `lending` | Community | PO + Crowdin | 974 | 100% | 205 |
 | `posawesome` | Community | Legacy CSV² | — | — | — |
 
-Snapshot taken 2026-05-01 against the latest upstream POTs.
+Snapshot taken 2026-06-12 against the latest upstream POTs.
 Refresh with `scripts/translate-all.sh`.
 
 ¹ Entries flagged `#, fuzzy` are AI-suggested (Gemini 2.5 Flash) and require
@@ -63,12 +63,17 @@ remains the source of truth for that app alone.
 # 1. Update the upstream POT mirror (see "Upstream POT Mirror" below)
 for d in ~/work/frappe-i18n-upstream/*/; do git -C "$d" pull --quiet; done
 
-# 2. Rebuild PO from CSV + latest POT (preserves real translations, drops
-#    obsolete strings, applies glossary auto-fill)
-./scripts/csv-to-po.py --pot ~/work/frappe-i18n-upstream/frappe/frappe/locale/main.pot \
-                      --csv translations/frappe/ja.csv \
-                      --output translations/frappe/ja.po \
-                      --apply-glossary glossary/glossary.csv
+# 2. Merge the latest POT into the existing PO (preserves translations AND
+#    fuzzy flags, drops obsolete strings). Do NOT rebuild via csv-to-po.py —
+#    the CSV round-trip cannot carry fuzzy flags, so AI suggestions would be
+#    silently promoted to approved translations.
+for app in frappe erpnext hrms healthcare lending; do
+  src=$app; [ "$app" = healthcare ] && src=health
+  msgmerge --no-fuzzy-matching --backup=none --quiet --update \
+    translations/$app/ja.po \
+    ~/work/frappe-i18n-upstream/$src/$app/locale/main.pot
+  msgattrib --no-obsolete -o translations/$app/ja.po translations/$app/ja.po
+done
 
 # 3. AI-fill remaining empty msgstr (all 5 PO apps)
 export GEMINI_API_KEY=...                        # https://aistudio.google.com/apikey

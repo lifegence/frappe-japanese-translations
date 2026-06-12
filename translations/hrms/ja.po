@@ -381,10 +381,11 @@ msgid "<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>"
 msgstr "<table class='table table-bordered'><tr><th>{0}</th><th>{1}</th></tr>"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.js:101
+#, fuzzy
 msgid ""
 "A Job Requisition already exists for {0} requested by {1} for the same "
 "department.<br> Do you want to continue?"
-msgstr ""
+msgstr "{1}によって{0}のために同じ部門で求人申請が既に存在します。<br>続行しますか？"
 
 #: hrms/controllers/employee_reminders.py:123
 #: hrms/controllers/employee_reminders.py:216
@@ -908,8 +909,9 @@ msgstr "位置情報追跡を許可"
 
 #. Label of the applicable_after (Int) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
+#, fuzzy
 msgid "Allow Leave Application After (Calendar Days)"
-msgstr ""
+msgstr "休暇申請を許可する期間（暦日）"
 
 #. Label of the allow_multiple_shift_assignments (Check) field in DocType 'HR
 #. Settings'
@@ -1071,8 +1073,9 @@ msgid "Annual Allocation Exceeded"
 msgstr "年間割り当て超過"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:123
+#, fuzzy
 msgid "Annual CTC"
-msgstr ""
+msgstr "年間CTC"
 
 #: hrms/setup.py:410
 #, fuzzy
@@ -1549,8 +1552,9 @@ msgid "Assigning Structures..."
 msgstr "体系を割り当て中..."
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:108
+#, fuzzy
 msgid "Assignment Date: "
-msgstr ""
+msgstr "割り当て日: "
 
 #. Label of the from_date (Date) field in DocType 'Holiday List Assignment'
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.json
@@ -2168,8 +2172,9 @@ msgid "CTC"
 msgstr "CTC"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:62
+#, fuzzy
 msgid "CTC Missing for Employee"
-msgstr ""
+msgstr "従業員のCTCが不足しています"
 
 #. Label of the calculate_final_score_based_on_formula (Check) field in
 #. DocType
@@ -2332,10 +2337,11 @@ msgid "Cause of Grievance"
 msgstr "苦情の原因"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:194
+#, fuzzy
 msgid ""
 "Changed the Status for Other Half from {0} to {1} via Attendance Request as "
 "the status is Half Day"
-msgstr ""
+msgstr "ステータスが半日であるため、勤怠申請を介してもう一方の半日のステータスを{0}から{1}に変更しました"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:173
 #, fuzzy
@@ -2892,8 +2898,9 @@ msgid "Current Openings"
 msgstr "現在の募集"
 
 #: frontend/src/views/ChangePassword.vue:22
+#, fuzzy
 msgid "Current Password"
-msgstr ""
+msgstr "現在のパスワード"
 
 #. Label of the current_payroll_period (Link) field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
@@ -3639,8 +3646,9 @@ msgstr "従業員入社アクティビティ"
 #. Label of a Workspace Sidebar Item
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.json
 #: hrms/workspace_sidebar/payroll.json
+#, fuzzy
 msgid "Employee CTC Break-up"
-msgstr ""
+msgstr "従業員CTC内訳"
 
 #. Name of a DocType
 #. Label of a Link in the HR Setup Workspace
@@ -4468,9 +4476,10 @@ msgid "Enter yearly benefit amounts"
 msgstr "年間福利厚生金額を入力"
 
 #: frontend/src/views/ForgotPassword.vue:22
+#, fuzzy
 msgid ""
 "Enter your email address and we'll send you a link to reset your password."
-msgstr ""
+msgstr "メールアドレスを入力してください。パスワードをリセットするためのリンクを送信します。"
 
 #: frontend/src/components/FormField.vue:40
 #: frontend/src/components/FormField.vue:52
@@ -5002,8 +5011,9 @@ msgid "Failed to download PDF: {0}"
 msgstr "PDFのダウンロードに失敗しました: {0}"
 
 #: frontend/src/views/ForgotPassword.vue:83
+#, fuzzy
 msgid "Failed to send reset link"
-msgstr ""
+msgstr "リセットリンクの送信に失敗しました"
 
 #: hrms/hr/doctype/interview/interview.py:146
 #, fuzzy
@@ -5023,8 +5033,9 @@ msgid "Failed to submit some leave policy assignments:"
 msgstr "一部の休暇ポリシー割り当ての提出に失敗しました:"
 
 #: frontend/src/views/ChangePassword.vue:94
+#, fuzzy
 msgid "Failed to update password"
-msgstr ""
+msgstr "パスワードの更新に失敗しました"
 
 #: hrms/hr/doctype/interview/interview.py:239
 #, fuzzy
@@ -5329,8 +5340,9 @@ msgid "Formula"
 msgstr "数式"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:229
+#, fuzzy
 msgid "Formula/Amount"
-msgstr ""
+msgstr "数式/金額"
 
 #. Label of the fraction_of_applicable_earnings (Float) field in DocType
 #. 'Gratuity Rule Slab'
@@ -6379,8 +6391,9 @@ msgid "Income Tax Slab not set in Salary Structure Assignment: {0}"
 msgstr "給与体系割り当てに所得税スラブが設定されていません: {0}"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:107
+#, fuzzy
 msgid "Income Tax Slab: "
-msgstr ""
+msgstr "所得税率区分: "
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1959
 #, fuzzy
@@ -6675,16 +6688,18 @@ msgid "Invalid Shift Times"
 msgstr "無効なShift Times"
 
 #: hrms/api/roster.py:31
+#, fuzzy
 msgid "Invalid employee filter: {0}"
-msgstr ""
+msgstr "無効な従業員フィルター: {0}"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:879
 msgid "Invalid parameters provided. Please pass the required arguments."
 msgstr "無効なparameters provided. Please pass the required arguments"
 
 #: hrms/api/roster.py:40
+#, fuzzy
 msgid "Invalid shift filter: {0}"
-msgstr ""
+msgstr "無効なシフトフィルター: {0}"
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
@@ -7871,8 +7886,9 @@ msgid "Mandatory fields required for this action:"
 msgstr "このアクションには必須フィールドが必要です:"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.js:213
+#, fuzzy
 msgid "Mandatory fields required in {0}"
-msgstr ""
+msgstr "{0}に必須フィールドが必要です"
 
 #. Option for the 'KRA Evaluation Method' (Select) field in DocType 'Appraisal
 #. Cycle'
@@ -8169,9 +8185,10 @@ msgstr "退職金支給の最低勤続年数"
 #. Description of the 'Allow Leave Application After (Calendar Days)' (Int)
 #. field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
+#, fuzzy
 msgid ""
 "Minimum calendar days required since Date of Joining to apply for this leave"
-msgstr ""
+msgstr "この休暇を申請するには、入社日以降に最低暦日が必要です"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:90
 #, fuzzy
@@ -8204,8 +8221,9 @@ msgid "Missing Tax Slab"
 msgstr "税率区分がありません"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:313
+#, fuzzy
 msgid "Missing value for filters"
-msgstr ""
+msgstr "フィルターの値が不足しています"
 
 #. Label of the mode_of_travel (Select) field in DocType 'Travel Itinerary'
 #: hrms/hr/doctype/travel_itinerary/travel_itinerary.json
@@ -8380,8 +8398,9 @@ msgid "New Leaves Allocated (In Days)"
 msgstr "新規Leaves Allocated (In Days)"
 
 #: frontend/src/views/ChangePassword.vue:112
+#, fuzzy
 msgid "New passwords do not match"
-msgstr ""
+msgstr "新しいパスワードが一致しません"
 
 #. Description of the 'Create Shifts After' (Date) field in DocType 'Shift
 #. Schedule Assignment'
@@ -9298,8 +9317,9 @@ msgid "Password policy for Salary Slips is not set"
 msgstr "給与明細のパスワードポリシーが設定されていません"
 
 #: frontend/src/views/ForgotPassword.vue:74
+#, fuzzy
 msgid "Password reset link has been sent to your email."
-msgstr ""
+msgstr "パスワードリセットリンクがメールアドレスに送信されました。"
 
 #. Label of the pay_details_tab (Tab Break) field in DocType 'Job Opening'
 #. Label of the pay_details_section (Section Break) field in DocType 'Job
@@ -9623,8 +9643,9 @@ msgid "Percent Deduction"
 msgstr "控除率"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:252
+#, fuzzy
 msgid "Percent of CTC (%)"
-msgstr ""
+msgstr "CTCの割合 (%)"
 
 #. Label of a Desktop Icon
 #. Name of a Workspace
@@ -9697,20 +9718,23 @@ msgid ""
 msgstr "日次作業サマリーグループを作成する前に、デフォルトの入金勘定科目を有効にしてください"
 
 #: frontend/src/views/ForgotPassword.vue:109
+#, fuzzy
 msgid "Please enter a valid email address"
-msgstr ""
+msgstr "有効なメールアドレスを入力してください"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.js:97
 msgid "Please enter the designation"
 msgstr "the designationを入力してください"
 
 #: frontend/src/views/ForgotPassword.vue:104
+#, fuzzy
 msgid "Please enter your email address"
-msgstr ""
+msgstr "メールアドレスを入力してください"
 
 #: frontend/src/views/ChangePassword.vue:107
+#, fuzzy
 msgid "Please fill all fields"
-msgstr ""
+msgstr "すべてのフィールドを入力してください"
 
 #: hrms/hr/doctype/overtime_slip/overtime_slip.js:11
 #, fuzzy
@@ -9879,8 +9903,9 @@ msgid "Please set account in Salary Component {0}"
 msgstr "給与コンポーネント {0} で勘定科目を設定してください"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:54
+#, fuzzy
 msgid "Please set cost to company(CTC) for employee {0} in the {1}"
-msgstr ""
+msgstr "従業員{0}のCTCを{1}で設定してください"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:712
 #, fuzzy
@@ -9895,8 +9920,9 @@ msgid ""
 msgstr "HR設定で休暇ステータス通知のデフォルトテンプレートを設定してください。"
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.js:78
+#, fuzzy
 msgid "Please set employee's total cost to company to see CTC breakup."
-msgstr ""
+msgstr "CTCの内訳を見るには、従業員の総CTCを設定してください。"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:74
 #, fuzzy
@@ -9952,8 +9978,9 @@ msgid "Please set {0} for the Employee: {1}"
 msgstr "従業員: {1} の {0} を設定してください"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:312
+#, fuzzy
 msgid "Please set {0} to get CTC report"
-msgstr ""
+msgstr "CTCレポートを取得するには{0}を設定してください"
 
 #: hrms/hr/doctype/shift_type/shift_type.js:21
 #: hrms/hr/doctype/shift_type/shift_type.js:26
@@ -10665,8 +10692,9 @@ msgstr "遡及日休暇申請を制限"
 
 #. Label of a field in the job-application Web Form
 #: hrms/hr/web_form/job_application/job_application.json
+#, fuzzy
 msgid "Resume Attachment"
-msgstr ""
+msgstr "履歴書添付"
 
 #. Label of the resume_link (Data) field in DocType 'Employee Referral'
 #. Label of a field in the job-application Web Form
@@ -11225,8 +11253,9 @@ msgid "Salary Structure {0} does not belong to company {1}"
 msgstr "給与体系 {0} は会社 {1} に属していません"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:106
+#, fuzzy
 msgid "Salary Structure: "
-msgstr ""
+msgstr "給与体系: "
 
 #: hrms/payroll/doctype/salary_component/salary_component.js:150
 #, fuzzy
@@ -11343,8 +11372,9 @@ msgid "Search for Jobs"
 msgstr "求人を検索"
 
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.js:73
+#, fuzzy
 msgid "See CTC Break-up"
-msgstr ""
+msgstr "CTC内訳を表示"
 
 #: hrms/hr/doctype/overtime_type/overtime_type.py:40
 msgid "Select Applicable Components for Overtime Type"
@@ -11579,8 +11609,9 @@ msgid "Send Leave Notification"
 msgstr "休暇通知を送信"
 
 #: frontend/src/views/ForgotPassword.vue:45
+#, fuzzy
 msgid "Send Reset Link"
-msgstr ""
+msgstr "リセットリンクを送信"
 
 #. Label of the sender_copy (Link) field in DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
@@ -12946,8 +12977,9 @@ msgstr "Claimed Amount (Company Currency)合計"
 
 #. Label of the ctc (Currency) field in DocType 'Salary Structure Assignment'
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
+#, fuzzy
 msgid "Total Cost To Company (CTC)"
-msgstr ""
+msgstr "総CTC (CTC)"
 
 #. Label of the lwp_days (Float) field in DocType 'Payroll Correction'
 #: hrms/payroll/doctype/payroll_correction/payroll_correction.json
@@ -13627,10 +13659,11 @@ msgid "Update Tax"
 msgstr "税金の更新"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:200
+#, fuzzy
 msgid ""
 "Updated Status for Other Half from {0} to {1} for date {2} in the attendance"
 " record {3}"
-msgstr ""
+msgstr "勤怠記録{3}の{2}の日付について、もう一方の半日のステータスを{0}から{1}に更新しました"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:183
 #, fuzzy
@@ -14170,8 +14203,9 @@ msgid ""
 msgstr "面接セッションが {0} {1} - {2} から {3} {4} - {5} へ再スケジュールされました"
 
 #: frontend/src/views/ChangePassword.vue:85
+#, fuzzy
 msgid "Your password has been updated."
-msgstr ""
+msgstr "パスワードが更新されました。"
 
 #: frontend/src/views/Login.vue:22
 #, fuzzy
@@ -14356,8 +14390,9 @@ msgid ""
 msgstr "{0}には、これらの日付の一部またはすべてに対して、すでに有効なシフト割り当て{1}があります。"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:194
+#, fuzzy
 msgid "{0} applicable after {1} calendar days"
-msgstr ""
+msgstr "{1}暦日後に{0}が適用されます"
 
 #: frontend/src/components/LeaveBalance.vue:37
 #, fuzzy

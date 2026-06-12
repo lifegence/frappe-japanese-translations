@@ -393,6 +393,7 @@ msgstr ""
 #. Content of the 'Help HTML' (HTML) field in DocType 'Document Naming
 #. Settings'
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
+#, fuzzy
 msgid ""
 "<div class=\"well\">\n"
 "    Edit list of Series in the box. Rules:\n"
@@ -434,6 +435,45 @@ msgid ""
 "</div>\n"
 "<br>\n"
 msgstr ""
+"<div class=\"well\">\n"
+"    ボックス内でシリーズ(連番)のリストを編集します。ルール:\n"
+"    <ul>\n"
+"        <li>各シリーズのプレフィックスは1行に1つずつ記入します。</li>\n"
+"        <li>使用できる特殊文字は「/」と「-」です</li>\n"
+"        <li>\n"
+"            必要に応じて、ドット(.)に続けてハッシュ(#)を付けることで\n"
+"            シリーズの桁数を設定できます。例えば「.####」はシリーズが\n"
+"            4桁になることを意味します。デフォルトは5桁です。\n"
+"        </li>\n"
+"        <li>\n"
+"            シリーズ名には、ドット(.)で挟むことで変数を使用することも\n"
+"            できます\n"
+"            <br>\n"
+"            サポートされる変数:\n"
+"            <ul>\n"
+"                <li><code>.YYYY.</code> - 西暦4桁</li>\n"
+"                <li><code>.YY.</code> - 西暦2桁</li>\n"
+"                <li><code>.MM.</code> - 月</li>\n"
+"                <li><code>.DD.</code> - 日</li>\n"
+"                <li><code>.WW.</code> - 年内の週番号</li>\n"
+"                <li>\n"
+"                    <code>.{fieldname}.</code> - ドキュメントのフィールド名 例:\n"
+"                    <code>branch</code>\n"
+"                </li>\n"
+"                <li><code>.FY.</code> - 会計年度(ERPNextのインストールが必要)</li>\n"
+"                <li><code>.ABBR.</code> - 会社略称(ERPNextのインストールが必要)</li>\n"
+"            </ul>\n"
+"        </li>\n"
+"    </ul>\n"
+"    例:\n"
+"    <ul>\n"
+"        <li>INV-</li>\n"
+"        <li>INV-10-</li>\n"
+"        <li>INVK-</li>\n"
+"        <li>INV-.YYYY.-.{branch}.-.MM.-.####</li>\n"
+"    </ul>\n"
+"</div>\n"
+"<br>\n"
 
 #. Content of the 'Custom HTML Help' (HTML) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
@@ -748,6 +788,9 @@ msgid ""
 "<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
 "</code></pre>\n"
 msgstr ""
+"<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>\n"
+"<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
+"</code></pre>\n"
 
 #. Content of the 'html_condition' (HTML) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
@@ -756,14 +799,21 @@ msgid ""
 "<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
 "</pre>"
 msgstr ""
+"<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>\n"
+"<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n"
+"</pre>"
 
 #. Content of the 'Condition description' (HTML) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
+#, fuzzy
 msgid ""
 "<p>Multiple webforms can be created for a single doctype. Add filters specific to this webform to display correct record after submission.</p><p>For Example:</p>\n"
 "<p>If you create a separate webform every year to capture feedback from employees add a \n"
 " field named year in doctype and add a filter <b>year = 2023</b></p>\n"
 msgstr ""
+"<p>1つのDocTypeに対して複数のWebフォームを作成できます。送信後に正しいレコードを表示するため、このWebフォーム専用のフィルターを追加してください。</p><p>例:</p>\n"
+"<p>従業員からのフィードバックを収集するために毎年別のWebフォームを作成する場合は、DocTypeに\n"
+" year という名前のフィールドを追加し、フィルター <b>year = 2023</b> を追加します</p>\n"
 
 #. Description of the 'Context Script' (Code) field in DocType 'Web Page'
 #: frappe/website/doctype/web_page/web_page.json
@@ -1789,8 +1839,9 @@ msgid "Add section below"
 msgstr "下にセクションを追加"
 
 #: frappe/public/js/print_format_builder/SectionInsert.vue:6
+#, fuzzy
 msgid "Add section here"
-msgstr ""
+msgstr "ここにセクションを追加"
 
 #: frappe/public/js/form_builder/components/Sidebar.vue:49
 #: frappe/public/js/form_builder/components/Tabs.vue:157
@@ -2423,13 +2474,15 @@ msgstr "アプリケーション改善のための利用状況データ送信を
 #. Label of the allow_user_cancellation (Check) field in DocType 'Background
 #. Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Allow User Cancellation"
-msgstr ""
+msgstr "ユーザーによるキャンセルを許可"
 
 #. Label of the allow_user_retry (Check) field in DocType 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Allow User Retry"
-msgstr ""
+msgstr "ユーザーによる再試行を許可"
 
 #. Description of the 'Allow Self Approval' (Check) field in DocType 'Workflow
 #. Transition'
@@ -2589,8 +2642,9 @@ msgstr "許可済"
 #. Label of the allowed_doctypes_for_guest_uploads (Small Text) field in
 #. DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
+#, fuzzy
 msgid "Allowed Doctypes for Guest Uploads"
-msgstr ""
+msgstr "ゲストアップロードが許可されているDocType"
 
 #. Label of the allowed_file_extensions (Small Text) field in DocType 'System
 #. Settings'
@@ -3054,8 +3108,9 @@ msgid "App {0} is not installed"
 msgstr "アプリ{0}はインストールされていません"
 
 #: frappe/apps.py:95
+#, fuzzy
 msgid "App {} is not installed"
-msgstr ""
+msgstr "アプリ {} はインストールされていません"
 
 #. Label of the append_emails_to_sent_folder (Check) field in DocType 'Email
 #. Account'
@@ -3328,8 +3383,9 @@ msgid "Are you sure you want to relink this communication to {0}?"
 msgstr "このコミュニケーションを{0}に再リンクしてもよろしいですか？"
 
 #: frappe/core/doctype/communication/communication.js:166
+#, fuzzy
 msgid "Are you sure you want to relink this communication?"
-msgstr ""
+msgstr "このコミュニケーションを再リンクしてもよろしいですか？"
 
 #: frappe/core/doctype/rq_job/rq_job_list.js:10
 #, fuzzy
@@ -4107,8 +4163,9 @@ msgid "Automation"
 msgstr "自動化"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:319
+#, fuzzy
 msgid "Autoname: {0}"
-msgstr ""
+msgstr "自動命名: {0}"
 
 #. Option for the 'Chart Type' (Select) field in DocType 'Dashboard Chart'
 #. Option for the 'Group By Type' (Select) field in DocType 'Dashboard Chart'
@@ -4332,18 +4389,21 @@ msgstr "バックグラウンド印刷 (25件以上のドキュメントに必�
 #. Name of a DocType
 #: frappe/core/doctype/background_task/background_task.json
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:164
+#, fuzzy
 msgid "Background Task"
-msgstr ""
+msgstr "バックグラウンドタスク"
 
 #: frappe/core/doctype/background_task/background_task.py:169
 #: frappe/core/doctype/background_task/background_task.py:213
+#, fuzzy
 msgid "Background Task {0} not found"
-msgstr ""
+msgstr "バックグラウンドタスク {0} が見つかりません"
 
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:36
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:580
+#, fuzzy
 msgid "Background Tasks"
-msgstr ""
+msgstr "バックグラウンドタスク"
 
 #. Label of the background_workers (Section Break) field in DocType 'System
 #. Settings'
@@ -4721,10 +4781,13 @@ msgstr "ブランドロゴ"
 
 #. Description of the 'Brand HTML' (Code) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
+#, fuzzy
 msgid ""
 "Brand is what appears on the top-left of the toolbar. If it is an image, make sure it\n"
 "has a transparent background and use the &lt;img /&gt; tag. Keep size as 200px x 30px"
 msgstr ""
+"ブランドはツールバーの左上に表示されるものです。画像を使用する場合は、背景が透明であることを\n"
+"確認し、&lt;img /&gt; タグを使用してください。サイズは 200px x 30px にしてください"
 
 #. Label of the breadcrumbs (Code) field in DocType 'Web Form'
 #. Label of the breadcrumbs (Code) field in DocType 'Web Page'
@@ -5169,8 +5232,9 @@ msgid "Cancel Prepared Report"
 msgstr "Cancel Preparedレポート"
 
 #: frappe/core/doctype/background_task/background_task.js:49
+#, fuzzy
 msgid "Cancel Task"
-msgstr ""
+msgstr "タスクをキャンセル"
 
 #: frappe/public/js/frappe/list/list_view.js:2423
 #, fuzzy
@@ -5179,8 +5243,9 @@ msgid "Cancel {0} documents?"
 msgstr "{0} 件の文書をキャンセルしますか？"
 
 #: frappe/core/doctype/background_task/background_task.py:180
+#, fuzzy
 msgid "Cancellation is not allowed for this task"
-msgstr ""
+msgstr "このタスクのキャンセルは許可されていません"
 
 #. Option for the 'Status' (Select) field in DocType 'Background Task'
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
@@ -5299,8 +5364,9 @@ msgid "Cannot change to/from autoincrement autoname in Customize Form"
 msgstr "フォームのカスタマイズで自動インクリメントの自動命名への変更またはからの変更はできません"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.py:178
+#, fuzzy
 msgid "Cannot configure Core DocTypes for Global Search."
-msgstr ""
+msgstr "グローバル検索のためにコアDocTypeを設定することはできません。"
 
 #: frappe/core/doctype/communication/communication.py:171
 #, fuzzy
@@ -5969,8 +6035,9 @@ msgid "Clear all filters"
 msgstr "すべてのフィルターをクリア"
 
 #: frappe/public/js/frappe/ui/keyboard.js:281
+#, fuzzy
 msgid "Clear cache and reload"
-msgstr ""
+msgstr "キャッシュをクリアして再読み込み"
 
 #: frappe/public/js/frappe/views/communication.js:492
 #, fuzzy
@@ -6405,8 +6472,9 @@ msgid "Column Width"
 msgstr "列幅"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:76
+#, fuzzy
 msgid "Column position in print output"
-msgstr ""
+msgstr "印刷出力での列の位置"
 
 #: frappe/public/js/frappe/form/grid_row.js:660
 #, fuzzy
@@ -6728,8 +6796,9 @@ msgid "Condition Type"
 msgstr "条件種類"
 
 #: frappe/public/js/frappe/form/controls/multicheck.js:167
+#, fuzzy
 msgid "Condition based field"
-msgstr ""
+msgstr "条件に基づくフィールド"
 
 #. Label of the condition_description (HTML) field in DocType 'Web Form'
 #: frappe/website/doctype/web_form/web_form.json
@@ -6762,8 +6831,9 @@ msgstr "設定"
 #. Label of the configure (Button) field in DocType 'Global Search DocType'
 #: frappe/desk/doctype/global_search_doctype/global_search_doctype.json
 #: frappe/public/js/frappe/ui/toolbar/toolbar.js:327
+#, fuzzy
 msgid "Configure"
-msgstr ""
+msgstr "設定"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:566
 #, fuzzy
@@ -6803,12 +6873,14 @@ msgstr ""
 "デフォルトの命名では、修正済みドキュメントは新規ドキュメントと同じ動作になります。"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.js:12
+#, fuzzy
 msgid "Configure search fields"
-msgstr ""
+msgstr "検索フィールドを設定"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:62
+#, fuzzy
 msgid "Configure search settings"
-msgstr ""
+msgstr "検索設定を設定"
 
 #. Description of a DocType
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
@@ -8675,8 +8747,9 @@ msgid "Default {0}"
 msgstr "デフォルト {0}"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:81
+#, fuzzy
 msgid "Default — column at its natural position"
-msgstr ""
+msgstr "デフォルト — 列は本来の位置に配置されます"
 
 #. Description of the 'Heading' (Data) field in DocType 'Contact Us Settings'
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
@@ -9021,8 +9094,9 @@ msgid "Depends On"
 msgstr "依存元"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:316
+#, fuzzy
 msgid "Depends on: {0}"
-msgstr ""
+msgstr "依存: {0}"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:32
 #, fuzzy
@@ -9731,8 +9805,9 @@ msgid "DocType required"
 msgstr "DocType は必須"
 
 #: frappe/public/js/frappe/model/model.js:198
+#, fuzzy
 msgid "DocType updated. Reloading…"
-msgstr ""
+msgstr "DocTypeが更新されました。再読み込み中…"
 
 #: frappe/modules/utils.py:230
 #, fuzzy
@@ -9796,8 +9871,9 @@ msgid "Document Actions"
 msgstr "ドキュメントアクション"
 
 #: frappe/public/js/print_format_builder/PrintFormatControls.vue:97
+#, fuzzy
 msgid "Document Fields"
-msgstr ""
+msgstr "ドキュメントフィールド"
 
 #. Label of the document_follow_notifications_section (Section Break) field in
 #. DocType 'User'
@@ -9873,8 +9949,9 @@ msgid "Document Name"
 msgstr "Document名"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.py:136
+#, fuzzy
 msgid "Document Name (ID)"
-msgstr ""
+msgstr "ドキュメント名 (ID)"
 
 #: frappe/client.py:437
 #, fuzzy
@@ -10046,8 +10123,9 @@ msgstr "ドキュメントタイプは提出できません"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.py:128
 #: frappe/desk/doctype/global_search_settings/global_search_settings.py:176
+#, fuzzy
 msgid "Document Type is required"
-msgstr ""
+msgstr "ドキュメントタイプは必須です"
 
 #. Label of the document_type (Link) field in DocType 'Milestone Tracker'
 #: frappe/automation/doctype/milestone_tracker/milestone_tracker.json
@@ -10313,8 +10391,9 @@ msgid "Download Report"
 msgstr "Downloadレポート"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:894
+#, fuzzy
 msgid "Download Report as CSV"
-msgstr ""
+msgstr "レポートをCSVとしてダウンロード"
 
 #. Label of the download_template (Button) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -10380,8 +10459,9 @@ msgid "Drag to add state"
 msgstr "ドラッグして状態を追加"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:153
+#, fuzzy
 msgid "Drop fields here"
-msgstr ""
+msgstr "ここにフィールドをドロップ"
 
 #: frappe/public/js/frappe/file_uploader/FileUploader.vue:189
 #, fuzzy
@@ -10746,8 +10826,9 @@ msgid "Edit mode"
 msgstr "編集モード"
 
 #: frappe/public/js/frappe/form/grid.js:261
+#, fuzzy
 msgid "Edit row"
-msgstr ""
+msgstr "行を編集"
 
 #: frappe/public/js/form_builder/components/Field.vue:249
 #, fuzzy
@@ -10777,8 +10858,9 @@ msgid "Edit {0}"
 msgstr "{0}を編集"
 
 #: frappe/public/js/frappe/form/grid.js:265
+#, fuzzy
 msgid "Edit {0} rows"
-msgstr ""
+msgstr "{0} 行を編集"
 
 #. Label of the editable_grid (Check) field in DocType 'DocType'
 #. Label of the editable_grid (Check) field in DocType 'Customize Form'
@@ -11406,13 +11488,15 @@ msgstr "二要素認証を有効化"
 #. Description of the 'Allow Bulk Edit' (Check) field in DocType 'Customize
 #. Form'
 #: frappe/custom/doctype/customize_form/customize_form.json
+#, fuzzy
 msgid "Enable bulk edit for child table fields in Form view."
-msgstr ""
+msgstr "フォームビューで子テーブルフィールドの一括編集を有効にします。"
 
 #. Description of the 'Allow Bulk Edit' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
+#, fuzzy
 msgid "Enable bulk update of this field across child table rows."
-msgstr ""
+msgstr "子テーブルの行全体でこのフィールドの一括更新を有効にします。"
 
 #: frappe/printing/doctype/print_format_field_template/print_format_field_template.py:30
 msgid "Enable developer mode to create a standard Print Template"
@@ -11446,8 +11530,9 @@ msgstr "アプリ内ウェブサイト追跡を有効化"
 #. 'Customize Form Field'
 #: frappe/core/doctype/docfield/docfield.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#, fuzzy
 msgid "Enable this option to include the field in the data import template"
-msgstr ""
+msgstr "データインポートテンプレートにこのフィールドを含めるには、このオプションを有効にしてください"
 
 #. Label of the enabled (Check) field in DocType 'Language'
 #. Label of the enabled (Check) field in DocType 'User'
@@ -12072,8 +12157,9 @@ msgstr "実行中..."
 #. Label of the execution_details_section (Section Break) field in DocType
 #. 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Execution Details"
-msgstr ""
+msgstr "実行詳細"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2304
 #, fuzzy
@@ -14080,8 +14166,9 @@ msgstr "一般"
 
 #. Label of the generate_csv (Check) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
+#, fuzzy
 msgid "Generate CSV"
-msgstr ""
+msgstr "CSVを生成"
 
 #. Label of the generate_keys (Button) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -14636,8 +14723,9 @@ msgid "Grouped by <span style='font-weight:600;'>{0}</b>"
 msgstr "<span style='font-weight:600;'>{0}</b>でグループ化"
 
 #: frappe/handler.py:142
+#, fuzzy
 msgid "Guests are not allowed to upload files for {0} Doctype"
-msgstr ""
+msgstr "ゲストは {0} DocTypeのファイルをアップロードできません"
 
 #. Description of the 'Policy' (Data) field in DocType 'Security Settings'
 #: frappe/core/doctype/security_settings/security_settings.json
@@ -16229,20 +16317,24 @@ msgid "In seconds"
 msgstr "秒単位"
 
 #: frappe/public/js/frappe/form/save.js:226
+#, fuzzy
 msgid "In {0}, {1} is required in every row."
-msgstr ""
+msgstr "{0} では、すべての行で {1} が必須です。"
 
 #: frappe/public/js/frappe/form/save.js:232
+#, fuzzy
 msgid "In {0}, {1} is required in row {2}."
-msgstr ""
+msgstr "{0} では、{2} 行目で {1} が必須です。"
 
 #: frappe/public/js/frappe/form/save.js:241
+#, fuzzy
 msgid "In {0}, {1} is required in rows {2}."
-msgstr ""
+msgstr "{0} では、行 {2} で {1} が必須です。"
 
 #: frappe/public/js/frappe/form/save.js:248
+#, fuzzy
 msgid "In {0}, {1} is required in {2} rows."
-msgstr ""
+msgstr "{0} では、{2} 行で {1} が必須です。"
 
 #: frappe/core/doctype/recorder/recorder_list.js:209
 #, fuzzy
@@ -16312,8 +16404,9 @@ msgstr "非表示の列を含める"
 #. Field'
 #: frappe/core/doctype/docfield/docfield.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
+#, fuzzy
 msgid "Include in Import Template"
-msgstr ""
+msgstr "インポートテンプレートに含める"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1745
 #, fuzzy
@@ -16872,8 +16965,9 @@ msgid "Invalid Override"
 msgstr "無効な上書き"
 
 #: frappe/core/doctype/package_import/package_import.py:51
+#, fuzzy
 msgid "Invalid Package Name"
-msgstr ""
+msgstr "無効なパッケージ名"
 
 #: frappe/integrations/doctype/connected_app/connected_app.py:204
 msgid "Invalid Parameters."
@@ -16990,8 +17084,9 @@ msgid "Invalid expression in Workflow Update Value: {0}"
 msgstr "無効なexpression in Workflow Update Value: {0}"
 
 #: frappe/public/js/frappe/utils/dashboard_utils.js:223
+#, fuzzy
 msgid "Invalid expression set in filter {0}"
-msgstr ""
+msgstr "フィルター {0} に無効な式が設定されています"
 
 #: frappe/public/js/frappe/utils/dashboard_utils.js:234
 msgid "Invalid expression set in filter {0} ({1})"
@@ -17089,8 +17184,9 @@ msgid "Invalid or corrupted content for import"
 msgstr "無効なor corrupted content for import"
 
 #: frappe/core/api/user_invitation.py:132
+#, fuzzy
 msgid "Invalid or expired key"
-msgstr ""
+msgstr "無効または期限切れのキー"
 
 #: frappe/website/doctype/website_settings/website_settings.py:141
 msgid "Invalid redirect regex in row #{}: {}"
@@ -18060,8 +18156,9 @@ msgid "Label is mandatory"
 msgstr "ラベルは必須です"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:20
+#, fuzzy
 msgid "Labels left, values right"
-msgstr ""
+msgstr "ラベルは左、値は右"
 
 #. Label of the sb0 (Section Break) field in DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
@@ -18145,12 +18242,14 @@ msgid "Last Active"
 msgstr "最終アクティブ"
 
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:162
+#, fuzzy
 msgid "Last Edited By You"
-msgstr ""
+msgstr "最終編集者: あなた"
 
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:163
+#, fuzzy
 msgid "Last Edited By {0}"
-msgstr ""
+msgstr "最終編集者: {0}"
 
 #. Label of the last_execution (Datetime) field in DocType 'Scheduled Job
 #. Type'
@@ -19279,9 +19378,10 @@ msgid "Long Text"
 msgstr "長文テキスト"
 
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:201
+#, fuzzy
 msgid ""
 "Looks like there are no background tasks running or completed recently."
-msgstr ""
+msgstr "最近実行中または完了したバックグラウンドタスクはないようです。"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:317
 #, fuzzy
@@ -20558,8 +20658,9 @@ msgid "My Device"
 msgstr "マイデバイス"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:384
+#, fuzzy
 msgid "My Profile"
-msgstr ""
+msgstr "マイプロフィール"
 
 #. Label of a Desktop Icon
 #. Title of a Workspace Sidebar
@@ -20774,12 +20875,14 @@ msgid "Need Help?"
 msgstr "ヘルプが必要ですか？"
 
 #: frappe/desk/doctype/workspace/workspace.py:367
+#, fuzzy
 msgid "Need Workspace Manager role to edit private workspace of other users."
-msgstr ""
+msgstr "他のユーザーのプライベートワークスペースを編集するには、ワークスペースマネージャーのロールが必要です。"
 
 #: frappe/desk/doctype/workspace/workspace.py:364
+#, fuzzy
 msgid "Need Workspace Manager role to edit public workspaces."
-msgstr ""
+msgstr "パブリックワークスペースを編集するには、ワークスペースマネージャーのロールが必要です。"
 
 #: frappe/model/document.py:1089
 #, fuzzy
@@ -21452,8 +21555,9 @@ msgid "No automatic optimization suggestions available."
 msgstr "自動最適化の提案はありません。"
 
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:200
+#, fuzzy
 msgid "No background tasks"
-msgstr ""
+msgstr "バックグラウンドタスクなし"
 
 #: frappe/public/js/frappe/form/save.js:39
 #, fuzzy
@@ -21481,8 +21585,9 @@ msgid "No changes to update"
 msgstr "更新する変更はありません"
 
 #: frappe/public/js/print_format_builder/Field.vue:70
+#, fuzzy
 msgid "No columns configured"
-msgstr ""
+msgstr "列が設定されていません"
 
 #: frappe/templates/includes/comments/comments.html:4
 #, fuzzy
@@ -21528,8 +21633,9 @@ msgid "No documents found tagged with {0}"
 msgstr "{0}でタグ付けされたドキュメントは見つかりません"
 
 #: frappe/public/js/frappe/form/grid.js:1127
+#, fuzzy
 msgid "No editable fields available for bulk edit."
-msgstr ""
+msgstr "一括編集に利用できる編集可能なフィールドはありません。"
 
 #: frappe/public/js/frappe/views/inbox/inbox_view.js:21
 #, fuzzy
@@ -21630,8 +21736,9 @@ msgid "No of Sent SMS"
 msgstr "送信されたSMSの数"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:691
+#, fuzzy
 msgid "No other document types."
-msgstr ""
+msgstr "他のドキュメントタイプはありません。"
 
 #: frappe/__init__.py:621 frappe/client.py:136 frappe/client.py:178
 #, fuzzy
@@ -21655,8 +21762,9 @@ msgid "No permission to {0} {1} {2}"
 msgstr "{0} {1} {2}の権限がありません"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:679
+#, fuzzy
 msgid "No pinned document types."
-msgstr ""
+msgstr "ピン留めされたドキュメントタイプはありません。"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:175
 #, fuzzy
@@ -22259,8 +22367,9 @@ msgid "Number of backups must be greater than zero."
 msgstr "バックアップ数はゼロより大きい必要があります。"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:26
+#, fuzzy
 msgid "Number of columns"
-msgstr ""
+msgstr "列数"
 
 #. Description of the 'Columns' (Int) field in DocType 'Customize Form Field'
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
@@ -22510,8 +22619,9 @@ msgstr "最も古い未スケジュールジョブ"
 
 #. Label of the on_failure_callback (Data) field in DocType 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "On Failure Callback"
-msgstr ""
+msgstr "失敗時のコールバック"
 
 #. Option for the 'Status' (Select) field in DocType 'Personal Data Deletion
 #. Request'
@@ -22558,8 +22668,9 @@ msgstr "支払い完了時"
 
 #. Label of the on_success_callback (Data) field in DocType 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "On Success Callback"
-msgstr ""
+msgstr "成功時のコールバック"
 
 #. Description of the 'Is Dynamic URL?' (Check) field in DocType 'Webhook'
 #: frappe/integrations/doctype/webhook/webhook.json
@@ -22837,8 +22948,9 @@ msgid "Open Documents"
 msgstr "ドキュメントを開く"
 
 #: frappe/public/js/frappe/ui/keyboard.js:228
+#, fuzzy
 msgid "Open Global Search"
-msgstr ""
+msgstr "グローバル検索を開く"
 
 #: frappe/public/js/frappe/form/controls/data.js:84
 #: frappe/public/js/frappe/form/controls/link.js:20
@@ -23313,8 +23425,9 @@ msgid "Package Release"
 msgstr "パッケージリリース"
 
 #: frappe/core/doctype/package_import/package_import.py:67
+#, fuzzy
 msgid "Package contains disallowed path entry"
-msgstr ""
+msgstr "パッケージに許可されていないパスエントリが含まれています"
 
 #. Label of a Card Break in the Build Workspace
 #: frappe/core/workspace/build/build.json
@@ -23646,8 +23759,9 @@ msgid "Password cannot be filtered"
 msgstr "パスワードはフィルタリングできません"
 
 #: frappe/core/doctype/user/user.js:199
+#, fuzzy
 msgid "Password changed"
-msgstr ""
+msgstr "パスワードが変更されました"
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:362
 #, fuzzy
@@ -24116,8 +24230,9 @@ msgstr "円グラフ"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:661
 #: frappe/public/js/frappe/ui/toolbar/search.js:663
+#, fuzzy
 msgid "Pin"
-msgstr ""
+msgstr "ピン留め"
 
 #. Label of the pincode (Data) field in DocType 'Contact Us Settings'
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
@@ -24134,8 +24249,9 @@ msgid "Pink"
 msgstr "ピンク"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:671
+#, fuzzy
 msgid "Pinned"
-msgstr ""
+msgstr "ピン留め済み"
 
 #. Label of the placeholder (Data) field in DocType 'DocField'
 #. Label of the placeholder (Data) field in DocType 'Custom Field'
@@ -24423,8 +24539,9 @@ msgid "Please enter your old password."
 msgstr "your old passwordを入力してください"
 
 #: frappe/public/js/frappe/form/save.js:259
+#, fuzzy
 msgid "Please fill the following mandatory fields before saving:"
-msgstr ""
+msgstr "保存する前に、以下の必須フィールドを入力してください："
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:446
 #, fuzzy
@@ -24487,8 +24604,9 @@ msgid "Please select DocType first"
 msgstr "DocType firstを選択してください"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.js:113
+#, fuzzy
 msgid "Please select Document Type first."
-msgstr ""
+msgstr "まずドキュメントタイプを選択してください。"
 
 #: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.js:27
 msgid "Please select Entity Type first"
@@ -25444,11 +25562,13 @@ msgstr "保護されたファイル"
 #. Description of the 'Allowed Doctypes for Guest Uploads' (Small Text) field
 #. in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
+#, fuzzy
 msgid ""
 "Provide a list of allowed Doctypes for file uploads. Each line should "
 "contain one allowed Doctype. If unset, uploads to all doctypes are allowed. "
 "Example: <br>User<br>Item<br>Quotation"
 msgstr ""
+"ファイルアップロードが許可されているDocTypeのリストを提供してください。各行には1つの許可されたDocTypeを含める必要があります。設定されていない場合、すべてのDocTypeへのアップロードが許可されます。例：<br>User<br>Item<br>Quotation"
 
 #. Description of the 'Allowed File Extensions' (Small Text) field in DocType
 #. 'System Settings'
@@ -25633,8 +25753,9 @@ msgid "Push Notifications"
 msgstr "プッシュ通知"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:103
+#, fuzzy
 msgid "Push this column to the right edge in print"
-msgstr ""
+msgstr "この列を印刷時に右端に寄せる"
 
 #. Label of the push_to_google_calendar (Check) field in DocType 'Google
 #. Calendar'
@@ -27538,8 +27659,9 @@ msgstr "結果"
 #. Label of the results__errors_section (Section Break) field in DocType
 #. 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Results"
-msgstr ""
+msgstr "結果"
 
 #: frappe/email/doctype/email_queue/email_queue_list.js:27
 #, fuzzy
@@ -27560,12 +27682,14 @@ msgid "Retry Sending"
 msgstr "送信を再試行"
 
 #: frappe/core/doctype/background_task/background_task.js:12
+#, fuzzy
 msgid "Retry Task"
-msgstr ""
+msgstr "タスクを再試行"
 
 #: frappe/core/doctype/background_task/background_task.py:223
+#, fuzzy
 msgid "Retry is not allowed for this task"
-msgstr ""
+msgstr "このタスクの再試行は許可されていません"
 
 #: frappe/www/qrcode.html:15
 #, fuzzy
@@ -28043,8 +28167,9 @@ msgstr "チェックされている場合のみスケジュールされたジョ
 
 #. Option for the 'Status' (Select) field in DocType 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Running"
-msgstr ""
+msgstr "実行中"
 
 #: frappe/core/report/prepared_report_analytics/prepared_report_analytics.py:57
 #, fuzzy
@@ -28292,8 +28417,9 @@ msgid "Save Customizations"
 msgstr "カスタマイズを保存"
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:22
+#, fuzzy
 msgid "Save Print Format"
-msgstr ""
+msgstr "印刷フォーマットを保存"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:2120
 msgid "Save Report"
@@ -28640,8 +28766,9 @@ msgid "Search fields"
 msgstr "検索フィールド"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.js:45
+#, fuzzy
 msgid "Search fields updated."
-msgstr ""
+msgstr "検索フィールドが更新されました。"
 
 #: frappe/public/js/form_builder/components/AddFieldButton.vue:19
 #, fuzzy
@@ -30316,8 +30443,9 @@ msgstr "プロセスリストを表示"
 
 #. Label of the show_progress_bar (Check) field in DocType 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Show Progress Bar"
-msgstr ""
+msgstr "プログレスバーを表示"
 
 #. Label of the show_protected_resource_metadata (Check) field in DocType
 #. 'OAuth Settings'
@@ -30491,8 +30619,9 @@ msgid "Show in filter"
 msgstr "フィルターに表示"
 
 #: frappe/public/js/frappe/ui/keyboard.js:237
+#, fuzzy
 msgid "Show keyboard shortcuts"
-msgstr ""
+msgstr "キーボードショートカットを表示"
 
 #. Label of the show_document_link (Check) field in DocType 'Slack Webhook
 #. URL'
@@ -30508,8 +30637,9 @@ msgid "Show list"
 msgstr "リストを表示"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:977
+#, fuzzy
 msgid "Show more"
-msgstr ""
+msgstr "さらに表示"
 
 #: frappe/public/js/frappe/form/layout.js:286
 #: frappe/public/js/frappe/form/layout.js:301
@@ -31132,10 +31262,11 @@ msgid "Special Characters are not allowed"
 msgstr "特殊文字は許可されていません"
 
 #: frappe/model/naming.py:66
+#, fuzzy
 msgid ""
 "Special Characters except '-', '#', '.', '/', '{{' and '}}' not allowed in "
 "naming series {0}"
-msgstr ""
+msgstr "命名シリーズ {0} では、「-」「#」「.」「/」「{{」「}}」以外の特殊文字は使用できません"
 
 #. Description of the 'Timeout (In Seconds)' (Int) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
@@ -31186,8 +31317,9 @@ msgstr "スタックトレース"
 
 #. Label of the stage (Data) field in DocType 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Stage"
-msgstr ""
+msgstr "ステージ"
 
 #. Label of the standard (Select) field in DocType 'Page'
 #. Label of the standard (Check) field in DocType 'Desktop Icon'
@@ -31269,8 +31401,9 @@ msgid ""
 msgstr "標準ウェブフォームは変更できません。代わりにウェブフォームを複製してください。"
 
 #: frappe/core/doctype/report/report.py:433
+#, fuzzy
 msgid "Standard reports can only be created in developer mode."
-msgstr ""
+msgstr "標準レポートは開発者モードでのみ作成できます。"
 
 #: frappe/website/doctype/web_page/web_page.js:94
 #, fuzzy
@@ -31513,8 +31646,9 @@ msgstr "ステータスが更新されました。メールは次回のスケジ
 #. Label of the status_and_progress_section (Section Break) field in DocType
 #. 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Status and Progress"
-msgstr ""
+msgstr "ステータスと進捗"
 
 #: frappe/www/message.html:24
 #, fuzzy
@@ -32030,8 +32164,9 @@ msgid "Switch To Desk"
 msgstr "デスクに切り替え"
 
 #: frappe/public/js/frappe/desk.js:98
+#, fuzzy
 msgid "Switch theme"
-msgstr ""
+msgstr "テーマを切り替える"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:121
 #, fuzzy
@@ -32543,25 +32678,30 @@ msgstr "タスク"
 
 #. Label of the task_id (Data) field in DocType 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Task ID"
-msgstr ""
+msgstr "タスクID"
 
 #. Label of the task_name (Data) field in DocType 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
+#, fuzzy
 msgid "Task Name"
-msgstr ""
+msgstr "タスク名"
 
 #: frappe/core/doctype/background_task/background_task.js:41
+#, fuzzy
 msgid "Task Progress"
-msgstr ""
+msgstr "タスクの進捗"
 
 #: frappe/core/doctype/background_task/background_task.py:226
+#, fuzzy
 msgid "Task can only be retried if failed or cancelled"
-msgstr ""
+msgstr "タスクは失敗またはキャンセルされた場合にのみ再試行できます"
 
 #: frappe/core/doctype/background_task/background_task.py:183
+#, fuzzy
 msgid "Task is not queued or running"
-msgstr ""
+msgstr "タスクはキューに入っていないか、実行されていません"
 
 #. Label of the tasks (Table) field in DocType 'Workflow Transition Tasks'
 #: frappe/workflow/doctype/workflow_transition_tasks/workflow_transition_tasks.json
@@ -33354,10 +33494,11 @@ msgid "This Currency is disabled. Enable to use in transactions"
 msgstr "この通貨は無効です。トランザクションで使用するには有効にしてください。"
 
 #: frappe/public/js/frappe/model/model.js:190
+#, fuzzy
 msgid ""
 "This DocType has been updated. Save or discard your changes, then reload the"
 " page to see the latest version."
-msgstr ""
+msgstr "このDocTypeは更新されました。変更を保存または破棄してから、ページを再読み込みして最新バージョンを確認してください。"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:428
 #, fuzzy
@@ -34200,8 +34341,9 @@ msgid "Toggle Chart"
 msgstr "チャートの切り替え"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:413
+#, fuzzy
 msgid "Toggle Full Width"
-msgstr ""
+msgstr "全幅表示を切り替える"
 
 #: frappe/public/js/frappe/views/file/file_view.js:33
 #, fuzzy
@@ -34215,8 +34357,9 @@ msgid "Toggle Sidebar"
 msgstr "サイドバーの切り替え"
 
 #: frappe/public/js/print_format_builder/PrintFormatSection.vue:40
+#, fuzzy
 msgid "Toggle label orientation (Left→Right)"
-msgstr ""
+msgstr "ラベルの向きを切り替える (左→右)"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:321
 #, fuzzy
@@ -34403,8 +34546,9 @@ msgid "Total Working Time"
 msgstr "Working Time合計"
 
 #: frappe/public/js/print_format_builder/ConfigureColumns.vue:26
+#, fuzzy
 msgid "Total exceeds 100%. Columns in red will be removed on save."
-msgstr ""
+msgstr "合計が100%を超えています。赤色の列は保存時に削除されます。"
 
 #. Description of the 'Initial Sync Count' (Select) field in DocType 'Email
 #. Account'
@@ -34413,8 +34557,9 @@ msgid "Total number of emails to sync in initial sync process"
 msgstr "number of emails to sync in initial sync process合計"
 
 #: frappe/public/js/print_format_builder/ConfigureColumns.vue:6
+#, fuzzy
 msgid "Total width used"
-msgstr ""
+msgstr "使用されている合計幅"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:1349
 msgid "Totals"
@@ -34642,8 +34787,9 @@ msgid ""
 msgstr "\"before_insert\"、\"after_update\"などの有効なメソッドでトリガーします（選択されたDocTypeによって異なります）"
 
 #: frappe/public/js/frappe/ui/keyboard.js:210
+#, fuzzy
 msgid "Trigger primary action"
-msgstr ""
+msgstr "プライマリアクションをトリガー"
 
 #: frappe/custom/doctype/customize_form/customize_form.js:153
 #, fuzzy
@@ -35088,8 +35234,9 @@ msgstr "参照ドキュメントのロックを解除"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:657
 #: frappe/public/js/frappe/ui/toolbar/search.js:659
+#, fuzzy
 msgid "Unpin"
-msgstr ""
+msgstr "ピン留め解除"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:639
 #: frappe/website/doctype/web_form/web_form.js:87
@@ -35296,8 +35443,9 @@ msgid "Update {0} records"
 msgstr "{0}件のレコードを更新"
 
 #: frappe/public/js/frappe/form/grid.js:1207
+#, fuzzy
 msgid "Update {0} rows"
-msgstr ""
+msgstr "{0} 行を更新"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #. Option for the 'Status' (Select) field in DocType 'Permission Log'
@@ -35323,8 +35471,9 @@ msgid "Updated successfully"
 msgstr "更新に成功しました"
 
 #: frappe/public/js/frappe/form/grid.js:1200
+#, fuzzy
 msgid "Updated {0} selected {1}. Save the form to keep changes."
-msgstr ""
+msgstr "選択された {1} の {0} が更新されました。変更を保持するにはフォームを保存してください。"
 
 #: frappe/utils/response.py:350
 msgid "Updating"
@@ -35365,8 +35514,9 @@ msgid "Updating related fields..."
 msgstr "関連フィールドを更新中..."
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.js:38
+#, fuzzy
 msgid "Updating search index"
-msgstr ""
+msgstr "検索インデックスを更新中"
 
 #: frappe/desk/doctype/bulk_update/bulk_update.py:131
 #, fuzzy
@@ -35512,8 +35662,9 @@ msgid "Use a few words, avoid common phrases."
 msgstr "いくつかの単語を使用し、一般的なフレーズは避けてください。"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:134
+#, fuzzy
 msgid "Use ampersand to match multiple terms"
-msgstr ""
+msgstr "複数の用語を一致させるにはアンパサンドを使用してください"
 
 #. Label of the login_id_is_different (Check) field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -36343,8 +36494,9 @@ msgid "View All"
 msgstr "すべて表示"
 
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:215
+#, fuzzy
 msgid "View All Tasks"
-msgstr ""
+msgstr "すべてのタスクを表示"
 
 #: frappe/public/js/frappe/form/toolbar.js:616
 #, fuzzy
@@ -36363,8 +36515,9 @@ msgid "View Doctype Permissions"
 msgstr "DocType権限を表示"
 
 #: frappe/public/js/frappe/form/info_card.js:48
+#, fuzzy
 msgid "View Documentation"
-msgstr ""
+msgstr "ドキュメントを表示"
 
 #: frappe/core/doctype/file/file.js:4
 #, fuzzy
@@ -36536,8 +36689,9 @@ msgid "Visitor ID"
 msgstr "訪問者ID"
 
 #: frappe/core/doctype/background_task/background_task.js:33
+#, fuzzy
 msgid "Waiting for a worker to pick up this task..."
-msgstr ""
+msgstr "ワーカーがこのタスクをピックアップするのを待っています..."
 
 #: frappe/templates/discussions/reply_section.html:39
 #, fuzzy
@@ -37149,12 +37303,14 @@ msgid "Width"
 msgstr "幅"
 
 #: frappe/public/js/print_format_builder/ConfigureColumns.vue:32
+#, fuzzy
 msgid "Width %"
-msgstr ""
+msgstr "幅 %"
 
 #: frappe/public/js/frappe/list/list_settings.js:185
+#, fuzzy
 msgid "Width (px)"
-msgstr ""
+msgstr "幅 (px)"
 
 #: frappe/printing/page/print_format_builder_classic/print_format_builder_column_selector.html:2
 #, fuzzy
@@ -37848,8 +38004,9 @@ msgid "You can also copy-paste this {0} to your browser"
 msgstr "この {0} をブラウザにコピー＆ペーストすることもできます"
 
 #: frappe/public/js/frappe/list/list_settings.js:188
+#, fuzzy
 msgid "You can also drag column borders directly in the list view to resize"
-msgstr ""
+msgstr "リストビューで列の境界線を直接ドラッグしてサイズを変更することもできます"
 
 #: frappe/templates/emails/user_invitation_expired.html:8
 #, fuzzy
@@ -37883,12 +38040,14 @@ msgid "You can manually remove the lock if you think it's safe: {}"
 msgstr "安全だと判断した場合は、手動でロックを解除できます：{}"
 
 #: frappe/website/doctype/discussion_topic/discussion_topic.py:39
+#, fuzzy
 msgid "You can only edit your own replies."
-msgstr ""
+msgstr "自分の返信のみ編集できます。"
 
 #: frappe/desk/form/document_follow.py:65
+#, fuzzy
 msgid "You can only follow documents for yourself."
-msgstr ""
+msgstr "自分のドキュメントのみフォローできます。"
 
 #: frappe/public/js/frappe/form/controls/markdown_editor.js:75
 #, fuzzy
@@ -37901,8 +38060,9 @@ msgid "You can only print upto {0} documents at a time"
 msgstr "一度に最大 {0} 件のドキュメントしか印刷できません"
 
 #: frappe/desk/form/document_follow.py:84
+#, fuzzy
 msgid "You can only unfollow documents for yourself."
-msgstr ""
+msgstr "自分のドキュメントのみフォロー解除できます。"
 
 #: frappe/handler.py:217
 #, fuzzy
@@ -38049,8 +38209,9 @@ msgid "You do not have permission to access field: {0}"
 msgstr "フィールド {0} にアクセスする権限がありません"
 
 #: frappe/core/doctype/file/file.py:235
+#, fuzzy
 msgid "You do not have permission to access this file"
-msgstr ""
+msgstr "このファイルにアクセスする権限がありません"
 
 #: frappe/desk/query_report.py:1113
 #, fuzzy
@@ -38058,12 +38219,14 @@ msgid "You do not have permission to access {0}: {1}."
 msgstr "{0}: {1} にアクセスする権限がありません。"
 
 #: frappe/core/doctype/deleted_document/deleted_document.py:54
+#, fuzzy
 msgid "You do not have permission to create or restore documents of type {0}."
-msgstr ""
+msgstr "{0}タイプのドキュメントを作成または復元する権限がありません。"
 
 #: frappe/core/doctype/deleted_document/deleted_document.py:59
+#, fuzzy
 msgid "You do not have permission to restore this document."
-msgstr ""
+msgstr "このドキュメントを復元する権限がありません。"
 
 #: frappe/public/js/frappe/form/form.js:1001
 #, fuzzy
@@ -38086,12 +38249,14 @@ msgid "You don't have permission to access this file"
 msgstr "このファイルにアクセスする権限がありません"
 
 #: frappe/desk/reportview.py:338
+#, fuzzy
 msgid "You don't have permission to create Report records."
-msgstr ""
+msgstr "レポートレコードを作成する権限がありません。"
 
 #: frappe/desk/reportview.py:341
+#, fuzzy
 msgid "You don't have permission to create report for {0}"
-msgstr ""
+msgstr "{0}のレポートを作成する権限がありません"
 
 #: frappe/desk/query_report.py:52
 #, fuzzy
@@ -38099,8 +38264,9 @@ msgid "You don't have permission to get a report on: {0}"
 msgstr "{0} のレポートを取得する権限がありません"
 
 #: frappe/utils/file_manager.py:411
+#, fuzzy
 msgid "You don't have permission to read/attach the file {0}."
-msgstr ""
+msgstr "ファイル{0}を読み取り/添付する権限がありません。"
 
 #: frappe/website/doctype/web_form/web_form.py:196
 #, fuzzy
@@ -38269,8 +38435,9 @@ msgid "You need write permission on {0} {1} to rename"
 msgstr "名前を変更するには、{0} {1}に対する書き込み権限が必要です。"
 
 #: frappe/utils/file_manager.py:402
+#, fuzzy
 msgid "You need write permissions to add attachments to this record."
-msgstr ""
+msgstr "このレコードに添付ファイルを追加するには、書き込み権限が必要です。"
 
 #: frappe/client.py:518
 #, fuzzy
@@ -38524,8 +38691,9 @@ msgid "`as_iterator` only works with `as_list=True` or `as_dict=True`"
 msgstr "`as_iterator`は`as_list=True`または`as_dict=True`の場合にのみ機能します。"
 
 #: frappe/custom/doctype/property_setter/property_setter.py:156
+#, fuzzy
 msgid "`doctype` and `fieldname` are required for deleting property setters."
-msgstr ""
+msgstr "プロパティセッターを削除するには、`doctype`と`fieldname`が必要です。"
 
 #: frappe/utils/background_jobs.py:122
 #, fuzzy
@@ -38550,8 +38718,9 @@ msgid "and"
 msgstr "および"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:858
+#, fuzzy
 msgid "and {0} more"
-msgstr ""
+msgstr "その他{0}件"
 
 #: frappe/public/js/frappe/ui/sort_selector.html:5
 #: frappe/public/js/frappe/ui/sort_selector.js:48
@@ -38698,8 +38867,9 @@ msgid "descending"
 msgstr "降順"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:134
+#, fuzzy
 msgid "e.g."
-msgstr ""
+msgstr "例:"
 
 #. Description of the 'Email Account Name' (Data) field in DocType 'Email
 #. Account'
@@ -38803,8 +38973,9 @@ msgid "finished"
 msgstr "完了"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:1118
+#, fuzzy
 msgid "found"
-msgstr ""
+msgstr "見つかりました"
 
 #. Option for the 'Background Color' (Select) field in DocType 'Desktop Icon'
 #. Option for the 'Indicator Color' (Select) field in DocType 'Workspace'
@@ -39115,22 +39286,26 @@ msgstr "{0}を{1}として復元しました"
 #: frappe/public/js/frappe/ui/toolbar/search.js:951
 #: frappe/public/js/frappe/ui/toolbar/search.js:1097
 #: frappe/public/js/frappe/ui/toolbar/search.js:1116
+#, fuzzy
 msgid "result"
-msgstr ""
+msgstr "結果"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:951
 #: frappe/public/js/frappe/ui/toolbar/search.js:1097
 #: frappe/public/js/frappe/ui/toolbar/search.js:1116
+#, fuzzy
 msgid "results"
-msgstr ""
+msgstr "結果"
 
 #: frappe/public/js/frappe/form/grid.js:1198
+#, fuzzy
 msgid "row"
-msgstr ""
+msgstr "行"
 
 #: frappe/public/js/frappe/form/grid.js:1198
+#, fuzzy
 msgid "rows"
-msgstr ""
+msgstr "行"
 
 #: frappe/public/js/frappe/form/controls/duration.js:222
 #: frappe/public/js/frappe/utils/utils.js:1238
@@ -39259,12 +39434,14 @@ msgid "to navigate"
 msgstr "移動する"
 
 #: frappe/public/js/frappe/ui/toolbar/search.js:138
+#, fuzzy
 msgid "to open Awesome Bar"
-msgstr ""
+msgstr "Awesome Barを開く"
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:57
+#, fuzzy
 msgid "to open Global Search"
-msgstr ""
+msgstr "グローバル検索を開く"
 
 #: frappe/public/js/frappe/ui/toolbar/awesome_bar.js:49
 #, fuzzy
@@ -39603,8 +39780,9 @@ msgid "{0} can not be more than {1}"
 msgstr "{0} は {1} より大きくすることはできません"
 
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:170
+#, fuzzy
 msgid "{0} cancelled"
-msgstr ""
+msgstr "{0}がキャンセルされました"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:77
 #, fuzzy
@@ -39656,8 +39834,9 @@ msgid "{0} changed {1} to {2}"
 msgstr "{0} が {1} を {2} に変更しました"
 
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:168
+#, fuzzy
 msgid "{0} completed"
-msgstr ""
+msgstr "{0}が完了しました"
 
 #: frappe/core/doctype/doctype/doctype.py:1693
 #, fuzzy
@@ -39714,8 +39893,9 @@ msgid "{0} equals {1}"
 msgstr "{0} は {1} と等しい"
 
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:169
+#, fuzzy
 msgid "{0} failed"
-msgstr ""
+msgstr "{0}が失敗しました"
 
 #: frappe/database/mariadb/schema.py:172
 #: frappe/database/postgres/schema.py:258
@@ -40027,8 +40207,9 @@ msgid "{0} is required"
 msgstr "{0}は必須です"
 
 #: frappe/public/js/frappe/form/save.js:199
+#, fuzzy
 msgid "{0} is required."
-msgstr ""
+msgstr "{0}は必須です。"
 
 #: frappe/public/js/frappe/form/controls/link.js:727
 #: frappe/public/js/frappe/views/reports/report_view.js:1589
@@ -40177,8 +40358,9 @@ msgid "{0} or {1}"
 msgstr "{0} または {1}"
 
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:166
+#, fuzzy
 msgid "{0} queued"
-msgstr ""
+msgstr "{0}がキューに追加されました"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:177
 #, fuzzy
@@ -40247,8 +40429,9 @@ msgid "{0} row #{1}:"
 msgstr "{0} 行 #{1}:"
 
 #: frappe/public/js/frappe/form/grid.js:289
+#, fuzzy
 msgid "{0} row(s) selected"
-msgstr ""
+msgstr "{0}行が選択されました"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:304
 #, fuzzy
@@ -40298,8 +40481,9 @@ msgid "{0} should not be same as {1}"
 msgstr "{0} は {1} と同じであってはなりません"
 
 #: frappe/public/js/frappe/ui/background_tasks/background_tasks.js:167
+#, fuzzy
 msgid "{0} started"
-msgstr ""
+msgstr "{0}が開始されました"
 
 #: frappe/public/js/frappe/form/footer/version_timeline_content_builder.js:51
 #, fuzzy
@@ -40662,8 +40846,9 @@ msgid "{} Complete"
 msgstr "{} 完了"
 
 #: frappe/utils/data.py:2717
+#, fuzzy
 msgid "{} Invalid python code on line {}"
-msgstr ""
+msgstr "{} のPythonコードが {} 行目で無効です"
 
 #: frappe/utils/data.py:2726
 #, fuzzy

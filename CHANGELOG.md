@@ -4,6 +4,19 @@ All notable changes to this project are recorded here.
 
 ## [Unreleased]
 
+### Changed (2026-06-12 upstream refresh)
+- Refreshed `ja.po` for all five Crowdin-managed apps against the upstream
+  POTs as of 2026-06-12 via `msgmerge --no-fuzzy-matching` (preserves
+  existing translations and fuzzy flags, drops 253 obsolete strings).
+  New strings translated: frappe 136, erpnext 785, hrms 35, lending 8
+  (healthcare unchanged). AI-filled entries are flagged `#, fuzzy`; nine
+  complex multi-line HTML/Jinja entries were translated manually.
+- Regenerated the deployable `ja.csv` for the same apps via
+  `scripts/sync-csv.sh`. Coverage is now 100 % across all five PO apps.
+- README refresh procedure now uses `msgmerge` instead of `csv-to-po.py`:
+  the CSV round-trip cannot carry fuzzy flags, so rebuilding PO from CSV
+  would silently promote AI suggestions to approved translations.
+
 ### Added
 - **PO-format translation files** (`translations/{app}/ja.po`) for the five
   Crowdin-managed apps: `frappe`, `erpnext`, `hrms`, `healthcare`, `lending`.
