@@ -84,7 +84,7 @@ Ordered Qty,発注数量
 "Page {0} of {1}",{1} ページ中 {0} ページ
 Party Type,取引先種別
 Pending,保留中
-Picked Qty,ピッキング済数量
+Picked Qty,ピッキング数量
 Posting Date,記帳日
 Posting Time,記帳時刻
 Press Enter to save,Enter キーを押して保存
