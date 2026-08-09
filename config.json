@@ -9,8 +9,10 @@
       "repo": "https://github.com/frappe/frappe",
       "pot_path": "frappe/locale/main.pot",
       "versions": {
+        "version-15": "version-15",
         "version-16": "version-16"
-      }
+      },
+      "notes": "version-15 ships Japanese as legacy CSV (translations/ja.csv), not PO. Build its set with scripts/build-version-15.py."
     },
     "erpnext": {
       "type": "core",
@@ -19,8 +21,10 @@
       "repo": "https://github.com/frappe/erpnext",
       "pot_path": "erpnext/locale/main.pot",
       "versions": {
+        "version-15": "version-15",
         "version-16": "version-16"
-      }
+      },
+      "notes": "version-15 has no locale/ directory; Japanese is legacy CSV only. Build its set with scripts/build-version-15.py."
     },
     "hrms": {
       "type": "core",
