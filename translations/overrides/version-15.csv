@@ -1,0 +1,149 @@
+Account,勘定科目
+Actual End Date,実績終了日
+Actual Start Date,実績開始日
+Add Row,行を追加
+All these items have already been Invoiced/Returned,これらの品目はすべて請求済みまたは返品済みです
+Allotted Qty,割当数量
+Allow Alternative Item,代替品目を許可
+Amount,金額
+Available,利用可能
+Available Qty,利用可能数量
+Based On,基準
+Billed,請求済
+Billed Amt,請求済金額
+Billing Status,請求ステータス
+Buying,購買
+Cancelled,取消済
+Category,カテゴリ
+Charts Based On,グラフの基準
+Closed,クローズ済
+Compact Item Print,品目のコンパクト印刷
+Consumed Qty,消費数量
+Create Sales Order,受注を作成
+Created By,作成者
+Created On,作成日時
+Current Valuation Rate,現在の評価単価
+Debit To,借方勘定
+Default Finished Goods Warehouse,既定の完成品倉庫
+Default Source Warehouse,既定の出庫倉庫
+Default Target Warehouse,既定の入庫倉庫
+Default Work In Progress Warehouse,既定の仕掛品倉庫
+Delivery Date,納品日
+Equals,等しい
+Expected Delivery Date,納品予定日
+Finance Book,会計帳簿
+For User,対象ユーザー
+From Currency,換算元通貨
+From Posting Date,記帳日（開始）
+Get Items From,品目の取得元
+Grand Total,総計
+Grand Total (Company Currency),総計（会社通貨）
+Id,ID
+Include Default FB Entries,既定の会計帳簿の仕訳を含める
+Invalid Filter Value,無効なフィルタ値
+Invalid Quantity,数量が不正です
+Invoice,請求書
+Invoice Date,請求日
+Invoice Number,請求書番号
+Is Active,有効
+Is Billing Contact,請求先の連絡先
+Is Default,既定
+Is Your Company Address,自社の住所
+Item,品目
+Item 1,品目1
+Item 2,品目2
+Item 3,品目3
+Item 4,品目4
+Item 5,品目5
+Item Code,品目コード
+Item Description,品目説明
+Item Group,品目グループ
+Item Groups,品目グループ
+Item Label,品目ラベル
+Item Name,品目名
+Item To Manufacture,製造品目
+Item Type,品目種別
+Last Purchase Rate,最終仕入単価
+Lead Time (in mins),リードタイム（分）
+Line,行
+Material Transfer,資材移動
+Material Transferred,移動済資材
+Medium,中
+Method,方式
+Naming Series,命名シリーズ
+Net Total (Company Currency),正味合計（会社通貨）
+New BOM,新規部品表
+Next,次へ
+Non stock items,非在庫品目
+Note,メモ
+Notification,通知
+Open,未処理
+Order By,並び順
+Ordered,発注済
+Ordered Qty,発注数量
+"Page {0} of {1}",{1} ページ中 {0} ページ
+Party Type,取引先種別
+Pending,保留中
+Picked Qty,ピッキング済数量
+Posting Date,記帳日
+Posting Time,記帳時刻
+Press Enter to save,Enter キーを押して保存
+Print,印刷
+Print UOM after Quantity,数量の後に単位を印刷
+Print taxes with zero amount,金額がゼロの税を印刷
+Processing,処理中
+Produced,製造済
+Production Item,製造品目
+Purchase Receipt,購買受領
+Purchasing,購買
+Qty To Manufacture,製造数量
+Quantity Difference,数量差異
+Queued,キュー待ち
+Rate,単価
+Receipt,受領
+Received,受領済
+Reference,参照
+Reqd by date,必要日
+Request Type,要求区分
+Required By,必要日
+Required Date,必要日
+Roles,ロール
+Sales Invoice,売上請求
+Sales Order Item,受注品目
+Sales Orders,受注
+Search Sub Assemblies,中間組立品を検索
+Select Target Warehouse,入庫倉庫を選択
+Set Target Warehouse,入庫倉庫を設定
+Shipping Address Name,出荷先住所名
+Show Stock Ageing Data,在庫エージングデータを表示
+Show Variant Attributes,バリアント属性を表示
+Show unclosed fiscal year's P&L balances,未締めの会計年度の損益残高を表示
+Source Type,参照元種別
+Source Warehouse,出庫倉庫
+Stock Entry,在庫エントリ
+Stock Ledger Entry,在庫元帳エントリ
+Stock Qty,在庫数量
+Stock Reconciliation,在庫調整
+Stock Value,在庫金額
+Supplier,仕入先
+Supplier Name,仕入先名
+Tag,タグ
+Target Warehouse,入庫倉庫
+Tax Category,税カテゴリ
+Terms,条件
+To,宛先
+To Date,終了日
+To Posting Date,記帳日（終了）
+To Rename,名前を変更
+Total Projected Qty,合計予測数量
+Total Quantity,合計数量
+Transferred Qty,移動数量
+Type,種別
+UOM Conversion Factor,単位換算係数
+Update Items,品目を更新
+Valuation Rate,評価単価
+Variance,差異
+WIP Warehouse,仕掛品倉庫
+Work Order,製造指示
+Work Order Qty,製造指示数量
+Work Orders,製造指示

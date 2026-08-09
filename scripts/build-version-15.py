@@ -14,6 +14,11 @@ Merge policy — additive, no regression against the shipped product:
             entry is not — a source word left untranslated, or placeholders
             ({0}, markup) that no longer match the source. Small and reviewable.
   keep      every other overlapping msgid stays at the upstream value
+  correct   finally, `translations/overrides/version-15.csv` is applied. These are
+            hand-reviewed corrections for entries no heuristic can catch: consumer
+            renderings where ERP terminology is meant (Item -> アイテム rather than
+            品目, Supplier -> サプライヤー rather than 仕入先) and outright
+            mistranslations (Tag -> 鬼ごっこ, the children's game).
 
 Rationale: the PO tracks develop, so on shared msgids neither side is
 systematically better (measured: for frappe, PO entries that differ from
@@ -132,7 +137,18 @@ def repairs(candidate: str, current: str, source: str) -> bool:
     return False
 
 
-def build(app: str, check_only: bool) -> None:
+def read_overrides() -> dict[str, str]:
+    path = os.path.join(REPO_ROOT, "translations", "overrides", "version-15.csv")
+    if not os.path.exists(path):
+        return {}
+    entries = {}
+    for row in csv.reader(open(path, encoding="utf-8")):
+        if len(row) >= 2 and row[0]:
+            entries[row[0]] = row[1]
+    return entries
+
+
+def build(app: str, check_only: bool, overrides: dict[str, str], applied: set[str]) -> None:
     upstream = read_csv(git_show(app, f"{app}/translations/ja.csv"))
     develop = read_po(os.path.join(REPO_ROOT, "translations", app, "ja.po"))
 
@@ -154,10 +170,22 @@ def build(app: str, check_only: bool) -> None:
                 merged[key] = translation
                 overridden += 1
 
+    corrected = 0
+    for (source, context), japanese in list(merged.items()):
+        # Overrides are keyed by source text only; a context-qualified entry is a
+        # different string and is left alone.
+        if context or source not in overrides:
+            continue
+        applied.add(source)
+        if japanese != overrides[source]:
+            merged[(source, context)] = overrides[source]
+            corrected += 1
+
     print(f"=== {app}")
     print(f"  upstream v15        : {len(upstream):>6}")
     print(f"  + PO で穴埋め        : {added:>6}")
     print(f"  + 欠陥訳の差し替え   : {overridden:>6}")
+    print(f"  + 補正データの適用   : {corrected:>6}")
     print(f"  = version-15 set    : {len(merged):>6}")
 
     pot = read_pot(app, f"{app}/locale/main.pot")
@@ -185,8 +213,15 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", help="report numbers without writing")
     args = parser.parse_args()
+    overrides = read_overrides()
+    applied: set[str] = set()
     for app in APPS:
-        build(app, args.check)
+        build(app, args.check, overrides, applied)
+    unused = sorted(set(overrides) - applied)
+    if unused:
+        print(f"\n補正データのうち対象が見つからないもの: {len(unused)}")
+        for source in unused:
+            print(f"  {source!r}")
 
 
 if __name__ == "__main__":
