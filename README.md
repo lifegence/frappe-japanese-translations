@@ -5,6 +5,82 @@ For the five Crowdin-managed apps the canonical contribution path is
 [Crowdin](https://crowdin.com/project/frappe); the PO files in this repo are
 seed data, a backup mirror, and the source for local-bench deploys.
 
+## Install as an app
+
+This repository is also an installable Frappe app, so a site can take the
+translations without shell access to the bench — which is what Frappe Cloud
+needs, and what `scripts/deploy.sh` cannot offer.
+
+The app ships one file, `frappe_japanese_translations/translations/ja.csv`, and
+no code. Frappe merges `translations/{lang}.csv` from every installed app into a
+single dictionary per language, keyed by source string rather than by app, so
+one such app localises the whole interface — frappe and erpnext included, even
+though their own repositories are untouched.
+
+### Frappe Cloud
+
+1. Open the **Bench Group**
+2. **Apps → Add App → From GitHub**, and add this repository
+3. Choose the branch that matches the bench: `version-15` or `version-16`
+4. **Deploy**
+5. **Install App** on the site
+6. Set **System Settings → Language** to `ja`
+
+The GitHub connection is only needed the first time.
+
+### A bench you have shell access to
+
+```bash
+bench get-app https://github.com/lifegence/frappe_japanese_translations --branch version-15
+bench --site your.site install-app frappe_japanese_translations
+```
+
+`scripts/deploy.sh` remains available and copies the same sets straight into
+`apps/{app}/{app}/translations/ja.csv`. It is the faster path while translating;
+the app is the one that survives a rebuild.
+
+### Branches
+
+| Branch | Ships | Built from |
+|---|---|---|
+| `main` | the develop-tracking set | `translations/{app}/ja.csv` |
+| `version-15` | frappe + erpnext at v15 | `translations/{app}/version-15/ja.csv` |
+| `version-16` | frappe, erpnext, hrms, healthcare, lending at v16 | `translations/{app}/version-16/ja.csv` |
+
+### How the shipped file is built
+
+```bash
+python3 scripts/build-app-translations.py --version version-15
+python3 scripts/build-app-translations.py --version version-16 --check   # CI mode
+```
+
+The file is a build artifact that is committed, so that a bench can install the
+app directly from GitHub with no build step. CI rebuilds it and fails if the
+committed copy has drifted.
+
+Merge policy:
+
+- **frappe → erpnext**, later wins. This mirrors the order a stock bench loads
+  them in, so a site keeps the wording it already saw rather than meeting a
+  third variant introduced here.
+- **every other app is add-only.** It may contribute a source string the core
+  apps have no entry for, but never reword one they do. Left to override,
+  `lending` would reword *Age* as 期間 and `healthcare` would reword *Active* as
+  アクティブ on every site that installs this — including the ones with neither
+  app.
+- **`translations/overrides/{version}.csv` is applied last** and may reword
+  anything. It holds the hand-reviewed corrections no heuristic catches.
+- **Source strings are stripped.** `frappe._()` strips the message before
+  looking it up, so an entry keyed on `" Status "` can never match. Upstream
+  ships a few hundred of them; they are rekeyed rather than shipped dead.
+- Rows whose translation equals the source, or is empty, are dropped.
+
+### Overriding a single string on one site
+
+App translations lose to the site's own `Translation` records, which Frappe
+applies last. To change one word for one site without forking anything, add a
+Translation record for that source string.
+
 ## Status
 
 | App | Type | Format | Source strings | Coverage | AI-fuzzy¹ |
@@ -157,6 +233,7 @@ crowdin upload translations -l ja --import-eq-suggestions
 | `extract.sh` | Run `bench get-untranslated` per app |
 | `coverage.sh` | Per-app coverage report against a bench |
 | `validate-csv.py` | CSV format / placeholder / duplicate check |
+| `build-app-translations.py` | Build the single `ja.csv` this repo ships as an installable app |
 
 ### Alternative AI provider
 
@@ -244,3 +321,9 @@ The glossary is injected into every AI translation prompt and used by
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+**Provenance.** The version sets are not written from scratch: they are built by
+merging this repository's translations over the `translations/ja.csv` each app
+already ships upstream. Those bases carry their own project's licence — frappe
+is MIT, erpnext is GPL-3.0 — and that applies to the portions derived from them
+regardless of the licence on this repository.

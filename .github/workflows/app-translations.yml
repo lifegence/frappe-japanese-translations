@@ -1,0 +1,71 @@
+name: App translation file
+
+# The shipped file is a build artifact that is committed, so a bench can install
+# the app straight from GitHub without a build step. That only holds if the
+# committed file matches what the sources produce, which is what this checks.
+
+on:
+  push:
+    branches: [main, version-15, version-16]
+  pull_request:
+    branches: [main, version-15, version-16]
+
+jobs:
+  check:
+    name: committed file matches the sources
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Resolve the set this branch ships
+        id: version
+        run: |
+          branch="${GITHUB_BASE_REF:-${GITHUB_REF_NAME}}"
+          case "$branch" in
+            version-15|version-16) echo "value=$branch" >> "$GITHUB_OUTPUT" ;;
+            *)                     echo "value=develop" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Rebuild and compare
+        run: python3 scripts/build-app-translations.py --version ${{ steps.version.outputs.value }} --check
+
+      - name: Validate the file Frappe will load
+        run: |
+          python3 - <<'PY'
+          import collections, csv, re, sys
+
+          path = "frappe_japanese_translations/translations/ja.csv"
+          raw = open(path, "rb").read()
+          rows = list(csv.reader(open(path, encoding="utf-8")))
+
+          problems = []
+          if raw.startswith(b"\xef\xbb\xbf"):
+              problems.append("file starts with a BOM")
+          if b"\r\n" in raw:
+              problems.append("file uses CRLF line endings")
+          if any(len(row) != 2 for row in rows):
+              problems.append("not every row has exactly two columns")
+          duplicates = [k for k, n in collections.Counter(r[0] for r in rows).items() if n > 1]
+          if duplicates:
+              problems.append(f"{len(duplicates)} duplicate source strings")
+
+          placeholders = lambda text: collections.Counter(re.findall(r"\{\d*\}", text))
+          broken = [r for r in rows if len(r) == 2 and placeholders(r[0]) != placeholders(r[1])]
+          if broken:
+              problems.append(f"{len(broken)} rows drop or invent a placeholder")
+
+          # A trailing space stops Frappe matching the source string at all, so it
+          # is a silent failure rather than a cosmetic one.
+          padded = [r for r in rows if len(r) == 2 and r[0] != r[0].strip()]
+          if padded:
+              problems.append(f"{len(padded)} source strings carry leading or trailing whitespace")
+
+          if problems:
+              print("\n".join(f"  - {p}" for p in problems), file=sys.stderr)
+              sys.exit(1)
+          print(f"{len(rows)} entries, no problems found.")
+          PY
