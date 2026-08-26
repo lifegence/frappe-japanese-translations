@@ -10,6 +10,13 @@ readme = "README.md"
 dynamic = ["version"]
 dependencies = []
 
+# Frappe Cloud reads this to decide which bench groups the app can be added to,
+# and refuses the app without it. Only frappe is declared: the file carries
+# erpnext translations, but an entry for a string no installed app emits is
+# simply never looked up, so a frappe-only site can install this too.
+[tool.bench.frappe-dependencies]
+frappe = ">=15.0.0"
+
 [build-system]
 requires = ["flit_core >=3.4,<4"]
 build-backend = "flit_core.buildapi"
