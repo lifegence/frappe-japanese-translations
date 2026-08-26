@@ -5,6 +5,7 @@ name: App translation file
 # committed file matches what the sources produce, which is what this checks.
 
 on:
+  workflow_dispatch:
   push:
     branches: [main, version-15, version-16]
   pull_request:
