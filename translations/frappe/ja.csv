@@ -1306,6 +1306,7 @@ Check this if the Update Value is a formula or expression (e.g. doc.amount * 2).
 Check this if you don't want users to sign up for an account on your site. Users won't get desk access unless you explicitly provide it.,ユーザーがサイトでアカウントを登録することを望まない場合は、これをチェックしてください。明示的に提供しない限り、ユーザーはデスクアクセスを取得できません。,
 Check this if you want to force the user to select a series before saving. There will be no default if you check this.,保存する前にユーザーにシリーズを選択させたい場合は、これをチェックしてください。これをチェックすると、デフォルトはなくなります。,
 "Check to display the full numeric value (e.g., 1,234,567 instead of 1.2M).","完全な数値 (例: 1.2Mではなく1,234,567) を表示するにはチェックしてください。",
+Checked items will be shown on desktop,チェックした項目がデスクトップに表示されます
 Checking one moment,少々お待ちください、確認中です,
 "Checking this will enable tracking page views for blogs, web pages, etc.",これをチェックすると、ブログ、ウェブページなどのページビュー追跡が有効になります。,
 Checking this will hide custom doctypes and reports cards in Links section,これをチェックすると、リンクセクションのカスタムDocTypeおよびレポートカードが非表示になります。,
@@ -2457,6 +2458,7 @@ Footer Details,フッター詳細,
 Footer HTML,フッターHTML,
 Footer HTML set from attachment {0},フッターHTMLは添付ファイル{0}から設定されました,
 Footer Image,フッター画像,
+Footer Item,フッター項目
 Footer Items,フッター項目,
 Footer Logo,フッターロゴ,
 Footer Script,フッタースクリプト,
