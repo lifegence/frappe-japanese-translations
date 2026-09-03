@@ -109,6 +109,7 @@
 30 mins,30分,
 30-60,30-60,
 30-60 Days,30～60日,
+3D printing,3D プリント
 501-1000,501-1000,
 51-200,51-200,
 6 hrs,6時間,
@@ -450,6 +451,7 @@ A - C,A - C,
 A Customer Group exists with same name please change the Customer name or rename the Customer Group,同じ名前の顧客グループが存在します。顧客名を変更するか、顧客グループの名前を変更してください,
 A Holiday List can be added to exclude counting these days for the Workstation.,ワークステーションのこれらの日を除外するために、休日リストを追加できます。,
 A Lead requires either a person's name or an organization's name,見込み客には、個人の名前または組織の名前のいずれかが必要です,
+A Lead with this email id should exist,このメールアドレスのリードが存在している必要があります
 A Packing Slip can only be created for Draft Delivery Note.,梱包伝票は下書きの納品書に対してのみ作成できます。,
 "A Price List is a collection of Item Prices either Selling, Buying, or both",価格表は、販売、購買、またはその両方の品目価格のコレクションです,
 "A Product or a Service that is bought, sold or kept in stock.",購入、販売、または在庫として保管される製品またはサービス。,
@@ -466,6 +468,7 @@ A quality inspection must be completed before generating a Delivery Note for thi
 A quality inspection must be completed before generating a Purchase Receipt for this item.,この品目の入荷伝票を作成する前に、品質検査を完了する必要があります。,
 A template with tax category {0} already exists. Only one template is allowed with each tax category,税カテゴリ {0} を持つテンプレートは既に存在します。各税カテゴリにつき、テンプレートは1つのみ許可されています。,
 A third party distributor / dealer / commission agent / affiliate / reseller who sells the companies products for a commission.,手数料で会社の製品を販売する第三者販売代理店/ディーラー/委託販売業者/アフィリエイト/再販業者。,
+"A user with ""Expense Approver"" role",「経費承認者」ロールを持つユーザー
 A+,A+,
 A-,A-,
 AB+,AB+,
@@ -690,6 +693,7 @@ Actual qty in stock,在庫の実際数量,
 Actual type tax cannot be included in Item rate in row {0},行 {0} の品目単価に実際タイプ税を含めることはできません,
 Ad-hoc Qty,アドホック数量,
 Add / Edit Prices,価格の追加/編集,
+Add All Suppliers,すべての仕入先を追加
 Add Columns in Transaction Currency,取引通貨で列を追加,
 Add Corrective Operation Cost in Finished Good Valuation,追加是正工程コスト完成良品評価,
 Add Customers,顧客を追加,
@@ -721,6 +725,7 @@ Add Sub Assembly,追加サブアセンブリ,
 Add Suppliers,仕入先を追加,
 Add Taxes,税を追加
 Add Timesheets,タイムシートを追加,
+Add Users,ユーザーを追加
 Add Weekly Holidays,追加週次休日,
 Add a Note,追加メモ,
 Add an Existing Asset,既存の資産を追加
@@ -733,6 +738,7 @@ Add the rest of your organization as your users. You can also add invite Custome
 Add to Holidays,追加休日,
 Add to Prospect,プロスペクトに追加,
 Add to Transit,追加中継,
+"Add users to your organization, other than yourself.",自分以外のユーザーを組織に追加します。
 Add vouchers to generate preview.,プレビューを生成するために伝票を追加します。,
 Add/Edit Coupon Conditions,クーポン条件の追加/編集,
 Added By,追加者,
@@ -846,6 +852,7 @@ Age (Days),経過日数,
 Age ({0}),年齢 ({0}),
 Ageing Based On,エージング基準,
 Ageing Range,エージング範囲,
+Ageing Report based on,年齢調べレポートの基準
 Ageing Report based on {0} up to {1},{0} に基づく {1} までの滞留レポート,
 Agenda,議題,
 Agent,エージェント,
@@ -876,6 +883,7 @@ All Sales Person,売上担当者,
 All Sales Transactions can be tagged against multiple Sales Persons so that you can set and monitor targets.,すべての売上取引は複数の営業担当者に紐付けすることができ、目標を設定し監視することができます。,
 All Supplier Contact,仕入先連絡先,
 All Supplier Groups,仕入先グループ,
+All Supplier Types,すべての仕入先タイプ
 All Territories,すべての地域,
 All Warehouses,すべての倉庫,
 All active prices for this item across buying and selling price lists.,この品目の、購買および販売価格リスト全体におけるすべての有効な価格。,
@@ -926,14 +934,17 @@ Allow Negative rates for Items,品目のマイナス単価を許可
 Allow Or Restrict Dimension,ディメンションを許可または制限する,
 Allow Overtime,残業を許可する,
 Allow Partial Payment,部分支払いを許可,
+Allow Print Before Pay,支払前の印刷を許可
 Allow Production on Holidays,許可生産休日,
 Allow Purchase,許可仕入,
 Allow Purchase Invoice Creation Without Purchase Order,発注書なしでの仕入請求書作成を許可,
 Allow Purchase Invoice Creation Without Purchase Receipt,入荷伝票なしでの仕入請求書作成を許可,
 Allow Purchase Order with Zero Quantity,許可仕入注文ゼロ数量,
+Allow Quotation with Zero Quantity,数量ゼロの見積書を許可
 Allow Quotation with zero quantity,数量ゼロの見積書を許可する,
 Allow Rename Attribute Value,許可名前変更属性金額,
 Allow Request for Quotation with Zero Quantity,許可依頼見積書ゼロ数量,
+Allow Resetting SLA,SLA のリセットを許可
 Allow Resetting Service Level Agreement,サービスレベル契約のリセットを許可する,
 Allow Resetting Service Level Agreement from Support Settings.,サポート設定からのサービスレベル契約のリセットを許可する。,
 Allow Sales,許可売上,
@@ -948,8 +959,10 @@ Allow Supplier Quotation with Zero Quantity,許可仕入先見積書ゼロ数量
 Allow Tax Exemption,非課税を許可
 Allow UOM with Conversion Rate Defined in Item,品目に換算率が定義された単位を許可
 Allow UOM with conversion rate defined in Item,品目で定義された換算レートを持つUOMを許可,
+Allow User,ユーザーを許可
 Allow User to Edit Discount,許可ユーザー編集値引き,
 Allow User to Edit Rate,許可ユーザー編集単価,
+Allow Users,ユーザーを許可
 Allow Variant UOM to be different from Template UOM,バリアント単位がテンプレート単位と異なることを許可する,
 Allow Zero Rate,許可ゼロ単価,
 Allow Zero Valuation Rate,許可ゼロ評価単価,
@@ -976,6 +989,9 @@ Allow to edit stock UOM qty for Purchase documents,購買伝票の在庫単位�
 Allow to edit stock UOM qty for Sales documents,販売伝票の在庫単位数量の編集を許可,
 Allow to make Quality Inspection after Purchase / Delivery,購買/納品後に品質検査を行うことを許可,
 Allow transferring raw materials even after the Required Quantity is fulfilled,必要数量が満たされた後でも原材料の移動を許可する,
+Allow user to edit Discount,ユーザーによる割引の編集を許可
+Allow user to edit Price List Rate in transactions,取引内で価格表レートの編集を許可
+Allow user to edit Rate,ユーザーによる単価の編集を許可
 Allowed Dimension,許可済ディメンション,
 Allowed DocTypes,許可されたDocType,
 Allowed Items,許可された品目,
@@ -1034,6 +1050,7 @@ Annual Budget for Account {0} against {1}: {2} is {3}. It will be exceeded by {4
 Annual Expenses,年次費用,
 Annual Income,年次収入,
 Annual Revenue,年次収益,
+Annual Sales,年間売上
 Another Budget record '{0}' already exists against {1} '{2}' and account '{3}' with overlapping fiscal years.,会計年度が重複する {1} '{2}' および勘定科目 '{3}' に対して、別の予算レコード '{0}' が既に存在します。,
 "Another Cost Center Allocation record {0} applicable from {1}, hence this allocation will be applicable upto {2}",別のコストセンター配分レコード {0} が {1} から適用されるため、この配分は {2} まで適用されます。,
 Another Payment Request is already processed,別の支払い要求は既に処理されています。,
@@ -1060,6 +1077,7 @@ Applicable on Material Request,適用対象資材依頼,
 Applicable on POS Invoice,POS請求書に適用,
 Applicable on Purchase Order,適用対象仕入注文,
 Applicable on booking actual expenses,実際の経費を計上する際に適用,
+Applicant Email Address,応募者のメールアドレス
 Application of Funds (Assets),資金の運用（資産）,
 Applied Coupon Code,適用済みクーポンコード,
 Applied on each reading.,各読み取りに適用されます。,
@@ -1093,8 +1111,10 @@ Appointment Scheduling Disabled,予約スケジューリングが無効です,
 Appointment Scheduling has been disabled for this site,このサイトでは予約スケジューリングが無効になっています,
 Appointment With,予約,
 Appointment was created. But no lead was found. Please check the email to confirm,予約は作成されましたが、見込み客が見つかりませんでした。確認のためメールをご確認ください。,
+Approving Role,承認ロール
 Approving Role (above authorized value),承認ロール (承認済み値以上),
 Approving Role cannot be same as role the rule is Applicable To,承認ロールは、ルールが適用されるロールと同じにすることはできません。,
+Approving User,承認ユーザー
 Approving User  (above authorized value),承認ユーザー (承認済み値以上),
 Approving User cannot be same as user the rule is Applicable To,承認ユーザーは、ルールが適用されるユーザーと同じにすることはできません。,
 Approximately match the description/party name against parties,説明/取引先名を取引先と近似的に照合する,
@@ -1262,6 +1282,7 @@ Authorization Rule,承認ルール,
 Authorized Signatory,署名権限者,
 Authorized Value,承認済値,
 Auto Create Exchange Rate Revaluation,為替レート再評価を自動作成,
+Auto Create Purchase Receipt,入荷を自動作成する
 Auto Create Serial and Batch Bundle For Outward,出庫時にシリアル・バッチバンドルを自動作成
 Auto Created,自動作成済,
 Auto Created (Reorder),自動作成 (再注文),
@@ -1285,6 +1306,7 @@ Auto Reserve Stock for Sales Order on Purchase,購買時に受注向け在庫を
 Auto Tax Settings Error,自動税設定エラー,
 Auto User Creation Error,自動ユーザー作成エラー,
 Auto close Opportunity Replied after the no. of days mentioned above,上記の日数経過後、返信済み商談を自動クローズ,
+Auto close Opportunity after 15 days,15日後に商談を自動クローズする
 Auto create Purchase Receipt,入荷伝票を自動作成,
 Auto create Serial and Batch Bundle for outward,出荷用にシリアルおよびバッチバンドルを自動作成,
 Auto create Subcontracting Order,外注指示を自動作成,
@@ -1744,9 +1766,11 @@ Campaign Efficiency,キャンペーン効率,
 Campaign Email Schedule,キャンペーンメールスケジュール,
 Campaign Item,キャンペーン,
 Campaign Name,キャンペーン名前,
+Campaign Name is required,キャンペーン名は必須です
 Campaign Naming By,キャンペーン命名,
 Campaign Schedules,キャンペーンスケジュール,
 Campaign {0} not found,キャンペーン {0} が見つかりません,
+Campaign-.####,Campaign-.####
 Can be approved by {0},{0} によって承認できます,
 Can not close Work Order. Since {0} Job Cards are in Work In Progress state.,製造指示をクローズできません。{0} 件のジョブカードが作業中ステータスであるためです。,
 "Can not filter based on Cashier, if grouped by Cashier",レジ担当者でグループ化されている場合、レジ担当者に基づいてフィルターすることはできません,
@@ -1831,6 +1855,7 @@ Cannot retrieve link token for update. Check Error Log for more information,更�
 Cannot retrieve link token. Check Error Log for more information,リンクトークンを取得できません。詳細についてはエラーログを確認してください。,
 Cannot select a Group type Customer Group. Please select a non-group Customer Group.,グループタイプの顧客グループを選択できません。非グループの顧客グループを選択してください。,
 Cannot select charge type as 'On Previous Row Amount' or 'On Previous Row Total' for first row,最初の行で料金タイプを「前の行の金額に基づく」または「前の行の合計に基づく」として選択することはできません,
+Cannot set a received RFQ to No Quote,受領済の見積依頼を「見積なし」にすることはできません
 Cannot set as Lost as Sales Order is made.,受注が作成されているため、失注として設定できません。,
 Cannot set authorization on basis of Discount for {0},{0} の値引きに基づいて承認を設定することはできません,
 Cannot set multiple Item Defaults for a company.,1つの会社に対して複数の品目デフォルトを設定することはできません。,
@@ -1979,6 +2004,7 @@ Clearance Date not mentioned,決済日が記載されていません,
 Clearance Date updated,決済日が更新されました,
 Clearance date changed from {0} to {1} via Bank Clearance Tool,決済日が銀行決済ツール経由で{0}から{1}に変更されました,
 Clearing Demo Data...,デモデータをクリア中...,
+Clearly Defined Role,明確に定義された役割
 Click on 'Get Finished Goods for Manufacture' to fetch the items from the above Sales Orders. Items only for which a BOM is present will be fetched.,「製造用完成品を取得」をクリックして、上記の受注から品目を取得します。部品表が存在する品目のみが取得されます。,
 Click on Add to Holidays. This will populate the holidays table with all the dates that fall on the selected weekly off. Repeat the process for populating the dates for all your weekly holidays,「休日に追加」をクリックします。これにより、選択された週休日に該当するすべての日付が休日テーブルに設定されます。すべての週休日の日付を設定するために、このプロセスを繰り返してください。,
 Click on Get Sales Orders to fetch sales orders based on the above filters.,「受注を取得」をクリックして、上記のフィルターに基づいて受注を取得します。,
@@ -2051,6 +2077,7 @@ Company Contact Person,連絡先担当者,
 Company Description,説明,
 Company Details,会社詳細,
 Company Email,メール,
+"Company Email ID not found, hence mail not sent",会社のメールアドレスが見つからないため、メールは送信されませんでした
 Company Field,フィールド,
 Company Logo,会社ロゴ,
 Company Name cannot be Company,名前,
@@ -2111,6 +2138,7 @@ Conditional Rule,条件ルール,
 Conditional Rule Examples,条件ルールの例,
 Conditions will be applied on all the selected items combined. ,条件は選択されたすべてのアイテムに一括で適用されます。 ,
 Configure Account Settings,勘定の設定を構成
+Configure Buying Settings.,購買設定を構成します。
 Configure Chart of Accounts,勘定科目表を設定,
 Configure Product Assembly,製品組立を設定,
 Configure Series,シリーズを設定,
@@ -2160,6 +2188,7 @@ Consumed Stock Total Value,消費済在庫合計金額,
 Consumed quantity of item {0} exceeds transferred quantity.,品目{0}の消費数量が移動数量を超えています。,
 Consumer Products,消費財,
 Consumption Rate,消費率,
+Contact & Address,連絡先と住所
 Contact Desc,連絡先説明,
 Contact HTML,連絡先HTML,
 Contact Info,連絡先情報,
@@ -2169,9 +2198,12 @@ Contact Mobile,連絡先携帯電話,
 Contact Mobile No,連絡先携帯電話番号,
 Contact Name,連絡先名前,
 Contact No.,連絡先番号,
+Contact Number,電話番号
 Contact Person,担当者,
 Contact Person does not belong to the {0},担当者は{0}に属していません。,
+Contact master.,連絡先マスタ。
 Contact:,連絡先:,
+Contacts and Address,連絡先と住所
 Contra Entry,振替入力,
 Contract,契約,
 Contract Details,契約詳細,
@@ -2274,6 +2306,7 @@ Could not solve criteria score function for {0}. Make sure the formula is valid.
 Could not solve weighted score function. Make sure the formula is valid.,加重スコア関数を解決できませんでした。数式が有効であることを確認してください。,
 Coulomb,クーロン,
 Country Code in File does not match with country code set up in the system,ファイル内の国コードがシステムに設定されている国コードと一致しません。,
+Country Settings,国の設定
 Country of Origin,原産国,
 Coupon Code,クーポンコード,
 Coupon Code Based,クーポンコードベース,
@@ -2366,15 +2399,19 @@ Create Work Order,製造指示を作成,
 Create Workstation,作成ワークステーション,
 Create Your First Purchase Invoice,最初の仕入請求を作成
 Create Your First Sales Invoice,最初の売上請求を作成
+Create a Quotation,見積書を作成
+Create a Supplier,仕入先を作成
 Create a new composite asset,新しい複合資産を作成
 Create a variant with the template image.,テンプレート画像でバリアントを作成します。,
 Create an Asset,資産を作成
 Create an Asset Category,資産カテゴリを作成
 Create an incoming stock transaction for the Item.,品目の入庫取引を作成します。,
+Create and Send Quotation,見積書を作成して送信
 Create customer quotes,顧客見積書を作成,
 Create delivery note,納品書を作成,
 Create payment requests in Draft status,下書きステータスで支払い要求を作成,
 Create supplier,仕入先を作成,
+Create your first Quotation,最初の見積書を作成しましょう
 Create {0} {1} ?,{0} {1} を作成しますか？,
 Created By Migration,移行によって作成済,
 Created {0} scorecards for {1} between:,{1} の {0} スコアカードを以下期間で作成しました:,
@@ -2422,6 +2459,7 @@ Credit Card Entry,貸方カード入力,
 Credit Days,貸方日,
 Credit Limit,与信限度額,
 Credit Limit Crossed,信用限度額超過,
+Credit Limit Settings,与信限度の設定
 Credit Limit and Payment Terms,信用限度額と支払条件,
 Credit Limit:,信用限度額:,
 Credit Limits,与信限度額,
@@ -2570,14 +2608,19 @@ Customers,顧客,
 Customers Without Any Sales Transactions,売上取引のない顧客,
 Customers not selected.,顧客が選択されていません。,
 Customerwise Discount,顧客別値引き,
+Customize Print Formats,印刷フォーマットをカスタマイズ
 Customs Tariff Number,関税番号,
 Cycle/Second,サイクル/秒,
 D - E,D - E,
 DFS,DFS,
+DUPLICATE FOR SUPPLIER,仕入先控（2枚目）
 Daily Project Summary for {0},{0} の日次プロジェクトサマリー,
 Daily Reminders,日次リマインダー,
 Daily Time to send,毎日送信する時刻,
 Daily Timesheet Summary,日次タイムシートサマリ,
+Daily Work Summary Group User,日次業務サマリー グループユーザー
+Daily Work Summary Settings,日次業務サマリーの設定
+Daily Work Summary Settings Company,日次業務サマリー設定 会社
 Daily Yield (%),日次歩留まり (%),
 Data Based On,データ,
 Data Import Configuration,データインポート構成,
@@ -2654,6 +2697,7 @@ Deduct Tax On Basis,税金控除の基準,
 Deducted From,控除元,
 Deductee Details,控除対象者の詳細,
 Deduction Certificate,控除証明書,
+Deduction Reports,控除レポート
 Deductions or Loss,控除または損失,
 Default Account,デフォルト勘定科目,
 Default Accounts,デフォルト勘定科目,
@@ -2720,11 +2764,13 @@ Default Selling Cost Center,デフォルトの販売コストセンター,
 Default Selling Terms,デフォルト販売条件,
 Default Service Level Agreement,デフォルトサービスレベル契約,
 Default Service Level Agreement for {0} already exists.,{0} のデフォルトサービスレベル契約は既に存在します。,
+Default Settings,既定の設定
 Default Source Warehouse,デフォルトソース倉庫,
 Default Stock UOM,デフォルト在庫単位,
 Default Stock Valuation Method,デフォルト在庫評価方法,
 Default Supplier,デフォルトの仕入先,
 Default Supplier Group,デフォルト仕入先グループ,
+Default Supplier Type,既定の仕入先タイプ
 Default Target Warehouse,デフォルト目標倉庫,
 Default Territory,デフォルトテリトリー,
 Default Unit of Measure,デフォルト単位,
@@ -2868,6 +2914,7 @@ Description of Content,内容の説明,
 Designer,デザイナー,
 Detailed Reason,詳細な理由,
 Determine Address Tax Category from,住所税カテゴリの決定元,
+Diagnostic Report,診断レポート
 Diesel,ディーゼル,
 Difference,差額,
 Difference (Dr - Cr),差額 (借方 - 貸方),
@@ -2899,6 +2946,7 @@ Disable,無効化,
 Disable Capacity Planning,能力計画を無効化,
 Disable Cumulative Threshold,累積しきい値を無効化,
 Disable In Words,金額表記を無効化,
+Disable Last Purchase Rate,最終購買単価を使用しない
 Disable Opening Balance Calculation,期首残高計算を無効化,
 Disable Rounded Total,丸められた合計を無効化,
 Disable Serial No And Batch Selector,シリアル番号・バッチ選択を無効にする
@@ -3076,6 +3124,7 @@ Duration in Days,期間日,
 Duties and Taxes,関税と税金,
 Dynamic Condition,動的条件,
 Dyne,ダイン,
+E Commerce Settings,EC の設定
 E-Invoicing Information Missing,電子請求書情報が不足しています,
 EAN,EAN,
 EAN-13,EAN-13,
@@ -3125,8 +3174,12 @@ Email Digest,メールダイジェスト,
 Email Digest Recipient,メールダイジェスト受信者,
 Email Digest Settings,メールダイジェスト設定,
 Email Digest: {0},メールダイジェスト: {0},
+Email Ids,メールアドレス
+Email Notifications,メール通知
 Email Receipt,メール伝票,
+Email Sent To,メール送信先
 Email Sent to Supplier {0},仕入先 {0} にメールを送信しました,
+Email ids separated by commas.,メールアドレスをカンマ区切りで入力します。
 Email is required to create a user,ユーザーを作成するにはメールアドレスが必要です,
 Email is required to create a user.,ユーザーを作成するにはメールアドレスが必要です。,
 Email or Phone/Mobile of the Contact are mandatory to continue.,続行するには、連絡先のメールアドレスまたは電話/携帯電話番号が必須です。,
@@ -3137,6 +3190,7 @@ Email verification failed.,メール認証に失敗しました。,
 Email:,Eメール:,
 Emails Queued,キューに入っているメール,
 Emergency Contact,緊急連絡先,
+Emergency Contact Details,緊急連絡先の詳細
 Emergency Contact Name,緊急連絡先名,
 Emergency Phone,緊急電話番号,
 Employee,従業員,
@@ -3265,7 +3319,9 @@ Enter amount to be redeemed.,償還する金額を入力してください。,
 Enter customer's email,顧客のメールアドレスを入力してください,
 Enter customer's phone number,顧客の電話番号を入力してください,
 Enter date to scrap asset,資産を廃棄する日付を入力してください,
+Enter department to which this Contact belongs,この連絡先が所属する部門を入力します
 Enter depreciation details,減価償却の詳細を入力してください,
+Enter designation of this Contact,この連絡先の役職を入力します
 Enter discount percentage.,値引き率を入力してください。,
 Enter each serial no in a new line,各シリアル番号を新しい行に入力してください,
 Enter the Bank Guarantee Number before submitting.,提出する前に銀行保証番号を入力してください。,
@@ -3390,6 +3446,8 @@ Expiry Date,有効期限,
 Expiry Date Mandatory,有効期限必須,
 Expiry Duration (in days),期限期間 (日数),
 Exploded Items,展開された品目,
+Explore Healthcare Settings,ヘルスケアの設定を確認
+Explore Sales Cycle,販売サイクルを確認
 Exponential Smoothing Forecasting,指数平滑化予測,
 Export E-Invoices,電子請求書のエクスポート,
 Extended Bank Statement,拡張銀行取引明細書,
@@ -3554,6 +3612,7 @@ Focus on Item Group filter,品目グループフィルターにフォーカス,
 Focus on search input,検索入力にフォーカス,
 Folio no.,フォリオ番号,
 Follow Calendar Months,カレンダー月に従う,
+Follow via Email,メールでフォローする
 Following Material Requests have been raised automatically based on Item's re-order level,品目の再発注レベルに基づいて、以下の資材要求が自動的に発行されました,
 Following fields are mandatory to create address:,住所を作成するには以下のフィールドが必須です:,
 "Food, Beverage & Tobacco",食品、飲料、たばこ,
@@ -3566,6 +3625,7 @@ For,対象,
 For All Stock Asset Accounts,在庫資産勘定科目,
 For Buying,購買,
 For Company,会社対象,
+For Default Supplier (optional),既定の仕入先向け（任意）
 For Item,品目対象,
 For Item {0} cannot be received more than {1} qty against the {2} {3},品目 {0} は、{2} {3} に対して {1} 数量を超えて受領できません。,
 For Job Card,ジョブカード,
@@ -3657,13 +3717,17 @@ From Fiscal Year cannot be greater than To Fiscal Year,開始会計年度は終�
 From Folio No,開始フォリオ番号,
 From Invoice Date,請求書,
 From No,開始番号,
+From Opportunity,商談から
 From Package No.,開始パッケージ番号,
 From Payment Date,支払い,
 From Posting Date,転記,
+From Purchase Receipt,入荷から
+From Quotation,見積書から
 From Range,開始範囲,
 From Range has to be less than To Range,開始範囲は終了範囲より小さくなければなりません,
 From Reference Date,参照,
 From Shareholder,株主から,
+From Supplier Quotation,仕入先見積から
 From Template,テンプレート,
 From Time,開始時刻,
 From Time ,開始時刻 ,
@@ -3732,6 +3796,7 @@ General Ledger remarks length,総勘定元帳の備考の長さ,
 General Settings,一般設定,
 General and Payment Ledger Comparison,一般支払い元帳比較,
 General and Payment Ledger mismatch,総勘定元帳と支払元帳の不一致,
+Generate Custom Reports,カスタムレポートを生成
 Generate Demand,需要を生成,
 Generate Demo Data for Exploration,探索用デモデータを生成,
 Generate E-Invoice,電子請求書を生成,
@@ -3765,6 +3830,7 @@ Get Items for Purchase Only,取得仕入,
 Get Items from BOM,取得部品表,
 Get Items from Material Requests against this Supplier,この仕入先に対する資材要求から品目を取得,
 Get Items from Product Bundle,取得製品バンドル,
+Get Last Purchase Rate,最終購買単価を取得
 Get Latest Query,最新のクエリを取得,
 Get Material Request,取得資材依頼,
 Get Material Requests,資材要求を取得,
@@ -3789,13 +3855,17 @@ Getting Secondary Items,副品目を取得中,
 Gift Card,ギフトカード,
 Give free item for every N quantity,N数量ごとに無料品目を付与,
 Global Defaults,グローバルデフォルト,
+Global Settings,全体設定
 Go back,戻る,
+Go to Suppliers,仕入先一覧へ
+Go to Users,ユーザー一覧へ
 Goal and Procedure,目標と手順,
 Goals,目標,
 Goods,商品,
 Goods In Transit,製品中継,
 Goods Transferred,製品移動済,
 Goods are already received against the outward entry {0},商品は出庫入力 {0} に対して既に受領されています,
+Goods received from Suppliers.,仕入先からの入荷。
 Government,政府,
 Grace Period,猶予期間,
 Graduate,卒業,
@@ -3848,7 +3918,9 @@ Group same items,同じ品目をグループ化,
 Groups,グループ,
 Growth View,成長ビュー,
 H - F,H - F,
+HR & Payroll Settings,人事・給与の設定
 HR Manager,人事マネージャー,
+HR Settings,人事の設定
 HR User,人事ユーザー,
 Half-Yearly,半期ごと,
 Hand,手,
@@ -3881,6 +3953,7 @@ Height (cm),身長 (cm),
 Help Results for,ヘルプ結果,
 Help Section,ヘルプセクション,
 Help Text,ヘルプテキスト,
+Helpdesk Reports,ヘルプデスクのレポート
 Helps you distribute the Budget/Target across months if you have seasonality in your business.,ビジネスに季節性がある場合、予算/目標を月ごとに分散するのに役立ちます。,
 Here are the error logs for the aforementioned failed depreciation entries: {0},上記の失敗した減価償却入力のエラーログは以下の通りです: {0},
 Here are the options to proceed:,続行するためのオプションは以下の通りです。,
@@ -3901,6 +3974,7 @@ Hide Unavailable Items,在庫なし品目を非表示,
 Hide this line if amount is zero,金額がゼロの場合、この行を非表示にする,
 Hide timesheets,タイムシートを非表示,
 "Higher the number, higher the priority",数値が大きいほど、優先度が高い,
+Hiring Settings,採用の設定
 History In Company,履歴,
 Hold,保留,
 Hold Invoice,請求書を保留,
@@ -3925,6 +3999,7 @@ How often should sales data be updated in Company/Project?,会社/プロジェ�
 How this line gets its data,この行がデータを取得する方法,
 How to format and present values in the financial report (only if different from column fieldtype),財務レポートで値をフォーマットして表示する方法 (列のフィールドタイプと異なる場合のみ),
 Hrs,時間,
+Hub Settings,Hub の設定
 Human Resources,人事,
 Hundredweight (UK),ハンドレッドウェイト (英国),
 Hundredweight (US),ハンドレッドウェイト (米国),
@@ -4148,6 +4223,7 @@ Incoming Bills,入荷請求書,
 Incoming Bills (Purchase Invoice),受領した請求（仕入請求）
 Incoming Call Handling Schedule,着信対応スケジュール,
 Incoming Call Settings,受信通話設定,
+Incoming Leads,新規リード
 Incoming Payment,入金,
 Incoming Rate,受信単価,
 Incoming Rate (Costing),入庫レート (原価計算),
@@ -4159,6 +4235,7 @@ Incorrect Batch Consumed,不正なバッチ消費済,
 Incorrect Check in (group) Warehouse for Reorder,再発注のための不正なチェックイン(グループ)倉庫,
 Incorrect Company,不正な会社,
 Incorrect Component Quantity,不正なコンポーネント数量,
+Incorrect Data Report,データ不整合レポート
 Incorrect Date,不正な,
 Incorrect Invoice,不正な請求書,
 Incorrect Payment Type,不正な支払いタイプ,
@@ -4244,6 +4321,7 @@ Internal Purchase Order,内部仕入注文,
 Internal Sale or Delivery Reference missing.,内部販売または配送参照がありません。,
 Internal Sales Order,内部売上注文,
 Internal Sales Reference Missing,内部売上参照不足,
+Internal Supplier,社内仕入先
 Internal Supplier Accounting,内部仕入先会計,
 Internal Supplier for company {0} already exists,会社{0}の内部仕入先は既に存在します,
 Internal Transfer,内部移動,
@@ -4661,6 +4739,8 @@ Journal Entry {0} does not have account {1} or already matched against other vou
 Journal entries have been created,仕訳伝票が作成されました,
 Journals,仕訳,
 Journals have been created,仕訳を作成しました
+KSA VAT Report,サウジアラビア VAT レポート
+KSA VAT Setting,サウジアラビア VAT 設定
 "Keep Track of Sales Campaigns. Keep track of Leads, Quotations, Sales Order etc from Campaigns to gauge Return on Investment. ",販売キャンペーンを追跡します。キャンペーンからのリード、見積、受注などを追跡してROIを測定します。 ,
 Kelvin,ケルビン,
 Key Reports,主要レポート,
@@ -4686,6 +4766,7 @@ Kindly select the company first,まず会社を選択してください,
 Kip,キップ,
 Knot,ノット,
 LIFO,後入先出法,
+LMS Setting,LMS の設定
 Landed Cost,諸掛コスト,
 Landed Cost Help,諸掛コストヘルプ,
 Landed Cost Id,諸掛コストID,
@@ -4720,6 +4801,7 @@ Lead -> Prospect,見込み客 -> 潜在顧客,
 Lead Conversion Time,見込み客変換時間,
 Lead Count,見込み客件数,
 Lead Details,見込み客詳細,
+Lead Id,リード ID
 Lead Name,見込み客名,
 Lead Owner,見込み客担当者,
 Lead Owner Efficiency,見込み客担当者効率,
@@ -4732,11 +4814,15 @@ Lead Time Date,見込み客時間,
 Lead Time Days,リードタイム（日）,
 Lead Time in days,リードタイム (日数),
 Lead Type,見込み客タイプ,
+Lead must be set if Opportunity is made from Lead,リードから商談を作成する場合はリードの指定が必要です
 Lead {0} has been added to prospect {1}.,見込み客 {0} は潜在顧客 {1} に追加されました。,
+LeaderBoard,ランキング
 Leads,見込み客,
 "Leads help you get business, add all your contacts and more as your leads",見込み客はビジネス獲得に役立ちます。すべての連絡先などを見込み客として追加します,
 Learn Accounting,会計を学ぶ
 Learn Asset,資産について学習する,
+Learn Procurement,購買を学ぶ
+Learn Sales Management,販売管理を学ぶ
 Learn Subcontracting,外注について学習する,
 "Learn about <a href=""https://docs.frappe.io/erpnext/user/manual/en/common_party_accounting"" rel=""noopener noreferrer"">Common Party</a>","<a href=""https://docs.frappe.io/erpnext/user/manual/en/common_party_accounting"" rel=""noopener noreferrer"">Common Party</a>について学習する",
 Learn more about Chart of Accounts,勘定科目表について詳しく見る
@@ -4765,11 +4851,16 @@ Length (cm),長さ (cm),
 Less Than Amount,金額未満,
 Let's Set Up Your Accounts and Taxes.,勘定と税を設定しましょう。
 Let's Set Up the Assets Module.,資産モジュールを設定しましょう。
+Let's create a Purchase Receipt,入荷を作成しましょう
 Let's review existing Asset Category,既存の資産カテゴリを確認しましょう
 Let's walk-through Chart of Accounts to review setup,勘定科目表を一通り確認して設定を見直しましょう
 Letter or Email Body Text,手紙またはメール本文,
 Letter or Email Closing Text,手紙またはメール結びの言葉,
 Let’s create your first Purchase Invoice,最初の仕入請求を作成しましょう
+Let’s create your first Quotation,最初の見積書を作成しましょう
+Let’s create your first Supplier,最初の仕入先を作成しましょう
+Let’s walk-through Selling Settings,販売設定を一通り確認しましょう
+Let’s walk-through few Buying Settings,購買設定をいくつか確認しましょう
 Level (BOM),レベル (部品表),
 Lft,Lft,
 Liabilities,負債,
@@ -4863,9 +4954,11 @@ Main,メイン,
 Main Cost Center,メインコストセンター,
 Main Cost Center {0} cannot be entered in the child table,メインコストセンター {0} は子テーブルに入力することはできません,
 Main Item Code,メイン品目コード,
+Main Reports,主要レポート
 Maintain Asset,資産の維持管理,
 Maintain Stock,在庫を維持する,
 Maintain same rate throughout internal Transaction,内部取引全体で同じ単価を維持する,
+Maintain same rate throughout purchase cycle,購買サイクル全体で同じ単価を維持する
 Maintain same rate throughout sales cycle,販売サイクル全体で同じ単価を維持する,
 Maintain same rate throughout the purchase  cycle,購買サイクル全体で同じ単価を維持する,
 Maintenance,メンテナンス,
@@ -4903,12 +4996,14 @@ Make Excise Invoice,物品税請求書を作成
 Make Inter Company Journal Entry,会社間仕訳を作成
 Make Invoice,請求書を作成
 Make Invoices,請求書を作成
+Make Lead,リードを作成
 Make Opening Sales and Purchase Invoices,期首の売上請求・仕入請求を作成
 Make Payment Entries,入出金伝票を作成
 Make Payment Entry,入出金伝票を作成
 Make Payment via Journal Entry,作成支払い仕訳入力,
 Make Purchase / Work Order,作成仕入作業注文,
 Make Purchase Invoice,作成仕入請求書,
+Make Purchase Receipt,入荷を作成
 Make Quotation,作成見積書,
 Make Repayment Entry,返済伝票を作成
 Make Return Entry,作成返品入力,
@@ -4916,9 +5011,12 @@ Make Sales Invoice,作成売上請求書,
 Make Serial No / Batch from Work Order,作成シリアルバッチ作業注文,
 Make Stock Entry,在庫伝票を作成,
 Make Subcontracting PO,外注発注書を作成,
+Make Supplier Quotation,仕入先見積を作成
 Make Tax Template,税テンプレートを作成
 Make Transfer Entry,作成移動入力,
+Make User,ユーザーを作成
 Make a call,電話をかける,
+Make new POS Setting,新しい POS 設定を作成
 Make project from a template.,テンプレートからプロジェクトを作成する。,
 Make {0} Variant,{0} バリアントを作成,
 Make {0} Variants,{0} バリアントを作成,
@@ -4961,6 +5059,7 @@ Manufacturing Setup,製造セットアップ,
 Manufacturing Time,製造時間,
 Manufacturing Type,製造タイプ,
 Manufacturing User,製造ユーザー,
+Mapping Purchase Receipt ...,入荷を対応付けています……
 Mapping Subcontracting Inward Order ...,外注受入注文をマッピング中...,
 Mapping Subcontracting Order ...,外注指示をマッピング中...,
 Mapping {0} ...,{0} をマッピング中...,
@@ -4980,6 +5079,7 @@ Mass Mailing,一括メール送信,
 Master Production Schedule,マスター生産スケジュール,
 Master Production Schedule Item,マスター生産スケジュール,
 Masters,マスター,
+Masters & Reports,マスタとレポート
 Material,資材,
 Material Consumption,資材消費,
 Material Consumption for Manufacture,製造用資材消費,
@@ -5014,6 +5114,7 @@ Material Transferred,資材移動済,
 Material Transferred for Manufacture,資材移動済製造,
 Material Transferred for Manufacturing,資材移動済製造,
 Material Transferred for Subcontract,外注のために移動された資材,
+Material User,資材ユーザー
 Material from Customer,資材顧客,
 Material to Supplier,資材仕入先,
 Materials To Be Transferred,移動する資材,
@@ -5125,6 +5226,7 @@ Minimum Value,最小金額,
 Minimum stock level to maintain as a buffer. Used to calculate recommended reorder level: Reorder Level = Safety Stock + (Average Daily Consumption × Lead Time).,バッファとして維持する最小在庫レベル。推奨される再発注レベルの計算に使用されます：再発注レベル = 安全在庫 + (1日あたりの平均消費量 × リードタイム)。,
 Minute,分,
 Minutes,分,
+Minutes to First Response for Opportunity,商談の初回応答までの分数
 Miscellaneous,その他,
 Miscellaneous Expenses,雑費,
 Mismatch,不一致,
@@ -5156,6 +5258,7 @@ Model,モデル,
 Modes of Payment,支払い方法,
 Modified On,更新済,
 Module (for Export),モジュール (エクスポート用),
+Module Settings,モジュールの設定
 Monitor for Last 'X' days,過去 'X' 日間を監視,
 Monitoring Frequency,監視頻度,
 Month(s) after the end of the invoice month,請求書月の月末から数ヶ月後,
@@ -5167,6 +5270,7 @@ Monthly Quality Inspections,月次品質検査,
 Monthly Rate,月次単価,
 Monthly Repayment Amount,月次返済額
 Monthly Sales Target,月次売上目標,
+Monthly Sales Target (,月次売上目標（
 Monthly Total Work Orders,月次合計作業注文,
 Months,ヶ月,
 More/Less than 12 months.,12ヶ月以上/未満。,
@@ -5269,17 +5373,20 @@ New Income,新規収入,
 New Invoice,新規請求書,
 New Journal Entry will be posted for the difference amount. The Posting Date can be modified.,差額に対して新しい仕訳伝票が転記されます。転記日は変更可能です。,
 New Lead (Last 1 Month),新規見込み客 (過去1ヶ月),
+New Leads,新規リード
 New Location,新規ロケーション,
 New Note,新規メモ,
 New Opportunity (Last 1 Month),新規商談 (過去1ヶ月),
 New Purchase Invoice,新規仕入請求書,
 New Purchase Orders,新規仕入注文,
+New Purchase Receipts,新規の入荷
 New Quality Procedure,新しい品質手順,
 New Quotations,新規見積書,
 New Sales Invoice,新規売上請求書,
 New Sales Orders,新規売上注文,
 New Sales Person Name,新規売上担当者名前,
 New Serial No cannot have Warehouse. Warehouse must be set by Stock Entry or Purchase Receipt,新規シリアル番号に倉庫を設定することはできません。倉庫は在庫伝票または入荷伝票で設定する必要があります,
+New Supplier Quotations,新規の仕入先見積
 New Task,新規タスク,
 New Version,新しいバージョン,
 New Warehouse Name,新規倉庫名前,
@@ -5393,6 +5500,7 @@ No {0} found for Inter Company Transactions.,会社間取引の{0}は見つか�
 No.,番号,
 No. of Employees,従業員数,
 No. of parallel job cards which can be allowed on this workstation. Example: 2 would mean this workstation can process production for two Work Orders at a time.,このワークステーションで許可される並行ジョブカードの数。例: 2は、このワークステーションが一度に2つの製造指示の生産を処理できることを意味します。,
+No. of print,印刷部数
 Non Completed Tasks,未完了タスク,
 Non Conformance,不適合,
 Non Depreciable Category,減価償却対象外カテゴリ,
@@ -5436,6 +5544,7 @@ Notes: ,備考: ,
 Nothing is included in gross,総額には何も含まれていません。,
 Nothing more to show.,これ以上表示するものはありません。,
 Notice (days),通知 (日数),
+Notification Email Address,通知先メールアドレス
 Notify Customers via Email,顧客にメールで通知,
 Notify Employee,従業員に通知,
 Notify Other,その他に通知,
@@ -5444,6 +5553,7 @@ Notify Supplier,仕入先に通知,
 Notify Via Email,メールで通知,
 Notify by email on creation of automatic Material Request,自動資材要求作成時にメールで通知する,
 Notify customer and agent via email on the day of the appointment.,予約当日に顧客と担当者にメールで通知します。,
+Notify users by email,ユーザーにメールで通知する
 Number of Concurrent Appointments,同時予約数,
 Number of Days,番号日,
 Number of Interaction,インタラクション数,
@@ -5475,10 +5585,12 @@ Oldest Of Invoice Or Advance,請求書または前払いの最も古いもの,
 On Hand,手持ち,
 On Hold Since,保留開始日,
 On Item Quantity,品目数量に対して,
+On Lead Creation,リードの作成時
 On Net Total,純合計に対して,
 On Paid Amount,支払済,
 On Previous Row Amount,前行金額に対して,
 On Previous Row Total,前行合計に対して,
+On Supplier Creation,仕入先の作成時
 On This Date,この日付に,
 On Track,順調,
 On enabling this cancellation entries will be posted on the actual cancellation date and reports will consider cancelled entries as well,これを有効にすると、キャンセル入力は実際のキャンセル日に転記され、レポートではキャンセルされた入力も考慮されます,
@@ -5601,18 +5713,23 @@ Opportunities,商談,
 Opportunities by Campaign,キャンペーン別商談,
 Opportunities by Medium,媒体別商談,
 Opportunities by Source,ソース別商談,
+Opportunities via Campaigns,キャンペーン経由の商談
 Opportunity,商談,
 Opportunity Amount,商談,
 Opportunity Amount (Company Currency),商談金額 (会社通貨),
 Opportunity Date,商談,
 Opportunity From,商談元,
+Opportunity From field is mandatory,商談の作成元は必須です
 Opportunity Item,商談品目,
+Opportunity List,商談一覧
+Opportunity Lost,商談失注
 Opportunity Lost Reason,商談失注理由,
 Opportunity Lost Reason Detail,商談失注理由詳細,
 Opportunity Owner,商談オーナー,
 Opportunity Source,商談ソース,
 Opportunity Summary by Sales Stage,商談サマリ売上ステージ,
 Opportunity Summary by Sales Stage ,営業ステージ別商談サマリー ,
+Opportunity Trends,商談の推移
 Opportunity Type,商談タイプ,
 Opportunity Value,商談金額,
 Opportunity {0} created,商談 {0} が作成されました,
@@ -5762,6 +5879,8 @@ POS Profile {} does not exist.,POSプロファイル {} は存在しません。
 POS Profile {} is disabled.,POSプロファイル {} は無効です。,
 POS Register,POS台帳,
 POS Search Fields,POS検索フィールド,
+POS Setting,POS 設定
+POS Setting required to make POS Entry,POS 伝票の作成には POS 設定が必要です
 POS Settings,POS設定,
 POS Transactions,POSトランザクション,
 POS has been closed at {0}. Please refresh the page.,POSは {0} にクローズされました。ページを更新してください。,
@@ -5885,6 +6004,8 @@ Passport Details,パスポート詳細,
 Passport Number,パスポート番号,
 Past Due Date,支払期日超過,
 Past Events,過去のイベント,
+Patient History Settings,患者履歴の設定
+"Patients, Practitioner Schedules, Settings, and more.",患者、医師のスケジュール、設定ほか。
 Pause,一時停止,
 Pause Job,ジョブの一時停止,
 Pause SLA On Status,ステータスでSLAを一時停止,
@@ -5994,6 +6115,8 @@ Payments received during the digest period,対象期間中の入金
 Payments updated.,支払いが更新されました。,
 Payroll Entry,給与伝票,
 Payroll Payable,給与未払金,
+Payroll Reports,給与レポート
+Payroll Settings,給与の設定
 Payslip,給与明細,
 Peck (UK),ペック (英国),
 Peck (US),ペック (米国),
@@ -6037,6 +6160,7 @@ Perception Analysis,認識分析,
 Period Based On,期間の基準,
 Period Closed,クローズ,
 Period Closing Entry For Current Period,期末入力現在,
+Period Closing Settings,期末締めの設定
 Period Closing Voucher,期末締切伝票,
 Period Closing Voucher {0} GL Entry Cancellation Failed,期末締伝票 {0} 総勘定元帳入力のキャンセルに失敗しました,
 Period Closing Voucher {0} GL Entry Processing Failed,期末締伝票 {0} 総勘定元帳入力の処理に失敗しました,
@@ -6193,6 +6317,7 @@ Please enter Approving Role or Approving User,承認ロールまたは承認ユ�
 Please enter Batch No,バッチ,
 Please enter Cost Center,コストセンター,
 Please enter Delivery Date,納品,
+Please enter Employee Id of this sales parson,この営業担当者の従業員 ID を入力してください
 Please enter Employee Id of this sales person,この営業担当者の従業員IDを入力してください。,
 Please enter Expense Account,費用,
 Please enter Item Code to get Batch Number,Item Code to get Batch Numberを入力してください,
@@ -6202,7 +6327,9 @@ Please enter Maintenance Details first,保守詳細,
 Please enter Payment Amount in atleast one row,少なくとも1行に支払金額を入力してください
 Please enter Planned Qty for Item {0} at row {1},行 {1} の品目 {0} の計画数量を入力してください。,
 Please enter Production Item first,生産,
+Please enter Purchase Receipt No to proceed,続行するには入荷番号を入力してください
 Please enter Purchase Receipt first,仕入伝票,
+Please enter Purchase Receipts,入荷を入力してください
 Please enter Receipt Document,伝票文書,
 Please enter Reference date,参照,
 Please enter Repayment Periods,返済期間を入力してください
@@ -6220,6 +6347,7 @@ Please enter a valid quantity,有効な数量を入力してください。,
 Please enter at least one delivery date and quantity,少なくとも1つの納品日と数量を入力してください。,
 Please enter company name first,まず会社名を入力してください。,
 Please enter default currency in Company Master,会社マスターでデフォルト通貨を入力してください。,
+Please enter email address,メールアドレスを入力してください
 Please enter message before sending,送信する前にメッセージを入力してください。,
 Please enter mobile number first.,まず携帯電話番号を入力してください。,
 Please enter parent cost center,親コストセンターを入力してください。,
@@ -6353,6 +6481,7 @@ Please set Fixed Asset Account in Asset Category {0},資産カテゴリ {0} で�
 Please set Fixed Asset Account in {} against {}.,{} の {} に対して固定資産勘定科目を設定してください。,
 Please set Opening Number of Booked Depreciations,期首の償却済回数を設定してください
 Please set Parent Row No for item {0},品目 {0} の親行番号を設定してください,
+Please set Payroll based on in Payroll settings,給与設定で給与計算の基準を設定してください
 Please set Purchase Expense Contra Account in Company {0},会社 {0} で仕入費用対勘定を設定してください,
 Please set Root Type,ルートタイプ,
 Please set Tax ID for the customer '%s',顧客 '%s' の納税者番号を設定してください,
@@ -6411,6 +6540,7 @@ Please uncheck 'Show in Bucket View' to create Orders,注文を作成するに�
 Please update Repair Status.,修理ステータスを更新してください。,
 Point of Sale,販売時点管理,
 Point-of-Sale Profile,販売時点管理プロファイル,
+Point-of-Sale Setting,POS の設定
 Policy No,ポリシー,
 Policy number,ポリシー番号,
 Pond,ポンド,
@@ -6509,6 +6639,7 @@ Primary Party,主要取引先,
 Primary Role,主要ロール,
 Primary Settings,主要設定,
 Print Format Type should be Jinja.,印刷フォーマットタイプはJinjaである必要があります。,
+Print Format for Online,オンライン用の印刷フォーマット
 Print Format must be an enabled Report Print Format matching the selected Report.,印刷フォーマットは、選択されたレポートと一致する有効なレポート印刷フォーマットである必要があります。,
 Print IRS 1099 Forms,IRS 1099フォームを印刷,
 Print Preferences,印刷設定,
@@ -6516,6 +6647,7 @@ Print Receipt,印刷伝票,
 Print Receipt on Order Complete,注文完了時にレシートを印刷,
 Print UOM after Quantity,数量の後にUOMを印刷,
 Print Without Amount,金額なしで印刷,
+Print and Stationary,印刷と文房具
 Print and Stationery,印刷と文房具,
 Print settings updated in respective print format,印刷設定がそれぞれの印刷フォーマットで更新されました,
 Print taxes with zero amount,金額がゼロの税金を印刷,
@@ -6557,6 +6689,7 @@ Process loss quantity cannot be negative.,工程損失数量は負の値にす�
 Processed BOMs,処理済部品表,
 Processes,プロセス,
 Processing Date,処理日,
+Processing Sales! Please Wait...,販売を処理しています。お待ちください……
 Processing XML Files,XMLファイルの処理,
 Processing import...,インポートを処理中...,
 Procurement,調達,
@@ -6593,6 +6726,8 @@ Production Plan Sub Assembly Item,生産計画半製品品目,
 Production Plan Summary,生産計画サマリ,
 Production Planning Report,生産計画レポート,
 Products,製品,
+"Products, Purchases, Analysis, and more.",製品、購買、分析ほか。
+"Products, Sales, Analysis, and more.",製品、販売、分析ほか。
 Professional Tax,事業税
 Professional Tax Deductions,事業税の控除
 Profit & Loss,損益,
@@ -6643,6 +6778,7 @@ Promotional Scheme Id,プロモーションスキームID,
 Promotional Scheme Price Discount,プロモーション価格値引き,
 Promotional Scheme Product Discount,プロモーション製品値引き,
 Prompt Qty,プロンプト数量,
+Prompt for Email on Submission of,提出時にメールを促す対象
 Proposal Writing,提案書作成,
 Proposal/Price Quote,提案書/価格見積,
 Prorate,按分,
@@ -6655,6 +6791,7 @@ Prospecting,見込み客開拓,
 Prospects Engaged But Not Converted,接触したがコンバージョンに至らなかった見込み客,
 Protected DocType,保護されたDocType,
 Provide Email Address registered in company,会社に登録されているメールアドレスを入力してください,
+Provide email id registered in company,会社に登録されているメールアドレスを指定します
 Providing,提供中,
 Provisional Account,仮,
 Provisional Expense Account,仮払費用勘定,
@@ -6669,9 +6806,11 @@ Publishing,公開中,
 Purchase,仕入,
 Purchase Amount,仕入,
 Purchase Analytics,仕入分析,
+Purchase Common,購買 共通
 Purchase Date,仕入,
 Purchase Defaults,仕入デフォルト,
 Purchase Details,仕入詳細,
+Purchase Discounts,購買割引
 Purchase Expense,仕入費用,
 Purchase Expense Account,仕入費用,
 Purchase Expense Contra Account,仕入費用対勘定科目,
@@ -6714,16 +6853,19 @@ Purchase Receipt (Draft) will be auto-created on submission of Subcontracting Re
 Purchase Receipt Detail,仕入伝票詳細,
 Purchase Receipt Item,入荷伝票品目,
 Purchase Receipt Item Supplied,仕入伝票供給済,
+Purchase Receipt Message,入荷メッセージ
 Purchase Receipt No,仕入伝票,
 Purchase Receipt Required,仕入伝票,
 Purchase Receipt Required for item {},品目 {} には入荷伝票が必要です,
 Purchase Receipt Trends,入荷伝票トレンド,
 Purchase Receipt Trends ,入荷伝票トレンド ,
 Purchase Receipt doesn't have any Item for which Retain Sample is enabled.,入荷伝票には、サンプル保持が有効になっている品目がありません。,
+Purchase Receipt must be submitted,入荷は提出済である必要があります
 Purchase Receipt {0} created.,入荷伝票 {0} が作成されました。,
 Purchase Receipt {0} is not submitted,入荷伝票 {0} は提出されていません,
 Purchase Register,仕入台帳,
 Purchase Return,仕入返品,
+Purchase Returned,購買返品
 Purchase Tax Template,仕入税テンプレート,
 Purchase Tax Withholding Category,仕入税源泉徴収カテゴリ,
 Purchase Taxes and Charges,仕入税・手数料,
@@ -6733,6 +6875,7 @@ Purchase Value,仕入金額,
 Purchase Voucher No,仕入伝票,
 Purchase Voucher Type,仕入伝票タイプ,
 Purchase an Asset,資産を購入
+Purchase demande,購買依頼
 Purchase orders help you plan and follow up on your purchases,発注書は、購買の計画とフォローアップに役立ちます,
 Purchased,購入済,
 Purchases,購買,
@@ -6799,6 +6942,7 @@ Quality Inspection Parameter,品質検査パラメータ,
 Quality Inspection Parameter Group,品質検査パラメータグループ,
 Quality Inspection Reading,品質検査読取値,
 Quality Inspection Required,品質検査,
+Quality Inspection Settings,品質検査の設定
 Quality Inspection Summary,品質検査サマリ,
 Quality Inspection Template,品質検査テンプレート,
 Quality Inspection Template Name,品質検査テンプレート名前,
@@ -6824,6 +6968,7 @@ Quantity (A - B),数量 (A - B),
 Quantity (Output Qty),数量 (出力数量),
 Quantity Available,利用可能数量,
 Quantity Difference,数量差額,
+Quantity Requested for Purchase,購買依頼数量
 Quantity Tolerance,数量許容差,
 Quantity and Amount,数量,
 Quantity and Description,数量説明,
@@ -6846,6 +6991,7 @@ Quart Dry (US),クォート乾量 (米国),
 Quart Liquid (US),クォート液量 (米国),
 Quarter {0} {1},四半期 {0} {1},
 Query Route String,クエリルーティング文字列,
+Questionnaire Email Sent,アンケートのメールを送信しました
 Queue Size should be between 5 and 100,キューサイズは5から100の間である必要があります,
 Quick Journal Entry,クイック仕訳伝票,
 Quick Ratio,当座比率,
@@ -6858,6 +7004,7 @@ Quotation Amount,見積書,
 Quotation Item,見積品目,
 Quotation Lost Reason,見積書失注理由,
 Quotation Lost Reason Detail,見積書失注理由詳細,
+Quotation Message,見積書メッセージ
 Quotation Number,見積書番号,
 Quotation To,見積書,
 Quotation Trends,見積書トレンド,
@@ -6947,6 +7094,7 @@ Rebuilding BTree for period ...,期間のBTreeを再構築中...,
 Recalculate Batch Qty,バッチ数量を再計算,
 Recalculate Bin Qty,ビン数量を再計算,
 Recalculate Incoming/Outgoing Rate,入出庫レートを再計算,
+Recalculating Purchase Cost against this Project...,このプロジェクトの購買原価を再計算しています……
 Receipt,レセプト,
 Receipt Document,伝票文書,
 Receipt Document Type,伝票文書タイプ,
@@ -7109,12 +7257,14 @@ It also updates latest price in all the BOMs.","使用されている他のす�
 Report Date,報告日,
 Report Error,エラーを報告,
 Report Line Items,レポート明細,
+Report Setting,レポートの設定
 Report Template,レポートテンプレート,
 Report Type is mandatory,レポートタイプ,
 Report an Issue,レポート課題,
 Reporting Currency,レポート通貨,
 Reporting Currency Exchange Not Found,レポート通貨の為替レートが見つかりません,
 Reporting Currency Exchange Rate,レポート通貨換算レート,
+Reports To,上長
 Reports to,レポート,
 Repost,再投稿,
 Repost Accounting Ledger,再計上会計元帳,
@@ -7246,8 +7396,10 @@ Restore Asset,資産を復元,
 Restrict,制限する,
 Restrict Items Based On,品目の制限基準,
 Restrict to Countries,国に制限する,
+Result Emailed,結果をメールで送信しました
 Result Key,結果キー,
 Result Preview Field,結果プレビューフィールド,
+Result Printed,結果を印刷しました
 Result Route Field,結果ルートフィールド,
 Result Title Field,結果タイトルフィールド,
 Resume,再開,
@@ -7312,8 +7464,13 @@ Right Child,右の子,
 Right Index,右インデックス,
 Ringing,鳴動,
 Rod,ロッド,
+Role Allowed to Create/Edit Back-dated Transactions,遡及日付の取引を作成・編集できるロール
+Role Allowed to Over Bill,超過請求を許可するロール
 Role Allowed to Over Deliver/Receive,過剰な納品/受領を許可するロール,
+Role Allowed to Override Stop Action,停止操作を上書きできるロール
 Role Allowed to over bill ,過剰請求を許可するロール ,
+Role Preference,ロールの優先設定
+Role allowed to bypass Credit Limit,与信限度を超過できるロール
 Role allowed to bypass credit limit,信用限度額をバイパスできるロール,
 Role allowed to bypass period restrictions.,期間制限をバイパスすることを許可するロール,
 Role allowed to create/edit back-dated transactions,過去日付の取引を作成/編集できるロール,
@@ -7677,9 +7834,12 @@ Sales,売上,
 Sales & Purchase,販売と購買,
 Sales Account,売上,
 Sales Analytics,売上分析,
+Sales Browser,販売ブラウザ
 Sales Contributions and Incentives,販売貢献とインセンティブ,
 Sales Defaults,売上デフォルト,
+Sales Discounts,販売割引
 Sales Expenses,売上費用,
+Sales Extras,販売の追加設定
 Sales Forecast,売上予測,
 Sales Forecast Item,売上予測,
 Sales Funnel,販売ファネル,
@@ -7727,6 +7887,7 @@ Sales Orders to Bill,売上注文請求,
 Sales Orders to Deliver,納品する受注,
 Sales Partner,販売パートナー,
 Sales Partner ,販売パートナー ,
+Sales Partner Addresses And Contacts,販売パートナーの住所と連絡先
 Sales Partner Commission Summary,売上パートナー手数料サマリ,
 Sales Partner Item,売上パートナー,
 Sales Partner Name,売上パートナー名前,
@@ -7736,6 +7897,7 @@ Sales Partner Target Variance based on Item Group,売上パートナー目標差
 Sales Partner Transaction Summary,売上パートナー取引サマリ,
 Sales Partner Type,売上パートナータイプ,
 Sales Partners Commission,売上パートナー手数料,
+Sales Partners and Territory,販売パートナーと地域
 Sales Payment Summary,売上支払いサマリ,
 Sales Person,営業担当者,
 Sales Person <b>{0}</b> is disabled.,営業担当者 <b>{0}</b> は無効です。,
@@ -7751,6 +7913,7 @@ Sales Price List,売上価格リスト,
 Sales Register,売上台帳,
 Sales Representative,営業担当者,
 Sales Return,売上返品,
+Sales Returned,販売返品
 Sales Stage,営業ステージ,
 Sales Summary,売上サマリー,
 Sales Tax Template,売上税テンプレート,
@@ -7759,7 +7922,9 @@ Sales Taxes,売上税,
 Sales Taxes and Charges,売上税・手数料,
 Sales Taxes and Charges Template,売上税・手数料テンプレート,
 Sales Team,営業チーム,
+Sales Update Frequency in Company and Project,会社とプロジェクトの売上更新頻度
 Sales Value,売上金額,
+Sales and Purchase,販売と購買
 Sales and Returns,売上と返品,
 Sales orders are not available for production,受注は生産に利用できません,
 Salvage Value,残存価額,
@@ -7882,12 +8047,14 @@ Select Payment Account to make Bank Entry,銀行伝票を作成する入出金�
 Select Payment Schedule,支払スケジュールを選択,
 Select Possible Supplier,候補仕入先を選択,
 Select Quantity,数量,
+Select Sales Orders,受注を選択
 Select Serial No,シリアル,
 Select Serial and Batch,シリアルバッチ,
 Select Shipping Address,配送住所,
 Select Supplier Address,仕入先住所,
 Select Target Warehouse,目標倉庫,
 Select Time,時間,
+Select Users,ユーザーを選択
 Select View,表示,
 Select Vouchers to Match,照合する伝票を選択,
 Select Warehouse...,倉庫を選択...,
@@ -7938,6 +8105,7 @@ Sell Qty,販売数量,
 Sell quantity cannot exceed the asset quantity,販売数量は資産数量を超えることはできません,
 Sell quantity cannot exceed the asset quantity. Asset {0} has only {1} item(s).,販売数量は資産数量を超えることはできません。資産 {0} には {1} 個の品目しかありません。,
 Sell quantity must be greater than zero,販売数量はゼロより大きい必要があります,
+Seller Email,販売者のメールアドレス
 Selling,販売,
 Selling Amount,販売,
 Selling Price List,販売価格表,
@@ -7952,8 +8120,10 @@ Send Attached Files,添付ファイルを送信,
 Send Document Print,送信文書印刷,
 Send Email,送信メール,
 Send Emails,メールを送信,
+Send Emails At,メールの送信時刻
 Send Emails to Suppliers,仕入先にメールを送信,
 Send SMS,SMSを送信,
+Send Supplier Emails,仕入先にメールを送信
 Send To,送信,
 Send To Primary Contact,送信主要連絡先,
 Send regular summary reports via Email.,定期的なサマリーレポートをメールで送信します。,
@@ -8116,15 +8286,21 @@ Sets 'Warehouse' in each row of the Items table.,品目テーブルの各行に�
 Setting Account Type helps in selecting this Account in transactions.,勘定科目タイプの設定は、取引でこの勘定科目を選択するのに役立ちます。,
 "Setting Events to {0}, since the Employee attached to the below Sales Persons does not have a User ID{1}",以下の営業担当者に紐付けられた従業員にユーザーID {1} がないため、イベントを {0} に設定しています,
 Setting Item Locations...,品目ロケーションを設定中...,
+Setting Up,設定しています
 Setting defaults,デフォルトを設定中,
 Setting the account as a Company Account is necessary for Bank Reconciliation,勘定科目を会社勘定として設定することは、銀行照合に必要です,
 Setting up company,会社をセットアップ中,
 Setting up company and taxes,会社と税を設定しています
 Setting {0} is required,{0} の設定は必須です,
+Setting {} is required,設定 {} は必須です
+Settings & Configurations,設定と構成
+Settings for HR Module,人事モジュールの設定
 Settings for Selling Module,販売モジュールの設定,
 Settled,決済済,
+Setup Approval Workflows,承認ワークフローを設定
 Setup Company,会社をセットアップ,
 Setup Email Account,メールアカウントをセットアップ,
+Setup Limited Access for a User,ユーザーのアクセスを限定して設定
 Setup Organization,組織をセットアップ,
 Setup Role Permissions,ロール権限をセットアップ,
 Setup Sales Taxes,売上税をセットアップ,
@@ -8142,6 +8318,7 @@ Shelf Life in Days,日数での賞味期限,
 Shift,シフト,
 Shift Factor,シフト係数,
 Shift Name,シフト名前,
+Shift Settings,シフトの設定
 Shift Time (In Hours),シフト時間 (時間単位),
 Shipment,出荷,
 Shipment Amount,出荷,
@@ -8209,9 +8386,11 @@ Show Open,表示オープン,
 Show Opening Entries,表示期首入力,
 Show Opening and Closing Balance,表示期首期末残高,
 Show Operations,表示工程,
+Show PDC in Print,印刷に先日付小切手を表示する
 Show Pay Button in Purchase Order Portal,発注ポータルに支払ボタンを表示する
 Show Payment Details,表示支払い詳細,
 Show Payment Schedule in print,印刷時に支払スケジュールを表示,
+Show Price in Quotation,見積書に価格を表示する
 Show Remarks,表示備考,
 Show Return Entries,表示返品入力,
 Show Sales Person,表示売上担当者,
@@ -8264,6 +8443,7 @@ Skip Delivery Note,スキップ納品メモ,
 Skip Material Transfer,資材移動をスキップ,
 Skip Material Transfer to WIP,仕掛品への資材移動をスキップ,
 Skip Material Transfer to WIP Warehouse,仕掛品倉庫への資材移動をスキップ,
+Skip e-mail workflow,メールのワークフローを省略する
 Skipped {0} DocType(s):<br>{1},{0} ドキュメントタイプをスキップしました:<br>{1},
 Skype ID,Skype ID,
 Slug/Cubic Foot,スラッグ/立方フィート,
@@ -8573,13 +8753,16 @@ Supplied Items,供給品目,
 Supplied Qty,供給済数量,
 Supplier,仕入先,
 Supplier (Payable) Account,仕入先（買掛金）勘定
+Supplier (vendor) name as entered in supplier master,仕入先マスタに登録されている仕入先名
 Supplier > Supplier Type,仕入先 > 仕入先タイプ,
 Supplier Address,仕入先住所,
 Supplier Address Details,仕入先住所詳細,
 Supplier Addresses And Contacts,仕入先の住所と連絡先,
+Supplier Addresses and Contacts,仕入先の住所と連絡先
 Supplier Contact,仕入先連絡先,
 Supplier Defaults,仕入先デフォルト,
 Supplier Delivery Note,仕入先納品メモ,
+Supplier Detail,仕入先 明細
 Supplier Details,仕入先詳細,
 Supplier Group,仕入先グループ,
 Supplier Group Item,仕入先グループ,
@@ -8620,9 +8803,13 @@ Supplier Scorecard Setup,仕入先スコアカード設定,
 Supplier Scorecard Standing,仕入先スコアカードランク,
 Supplier Scorecard Variable,仕入先スコアカード変数,
 Supplier Type,仕入先タイプ,
+Supplier Type / Supplier,仕入先タイプ／仕入先
+Supplier Type master.,仕入先タイプ マスタ。
+Supplier Variables,仕入先の変数
 Supplier Warehouse,仕入先倉庫,
 Supplier delivers to Customer,仕入先から顧客への直送,
 Supplier is required for all selected Items,選択したすべての品目に仕入先が必要です,
+Supplier master.,仕入先マスタ。
 Supplier numbers assigned by the customer,顧客によって割り当てられた仕入先番号,
 Supplier of Goods or Services.,商品またはサービスの仕入先。,
 Supplier {0} not found in {1},仕入先 {0} は {1} に見つかりません,
@@ -8638,6 +8825,7 @@ Support Settings,サポート設定,
 Support Team,サポートチーム,
 Support Tickets,サポートチケット,
 Supported Variables:,サポートされている変数:,
+Suppress default email toast,既定のメール通知トーストを表示しない
 Suspected Discount Amount,推定値引額,
 Suspended,停止中,
 Switch Between Payment Modes,支払方法の切替,
@@ -8658,9 +8846,11 @@ System will notify to increase or decrease quantity or amount ,数量または�
 TDS Computation Summary,TDS計算サマリー,
 TDS Deducted,TDS控除済,
 TDS Payable,TDS買掛金,
+TRIPLICATE FOR SUPPLIER,仕入先控（3枚目）
 Table for Item that will be shown in Web Site,ウェブサイトに表示される品目のテーブル,
 Tablespoon (US),大さじ (米国),
 Take a quick walk-through of Accounts Settings,勘定設定を一通り確認しましょう
+Take a walk-through of Manufacturing Settings,製造設定を一通り確認しましょう
 Target  Amount,目標,
 Target ({}),ターゲット ({}),
 Target Asset,目標資産,
@@ -8808,8 +8998,11 @@ Territory Manager,テリトリー管理者,
 Territory Name,テリトリー名前,
 Territory Target Variance Based On Item Group,テリトリー目標差異グループ,
 Territory Targets,地域ターゲット,
+Territory Wise Opportunity Count,地域別 商談件数
+Territory Wise Sales,地域別 売上
 Territory-wise Sales,地域別販売,
 Tesla,テスラ,
+Test Email Id,テスト用メールアドレス
 "Text displayed on the financial statement (e.g., 'Total Revenue', 'Cash and Cash Equivalents')",財務諸表に表示されるテキスト (例: 「総収益」、「現金および現金同等物」),
 The 'From Package No.' field must neither be empty nor it's value less than 1.,「From Package No.」フィールドは空であってはならず、その値が1未満であってもなりません。,
 "The Access to Request for Quotation From Portal is Disabled. To Allow Access, Enable it in Portal Settings.",ポータルからの見積依頼書へのアクセスは無効になっています。アクセスを許可するには、ポータル設定で有効化してください。,
@@ -9012,6 +9205,7 @@ This tool helps you to update or fix the quantity and valuation of stock in the 
 This value shall be used when no matching Common Code for a record is found.,この値は、レコードの一致する共通コードが見つからない場合に使用されます。,
 "This will be appended to the Item Code of the variant. For example, if your abbreviation is ""SM"", and the item code is ""T-SHIRT"", the item code of the variant will be ""T-SHIRT-SM""",これはバリアントの品目コードに付加されます。たとえば、略語が「SM」で、品目コードが「T-SHIRT」の場合、バリアントの品目コードは「T-SHIRT-SM」になります。,
 This will be applied if no naming series is configured in Item master,品目マスターで命名シリーズが設定されていない場合に適用されます,
+This will be used for setting rule in HR module,人事モジュールのルール設定に使用されます
 This will restrict user access to other employee records,これにより、他の従業員レコードへのユーザーアクセスが制限されます,
 This {} will be treated as material transfer.,この {} は倉庫間移動として扱われます。,
 Threshold Exemption,閾値免除,
@@ -9104,6 +9298,7 @@ To include non-stock items in the material request planning. i.e. Items for whic
 "To still proceed with editing this Attribute Value, enable {0} in Item Variant Settings.",この属性値の編集を続行するには、品目バリアント設定で{0}を有効にしてください。,
 To submit the invoice without purchase order please set {0} as {1} in {2},発注書なしで請求書を提出するには、{2}で{0}を{1}に設定してください,
 To submit the invoice without purchase receipt please set {0} as {1} in {2},入荷伝票なしで請求書を提出するには、{2}で{0}を{1}に設定してください,
+"To use Google Indexing, enable Google Settings.",Google インデックスを使うには Google 設定を有効にしてください。
 "To use a different finance book, please uncheck 'Include Default FB Assets'",別の財務帳簿を使用するには、「デフォルトFB資産を含める」のチェックを外してください,
 "To use a different finance book, please uncheck 'Include Default FB Entries'",別の財務帳簿を使用するには、「デフォルトFB入力を含める」のチェックを外してください,
 Ton (Long)/Cubic Yard,トン (ロング)/立方ヤード,
@@ -9213,6 +9408,7 @@ Total Produced Qty,合計生産済数量,
 Total Projected Qty,合計予測数量,
 Total Purchase Amount,合計仕入,
 Total Purchase Cost (via Purchase Invoice),合計仕入費用 (仕入請求書経由),
+Total Purchase Cost has been updated,購買原価の合計を更新しました
 Total Qty,合計数量,
 Total Quantity,合計数量,
 Total Received Amount,合計受領済,
@@ -9257,6 +9453,7 @@ Total(Qty),合計(数量),
 Totals (Company Currency),合計 (会社通貨),
 Traceability,トレーサビリティ,
 Tracebility Direction,トレーサビリティ方向,
+Track Leads by Industry Type.,業種別にリードを追跡します。
 Track Semi Finished Goods,半製品を追跡,
 Track Service Level Agreement,サービスレベル契約を追跡,
 Track each unit with a unique serial number for warranty and return tracking. Cannot be changed after a stock transaction exists.,保証および返品追跡のために、各ユニットを一意のシリアル番号で追跡します。在庫取引が存在した後は変更できません。,
@@ -9265,6 +9462,7 @@ Track this item in batches. Cannot be changed after a stock transaction exists.,
 Tracking Status,追跡ステータス,
 Tracking Status Info,追跡ステータス情報,
 Tracking URL,追跡URL,
+Trainer Email,講師のメールアドレス
 Transaction,取引,
 Transaction Currency,取引通貨,
 Transaction Date,取引日,
@@ -9292,6 +9490,7 @@ Transaction from which tax is withheld,税金が源泉徴収される取引元,
 Transaction not allowed against stopped Work Order {0},停止された製造指示 {0} に対して取引は許可されていません,
 Transaction reference no {0} dated {1},取引参照番号 {0} 日付 {1},
 Transactions,取引,
+Transactions & Reports,取引とレポート
 Transactions Annual History,取引年次履歴,
 Transactions against the Company already exist! Chart of Accounts can only be imported for a Company with no transactions.,会社に対する取引がすでに存在します！勘定科目表は、取引のない会社に対してのみインポートできます。,
 Transactions using Sales Invoice in POS are disabled.,POSでの売上請求書を使用した取引は無効になっています。,
@@ -9333,6 +9532,7 @@ Trial Period Start Date,試算開始,
 Trial Period Start date cannot be after Subscription Start Date,試用期間開始日は購読開始日より後であることはできません,
 Trialing,試用中,
 Truncates 'Remarks' column to set character length,「備考」列を切り詰めて文字長を設定します,
+Try the new Print Format Builder,新しい印刷フォーマットビルダーを試す
 Turnover Ratios,回転率,
 Twice Daily,1日2回,
 Two-way,双方向,
@@ -9419,6 +9619,7 @@ Unscheduled,未スケジュール,
 Unsecured Loans,無担保借入金,
 Unset Matched Payment Request,照合済み支払いリクエストの解除,
 Unsigned,未署名,
+Unstructured Role,非定型の役割
 Unsubscribe from this Email Digest,このメールダイジェストの購読を解除する,
 Unsupported Feature,未対応の機能,
 Unverified,未確認,
@@ -9444,6 +9645,7 @@ Update Cost Center Name / Number,更新コストセンター名前番号,
 Update Cost Center Number,コストセンター番号を更新
 Update Costing and Billing,更新原価計算請求,
 Update Current Stock,更新現在在庫,
+Update Email Group,メールグループを更新
 Update Items,更新,
 Update Outstanding for Self,自身の未回収を更新,
 Update Price List based on,価格リストの更新基準,
@@ -9451,6 +9653,7 @@ Update Print Format,更新印刷フォーマット,
 Update Rate and Availability,レートと利用可能性を更新,
 Update Rate as per Last Purchase,更新単価最終仕入,
 Update Stock,在庫更新,
+Update Total Purchase Cost,購買原価の合計を更新
 Update Type,更新タイプ,
 Update existing Price List Rate,既存の価格リストレートを更新,
 Update latest price in all BOMs,すべてのBOMで最新価格を更新,
@@ -9497,10 +9700,13 @@ Used for Production Plan,使用済生産計画,
 Used to balance the books when recording extra purchase costs like freight or customs,運賃や関税などの追加購入費用を記録する際に帳簿を調整するために使用されます,
 Used to create an opening Stock Entry with the Valuation Rate when the item is saved,品目保存時に評価レートで期首在庫伝票を作成するために使用されます,
 Used with Financial Report Template,使用済財務レポートテンプレート,
+User Category,ユーザーカテゴリ
 User Forum,ユーザーフォーラム,
 User ID not set for Employee {0},従業員 {0} のユーザーIDが設定されていません,
 User Remark,ユーザー備考,
+User Remark will be added to Auto Remark,ユーザーの備考が自動備考に追加されます
 User Resolution Time,ユーザー解決時間,
+User Specific,ユーザー固有
 User has not applied rule on the invoice {0},ユーザーは請求書 {0} にルールを適用していません,
 User {0} does not exist,ユーザー {0} は存在しません,
 User {0} doesn't have any default POS Profile. Check Default at Row {1} for this User.,ユーザー {0} にはデフォルトのPOSプロファイルがありません。このユーザーの行 {1} のデフォルトを確認してください。,
@@ -9508,6 +9714,7 @@ User {0} is already assigned to Employee {1},ユーザー {0} はすでに従業
 User {0}: Removed Employee Self Service role as there is no mapped employee.,ユーザー {0}: マップされた従業員がいないため、従業員セルフサービスロールを削除しました。,
 User {0}: Removed Employee role as there is no mapped employee.,ユーザー {0}: マップされた従業員がいないため、従業員ロールを削除しました。,
 User {} is disabled. Please select valid user/cashier,ユーザー {} は無効です。有効なユーザー/レジ係を選択してください,
+Users List,ユーザー一覧
 Users can enable the checkbox If they want to adjust the incoming rate (set using purchase receipt) based on the purchase invoice rate.,ユーザーは、仕入請求書レートに基づいて入荷レート（入荷伝票を使用して設定）を調整したい場合、チェックボックスを有効にできます。,
 Users can make manufacture entry against Job Cards,ユーザーはジョブカードに対して製造入力を作成できます,
 Users with this role are allowed to over bill above the allowance percentage,このロールを持つユーザーは、許容パーセンテージを超えて過剰請求することが許可されています,
@@ -9905,6 +10112,7 @@ You need to cancel POS Closing Entry {} to be able to cancel this document.,こ�
 You selected the account group {1} as {2} Account in row {0}. Please select a single account.,行{0}で勘定科目グループ{1}を{2}勘定科目として選択しました。単一の勘定科目を選択してください。,
 YouTube Interactions,YouTubeインタラクション,
 Your Name (required),あなたの名前 (必須),
+Your Suppliers,自社の仕入先
 Your email has been verified and your appointment has been scheduled,メールアドレスが確認され、予約がスケジュールされました。,
 Your order is out for delivery!,ご注文は配送中です！,
 Your tickets,あなたのチケット,
@@ -9961,6 +10169,7 @@ ratings,評価,
 received from,受領元,
 returned,返品済,
 rgt,rgt,
+sales-browser,販売ブラウザ
 sandbox,サンドボックス,
 sold,販売済,
 subscription is already cancelled.,サブスクリプションはすでにキャンセルされています。,
@@ -9971,6 +10180,7 @@ to,宛先,
 to unallocate the amount of this Return Invoice before cancelling it.,キャンセルする前に、この返品請求書の金額の割り当てを解除してください。,
 unique e.g. SAVE20  To be used to get discount,一意の値 例: SAVE20  値引き取得に使用,
 updated delivered quantity for item {0} to {1},品目 {0} の納品数量を {1} に更新しました,
+user@example.com,user@example.com
 variance,差異,
 via Asset Repair,資産修理,
 via BOM Update Tool,部品表更新ツール,
