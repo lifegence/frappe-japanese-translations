@@ -2905,6 +2905,9 @@ For Document,ドキュメント用,
 For Document Event,ドキュメントイベント用,
 For Document Type,伝票タイプ,
 For Example: {} Open,例：{}開く,
+"For Links, enter the DocType as range.
+For Select, enter list of Options, each on a new line.","Link の場合は範囲として DocType を入力します。
+Select の場合は選択肢を改行区切りで入力します。"
 "For Links, enter the DocType as range.\nFor Select, enter list of Options, each on a new line.",リンクには、範囲として文書タイプを入力します。選択には、それぞれ新しい行に、オプションのリストを入力します。,
 For User,対象ユーザー,
 For Value,価値観,
@@ -3211,10 +3214,12 @@ Hide Label,ラベルを非表示,
 Hide Login,ログインを隠す,
 Hide Preview,プレビューを非表示,
 "Hide Previous, Next and Close button on highlight dialog.",ハイライトダイアログの「前へ」、「次へ」、「閉じる」ボタンを非表示にする。,
+Hide Saved,保存済を隠す
 Hide Seconds,秒を隠す,
 Hide Sidebar and Menu,サイドバーとメニューを隠す,
 "Hide Sidebar, Menu, and Comments",サイドバー、メニュー、コメントを非表示,
 Hide Standard Menu,標準メニューを非表示,
+Hide Tags,タグを隠す
 Hide Traceback,トレースバックを非表示,
 Hide Weekends,週末を隠す,
 Hide descendant records of <b>For Value</b>.,<b>対象値</b>の子孫レコードを非表示にする。,
@@ -6121,6 +6126,7 @@ Show Protected Resource Metadata,保護されたリソースのメタデータ�
 Show Relapses,再発を表示,
 Show Related Errors,関連エラーを表示,
 Show Report,レポートを表示する,
+Show Saved,保存済を表示
 Show Section Headings,セクション見出しを表示,
 Show Sidebar,サイドバー表示,
 Show Social Login Key as Authorization Server,ソーシャルログインキーを認証サーバーとして表示,
@@ -6846,6 +6852,7 @@ Toggle Full Width,全幅表示を切り替える,
 Toggle Grid View,グリッド表示の切り替え,
 Toggle Public/Private,パブリック/プライベートの切り替え,
 Toggle Sidebar,サイドバーの切り替え,
+Toggle Theme,テーマを切り替え
 Toggle label orientation (Left→Right),ラベルの向きを切り替える (左→右),
 Toggle sidebar,サイドバーの切り替え,
 Token,トークン,
