@@ -611,6 +611,7 @@ Add,追加,
 Add / Remove Columns,列の追加/削除,
 Add / Update,追加/更新,
 Add A New Rule,新しいルールを追加,
+Add A User Restriction,ユーザー制限を追加
 Add Attachment,添付ファイルを追加,
 Add Background Image,背景画像を追加,
 Add Border at Bottom,下部に罫線を追加,
@@ -759,6 +760,7 @@ Allow Roles,ロールを許可,
 Allow Self Approval,自己承認を許可,
 Allow Sending Usage Data for Improving Applications,アプリケーション改善のための利用状況データ送信を許可,
 Allow User Cancellation,ユーザーによるキャンセルを許可,
+Allow User If,ユーザーを許可する条件
 Allow User Retry,ユーザーによる再試行を許可,
 Allow approval for creator of the document,文書作成者による承認を許可,
 Allow bulk actions,一括アクションを許可,
@@ -815,6 +817,7 @@ Allows users to enable the mask property for any field of the respective doctype
 Already Registered,既に登録済み,
 Already amended as {0},{0}として既に修正済み,
 Already in the following Users ToDo list:{0},以下のユーザーのToDoリストに既に存在します:{0},
+Already in user's To Do list,すでにユーザーの ToDo に含まれています
 Also adding the dependent currency field {0},依存する通貨フィールド{0}も追加します,
 Also adding the status dependency field {0},ステータス依存フィールド{0}も追加します,
 Alternative Email ID,代替メールID,
@@ -845,6 +848,7 @@ Anonymization Matrix,匿名化マトリックス,
 Anonymous responses,匿名回答,
 Another transaction is blocking this one. Please try again in a few seconds.,別のトランザクションがこれをブロックしています。数秒後にもう一度お試しください。,
 "Another {0} with name {1} exists, select another name",名前が{1}の別の{0}が存在します。別の名前を選択してください。,
+Any existing permission will be deleted / overwritten.,既存の権限は削除または上書きされます。
 Any string-based printer languages can be used. Writing raw commands requires knowledge of the printer's native language provided by the printer manufacturer. Please refer to the developer manual provided by the printer manufacturer on how to write their native commands. These commands are rendered on the server side using the Jinja Templating Language.,任意の文字列ベースのプリンター言語を使用できます。生のコマンドを記述するには、プリンターメーカーが提供するプリンターのネイティブ言語の知識が必要です。ネイティブコマンドの記述方法については、プリンターメーカーが提供する開発者マニュアルを参照してください。これらのコマンドは、Jinjaテンプレート言語を使用してサーバー側でレンダリングされます。,
 "Apart from System Manager, roles with Set User Permissions right can set permissions for other users for that Document Type.",システムマネージャー以外に、「ユーザー権限設定」の権限を持つロールは、そのドキュメントタイプに対して他のユーザーの権限を設定できます。,
 App,アプリ,
@@ -875,6 +879,8 @@ Apply Strict User Permissions,厳格なユーザー権限を適用,
 Apply To,適用先,
 Apply To All Document Types,すべてのドキュメントタイプに適用,
 Apply User Permission On,ユーザー権限の適用対象,
+Apply User Permission for following DocTypes,次の DocType にユーザー権限を適用
+Apply User Permissions,ユーザー権限を適用
 Apply document permissions,ドキュメント権限を適用,
 Apply this rule if the User is the Owner,ユーザーが所有者である場合にこのルールを適用,
 Apply to all Documents Types,すべてのドキュメントタイプに適用,
@@ -919,6 +925,7 @@ Assign To,割り当て先,
 Assign To,割り当て,Button in list view actions menu
 Assign To User Group,ユーザーグループに割り当て,
 Assign To Users,ユーザーに割り当て,
+Assign a permission level to the field.,フィールドに権限レベルを割り当てます。
 Assign a user,ユーザーを割り当てる,
 "Assign one by one, in sequence",順番に1つずつ割り当てる,
 Assign to me,自分に割り当てる,
@@ -1141,6 +1148,8 @@ Built on {0},{0}で構築,
 Bulk Delete,一括削除,
 Bulk Edit,一括編集,
 Bulk Edit {0},{0}を一括編集,
+Bulk Email,一括メール
+Bulk Email records.,一括メールの記録。
 Bulk Operation Failed,一括操作に失敗しました,
 Bulk Operation Successful,一括操作に成功しました,
 Bulk PDF Export,一括PDFエクスポート,
@@ -1940,6 +1949,7 @@ Document follow is not enabled for this user.,このユーザーに対してド�
 Document has been cancelled,Documentがキャンセルされました,
 Document has been submitted,Documentが提出されました,
 Document is in draft state,ドキュメントは下書き状態です,
+Document is only editable by users of role,この文書を編集できるのは次のロールのユーザーのみです
 Document is only editable by users with role,ドキュメントはロールを持つユーザーのみが編集可能です,
 Document not Relinked,ドキュメントは再リンクされませんでした,
 Document renamed from {0} to {1},ドキュメントの名前が {0} から {1} へ変更されました,
@@ -2037,10 +2047,12 @@ Edit Letter Head Footer,レターヘッドフッターを編集,
 Edit Links,リンクを編集,
 Edit Number Card,ナンバーカードを編集,
 Edit Onboarding,オンボーディングを編集,
+Edit Permissions,権限を編集
 Edit Print Format,印刷フォーマットを編集,
 Edit Profile,プロフィールを編集,
 Edit Properties,プロパティを編集,
 Edit Quick List,Edit Quickリスト,
+Edit Role Permissions,ロール権限を編集
 Edit Section,セクションを編集,
 Edit Shortcut,ショートカットを編集,
 Edit Sidebar,サイドバーを編集,
@@ -2070,7 +2082,13 @@ Email Account {0} Disabled,メールアカウント {0} は無効です,
 Email Address,メールアドレス,
 Email Address whose Google Contacts are to be synced.,Googleコンタクトを同期するメールアドレス。,
 Email Addresses,メールアドレス,
+Email Alert,メール通知
+Email Alert Recipient,メール通知の宛先
+Email By Document Field,文書のフィールドで宛先を決める
+Email By Role,ロールで宛先を決める
 Email Domain,メールドメイン,
+Email Field,メールフィールド
+Email Fieldname,メールのフィールド名
 Email Flag Queue,メールフラグキュー,
 Email Footer Address,メールフッターアドレス,
 Email Group,メールグループ,
@@ -2089,6 +2107,7 @@ Email Retry Limit,メール再試行制限,
 Email Rule,メールルール,
 Email Sent,メール送信済,
 Email Sent At,メール送信日時,
+Email Sent?,メール送信済
 Email Settings,メール設定,
 Email Signature,メール署名,
 Email Status,メールステータス,
@@ -2180,6 +2199,7 @@ Enter Code displayed in OTP App.,OTPアプリに表示されているコード�
 Enter Form Type,Enter Form種類,
 Enter Value,金額,Title of prompt dialog
 Enter a name for this {0},この {0} の名前を入力してください,
+Enter at least one permission row,権限を1行以上入力してください
 "Enter default value fields (keys) and values. If you add multiple values for a field, the first one will be picked. These defaults are also used to set ""match"" permission rules. To see list of fields, go to ""Customize Form"".",デフォルト値フィールド（キー）と値を入力してください。フィールドに複数の値を追加した場合、最初の値が選択されます。これらのデフォルト値は、「一致」権限ルールを設定するためにも使用されます。フィールドのリストを表示するには、「フォームのカスタマイズ」に移動してください。,
 Enter expressions that will be evaluated when the card is displayed. For example:,カードが表示されたときに評価される式を入力してください。例：,
 Enter folder name,フォルダ名を入力,
@@ -2223,6 +2243,7 @@ Event Frequency,イベント頻度,
 Event Notifications,イベント通知,
 Event Participants,イベント参加者,
 Event Reminders,イベントリマインダー,
+Event Role,イベントのロール
 Event Synced with Google Calendar.,イベントがGoogleカレンダーと同期されました。,
 Event Type,イベント種類,
 Events,イベント,
@@ -2269,6 +2290,7 @@ Export Data,データをエクスポート,
 Export Errored Rows,エラーのある行をエクスポート,
 Export From,エクスポート元,
 Export Import Log,インポートログをエクスポート,
+Export Report:,レポートを書き出し:
 Export Report: {0},レポートのエクスポート: {0},Export report
 Export Type,エクスポート種類,
 Export all matching rows?,一致するすべての行をエクスポートしますか？,
@@ -2290,6 +2312,8 @@ External Link,外部リンク,
 Extra Parameters,追加パラメータ,
 FAILURE,失敗,
 Facebook,Facebook,
+Facebook User ID,Facebook ユーザー ID
+Facebook Username,Facebook ユーザー名
 Fail,失敗,
 Failed,失敗,
 Failed Emails,失敗したメール,
@@ -2330,6 +2354,7 @@ Failure Rate,失敗率,
 FavIcon,ファビコン,
 Fax,ファックス,
 Feedback,フィードバック,
+Feedback Request is already sent to user,フィードバック依頼はすでに送信済です
 Female,女性,
 Fetch From,取得元,
 Fetch Images,画像をフェッチ,
@@ -2545,10 +2570,12 @@ Function {0} requires arguments but none were provided,関数 {0} は引数を�
 Further sub-groups can only be created under records marked as 'Group',さらなるサブグループは、「グループ」とマークされたレコードの下でのみ作成できます。,
 Fw: {0},Fw: {0},
 GCalendar Account,Google カレンダー アカウント
+GCalendar Settings,Google カレンダーの設定
 GET,GET,
 GMail,GMail,
 GNU Affero General Public License,GNU Affero General Public License,
 GNU General Public License,GNU General Public License,
+GSuite Settings,Google Workspace の設定
 Gantt,ガント,
 Gantt View,ガントビュー,
 Gender,性別,
@@ -2577,6 +2604,8 @@ Get your globally recognized avatar from Gravatar.com,Gravatar.com から世界�
 Getting Started,はじめに,
 Git Branch,Gitブランチ,
 GitHub,GitHub,
+Github User ID,GitHub ユーザー ID
+Github Username,GitHub ユーザー名
 Github flavoured markdown syntax,Githubフレーバーのマークダウン構文,
 Global Search DocType,グローバル検索DocType,
 Global Search Document Types Reset.,グローバル検索ドキュメントタイプがリセットされました。,
@@ -2620,11 +2649,13 @@ Google Drive,Googleドライブ,
 Google Drive Picker,Googleドライブピッカー,
 Google Drive Picker Enabled,Googleドライブピッカー有効,
 Google Font,Googleフォント,
+Google Maps Settings,Google マップの設定
 Google Meet Link,Google Meetリンク,
 Google Services,Googleサービス,
 Google Settings,Google設定,
 Google Sheets URL is invalid or not publicly accessible.,GoogleスプレッドシートのURLが無効であるか、公開されていません。,
 "Google Sheets URL must end with ""gid={number}"". Copy and paste the URL from the browser address bar and try again.",GoogleスプレッドシートのURLは「gid={number}」で終わる必要があります。ブラウザのアドレスバーからURLをコピーして貼り付け、もう一度お試しください。,
+Google User ID,Google ユーザー ID
 Grant Type,Grant種類,
 Graph,グラフ,
 Gray,グレー,
@@ -2688,6 +2719,7 @@ Help Articles,ヘルプ記事,
 Help Category,ヘルプカテゴリ,
 Help Dropdown,ヘルプドロップダウン,
 Help HTML,ヘルプHTML,
+Help for User Permissions,ユーザー権限のヘルプ
 "Help: To link to another record in the system, use ""/desk/note/[Note Name]"" as the Link URL. (don't use ""http://"")",ヘルプ: システム内の別のレコードにリンクするには、リンクURLとして「/desk/note/[Note Name]」を使用してください。（「http://」は使用しないでください）,
 Helpful,役立つ,
 Helvetica,Helvetica,
@@ -2717,6 +2749,8 @@ Hide Standard Menu,標準メニューを非表示,
 Hide Weekends,週末を非表示,
 Hide descendant records of <b>For Value</b>.,<b>対象値</b>の子孫レコードを非表示にする。,
 Hide details,詳細を非表示,
+Hide field in Report Builder,レポートビルダーでフィールドを隠す
+Hide field in Standard Print Format,標準印刷フォーマットでフィールドを隠す
 Hide footer,フッターを非表示,
 Hide footer in auto email reports,自動メールレポートのフッターを非表示,
 Hide footer signup,フッターのサインアップを非表示,
@@ -2859,6 +2893,7 @@ In Preview,プレビューで,
 In Progress,進行中,
 In Read Only Mode,読み取り専用モード,
 In Reply To,返信元,
+In Report Filter,レポートフィルタに表示
 In Standard Filter,標準フィルター内,
 In points. Default is 9.,ポイント単位。デフォルトは9です。,
 In seconds,秒単位,
@@ -2891,6 +2926,7 @@ Incomplete login details,ログイン情報が不完全です,
 Incorrect Configuration,設定が正しくありません,
 Incorrect URL,URLが正しくありません,
 Incorrect User or Password,ユーザー名またはパスワードが正しくありません,
+Incorrect UserId or Password,ユーザー ID またはパスワードが正しくありません
 Incorrect Verification code,認証コードが正しくありません,
 Incorrect configuration,設定が正しくありません,
 Incorrect value in row {0}:,行{0}の値が正しくありません:,
@@ -3254,6 +3290,7 @@ Liked by me,私が「いいね」しました,
 Liked by {0} people,{0}人が「いいね」しました,
 Likes,「いいね」,
 Limit,制限,
+Limit icon choices for all users.,全ユーザーが選べるアイコンを制限します。
 Limit must be a non-negative integer,制限は非負の整数である必要があります,
 Line,行,
 Link,リンク,
@@ -3297,6 +3334,7 @@ Load More Communications,さらにコミュニケーションを読み込む,For
 Load more,さらに読み込む,
 Loading,読み込み中,
 Loading Filters...,フィルターを読み込み中...,
+Loading Report,レポートを読み込んでいます
 Loading import file...,インポートファイルを読み込み中...,
 Loading versions...,バージョンを読み込み中...,
 Loading...,読み込み中...,
@@ -3539,6 +3577,7 @@ Mx,氏,
 My Account,マイアカウント,
 My Device,マイデバイス,
 My Profile,マイプロフィール,
+My Settings,自分の設定
 My Workspaces,マイワークスペース,
 MyISAM,MyISAM,
 N/A,該当なし,Number not available
@@ -3619,6 +3658,7 @@ New line separated list of scope values.,新規line separated list of scope valu
 "New lines separated list of strings representing ways to contact people responsible for this client, typically email addresses.","新規lines separated list of strings representing ways to contact people responsible for this client, typically email addresses.",
 New password cannot be same as old password,新規password cannot be same as old password,
 New password cannot be the same as your current password. Please choose a different password.,新しいパスワードは現在のパスワードと同じにすることはできません。別のパスワードを選択してください。,
+New password emailed,新しいパスワードをメールで送信しました
 New role created successfully.,新しいロールが正常に作成されました。,
 New updates are available,新規updates are available,
 New users will have to be manually registered by system managers.,新規users will have to be manually registered by system managers.,
@@ -3690,6 +3730,7 @@ No Select Field Found,選択フィールドが見つかりません,
 No Suggestions,提案なし,
 No Tags,タグなし,
 No Upcoming Events,今後のイベントはありません,
+No User Restrictions found.,ユーザー制限が見つかりません。
 No activity recorded yet.,まだアクティビティは記録されていません。,
 No address added yet.,まだ住所は追加されていません。,
 No alerts for today,今日の通知はありません,
@@ -3732,7 +3773,9 @@ No of Sent SMS,送信されたSMSの数,
 No other document types.,他のドキュメントタイプはありません。,
 No permission for {0},{0}の権限がありません,
 No permission to '{0}' {1},'{0}' {1}の権限がありません,"{0} = verb, {1} = object"
+No permission to edit,編集する権限がありません
 No permission to read {0},{0}を読み取る権限がありません,
+No permission to write / remove.,書き込みまたは削除の権限がありません。
 No permission to {0} {1} {2},{0} {1} {2}の権限がありません,
 No pinned document types.,ピン留めされたドキュメントタイプはありません。,
 No records deleted,レコードは削除されませんでした,
@@ -3776,6 +3819,7 @@ Not Sent,未送信,
 Not Set,未設定,
 Not Set,未設定,Field value is not set
 Not a valid Comma Separated Value (CSV File),有効なカンマ区切り値 (CSVファイル) ではありません,
+Not a valid LDAP user,LDAP ユーザーとして正しくありません
 Not a valid User Image.,有効なユーザー画像ではありません。,
 Not a valid Workflow Action,有効なワークフローアクションではありません,
 Not active,無効,
@@ -3797,6 +3841,7 @@ Note:,注記:,
 Note: Changing the Page Name will break previous URL to this page.,注記: ページ名を変更すると、このページへの以前のURLが無効になります。,
 Note: Etc timezones have their signs reversed.,注記: Etcタイムゾーンは符号が反転しています。,
 "Note: For best results,  images must be of the same size and width must be greater than height.",注記: 最適な結果を得るには、画像は同じサイズで、幅は高さより大きくする必要があります。,
+Note: Other permission rules may also apply,注記: 他の権限ルールも適用される場合があります
 Note: This will be shared with user.,注記: これはユーザーと共有されます。,
 Note: Your request for account deletion will be fulfilled within {0} hours.,注記: お客様のアカウント削除リクエストは、{0}時間以内に処理されます。,
 Notes:,メモ:,
@@ -4017,6 +4062,7 @@ Page HTML,ページHTML,
 Page Height (in mm),ページ高さ (mm),
 Page Name,ページ名,
 Page Number,ページ番号,
+Page Role,ページのロール
 Page Route,ページルート,
 Page Settings,ページ設定,
 Page Shortcuts,ページショートカット,
@@ -4110,8 +4156,11 @@ Permission Query,権限クエリ,
 Permission Rules,権限ルール,
 Permission Type,権限種類,
 Permission Type '{0}' is reserved. Please choose another name.,権限タイプ '{0}' は予約されています。別の名前を選択してください。,
+Permission already set,権限はすでに設定されています
 Permissions,権限,
 Permissions Error,権限エラー,
+Permissions Settings,権限の設定
+Permissions Updated,権限を更新しました
 Permissions are automatically applied to Standard Reports and searches.,権限は、標準レポートおよび検索に自動的に適用されます。,
 "Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions.",権限は、ロールとドキュメントタイプ（DocType と呼ばれる）に対して、読み取り、書き込み、作成、削除、提出、キャンセル、修正、レポート、インポート、エクスポート、印刷、メール、ユーザー権限の設定などの権限を設定することで設定されます。,
 Permissions at higher levels are Field Level permissions. All Fields have a Permission Level set against them and the rules defined at that permissions apply to the field. This is useful in case you want to hide or make certain field read-only for certain Roles.,上位レベルの権限はフィールドレベルの権限です。すべてのフィールドには権限レベルが設定されており、その権限で定義されたルールがフィールドに適用されます。これは、特定のロールに対して特定のフィールドを非表示にしたり、読み取り専用にしたりする場合に役立ちます。,
@@ -4221,6 +4270,7 @@ Please set Email Address,メールアドレスを設定してください,
 Please set a printer mapping for this print format in the Printer Settings,Please set a printer mapping for this print format in the Printer設定,
 Please set filters,フィルターを設定してください,
 Please set filters value in Report Filter table.,レポートフィルターテーブルでフィルター値を設定してください。,
+Please set script URL on Gsuite Settings,Google Workspace の設定でスクリプト URL を設定してください
 Please set the document name,ドキュメント名を設定してください,
 Please set the following documents in this Dashboard as standard first.,このダッシュボードの以下のドキュメントをまず標準として設定してください。,
 Please set the series to be used.,使用するシリーズを設定してください。,
@@ -4233,6 +4283,7 @@ Please specify a valid parent DocType for {0},{0} の有効な親DocTypeを指�
 Please specify at least 10 minutes due to the trigger cadence of the scheduler,スケジューラのトリガー周期のため、少なくとも10分を指定してください,
 Please specify the field from which to attach files,ファイルを添付するフィールドを指定してください,
 Please specify the minutes offset,分オフセットを指定してください,
+Please specify user,ユーザーを指定してください
 Please specify which date field must be checked,どの日付フィールドを確認する必要があるか指定してください,
 Please specify which datetime field must be checked,どの日時フィールドを確認する必要があるか指定してください,
 Please specify which value field must be checked,どの値フィールドを確認する必要があるか指定してください,
@@ -4504,6 +4555,7 @@ Refresh Token,リフレッシュトークン,
 Refreshing,更新中,Document count in list view
 Refreshing...,更新中...,
 Registered but disabled,登録済みですが無効です,
+Registration Details Emailed.,登録情報をメールで送信しました。
 Rejected,却下,
 Relay Server URL missing,リレーサーバーのURLがありません,
 Relay Settings,Relay設定,
@@ -4582,6 +4634,7 @@ Report bug,バグを報告,
 "Report has no data, please modify the filters or change the Report Name","Report has no data, please modify the filters or change the Report名",
 "Report has no numeric fields, please change the Report Name","Report has no numeric fields, please change the Report名",
 Report limit reached,レポート制限に達しました,
+Report this issue,この問題を報告する
 Report timed out.,レポートがタイムアウトしました。,
 Report updated successfully,レポートが正常に更新されました,
 Report was not saved (there were errors),レポートは保存されませんでした (エラーがありました),
@@ -4684,12 +4737,14 @@ Role Permissions Manager,ロール権限マネージャー,Button in list view m
 Role Profile,ロールプロファイル,
 Role Profiles,ロールプロファイル,
 Role and Level,ロールとレベル,
+Role exists,ロールは既に存在します
 Role has been set as per the user type {0},ユーザータイプ {0} に従ってロールが設定されました,
 Roles,ロール,
 Roles & Permissions,ロールと権限,
 Roles Assigned,割り当てられたロール,
 Roles HTML,ロールHTML,
 Roles Html,ロールHTML,
+Roles Permission,ロール権限
 Roles can be set for users from their User page.,ロールはユーザーのユーザーページから設定できます。,
 Root {0} cannot be deleted,ルート {0} は削除できません,
 Round Robin,ラウンドロビン,
@@ -4885,6 +4940,8 @@ Select Report,選択レポート,
 Select Table Columns for {0},{0}のテーブル列を選択,
 Select Time Zone,タイムゾーンを選択,
 Select Transaction,伝票を選択,
+Select User,ユーザーを選択
+Select User or DocType to start.,はじめにユーザーまたは DocType を選択してください。
 Select Workflow,ワークフローを選択,
 Select Workspace,ワークスペースを選択,
 Select a Brand Image first.,まずブランド画像を選択してください。,
@@ -4915,6 +4972,7 @@ Send,送信,Send Email
 Send <b>at the earliest</b> this number of minutes before or after the reference datetime. The actual sending may be delayed by up to 5 minutes due to the scheduler's trigger cadence.,参照日時より前または後に、この分数で<b>最も早く</b>送信します。スケジューラのトリガー周期により、実際の送信は最大5分遅れる場合があります。,
 Send After,送信後,
 Send Alert On,アラート送信条件,
+Send As Email,メールとして送信
 Send As Raw HTML,生のHTMLとして送信,
 Send Email Alert,メールアラートを送信,
 Send Email On State,ステータス変更時にメールを送信,
@@ -4935,6 +4993,7 @@ Send alert if datetime matches this field's value,日時がこのフィールド
 Send alert if this field's value changes,このフィールドの値が変更された場合にアラートを送信,
 Send an email reminder in the morning,朝にメールリマインダーを送信,
 Send days before or after the reference date,参照日の前または後に日数を送信,
+Send document web view link in email,文書のウェブ表示リンクをメールで送る
 Send email when document transitions to the state.,ドキュメントがこのステータスに移行したときにメールを送信します。,
 Send enquiries to this email address,このメールアドレスに問い合わせを送信,
 Send login link,ログインリンクを送信,
@@ -4996,6 +5055,7 @@ Set New Password,新しいパスワードを設定,
 Set Number of Backups,バックアップ数を設定,
 Set Password,パスワードを設定,
 Set Permissions,権限を設定,
+Set Permissions per User,ユーザーごとに権限を設定
 Set Properties,プロパティを設定,
 Set Property After Alert,アラート後にプロパティを設定,
 Set Quantity,数量を設定,
@@ -5073,12 +5133,15 @@ Settings,設定,
 Settings Dropdown,設定ドロップダウン,
 Settings for Contact Us Page,お問い合わせページの設定,
 Settings for the About Us Page,会社概要ページの設定,
+Settings...,設定……
 Setup,セットアップ,
 Setup > Customize Form,セットアップ > フォームをカスタマイズ,
 Setup > User,セットアップ > ユーザー,
 Setup > User Permissions,セットアップ > ユーザー権限,
+Setup > User Permissions Manager,設定 > ユーザー権限マネージャ
 Setup Auto Email,自動メール設定,
 Setup Complete,セットアップ完了,
+Setup Email Alert based on various criteria.,さまざまな条件でメール通知を設定します。
 Setup Series for transactions,トランザクションのシリーズを設定,
 Setup failed,セットアップ失敗,
 Share,共有,
@@ -5120,6 +5183,7 @@ Show Percentage Stats,パーセンテージ統計を表示,
 Show Permissions,権限を表示,
 Show Preview,プレビューを表示,
 Show Preview Popup,プレビューポップアップを表示,
+Show Print First,先に印刷を表示する
 Show Processlist,プロセスリストを表示,
 Show Progress Bar,プログレスバーを表示,
 Show Protected Resource Metadata,保護されたリソースのメタデータを表示,
@@ -5134,6 +5198,7 @@ Show Title in Link Fields,リンクフィールドにタイトルを表示,
 Show Totals,合計を表示,
 Show Tour,ツアーを表示,
 Show Traceback,トレースバックを表示,
+Show User Permissions,ユーザー権限を表示
 Show Users,ユーザーを表示,
 Show Values over Chart,チャート上に値を表示,
 Show Warnings,警告を表示,
@@ -5581,6 +5646,7 @@ There was an error saving filters,フィルターの保存中にエラーが発�
 There were errors,エラーが発生しました,
 There were errors while creating the document. Please try again.,ドキュメントの作成中にエラーが発生しました。もう一度お試しください。,
 There were errors while sending email. Please try again.,メール送信中にエラーが発生しました。もう一度お試しください。,
+There were errors. Please report this.,エラーが発生しました。報告してください。
 "There were some errors setting the name, please contact the administrator",名前の設定中にいくつかのエラーが発生しました。管理者にお問い合わせください。,
 These announcements will appear inside an alert below the Navbar.,これらのアナウンスは、ナビゲーションバーの下のアラート内に表示されます。,
 "These fields are used to provide resource server metadata to clients querying the ""well known protected resource"" end point.",これらのフィールドは、「well known protected resource」エンドポイントを照会するクライアントにリソースサーバーのメタデータを提供するために使用されます。,
@@ -5867,6 +5933,7 @@ Unable to write file format for {0},{0}のファイル形式を書き込めま�
 Unassign Condition,割り当て解除条件,
 Uncaught Exception,未処理の例外,
 Unchanged,変更なし,
+Uncheck modules to hide from user's desktop,チェックを外したモジュールはデスクトップに表示されません
 Undo,元に戻す,
 Undo last action,最後のアクションを元に戻す,
 Unfollow,フォロー解除,
@@ -5937,6 +6004,7 @@ Updating {0},{0}を更新中,
 Upload,アップロード,
 Upload Failed,アップロードに失敗しました,
 Upload Image,画像をアップロード,
+Upload User Permissions,ユーザー権限をアップロード
 Upload file,ファイルをアップロード,
 Upload {0} files,{0}個のファイルをアップロード,
 Uploaded To Dropbox,Dropboxにアップロードされました,
@@ -5982,6 +6050,7 @@ User Group Member,ユーザーグループメンバー,
 User Group Members,ユーザーグループメンバー,
 User ID,ユーザーID,
 User ID Property,ユーザーIDプロパティ,
+User ID of a blog writer.,ブログ執筆者のユーザー ID。
 User Id,ユーザーID,
 User Id Field,ユーザーIDフィールド,
 User Id Field is mandatory in the user type {0},ユーザータイプ{0}ではユーザーIDフィールドが必須です,
@@ -5990,8 +6059,11 @@ User Invitation,ユーザー招待,
 User Menu,ユーザーメニュー,
 User Name,ユーザー名,
 User Permission,ユーザー権限,
+User Permission DocTypes,ユーザー権限の DocType
+User Permission for Page and Report,ページとレポートのユーザー権限
 User Permissions,ユーザー権限,
 User Permissions,ユーザー権限,Button in list view menu
+User Permissions Manager,ユーザー権限マネージャ
 User Permissions are used to limit users to specific records.,ユーザー権限は、ユーザーを特定のレコードに制限するために使用されます。,
 User Permissions created successfully,ユーザー権限が正常に作成されました,
 User Role,ユーザーロール,
@@ -6023,6 +6095,7 @@ User {0} impersonated as {1},ユーザー{0}が{1}として偽装しました,
 User {0} is disabled,ユーザー{0}は無効です,
 User {0} is disabled. Please contact your System Manager.,ユーザー{0}は無効です。システム管理者に連絡してください。,
 User {0} is not permitted to access this document.,ユーザー{0}はこのドキュメントへのアクセスが許可されていません。,
+UserRole,ユーザーロール
 Userinfo URI,ユーザー情報URI,
 Username,ユーザー名,
 Username {0} already exists,Username {0}は既に存在します,
@@ -6238,6 +6311,7 @@ Workflow Transition Task,ワークフロー遷移タスク,
 Workflow Transition Tasks,ワークフロー遷移タスク,
 Workflow state represents the current state of a document.,ワークフローステータスは、ドキュメントの現在の状態を表します。,
 Workflow updated successfully,ワークフローが正常に更新されました,
+Workflow will start after saving.,ワークフローは保存後に開始します。
 Workspace,ワークスペース,
 Workspace <b>{0}</b> does not exist,ワークスペース<b>{0}</b>は存在しません,
 Workspace Chart,ワークスペースチャート,
@@ -6364,6 +6438,7 @@ You have a new message from:,新しいメッセージがあります:,
 You have been successfully logged out,正常にログアウトしました,
 You have hit the row size limit on database table: {0},データベーステーブル {0} の行サイズ制限に達しました,
 You have not entered a value. The field will be set to empty.,値を入力していません。フィールドは空に設定されます。,
+You have subscribed for one user free plan,1ユーザーの無料プランに登録済です
 You have to enable Two Factor Auth from System Settings.,システム設定から二要素認証を有効にする必要があります。,
 You have unsaved changes in this form. Please save before you continue.,このフォームには未保存の変更があります。続行する前に保存してください。,
 You have unseen {0},未読の {0} があります,
@@ -6565,6 +6640,7 @@ to your browser,あなたのブラウザへ,
 twitter,Twitter,
 updated to {0},{0}に更新されました,
 use % as wildcard,%をワイルドカードとして使用,
+user_image_show,ユーザー画像を表示
 values separated by commas,コンマで区切られた値,
 version_table,version_table,
 via Assignment Rule,割り当てルール経由,
