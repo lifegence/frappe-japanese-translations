@@ -4318,6 +4318,8 @@ Is Transporter,運送業者,
 Is Your Company Address,貴社住所,
 Is a Subscription,サブスクリプション,
 Is created using POS,POSを使用して作成されました,
+Is customer exempted from sales tax,この顧客は売上税が免除されますか
+Is customer exempted from sales tax?,この顧客は売上税が免除されますか。
 Is this Tax included in Basic Rate?,この税金は基本単価に含まれていますか？,
 Issue,課題,
 Issue Analytics,課題分析,
