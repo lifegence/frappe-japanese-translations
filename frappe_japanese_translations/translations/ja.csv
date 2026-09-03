@@ -8477,6 +8477,7 @@ IMAP Folder Validation Failed,IMAPフォルダの検証に失敗しました
 IMAP Folder name cannot be empty.,IMAPフォルダ名を空にすることはできません。
 IMPORTANT: Create a backup before proceeding!,重要: 続行する前にバックアップを作成してください！
 IP Address,IPアドレス
+IRS 1099 Form,IRS 1099 フォーム
 Iches Of Water,水のインチ
 Icon,アイコン
 Icon Image,アイコン画像
@@ -9488,6 +9489,8 @@ Is Group Warehouse,グループ倉庫
 Is Half Day,半日
 Is Hidden,非表示である
 Is Home Folder,ホームフォルダである
+Is IRS 1099 reporting required for supplier,この仕入先は IRS 1099 の報告対象ですか
+Is IRS 1099 reporting required for supplier?,この仕入先は IRS 1099 の報告対象ですか。
 Is Imported,インポート済み
 Is Income Tax Component,所得税構成要素
 Is Inpatient,入院患者

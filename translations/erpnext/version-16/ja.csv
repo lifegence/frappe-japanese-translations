@@ -3837,6 +3837,7 @@ I - K,I - K,
 IBAN,IBAN,
 IMPORTANT: Create a backup before proceeding!,重要: 続行する前にバックアップを作成してください！,
 IRS 1099,IRS 1099,
+IRS 1099 Form,IRS 1099 フォーム
 ISBN,ISBN,
 ISBN-10,ISBN-10,
 ISBN-13,ISBN-13,
@@ -4280,6 +4281,8 @@ Is Frozen,凍結済,
 Is Fully Depreciated,全額減価償却済,
 Is Group Warehouse,グループ倉庫,
 Is Half Day,半日,
+Is IRS 1099 reporting required for supplier,この仕入先は IRS 1099 の報告対象ですか
+Is IRS 1099 reporting required for supplier?,この仕入先は IRS 1099 の報告対象ですか。
 Is Internal Customer,社内顧客,
 Is Internal Supplier,社内仕入先,
 Is Legacy,レガシー,
