@@ -8415,6 +8415,7 @@ IMAP Folder Validation Failed,IMAPフォルダの検証に失敗しました
 IMAP Folder name cannot be empty.,IMAPフォルダ名を空にすることはできません。
 IMPORTANT: Create a backup before proceeding!,重要: 続行する前にバックアップを作成してください！
 IP Address,IPアドレス
+IRS 1099 Form,IRS 1099 フォーム
 ISO 8601 standard,ISO 8601規格
 IT,それ
 ITC Available (whether in full op part),利用可能なITC（完全な一部かどうかにかかわらず）
@@ -9369,6 +9370,8 @@ Is Group Warehouse,グループ倉庫
 Is Half Day,半日
 Is Hidden,非表示である
 Is Home Folder,ホームフォルダ
+Is IRS 1099 reporting required for supplier,この仕入先は IRS 1099 の報告対象ですか
+Is IRS 1099 reporting required for supplier?,この仕入先は IRS 1099 の報告対象ですか。
 Is Income Tax Expense,法人所得税は費用ですか？
 Is Income Tax Liability,所得税の責任
 Is Inpatient,入院中
