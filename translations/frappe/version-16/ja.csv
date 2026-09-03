@@ -533,6 +533,7 @@ A download link with your data will be sent to the email address associated with
 A field with the name {0} already exists in {1},{1} には、名前が {0} のフィールドがすでに存在します。,
 A file with same name {} already exists,A file with same name {}は既に存在します,
 A list of resources which the Client App will have access to after the user allows it.<br> e.g. project,ユーザーが許可した後、クライアントアプリがアクセスできるリソースのリスト。<br> 例: project,
+A new account has been created for you,新しいアカウントを作成しました
 A new account has been created for you at {0},{0} で新しいアカウントが作成されました。,
 A recurring {0} {1} has been created for you via Auto Repeat {2}.,自動リピート {2} を介して、定期的な {0} {1} が作成されました。,
 A symbol for this currency. For e.g. $,この通貨の記号。例: $,
@@ -1447,6 +1448,7 @@ Configure,設定,
 Configure Chart,チャート設定,
 Configure Columns,列の設定,
 Configure Recorder,レコーダー設定,
+Configure accounts for google calendar,Google カレンダー用のアカウントを設定
 Configure columns for {0},{0} の列を設定,
 "Configure how amended documents will be named.<br>
 
@@ -2059,6 +2061,7 @@ Email Account Disabled.,メールアカウントが無効です。,
 Email Account Name,Email Account名,
 Email Account added multiple times,メールアカウントが複数回追加されました,
 Email Account not setup. Please create a new Email Account from Settings > Email Account,メールアカウントが設定されていません。設定 > メールアカウントから新しいメールアカウントを作成してください。,
+Email Account setup please enter your password for:,メールアカウントの設定です。次のパスワードを入力してください:
 Email Account {0} Disabled,メールアカウント {0} は無効です,
 Email Address,メールアドレス,
 Email Address whose Google Contacts are to be synced.,Googleコンタクトを同期するメールアドレス。,
@@ -2536,6 +2539,7 @@ Function {0} is not whitelisted.,関数 {0} はホワイトリストに登録さ
 Function {0} requires arguments but none were provided,関数 {0} は引数を必要としますが、何も提供されませんでした,
 Further sub-groups can only be created under records marked as 'Group',さらなるサブグループは、「グループ」とマークされたレコードの下でのみ作成できます。,
 Fw: {0},Fw: {0},
+GCalendar Account,Google カレンダー アカウント
 GET,GET,
 GMail,GMail,
 GNU Affero General Public License,GNU Affero General Public License,
@@ -2951,6 +2955,7 @@ Invalid Date,無効なDate,
 Invalid DocType,無効なDocType,
 Invalid DocType: {0},無効なDocType: {0},
 Invalid Doctype,無効なDoctype,
+Invalid Email Account,メールアカウントが不正です
 Invalid Fieldname,無効なFieldname,
 Invalid File URL,無効なFile URL,
 Invalid Filter,無効なフィルター,
@@ -4057,6 +4062,7 @@ Path to private Key File,秘密鍵ファイルへのパス,
 Path {0} is not within module {1},パス {0} はモジュール {1} 内にありません,
 Path {0} it not a valid path,パス {0} は有効なパスではありません,
 Payload Count,ペイロード数,
+Payment Complete,支払完了
 Peak Memory Usage,ピークメモリ使用量,
 Pending,保留中,
 Pending Approval,承認保留中,
@@ -5362,6 +5368,7 @@ Synced Fields,同期済みフィールド,
 Syncing,同期中,
 Syncing {0} of {1},{1}件中{0}件を同期中,
 Syntax Error,構文エラー,
+Syntax error in Jinja template,Jinja テンプレートの構文エラー
 System,システム,
 System Console,システムコンソール,
 System Generated Fields can not be renamed,システム生成フィールドは名前変更できません,
@@ -6029,6 +6036,7 @@ Verification code has been sent to your registered email address.,確認コー�
 Verified,確認済,
 Verify,確認,
 Verify Password,パスワードの確認,
+Verify Your Account,アカウントを確認してください
 Verifying...,検証中...,
 Version,バージョン,
 Version Updated,バージョンが更新されました,
@@ -6158,6 +6166,7 @@ Wildcard Filter,ワイルドカードフィルター,
 Will be your login ID,ログインIDになります,
 Will only be shown if section headings are enabled,セクション見出しが有効な場合にのみ表示されます,
 Will run scheduled jobs only once a day for inactive sites. Set it to 0 to avoid automatically disabling the scheduler.,非アクティブなサイトに対しては、スケジュールされたジョブを1日1回のみ実行します。スケジューラーの自動無効化を避けるには、0に設定してください。,
+With Ledgers,元帳を含む
 With Letter head,レターヘッド付き,
 Worker Information,Worker情報,
 Worker Name,Worker名,

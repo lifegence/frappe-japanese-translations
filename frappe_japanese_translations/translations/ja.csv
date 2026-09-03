@@ -1060,6 +1060,7 @@ A friendly reminder of an important date for our team.,私たちのチームに�
 A list of resources which the Client App will have access to after the user allows it.<br> e.g. project,ユーザーが許可した後、クライアントアプリがアクセスできるリソースのリスト。<br> 例: project
 A logical Warehouse against which stock entries are made.,在庫入力が行われる論理的な倉庫。
 A naming series conflict occurred while creating serial numbers. Please change the naming series for the item {0}.,シリアル番号の作成中に命名シリーズの競合が発生しました。品目 {0} の命名シリーズを変更してください。
+A new account has been created for you,新しいアカウントを作成しました
 A new account has been created for you at {0},{0} で新しいアカウントが作成されました。
 A new appointment has been created for you with {0},{0} との新しい予約が作成されました
 A new fiscal year has been automatically created.,新しい会計年度が自動的に作成されました。
@@ -1164,6 +1165,8 @@ According to CEFACT/ICG/2010/IC013 or CEFACT/ICG/2010/IC010,CEFACT/ICG/2010/IC01
 Account,勘定科目
 Account / customer numbers assigned to your companies by this supplier (for reconciliation on their statements),この仕入先によって貴社に割り当てられた勘定科目/顧客番号 (仕入先の明細書との照合用)
 Account Balance,残高
+Account Balance (From),勘定残高（開始）
+Account Balance (To),勘定残高（終了）
 Account Category,カテゴリ
 Account Category Name,カテゴリ名前
 Account Closing Balance,期末残高
@@ -1175,11 +1178,11 @@ Account Deletion Settings,Account Deletion設定
 Account Detail Level,詳細レベル
 Account Details,勘定科目詳細
 Account Head,勘定科目ヘッダー
-Account Info,アカウント情報
+Account Info,勘定情報
 Account Manager,管理者
 Account Missing,不足
 Account Name,名前
-Account No,口座番号
+Account No,勘定番号
 Account Not Found,勘定科目が見つかりません
 Account Number,番号
 Account Number {0} already used in account {1},勘定科目番号 {0} は勘定科目 {1} で既に利用されています
@@ -1246,6 +1249,7 @@ Accounting Dimension Filter,会計ディメンションフィルター
 Accounting Dimensions,会計ディメンション
 Accounting Dimensions Filter,会計ディメンションフィルター
 Accounting Entries,会計入力
+Accounting Entry Number,会計仕訳番号
 Accounting Entry for Asset,会計入力資産
 Accounting Entry for LCV in Stock Entry {0},在庫入力 {0} におけるLCVの会計入力
 Accounting Entry for Landed Cost Voucher for SCR {0},SCR {0} の諸掛コスト伝票の会計入力
@@ -1259,28 +1263,36 @@ Accounting Onboarding,会計オンボーディング
 Accounting Period,会計期間
 Accounting Period overlaps with {0},会計期間が {0} と重複しています
 Accounting Reports,会計レポート
+Accounting Statements,会計諸表
 Accounting entries are frozen up to this date. Only users with the specified role can create or modify entries before this date.,会計入力はこの日付まで凍結されています。指定されたロールを持つユーザーのみが、この日付より前の入力を作成または変更できます。
 Accounts,勘定科目
+Accounts Browser,勘定ブラウザ
 Accounts Closing,勘定科目期末
 Accounts Frozen Till Date,勘定科目凍結日
+Accounts Frozen Upto,勘定の凍結期限
 Accounts Included in Report,勘定科目含まれるレポート
 Accounts Manager,経理マネージャー
+Accounts Missing Error,勘定が設定されていません
 Accounts Missing from Report,勘定科目不足レポート
 Accounts Payable,買掛金
+Accounts Payable Ageing,買掛金の年齢調べ
 Accounts Payable Summary,買掛金サマリ
 Accounts Receivable,売掛金
 Accounts Receivable / Payable Tuning,売掛金/買掛金チューニング
 Accounts Receivable / Payable remarks length,売掛金/買掛金備考の長さ
+Accounts Receivable Ageing,売掛金の年齢調べ
 Accounts Receivable Credit Account,勘定科目売掛金貸方
 Accounts Receivable Discounted Account,勘定科目売掛金割引済
 Accounts Receivable Summary,売掛金サマリ
 Accounts Receivable Unpaid Account,勘定科目売掛金未払い
+Accounts Receivable/Payable,売掛金・買掛金
 Accounts Settings,会計設定
 Accounts Setup,勘定科目セットアップ
 Accounts User,経理ユーザー
 Accounts not set for Salary Component {0},給与構成要素{0}に対して勘定科目が設定されていません
 Accounts table cannot be blank.,勘定科目テーブルを空にすることはできません。
 Accounts to Merge,勘定科目統合
+"Accounts, Invoices, Taxation, and more.",勘定、請求、税務ほか。
 Accrual,未払計上
 Accrual Arrears,未払計上未払い金
 Accrual Component,未払計上構成要素
@@ -1480,6 +1492,7 @@ Add Subscribers,購読者を追加
 Add Suppliers,仕入先を追加
 Add Tags,タグを追加
 Add Tax,税金を追加
+Add Taxes,税を追加
 Add Template,Addテンプレート
 Add Test,テストを追加
 Add Time Slots,タイムスロットを追加
@@ -1507,6 +1520,8 @@ Add a row below the current row,現在の行の下に新しい行を追加
 Add a row with the difference amount,差額を伴う行を追加
 Add a {0} Chart,{0}チャートを追加
 Add all accounts that you want to split the transaction into.,取引を分割したいすべての勘定科目を追加します。
+Add an Existing Asset,既存の資産を追加
+Add an existing Asset,既存の資産を追加
 Add column,列を追加
 Add details,詳細を追加
 Add field,フィールドを追加
@@ -1517,6 +1532,7 @@ Add numbers or special characters.,数字または特殊文字を追加します
 Add or Deduct,加算または減算
 Add page break,改ページを追加
 Add row,行を追加
+Add rows to set annual budgets on Accounts.,行を追加して勘定ごとの年次予算を設定します。
 Add script for Child Table,子テーブルのスクリプトを追加
 Add section below,下にセクションを追加
 Add section here,ここにセクションを追加
@@ -1635,6 +1651,7 @@ Adds a custom field to a DocType,DocTypeにカスタムフィールドを追加�
 Adds the option to have employee loans,従業員向けローンのオプションを追加します
 Adds unique constraints to the email and phone number fields of the Customer DocType.,顧客DocTypeのメールアドレスと電話番号フィールドに一意制約を追加します。
 Adjust Allocation,割当を調整
+Adjust Asset Value,資産価額を調整
 Adjust within the EMI amount,EMI金額内で調整
 Adjusted Amount,調整金額
 Adjusted Interest,調整済み利息
@@ -1682,6 +1699,7 @@ Advance Payment Date,前払い支払い
 Advance Payment Ledger Entry,前払い支払い元帳入力
 Advance Payment Status,前払い支払いステータス
 Advance Payments,前払い
+Advance Tax,前払税金
 Advance Taxes and Charges,前払い税金手数料
 Advance Voucher No,前払い伝票
 Advance Voucher Type,前払い伝票タイプ
@@ -1727,11 +1745,15 @@ Against Finished Good,完成品に対して
 Against Income Account,収入勘定に対して
 Against Inpatient Medication Order,入院投薬指示に対して
 Against Inpatient Medication Order Entry,入院投薬指示入力に対して
+Against Invoice,対象の請求書
+Against Invoice Posting Date,対象請求書の記帳日
+Against Journal Entry,対象の仕訳
 Against Journal Entry {0} does not have any unmatched {1} entry,仕訳伝票 {0} に対して一致しない {1} 入力はありません
 Against Journal Entry {0} is already adjusted against some other voucher,仕訳伝票 {0} はすでに他の伝票に対して調整されています
 Against Loan,対象ローン
 Against Loan:,対象ローン:
 Against Pick List,ピッキングリストに対して
+Against Purchase Invoice,対象の仕入請求
 Against Purchase Order,対象の発注書
 Against Sales Invoice,売上請求書に対して
 Against Sales Invoice Item,売上請求書品目に対して
@@ -1884,6 +1906,7 @@ Allow Change Posting Date,転記日の変更を許可
 Allow Clearing Link Fields,リンクフィールドのクリアを許可
 Allow Consecutive Login Attempts,連続ログイン試行を許可
 Allow Continuous Material Consumption,継続的な資材消費を許可する
+Allow Cost Center In Entry of Balance Sheet Account,貸借対照表勘定の入力でコストセンターを許可
 Allow Create Sales Order,受注の作成を許可
 Allow Credit Sale,掛け売りを許可
 Allow Customer Purchase Order,顧客発注を許可
@@ -1954,7 +1977,7 @@ Allow Stale Exchange Rates,古い為替レートを許可する
 Allow Stock Consumption,在庫消費を許可
 Allow Submissions in background job,バックグラウンドジョブでの提出を許可
 Allow Supplier Quotation with Zero Quantity,許可仕入先見積書ゼロ数量
-Allow Tax Exemption,免税を許可
+Allow Tax Exemption,非課税を許可
 Allow UOM with Conversion Rate Defined in Item,品目に換算率が定義された単位を許可
 Allow UOM with conversion rate defined in Item,品目で定義された換算レートを持つUOMを許可
 Allow User,ユーザーを許可
@@ -2483,6 +2506,7 @@ Asset Category Account,資産カテゴリ
 Asset Category Name,資産カテゴリ名前
 Asset Category is mandatory for Fixed Asset item,資産カテゴリ固定資産
 Asset Depreciation Cost Center,資産減価償却コストセンター
+Asset Depreciation Details,資産の減価償却明細
 Asset Depreciation Ledger,資産減価償却元帳
 Asset Depreciation Schedule,資産減価償却スケジュール
 Asset Depreciation Schedule for Asset {0} and Finance Book {1} is not using shift based depreciation,資産 {0} および財務帳簿 {1} の資産減価償却スケジュールは、シフトベースの減価償却を使用していません。
@@ -2562,6 +2586,7 @@ Assets Allocated,割り当てられた資産
 Assets Setup,資産セットアップ
 Assets not created for {item_code}. You will have to create asset manually.,{item_code} の資産は作成されていません。手動で資産を作成する必要があります。
 Assets {assets_link} created for {item_code},資産 {assets_link} が {item_code} のために作成されました
+"Assets, Depreciations, Repairs, and more.",資産、減価償却、修繕ほか。
 Assign,割り当て
 Assign Condition,割り当て条件
 Assign Job to Employee,割り当てジョブ従業員
@@ -2769,6 +2794,7 @@ Auto Material Requests Generated,自動資材要求生成済
 Auto Name,自動名
 Auto Opt In (For all customers),自動オプトイン (全ての顧客向け)
 Auto Reconcile,自動照合
+Auto Reconcile Payments,入出金を自動消込する
 Auto Reconciliation,自動照合
 Auto Reconciliation has started in the background,自動照合がバックグラウンドで開始されました
 Auto Reconciliation job trigger,自動照合ジョブトリガー
@@ -2825,8 +2851,10 @@ Automatic Linking can be activated only for one Email Account.,自動リンク�
 Automatic Linking can be activated only if Incoming is enabled.,自動リンクは受信が有効な場合にのみ有効にできます。
 Automatic sending of emails is disabled via site config.,サイト設定により、メールの自動送信は無効になっています。
 Automatically Add Filtered Item To Cart,フィルターされた品目を自動的にカートに追加
+Automatically Add Taxes from Taxes and Charges Template,税・手数料テンプレートから税を自動追加する
 Automatically Assign Documents to Users,ドキュメントをユーザーに自動割り当て
 Automatically Create New Batch,自動的に作成新規バッチ
+Automatically Fetch Payment Terms from Order,注文から支払条件を自動取得する
 Automatically Generate Billable,請求可能項目を自動生成
 Automatically add Taxes and Charges from Item Tax Template,品目税テンプレートから税金と費用を自動追加
 Automatically add taxes from Taxes and Charges Template,税金と費用テンプレートから税金を自動追加
@@ -3021,6 +3049,7 @@ Balance Value,残高金額
 Balance for Account {0} must always be {1},勘定科目{0}の残高は常に{1}である必要があります。
 Balance must be,残高
 Balances as per bank statement before {0},{0}以前の銀行明細書に基づく残高
+"Balances of Accounts of type ""Bank"" or ""Cash""",「銀行」または「現金」種別の勘定残高
 Bank,銀行
 Bank / Cash Account,銀行/現金勘定
 Bank A/C No.,銀行口座番号
@@ -3032,6 +3061,7 @@ Bank Account No,銀行口座番号
 Bank Account Subtype,銀行口座サブタイプ
 Bank Account Type,銀行タイプ
 Bank Account {} in Bank Transaction {} is not matching with Bank Account {},銀行取引{}の銀行口座{}が銀行口座{}と一致しません。
+"Bank Account, From Date and To Date are Mandatory",銀行口座、開始日、終了日は必須です
 Bank Accounts,銀行口座
 Bank Balance,銀行残高
 Bank Charges,銀行手数料
@@ -3111,6 +3141,7 @@ Base Distinguished Name (DN),ベース識別名 (DN)
 Base Hour Rate(Company Currency),基本時間レート (会社通貨)
 Base Rate,基本単価
 Base Tax Withheld,源泉徴収基本税額
+Base Tax Withholding Net Total,源泉徴収対象 純合計（基準通貨）
 Base Taxable Amount,基本課税対象
 Base Total Billable Amount,基本請求可能合計金額
 Base Total Billed Amount,基本合計請求済
@@ -3213,6 +3244,7 @@ Bill Amount,請求金額
 Bill Date,請求
 Bill No,請求
 Bill Ref Number,請求参照番号
+Bill for Rejected Quantity in Purchase Invoice,仕入請求で不合格数量も請求する
 Bill for rejected quantity in Purchase Invoice,仕入請求書における却下数量の請求
 Bill of Materials,部品表
 Billables,請求可能項目
@@ -3228,6 +3260,7 @@ Billed Separately,別途請求
 Billing,請求
 Billing & Accounts,請求と勘定
 Billing & Payments,請求と支払い
+Billing (Sales Invoice),請求（売上請求）
 Billing Address,請求先住所
 Billing Address Details,請求住所詳細
 Billing Address Name,請求住所名前
@@ -3317,14 +3350,15 @@ Bold Text,太字テキスト
 Bom No,部品表番号
 Bonus,賞与
 Bonus Amount,賞与金額
-Bonus Payment Date,賞与支払日
-Bonus Payment Date cannot be a past date,賞与支払日は過去の日付にすることはできません。
+Bonus Payment Date,賞与支給日
+Bonus Payment Date cannot be a past date,賞与支給日を過去の日付にすることはできません
 Book,予約
 Book Advance Payments as Liability option is chosen. Paid From account changed from {0} to {1}.,前払金を負債として計上するオプションが選択されました。支払元勘定科目が {0} から {1} に変更されました。
 Book Advance Payments in Separate Party Account,帳簿前払い支払い分離取引先
 Book Appointment,帳簿予約
 Book Asset Depreciation entry automatically,資産減価償却入力の自動記帳
 Book Deferred entries based on,繰延入力の記帳基準
+Book Tax Loss on Early Payment Discount,早期支払割引の税務上の損失を計上する
 Book an appointment,予約する
 Book deferred entries via Journal Entry,仕訳伝票による繰延入力の記帳
 Book tax loss on early payment discount,早期支払い割引による税務上の損失を計上する
@@ -3386,6 +3420,7 @@ Bucket Size,バケットサイズ
 Budget,予算
 Budget Account,予算勘定科目
 Budget Against,予算対象
+Budget Allocated,配分済予算
 Budget Amount,予算
 Budget Amount can not be {0}.,予算金額は {0} にすることはできません。
 Budget Detail,予算詳細
@@ -3398,8 +3433,10 @@ Budget List,予算リスト
 Budget Start Date,予算開始
 Budget Variance,予算差異
 Budget Variance Report,予算差異レポート
+Budget and Cost Center,予算とコストセンター
 Budget cannot be assigned against Group Account {0},グループ勘定科目 {0} に対して予算を割り当てることはできません
 "Budget cannot be assigned against {0}, as it's not an Income or Expense account",{0} は収入または経費勘定科目ではないため、予算を割り当てることはできません
+Budget cannot be set for Group Cost Centers,グループのコストセンターには予算を設定できません
 Budgets,予算
 Buffer Time,バッファ時間
 Buffered Cursor,バッファードカーソル
@@ -3582,6 +3619,7 @@ Cancel At End Of Period,キャンセル終了
 Cancel Current Invoice ?,現在の請求書をキャンセルしますか？
 Cancel Future Accruals and Demands,将来の未払費用と請求をキャンセル 
 Cancel Import,インポートをキャンセル
+Cancel Invoice After Grace Period,猶予期間の経過後に請求書を取り消す
 Cancel Material Visit {0} before cancelling this Warranty Claim,この保証請求をキャンセルする前に、資材訪問 {0} をキャンセルしてください
 Cancel Material Visits {0} before cancelling this Maintenance Visit,このメンテナンス訪問をキャンセルする前に、資材訪問 {0} をキャンセルしてください
 Cancel Payment,支払いキャンセル
@@ -3780,6 +3818,7 @@ Capitalize Repair Cost,修理費の資本化
 Capitalize amount for charge {0} cannot be negative,費用 {0} の資本化金額は負の値にすることはできません。
 Capitalize amount for charge {0} cannot exceed overdue amount {1},費用 {0} の資本化金額は、期限超過金額 {1} を超えることはできません。
 Capitalize this asset before submitting.,提出する前に、この資産を資本化してください。
+Capitalize this asset to confirm,確定するにはこの資産を資産計上してください
 Capitalized,資本化済
 Capture,キャプチャ
 Captured,取得済
@@ -3910,6 +3949,7 @@ Charges: {0},費用: {0}
 Chart,チャート
 Chart Configuration,チャート設定
 Chart Name,Chart名
+Chart Of Accounts,勘定科目表
 Chart Of Accounts Template,チャート勘定科目テンプレート
 Chart Options,チャートオプション
 Chart Preview,チャートプレビュー
@@ -4016,6 +4056,7 @@ Child query fields for '{0}' must be a list or tuple.,'{0}' の子クエリフ�
 Child tables that will also be deleted,子テーブルも削除されます
 Child warehouse exists for this warehouse. You can not delete this warehouse.,この倉庫には子倉庫が存在します。この倉庫を削除することはできません。
 Choose Existing Card or create New Card,既存のカードを選択するか、新しいカードを作成してください
+Choose a WIP composite asset,仕掛の複合資産を選択
 Choose a block or continue typing,ブロックを選択するか、入力を続けてください
 Choose a color,色を選択
 Choose an icon,アイコンを選択
@@ -4322,6 +4363,7 @@ Company Name cannot be Company,名前
 Company Not Linked,会社がリンクされていません
 Company Shipping Address,配送住所
 Company Tax ID,税ID
+Company and Accounts,会社と勘定
 Company and Insurance Provider are mandatory,会社と保険会社は必須です
 Company and Posting Date is mandatory,転記
 Company and account filters not set!,会社と勘定科目のフィルターが設定されていません！
@@ -4421,6 +4463,7 @@ Conference,会議
 Config,設定
 Configuration,設定
 Configure,設定
+Configure Account Settings,勘定の設定を構成
 Configure Accounts,勘定科目を設定
 Configure Accounts for Bank Entry,銀行入力の勘定科目を設定
 Configure Bank Accounts,銀行口座を設定
@@ -4431,6 +4474,7 @@ Configure Product Assembly,製品組立を設定
 Configure Recorder,レコーダー設定
 Configure Series,シリーズを設定
 Configure a service Item for {0},{0}のサービス品目を設定してください
+Configure accounts for google calendar,Google カレンダー用のアカウントを設定
 Configure columns for {0},{0} の列を設定
 "Configure how amended documents will be named.<br>
 
@@ -4477,6 +4521,7 @@ Connections,接続
 Consent Management,同意管理
 Consent Required,同意が必要です
 Consider Accounting Dimensions,考慮会計ディメンション
+Consider Entire Party Ledger Amount,取引先元帳の全額を対象とする
 Consider Grace Period,猶予期間を考慮
 Consider Marked Attendance on Holidays,休日の勤怠を考慮
 Consider Minimum Order Qty,考慮最小注文数量
@@ -4662,17 +4707,20 @@ Cost Center {} doesn't belong to Company {},コストセンター{}は会社{}�
 Cost Center {} is a group cost center and group cost centers cannot be used in transactions,コストセンター{}はグループコストセンターであり、グループコストセンターは取引で使用できません。
 Cost Center: {0} does not exist,コストセンター: {0}は存在しません。
 Cost Centers,コストセンター
+Cost Centers for Budgeting and Analysis,予算編成・分析用のコストセンター
 Cost Configuration,コスト構成
 Cost Per Unit,コスト単位
 Cost allocation between finished goods and secondary items should equal 100%,完成品と副産物の間のコスト配分は100%に等しい必要があります。
 Cost and Freight,運賃込み条件
 Cost center is mandatory for loans having rate of interest greater than 0,金利が0より大きいローンにはコストセンターが必須です
+Cost center is required to book an expense claim,経費精算の計上にはコストセンターが必要です
 Cost center used for tracking purchase expenses for this item,この品目の購買経費を追跡するために使用されるコストセンター
 Cost center used for tracking sales revenue for this item,この品目の売上収益を追跡するために使用されるコストセンター
 Cost of Delivered Items,コスト納品済
 Cost of Goods Sold,売上原価
 Cost of Goods Sold Account in Items Table,品目テーブルの売上原価勘定
 Cost of Issued Items,コスト発行済
+Cost of New Capitalized Asset,新規資産計上額
 Cost of Poor Quality Report,不良品質コストレポート
 Cost of Purchased Items,コスト仕入済
 Cost of various activities,様々な活動のコスト
@@ -4765,6 +4813,7 @@ Create Coverage,補償を作成
 Create Customer,顧客を作成
 Create Delivery Note,納品書を作成
 Create Delivery Trip,作成納品トリップ
+Create Depreciation Entry,減価償却の仕訳を作成
 Create Employee,従業員を作成
 Create Employee Records,従業員レコードを作成
 Create Employee records.,従業員レコードを作成します。
@@ -4774,6 +4823,7 @@ Create Finished Good,完成品を作成
 Create Finished Goods,完成品を作成
 Create Grouped Asset,グループ化された資産を作成
 Create Healthcare Practitioner,医療従事者を作成
+Create Income Tax Slab,所得税の税率区分を作成
 Create Insurance Coverage,保険補償を作成
 Create Inter Company Journal Entry,作成会社間仕訳入力
 Create Interview,面接を作成
@@ -4787,6 +4837,7 @@ Create Job Opening,求人を作成
 Create Journal Entries,作成仕訳入力
 Create Journal Entry,仕訳伝票を作成
 Create Lab Test(s) on Sales Invoice Submission,売上請求書提出時に検査を作成
+Create Lab Test(s) on Sales Invoice Submit,売上請求の提出時に検査を作成する
 Create Lead,作成見込み客
 Create Leads,見込み客を作成
 Create Ledger Entries for Change Amount,作成元帳入力変更
@@ -4817,6 +4868,7 @@ Create Overtime Slips,残業伝票を作成
 Create POS Opening Entry,作成POS期首入力
 Create POS Opening Shift,POSオープニングシフトを作成
 Create Patient,患者を作成
+Create Payment Entries against Orders or Invoices.,注文または請求書に対する入出金伝票を作成します。
 Create Payment Entry,入出金伝票を作成
 Create Payment Entry for Consolidated POS Invoices.,統合されたPOS請求書の入出金伝票を作成します。
 Create Payment Request,支払いリクエストを作成
@@ -4842,6 +4894,7 @@ Create Sales Order,作成売上注文
 Create Sales Orders to help you plan your work and deliver on-time,作業を計画し、納期通りに納品できるよう、受注を作成します
 Create Sample Collection document for Lab Test,検査用の検体採取ドキュメントを作成
 Create Saved Filter,保存済みフィルターを作成
+Create Separate Payment Entry Against Benefit Claim,福利厚生請求に対して個別の入出金伝票を作成する
 Create Service Item,サービス品目を作成
 Create Service Request,サービスリクエストを作成
 Create Shifts After,以降のシフトを作成
@@ -4870,6 +4923,8 @@ Create Variants,作成バリアント
 Create Warehouses,倉庫を作成
 Create Work Order,製造指示を作成
 Create Workstation,作成ワークステーション
+Create Your First Purchase Invoice,最初の仕入請求を作成
+Create Your First Sales Invoice,最初の売上請求を作成
 Create a Customer,顧客を作成
 Create a Fixed Asset Item,固定資産品目を作成
 Create a New Format,新しいフォーマットを作成
@@ -4880,12 +4935,15 @@ Create a Warehouse,倉庫を作成
 "Create a journal entry for expenses, income or split transactions",経費、収入、または分割取引の仕訳伝票を作成します
 Create a new Customer,新しい顧客を作成
 Create a new Item,新しい品目を作成
+Create a new composite asset,新しい複合資産を作成
 Create a new document,新規ドキュメントを作成
 Create a new entry based on the rule,ルールに基づいて新しい入力を作成
 Create a new rule to automatically classify transactions.,取引を自動的に分類するための新しいルールを作成します。
 Create a new {0},新規 {0} を作成
 Create a variant with the template image.,テンプレート画像でバリアントを作成します。
 Create a {0} Account,{0} 勘定科目を作成
+Create an Asset,資産を作成
+Create an Asset Category,資産カテゴリを作成
 Create an Asset Item,資産品目を作成
 Create an Item,品目を作成
 Create an incoming stock transaction for the Item.,品目の入庫取引を作成します。
@@ -4928,7 +4986,7 @@ Creating Journal Entries...,仕訳伝票を作成中...
 Creating Lab Tests...,検査を作成中...
 Creating Observations! Please Wait...,観察を作成中！お待ちください...
 Creating Packing Slip ...,作成中梱包伝票
-Creating Payment Entries......,入出金伝票を作成中......
+Creating Payment Entries......,入出金伝票を作成しています……
 Creating Purchase Invoices ...,作成中仕入請求書
 Creating Purchase Order ...,作成中仕入注文
 Creating Purchase Receipt ...,作成中仕入伝票
@@ -4986,6 +5044,9 @@ Credit Note Issued,貸方票発行済
 "Credit Note will update it's own outstanding amount, even if 'Return Against' is specified.",「対象返品」が指定されている場合でも、貸方票は自身の未回収金額を更新します。
 Credit Note {0} has been created automatically,貸方票 {0} が自動的に作成されました
 Credit To,貸方先
+Credit To account must be a Balance Sheet account,貸方勘定は貸借対照表の勘定である必要があります
+Credit To account must be a Payable account,貸方勘定は買掛金勘定である必要があります
+Credit To account must be a liability account,貸方勘定は負債勘定である必要があります
 Credit in Company Currency,会社通貨での貸方
 Credit limit has been crossed for customer {0} ({1}/{2}),顧客 {0} の信用限度額を超過しました ({1}/{2})
 Credit limit is already defined for the Company {0},会社 {0} の信用限度額はすでに定義されています
@@ -5393,6 +5454,9 @@ Debit Note Amount,借方メモ
 Debit Note Issued,借方メモ発行済
 "Debit Note will update it's own outstanding amount, even if 'Return Against' is specified.",「対象返品」が指定されている場合でも、借方票はそれ自体の未回収金額を更新します。
 Debit To,借方
+Debit To account must be a Balance Sheet account,借方勘定は貸借対照表の勘定である必要があります
+Debit To account must be a Receivable account,借方勘定は売掛金勘定である必要があります
+Debit To account must be a liability account,借方勘定は負債勘定である必要があります
 Debit To is required,借方
 Debit and Credit not equal for {0} #{1}. Difference is {2}.,{0} #{1} の借方と貸方が一致しません。差額は {2} です。
 Debit in Company Currency,会社通貨での借方
@@ -5419,8 +5483,9 @@ Declarations,申告
 Declare Lost,紛失を宣言
 Declared Amount,申告額
 Deduct,控除
-Deduct Full Tax on Selected Payroll Date,選択された給与支払日に全税額を控除する
-Deduct Tax For Unsubmitted Tax Exemption Proof,未提出の免税証明書に対する税金を控除する
+Deduct Full Tax on Selected Payroll Date,指定した給与支給日に税を全額控除する
+Deduct Tax For Unclaimed Employee Benefits,未請求の福利厚生分について税を控除する
+Deduct Tax For Unsubmitted Tax Exemption Proof,未提出の控除証明について税を控除する
 Deduct Tax On Basis,税金控除の基準
 Deducted From,控除元
 Deductee Details,控除対象者の詳細
@@ -5470,7 +5535,10 @@ Default Customer Group,デフォルト顧客グループ
 Default Deferred Expense Account,デフォルト繰延費用
 Default Deferred Revenue Account,デフォルト繰延収益
 Default Dimension,デフォルトディメンション
+Default Discount Account,既定の割引勘定
 Default Distance Unit,デフォルト距離単位
+Default Down Payment Payable Account,既定の前渡金（買掛）勘定
+Default Down Payment Receivable Account,既定の前受金（売掛）勘定
 Default Duration (In Minutes),デフォルト期間 (分)
 Default Email Template,Default Emailテンプレート
 Default Employee Advance Account,デフォルトの従業員前払い勘定科目
@@ -5517,6 +5585,7 @@ Default Quotation Validity Days,デフォルト見積有効日数
 Default Rate,デフォルト単価
 Default Rate is required,デフォルト単価は必須です
 Default Receivable Account,デフォルト売掛金
+Default Receivable Accounts,既定の売掛金勘定
 Default Redirect URI,デフォルトリダイレクトURI
 Default Return Warehouse,既定の返品倉庫
 Default Role at Time of Signup,サインアップ時のデフォルトロール
@@ -5563,6 +5632,7 @@ Default for 'Check' type of field {0} must be either '0' or '1',「チェック�
 Default income accounts to be used if not set in Healthcare Practitioner to book Appointment charges.,医療従事者で設定されていない場合に、予約料金を計上するために使用されるデフォルトの収入勘定科目。
 Default price list for buying or selling this item,この品目の購買または販売のデフォルト価格リスト
 Default receivable accounts to be used to book Appointment charges.,予約料金を計上するために使用されるデフォルトの売掛金勘定科目。
+Default settings for accounting transactions.,会計取引の既定設定。
 Default settings for stock transactions.,在庫取引の既定設定。
 Default settings for your stock-related transactions,在庫関連の取引のデフォルト設定
 "Default tax templates for sales, purchase and items are created.",販売、購買、品目のデフォルト税テンプレートが作成されます。
@@ -5586,6 +5656,7 @@ Deferred Revenue,前受収益
 Deferred Revenue Account,前受収益勘定
 Deferred Revenue and Expense,繰延収益費用
 Deferred accounting failed for some invoices:,一部の請求書で繰延会計に失敗しました:
+Define Asset Category,資産カテゴリを定義
 Define Project type.,プロジェクトタイプを定義します。
 Defines actions on states and the next step and allowed roles.,状態に対するアクション、次のステップ、および許可されたロールを定義します。
 Defines how long exported reports sent via email are kept in the system. Older files will be automatically deleted.,メールで送信されたエクスポート済みレポートがシステムに保持される期間を定義します。古いファイルは自動的に削除されます。
@@ -5778,6 +5849,7 @@ Depreciation Row {0}: Depreciation Posting Date cannot be before Available-for-u
 Depreciation Row {0}: Expected value after useful life must be greater than or equal to {1},減価償却行 {0}: 耐用年数後の期待値は {1} 以上である必要があります
 Depreciation Schedule,減価償却スケジュール
 Depreciation Schedule View,減価償却スケジュール表示
+Depreciation Start Date,減価償却開始日
 Depreciation cannot be calculated for fully depreciated assets,完全に減価償却された資産の減価償却は計算できません
 Depreciation eliminated via reversal,取り消しによる減価償却の消滅
 Descendants Of,子孫
@@ -5953,6 +6025,7 @@ Discount (%),値引き
 Discount (%) on Price List Rate with Margin,値引き価格リスト単価マージン
 Discount Account,値引き
 Discount Amount,値引き額
+Discount Amount (Company Currency),割引金額（会社通貨）
 Discount Amount in Transaction,値引き取引
 Discount Date,値引き
 Discount Percentage,値引き率
@@ -6182,6 +6255,7 @@ Don't Send Emails,メールを送信しない
 Don't have an account?,アカウントをお持ちではありませんか？
 Don't reserve Sales Order qty on sales return,返品時に受注数量を予約しない
 Done,完了
+Dont Recompute tax,税を再計算しない
 Donut,ドーナツ
 Doors,ドア
 Dosage,用量
@@ -6431,6 +6505,7 @@ Email Account Disabled.,メールアカウントが無効です。
 Email Account Name,Email Account名
 Email Account added multiple times,メールアカウントが複数回追加されました
 Email Account not setup. Please create a new Email Account from Settings > Email Account,メールアカウントが設定されていません。設定 > メールアカウントから新しいメールアカウントを作成してください。
+Email Account setup please enter your password for:,メールアカウントの設定です。次のパスワードを入力してください:
 Email Account {0} Disabled,メールアカウント {0} は無効です
 Email Address,メールアドレス
 Email Address (required),メールアドレス (必須)
@@ -6585,12 +6660,12 @@ Employee Skill,従業員スキル
 Employee Skill Map,従業員スキルマップ
 Employee Skills,従業員スキル
 Employee Status,従業員ステータス
-Employee Tax Exemption Category,従業員税控除カテゴリ
-Employee Tax Exemption Declaration,従業員税控除申告
-Employee Tax Exemption Declaration Category,従業員税控除申告カテゴリ
-Employee Tax Exemption Proof Submission,従業員税控除証明提出
-Employee Tax Exemption Proof Submission Detail,Employee Tax Exemption Proof Submission詳細
-Employee Tax Exemption Sub Category,従業員税控除サブカテゴリ
+Employee Tax Exemption Category,従業員 控除カテゴリ
+Employee Tax Exemption Declaration,従業員 控除申告
+Employee Tax Exemption Declaration Category,従業員 控除申告カテゴリ
+Employee Tax Exemption Proof Submission,従業員 控除証明の提出
+Employee Tax Exemption Proof Submission Detail,従業員 控除証明の提出明細
+Employee Tax Exemption Sub Category,従業員 控除サブカテゴリ
 Employee Training,従業員研修
 Employee Transfer,従業員異動
 Employee Transfer Detail,Employee Transfer詳細
@@ -6664,6 +6739,7 @@ Enable Comments,コメントを有効化
 Enable Common Party Accounting,共通取引先会計を有効にする
 Enable Deferred Expense,有効化繰延費用
 Enable Deferred Revenue,有効化繰延収益
+Enable Discount Accounting for Selling,販売の割引会計を有効にする
 Enable Discounts and Margin,値引きとマージンを有効にする
 Enable Dynamic Client Registration,動的クライアント登録を有効化
 Enable Early Exit Marking,早退マークを有効化
@@ -7034,7 +7110,7 @@ Executive Assistant,役員秘書
 Executive Search,エグゼクティブサーチ
 Exempt Supplies,免税供給
 Exempted Role,免除されたロール
-Exempted from Income Tax,所得税免除
+Exempted from Income Tax,所得税が非課税
 Exemption,免除
 Exemption Category,免除カテゴリ
 Exemption Declaration,免除申告
@@ -7107,10 +7183,11 @@ Expense,経費
 Expense / Difference account ({0}) must be a 'Profit or Loss' account,経費/差額勘定科目 ({0}) は「損益」勘定科目である必要があります
 Expense Account,経費勘定科目
 Expense Account Missing,費用不足
+Expense Account is mandatory,費用勘定は必須です
 Expense Approver,経費承認者
 Expense Approver Mandatory In Expense Claim,経費精算における経費承認者は必須
 Expense Claim,経費精算
-Expense Claim Account,経費精算勘定科目
+Expense Claim Account,経費精算勘定
 Expense Claim Advance,経費精算前払い
 Expense Claim Detail,Expense Claim詳細
 Expense Claim Summary,経費精算サマリー
@@ -7124,7 +7201,7 @@ Expense Head Changed,費用ヘッド変更済
 Expense Item,経費品目
 Expense Proof,経費証明
 Expense Tax,経費税
-Expense Taxes and Charges,経費税金と手数料
+Expense Taxes and Charges,費用の税・手数料
 Expense Type,経費種類
 Expense account is mandatory for item {0},品目 {0} には経費勘定科目が必須です
 Expense for this item will be recognized over a period of months. Eg: prepaid insurance or annual software license,この品目の費用は数ヶ月にわたって認識されます。例: 前払い保険または年間ソフトウェアライセンス
@@ -7278,6 +7355,7 @@ Failed to setup company,会社のセットアップに失敗しました
 Failed to setup defaults,デフォルト設定のセットアップに失敗しました
 Failed to setup defaults for country {0}.,{0}国のデフォルト設定のセットアップに失敗しました。
 Failed to setup defaults for country {0}. Please contact support.,国 {0} のデフォルト設定のセットアップに失敗しました。サポートにお問い合わせください。
+Failed to setup taxes,税の設定に失敗しました
 Failed to submit some leave policy assignments:,一部の休暇ポリシー割り当ての提出に失敗しました:
 Failed to update auto classify transactions settings,取引自動分類設定の更新に失敗しました
 Failed to update global settings,グローバル設定の更新に失敗しました
@@ -7493,6 +7571,7 @@ Financial Services,金融サービス
 Financial Statements,財務諸表
 Financial Year Begins On,会計年度開始日
 Financial reports will be generated using GL Entry doctypes (should be enabled if Period Closing Voucher is not posted for all years sequentially or missing),財務レポートはGL Entryドキュメントを使用して生成されます（期間締め伝票がすべての年度で順次転記されていない場合に有効にしてください） 
+Find Invoices to Match,消込対象の請求書を検索
 Find {0} in {1},{1}で{0}を検索
 Findings,所見
 Finish,完了
@@ -7558,6 +7637,7 @@ Fixed,固定
 Fixed Amount,固定金額
 Fixed Asset,固定資産
 Fixed Asset Account,固定資産
+Fixed Asset Accounts,固定資産勘定
 Fixed Asset Defaults,固定資産デフォルト
 Fixed Asset Item must be a non-stock item.,固定資産品目は非在庫品である必要があります。
 Fixed Asset Register,固定資産台帳
@@ -7912,6 +7992,7 @@ Future Payment Ref,将来の支払参照
 Future Payments,将来の支払い
 Future date is not allowed,将来の日付は許可されていません
 Future dates not allowed,将来の日付は許可されていません
+GCalendar Account,Google カレンダー アカウント
 GENERAL LEDGER,総勘定元帳
 GL Account,総勘定科目
 GL Balance,GL残高
@@ -8445,6 +8526,7 @@ Hourly Rate,時間単価
 Hourly rate limit for generating password reset links,パスワードリセットリンク生成の時間あたりのレート制限
 Hours,時間
 Hours Spent,費やした時間
+House Rent Payment Amount,家賃支払額
 House rent paid days overlapping with {0},家賃支払い日が {0} と重複しています。
 House rented dates required for exemption calculation,控除計算には家賃支払い日が必要です。
 House rented dates should be atleast 15 days apart,家賃支払い日は少なくとも15日間隔である必要があります。
@@ -8505,7 +8587,9 @@ If <b>Disabled</b> - Reconciliation happens on oldest of 2 Dates: <b>Invoice Dat
 "If Auto Opt In is checked, then the customers will be automatically linked with the concerned Loyalty Program (on save)",自動オプトインがチェックされている場合、顧客は自動的に関連するロイヤルティプログラムにリンクされます (保存時)
 If Checked workflow status will not override status in list view,チェックされている場合、ワークフローステータスはリストビューのステータスを上書きしません
 If Income or Expense,収入費用
+If Monthly Budget Exceeded,月次予算を超過した場合
 If Owner,所有者の場合
+If Yearly Budget Exceeded,年次予算を超過した場合
 "If a Role does not have access at Level 0, then higher levels are meaningless.",ロールがレベル0でアクセス権を持たない場合、それより高いレベルは意味がありません。
 "If a party cannot be matched by account number or IBAN, the system will try fuzzy matching using the party name and transaction description.",取引先が口座番号またはIBANで照合できない場合、システムは取引先名と取引説明を使用してあいまい一致を試みます。
 "If an operation is divided into sub operations, they can be added here.",操作がサブ操作に分割されている場合、ここにそれらを追加できます。
@@ -8674,12 +8758,14 @@ If user is the owner,ユーザーが所有者の場合
 "If your bank statement shows a different closing balance, it is because all transactions have not reconciled yet.",銀行取引明細書に異なる期末残高が表示されている場合、それはすべての取引がまだ照合されていないためです。
 "If your data is in HTML, please copy paste the exact HTML code with the tags.",データがHTML形式の場合、タグを含む正確なHTMLコードをコピー＆ペーストしてください。
 Ignore,無視
+Ignore Account Closing Balance,勘定の期末残高を無視する
 Ignore Account closing balance,勘定科目期末残高を無視
 Ignore Available Stock,利用可能な在庫を無視する
 Ignore Closing Balance,無視期末残高
 Ignore Default Payment Terms Template,無視デフォルト支払い条件テンプレート
 Ignore Employee Time Overlap,従業員の時間重複を無視
 Ignore Empty Stock,無視空在庫
+Ignore Exchange Rate Revaluation Journals,為替評価替の仕訳を無視する
 Ignore Exchange Rate Revaluation and Gain / Loss Journals,為替レート再評価および損益仕訳伝票を無視
 Ignore Existing Ordered Qty,既存の発注数量を無視
 Ignore Is Opening check for reporting,レポート作成時の期首チェックを無視
@@ -8879,12 +8965,12 @@ Income Account,収入勘定科目
 Income Source,収入源
 Income Tax Amount,所得税額
 Income Tax Breakup,所得税内訳
-Income Tax Component,所得税コンポーネント
-Income Tax Computation,所得税計算
+Income Tax Component,所得税の構成要素
+Income Tax Computation,所得税の計算
 Income Tax Deducted Till Date,期日までの所得税控除額
-Income Tax Deductions,所得税控除
-Income Tax Slab,所得税スラブ
-Income Tax Slab Other Charges,所得税スラブその他費用
+Income Tax Deductions,所得控除
+Income Tax Slab,所得税の税率区分
+Income Tax Slab Other Charges,所得税 税率区分のその他負担
 Income Tax Slab is mandatory since the Salary Structure {0} has a tax component {1},給与体系 {0} に税金コンポーネント {1} があるため、所得税スラブは必須です。
 Income Tax Slab must be effective on or before Payroll Period Start Date: {0},所得税スラブは、給与期間開始日 {0} 以前に有効である必要があります。
 Income Tax Slab not set in Salary Structure Assignment: {0},給与体系割り当てに所得税スラブが設定されていません: {0}
@@ -8896,6 +8982,7 @@ Income from this item will be recognized over a period of months instead of all 
 Incoming,受信
 Incoming (POP/IMAP) Settings,Incoming (POP/IMAP)設定
 Incoming Bills,入荷請求書
+Incoming Bills (Purchase Invoice),受領した請求（仕入請求）
 Incoming Call Handling Schedule,着信対応スケジュール
 Incoming Call Settings,受信通話設定
 Incoming Emails (Last 7 days),受信メール (過去7日間)
@@ -9173,6 +9260,7 @@ Interviews (This Week),面接 (今週)
 Intro Video URL,紹介ビデオURL
 Introduce your company to the website visitor.,ウェブサイト訪問者に貴社を紹介します。
 Introduction,はじめに
+Introduction to Assets,資産の概要
 Introduction to Healthcare Practitioner,医療従事者の紹介
 Introduction to Stock Entry,在庫伝票の概要
 Introductory information for the Contact Us Page,お問い合わせページ用のはじめに情報
@@ -9201,6 +9289,7 @@ Invalid Child Procedure,無効な子プロシージャ
 "Invalid Claim Amount, row #{}","無効なClaim Amount, row #{}"
 Invalid Code. Please try again.,無効なCode. Please try again
 Invalid Company Field,無効なフィールド
+Invalid Company for Inter Company Invoice.,会社間請求の会社が不正です。
 Invalid Company for Inter Company Transaction.,会社間取引に対する無効な会社。
 Invalid Condition: {},無効なCondition: {}
 Invalid Cost Center,無効なコストセンター
@@ -9220,6 +9309,7 @@ Invalid Doctype,無効なDoctype
 Invalid Document,無効な文書
 Invalid Document Type,無効な文書タイプ
 Invalid Document Type {0},無効なドキュメントタイプ {0}
+Invalid Email Account,メールアカウントが不正です
 Invalid Fieldname,無効なFieldname
 Invalid File Type,無効なファイルタイプ
 Invalid File URL,無効なFile URL
@@ -9386,6 +9476,7 @@ Invite as User,ユーザーとして招待
 Invited,招待済
 Invited By,招待者
 Invoice,請求書
+Invoice Appointments Automatically,予約を自動で請求する
 Invoice Cancellation,請求書キャンセル
 Invoice Consumables Separately,消耗品を個別に請求
 Invoice Date,請求書日付
@@ -9394,7 +9485,7 @@ Invoice Discount Amount,請求書割引金額
 Invoice Discounting,請求書割引
 Invoice Document Type Selection Error,請求書ドキュメントタイプ選択エラー
 Invoice Grand Total,請求書総合計
-Invoice ID,請求書ID
+Invoice ID,請求書 ID
 Invoice Limit,請求書限度
 Invoice No,請求書番号
 Invoice Number,請求書番号
@@ -9403,7 +9494,7 @@ Invoice Patient Registration,患者登録を請求
 Invoice Portion,請求書部分
 Invoice Portion (%),請求書部分 (%)
 Invoice Posting Date,請求書転記
-Invoice Ref,請求書参照
+Invoice Ref,請求書 参照
 Invoice Separately as Consumables,消耗品として個別に請求
 Invoice Series,請求書シリーズ
 Invoice Status,請求書ステータス
@@ -9415,6 +9506,7 @@ Invoice can't be made for zero billing hour,請求時間がゼロの場合、請
 Invoice {0} Deleted,請求書{0}が削除されました
 Invoiced,請求済
 Invoiced Amount,請求金額
+Invoiced Amount (Exculsive Tax),請求金額（税抜）
 Invoiced Qty,請求済数量
 Invoiced Quantity and Invoiced Amount cannot be more than Claim Quantity {} and Claim Amount {},請求済数量と請求済金額は、請求数量 {} および請求金額 {} を超えることはできません。
 Invoices,請求書
@@ -9450,6 +9542,7 @@ Is Compensatory,代償的
 Is Compensatory Leave,代償休暇
 Is Complete,完了している
 Is Completed,完了済
+Is Composite Asset,複合資産
 Is Consolidated,統合済
 Is Container,コンテナ
 Is Corrective Job Card,是正ジョブカード
@@ -9492,11 +9585,12 @@ Is Home Folder,ホームフォルダである
 Is IRS 1099 reporting required for supplier,この仕入先は IRS 1099 の報告対象ですか
 Is IRS 1099 reporting required for supplier?,この仕入先は IRS 1099 の報告対象ですか。
 Is Imported,インポート済み
-Is Income Tax Component,所得税構成要素
+Is Income Tax Component,所得税の構成要素
 Is Inpatient,入院患者
 Is Internal Customer,社内顧客
 Is Internal Supplier,社内仕入先
 Is Invoice generated,請求書が生成されましたか
+Is Invoiced,請求済
 Is Leave Without Pay,無給休暇
 Is Legacy,レガシー
 Is Legacy Scrap Item,レガシーのスクラップ品目
@@ -9567,6 +9661,7 @@ Is System Generated,システム生成である
 Is Table,テーブルである
 Is Table Field,テーブルフィールドである
 Is Tax Applicable,課税対象
+Is Tax Included,税込
 Is Tax Withholding Account,税源泉徴収
 Is Template,テンプレート
 Is Term Loan,期間ローン
@@ -9865,10 +9960,12 @@ Joining,入社
 Joining Date,入社日
 Joule,ジュール
 Joule/Meter,ジュール/メートル
+Journal Energy Point,仕訳のエナジーポイント
 Journal Entries,仕訳入力
 Journal Entries {0} are un-linked,仕訳伝票 {0} はリンク解除されました
 Journal Entry,仕訳伝票
 Journal Entry Account,仕訳伝票勘定科目
+Journal Entry Detail No,仕訳 明細番号
 Journal Entry Template,仕訳入力テンプレート
 Journal Entry Template Account,仕訳入力テンプレート
 Journal Entry Type,仕訳入力タイプ
@@ -9879,6 +9976,7 @@ Journal Entry {0} does not have account {1} or already matched against other vou
 Journal Template Accounts,仕訳伝票テンプレート勘定科目
 Journal entries have been created,仕訳伝票が作成されました
 Journals,仕訳
+Journals have been created,仕訳を作成しました
 July,7月
 Jump to field,フィールドへジャンプ
 June,6月
@@ -10093,10 +10191,12 @@ Lead {0} has been added to prospect {1}.,見込み客 {0} は潜在顧客 {1} �
 "Lead, Opportunity, Customer, and more.",リード、商談、顧客ほか。
 Leads,見込み客
 "Leads help you get business, add all your contacts and more as your leads",見込み客はビジネス獲得に役立ちます。すべての連絡先などを見込み客として追加します
+Learn Accounting,会計を学ぶ
 Learn Asset,資産について学習する
 Learn Subcontracting,外注について学習する
 "Learn about <a href=""https://docs.frappe.io/erpnext/user/manual/en/common_party_accounting"" rel=""noopener noreferrer"">Common Party</a>","<a href=""https://docs.frappe.io/erpnext/user/manual/en/common_party_accounting"" rel=""noopener noreferrer"">Common Party</a>について学習する"
 Learn more,詳細を見る
+Learn more about Chart of Accounts,勘定科目表について詳しく見る
 Learn more about Production Planning,生産計画について詳しく見る
 Leave,休暇
 Leave Adjustment,休暇調整
@@ -10129,7 +10229,7 @@ Leave Encashment,休暇買い上げ
 Leave Encashment Amount Per Day,1日あたりの休暇買い上げ金額
 Leave History,休暇履歴
 Leave Ledger,休暇元帳
-Leave Ledger Entry,休暇元帳入力
+Leave Ledger Entry,休暇元帳エントリ
 "Leave Ledger Entry's To date needs to be after From date. Currently, From Date is {0} and To Date is {1}",休暇元帳入力の終了日は開始日より後である必要があります。現在、開始日は{0}、終了日は{1}です。
 Leave Period,休暇期間
 Leave Policy,休暇ポリシー
@@ -10214,13 +10314,17 @@ Less Than Amount,金額未満
 Less Than Or Equal To,以下
 Let us continue with the onboarding,オンボーディングを続けましょう
 Let's Get Started,始めましょう
+Let's Set Up Your Accounts and Taxes.,勘定と税を設定しましょう。
+Let's Set Up the Assets Module.,資産モジュールを設定しましょう。
 Let's Set Up the Healthcare Module.,ヘルスケアモジュールをセットアップしましょう。
 Let's Set Up the Stock Module,在庫モジュールを設定しましょう
 Let's Set Up the Stock Module.,在庫モジュールを設定しましょう。
 Let's avoid repeated words and characters,繰り返し語句や文字を避けましょう
 Let's create a new Asset item,新しい資産品目を作成しましょう
+Let's review existing Asset Category,既存の資産カテゴリを確認しましょう
 Let's set up your account,アカウントを設定しましょう
 Let's take you back to onboarding,オンボーディングに戻りましょう
+Let's walk-through Chart of Accounts to review setup,勘定科目表を一通り確認して設定を見直しましょう
 Letter,レター
 Letter Head,レターヘッド
 Letter Head Based On,レターヘッドの基準
@@ -10237,6 +10341,7 @@ Let’s create a stock opening entry,在庫の期首エントリを作成しま�
 Let’s create your first  warehouse,最初の倉庫を作成しましょう
 Let’s create your first Customer,最初の顧客を作成しましょう
 Let’s create your first Material Request,最初の資材要求を作成しましょう
+Let’s create your first Purchase Invoice,最初の仕入請求を作成しましょう
 Let’s create your first Purchase Order,最初の発注書を作成しましょう
 Level,レベル
 Level (BOM),レベル (部品表)
@@ -10352,8 +10457,8 @@ Loading...,読み込み中...
 Loading…,読み込み中…
 Loan,ローン
 Loan  Details,ローン詳細
-Loan Account,ローン勘定科目
-Loan Account and Payment Account cannot be same,ローンアカウントと支払アカウントは同一にできません
+Loan Account,貸付金勘定
+Loan Account and Payment Account cannot be same,貸付金勘定と入出金勘定を同じにすることはできません
 Loan Account is mandatory,ローンアカウントは必須です
 Loan Accounts,ローンアカウント
 Loan Accrual Frequency not set for company {0},会社{0}のローン見越頻度が設定されていません
@@ -10430,18 +10535,18 @@ Loan Product,ローン商品
 Loan Product Loan Partner,ローン商品ローンパートナー
 Loan Purpose,融資目的
 Loan Refund,ローン返金
-Loan Repayment,ローン返済
+Loan Repayment,貸付金の返済
 Loan Repayment Charges,ローン返済手数料
-Loan Repayment Detail,ローン返済詳細
+Loan Repayment Detail,貸付金返済 明細
 Loan Repayment Entries,ローン返済エントリ
-Loan Repayment Entry,ローン返済入力
+Loan Repayment Entry,貸付金返済 伝票
 Loan Repayment Repost,ローン返済再転記
 Loan Repayment Repost Cancel Detail,ローン返済再転記キャンセル詳細
 Loan Repayment Repost Detail,ローン返済再転記詳細
 Loan Repayment Schedule,ローン返済スケジュール
 Loan Repayment Schedule Detail,ローン返済スケジュール詳細
 Loan Repayment Type,ローン返済タイプ
-Loan Repayment and Closure,ローン返済と終了
+Loan Repayment and Closure,貸付金の返済と完済
 Loan Restructure,ローン再編
 Loan Restructure Charges,融資再構築手数料
 Loan Restructure Count,ローン再編回数
@@ -10658,13 +10763,21 @@ Make BOM,部品表を作成
 Make Bank Entry,銀行入力を作成
 Make Depreciation Entry,作成減価償却入力
 Make Difference Entry,作成差額入力
+Make Excise Invoice,物品税請求書を作成
+Make Inter Company Journal Entry,会社間仕訳を作成
+Make Invoice,請求書を作成
+Make Invoices,請求書を作成
 Make Material Request,資材要求を作成
+Make Opening Sales and Purchase Invoices,期首の売上請求・仕入請求を作成
 Make Payment,支払いを行う
+Make Payment Entries,入出金伝票を作成
+Make Payment Entry,入出金伝票を作成
 Make Payment via Journal Entry,作成支払い仕訳入力
 Make Purchase / Work Order,作成仕入作業注文
 Make Purchase Invoice,作成仕入請求書
 Make Purchase Order,発注書を作成
 Make Quotation,作成見積書
+Make Repayment Entry,返済伝票を作成
 Make Return Entry,作成返品入力
 Make Sales Invoice,作成売上請求書
 Make Sales Order,受注を作成
@@ -10673,6 +10786,7 @@ Make Serial No / Batch from Work Order,作成シリアルバッチ作業注文
 Make Stock Entry,在庫伝票を作成
 Make Student Batch,学生バッチを作成
 Make Subcontracting PO,外注発注書を作成
+Make Tax Template,税テンプレートを作成
 Make Time Log Batch,タイムログバッチを作成
 Make Transfer Entry,作成移動入力
 Make a call,電話をかける
@@ -10689,6 +10803,7 @@ Manage,管理
 Manage 3rd party apps,サードパーティアプリを管理
 Manage Billing,請求を管理
 Manage Customer,顧客を管理
+Manage Sales Tax Templates,売上税テンプレートを管理
 Manage Stock Movements,在庫の入出庫を管理
 Manage cost of operations,運用コストを管理する
 Manage sales partner's and sales team's commissions,販売パートナーと営業チームのコミッションを管理する
@@ -10881,7 +10996,7 @@ Max Quantity,最大数量
 Max Report Rows,最大レポート行数
 Max Sample Quantity,最大サンプル数量
 Max Score,最大スコア
-Max Taxable Income,最大課税所得
+Max Taxable Income,課税所得の上限
 Max Value,最大値
 Max attachment size,最大添付ファイルサイズ
 Max auto email report per user,ユーザーあたりの自動メールレポートの最大数
@@ -10976,6 +11091,8 @@ Memory Usage,メモリ使用量
 Memory Usage in MB,メモリ使用量 (MB)
 Mention,メンション
 Mention Valuation Rate in the Item master.,品目マスターに評価レートを記載してください。
+Mention if a non-standard receivable account,標準以外の売掛金勘定を使う場合に指定します
+Mention if non-standard Receivable account,標準以外の売掛金勘定を使う場合に指定します
 Mention if non-standard receivable account applicable,非標準の売掛金勘定科目が適用される場合は記載
 Mentions,メンション
 Menu,メニュー
@@ -10983,6 +11100,7 @@ Merge,マージ
 Merge Account,統合
 Merge Invoices Based On,統合請求書
 Merge Progress,統合進捗
+Merge Similar Account Heads,同種の勘定科目を統合
 Merge similar Account Heads,類似の勘定科目を統合
 Merge taxes from multiple documents,複数の伝票から税金をマージ
 Merge with Existing Account,既存の勘定科目とマージ
@@ -11070,7 +11188,7 @@ Min Qty (As Per Stock UOM),最小数量 (在庫UOMに基づく)
 Min Qty can not be greater than Max Qty,最小数量は最大数量より大きくすることはできません
 Min Qty should be greater than Recurse Over Qty,最小数量は再帰処理数量より大きくする必要があります
 Min Quantity,最小数量
-Min Taxable Income,最低課税所得
+Min Taxable Income,課税所得の下限
 "Min Value: {0}, Max Value: {1}, in Increments of: {2}","最小値: {0}, 最大値: {1}, 増分: {2}"
 Min amount cannot be greater than max amount.,最小金額は最大金額より大きくすることはできません。
 Minimum,最小
@@ -11162,7 +11280,7 @@ Mode of Payment Account,方法支払い
 Mode of Payment is required,支払い方法は必須です
 Mode of Payments,支払い方法
 Mode of Travel,移動手段
-Mode of payment is required to make a payment,支払いを行うには、支払方法が必要です
+Mode of payment is required to make a payment,支払を行うには支払方法が必要です
 Model,モデル
 Moderate Sensitivity,中感度
 Modes of Payment,支払い方法
@@ -11267,6 +11385,7 @@ Multiple Tier Program,多段階プログラム
 Multiple Variants,複数バリアント
 Multiple Warehouse Accounts,複数の倉庫勘定
 Multiple company fields available: {0}. Please select manually.,複数の会社フィールドが利用可能です: {0}。手動で選択してください。
+Multiple default mode of payment is not allowed,既定の支払方法を複数設定することはできません
 Multiple fiscal years exist for the date {0}. Please set company in Fiscal Year,日付 {0} に複数の会計年度が存在します。会計年度で会社を設定してください。
 Multiple items cannot be marked as finished item,複数の品目を完成品としてマークすることはできません
 Multiple root nodes not allowed.,複数のルートノードは許可されていません。
@@ -11288,6 +11407,7 @@ My Account,マイアカウント
 My Advances,私の前払い
 My Claims,私の請求
 My Device,マイデバイス
+My Invoices,自分の請求書
 My Leaves,私の休暇
 My Profile,マイプロフィール
 My Requests,私の申請
@@ -11398,6 +11518,7 @@ Network Printer Settings,Network Printer設定
 Never,しない
 New,新規
 New ${frm.doc.task_doctype},新規${frm.doc.task_doctype}
+New Account,新規勘定
 New Account Name,新規名前
 New Activity,新規Activity
 New Address,新規Address
@@ -11412,6 +11533,7 @@ New Chart,新規Chart
 New Clinical Note,新規Clinical Note
 New Company,新規会社
 New Contact,新規Contact
+New Cost Center,新規コストセンター
 New Cost Center Name,新規コストセンター名前
 New Custom Block,新規Custom Block
 New Custom Print Format,新規Custom Print Format
@@ -11783,6 +11905,7 @@ No pending medication orders found for selected criteria,選択された条件�
 No permission for {0},{0}の権限がありません
 No permission to '{0}' {1},'{0}' {1}の権限がありません
 No permission to read {0},{0}を読み取る権限がありません
+No permission to use Payment Tool,支払ツールを使用する権限がありません
 No permission to {0} {1} {2},{0} {1} {2}の権限がありません
 No pinned document types.,ピン留めされたドキュメントタイプはありません。
 No primary email found for customer: {0},顧客: {0}の主要メールアドレスが見つかりません
@@ -11798,6 +11921,8 @@ No records found in the Payments table,支払いテーブルにレコードが�
 No records present in {0},{0}にレコードがありません
 No records tagged.,タグ付けされたレコードはありません。
 No records will be exported,レコードはエクスポートされません
+No repayments available for Journal Entry,仕訳に利用できる返済がありません
+No repayments selected for Journal Entry,仕訳に返済が選択されていません
 No replies from,返信なし
 No reserved stock to unreserve.,予約解除する予約在庫はありません。
 No results found.,結果が見つかりません。
@@ -12526,7 +12651,7 @@ Other Info,情報
 Other Reports,その他のレポート
 Other Risk Factors,その他のリスク要因
 Other Settings,その他設定
-Other Taxes and Charges,その他の税金と費用
+Other Taxes and Charges,その他の税・手数料
 Other risk factors,その他のリスク要因
 Others,その他
 Ounce,オンス
@@ -12552,6 +12677,7 @@ Outdated POS Opening Entry,期限切れのPOS期首入力
 Outgoing,送信
 Outgoing (SMTP) Settings,Outgoing (SMTP)設定
 Outgoing Bills,支払手形
+Outgoing Bills (Sales Invoice),発行した請求（売上請求）
 Outgoing Emails (Last 7 days),送信メール（過去7日間）
 Outgoing Payment,出金
 Outgoing Rate,送信単価
@@ -12660,7 +12786,7 @@ PDF generation failed because of broken image links,画像リンクが壊れて�
 PDF generation may not work as expected.,PDF生成が期待通りに動作しない可能性があります。
 "PDF printing via ""Raw Print"" is not supported.",「Raw Print」によるPDF印刷はサポートされていません。
 PDF statement support requires the 'pdfplumber' library to be installed.,PDF明細書をサポートするには、「pdfplumber」ライブラリがインストールされている必要があります。
-PF Account,PF口座
+PF Account,積立基金勘定
 PF Amount,PF金額
 PF Loan,PFローン
 PO Supplied Item,発注書供給品目
@@ -12680,6 +12806,7 @@ POS Closing Shift,POSクロージングシフト
 POS Closing Shift Detail,POSクロージングシフト詳細
 POS Closing Shift Taxes,POSクロージングシフト税金
 POS Closing Shift {} against {} between selected period,選択した期間内の{}に対するPOSクロージングシフト{}
+POS Closing Voucher Taxes,POS 締め伝票の税
 POS Closing failed while running in a background process. You can resolve the {0} and retry the process again.,バックグラウンドプロセスで実行中にPOS締め処理が失敗しました。{0} を解決し、プロセスを再試行してください。
 POS Configurations,POS設定
 POS Coupon,POSクーポン
@@ -12874,6 +13001,7 @@ Partial,一部
 Partial Match,部分一致
 Partial Material Transferred,一部資材移動済
 Partial Payment Mechanism,部分支払いメカニズム
+Partial Payment in POS Invoice is not allowed.,POS 請求では一部支払はできません。
 Partial Payment in POS Transactions are not allowed.,POS取引での部分支払いは許可されていません。
 Partial Settlement,部分清算
 Partial Stock Reservation,一部在庫予約
@@ -12943,6 +13071,7 @@ Party Name/Account Holder,取引先名/口座名義人
 Party Name/Account Holder (Bank Statement),取引先名/口座名義人 (銀行取引明細書)
 Party Not Required,取引先
 Party Specific Item,取引先固有品目
+Party Tax Withholding Config,取引先の源泉徴収設定
 Party Type,取引先タイプ
 Party Type and Party can only be set for Receivable / Payable account<br><br>{0},取引先タイプと取引先は、売掛金/買掛金勘定科目に対してのみ設定できます。<br><br>{0}
 Party Type and Party is mandatory for {0} account,取引先タイプと取引先は {0} 勘定科目に対して必須です。
@@ -13081,10 +13210,11 @@ Payer Settings,支払人設定
 Payload Count,ペイロード数
 Payment,支払い
 Payment Account,支払勘定科目
-Payment Account is mandatory,Payment Accountは必須です
+Payment Account is mandatory,入出金勘定は必須です
 Payment Amount,支払い
 Payment Amount (Company Currency),支払金額 (会社通貨)
 Payment Channel,支払チャネル
+Payment Complete,支払完了
 Payment Date,支払日
 Payment Days,支払日数
 Payment Days Calculation Help,支払日数計算ヘルプ
@@ -13139,6 +13269,7 @@ Payment Reconciliation Invoice,支払い照合請求書
 Payment Reconciliation Job: {0} is running for this party. Can't reconcile now.,支払照合ジョブ: {0} がこの取引先で実行中です。今は照合できません。
 Payment Reconciliation Payment,支払い照合支払い
 Payment Reconciliation Settings,支払い照合設定
+Payment Reconciliations,入出金の消込
 Payment Recorded,支払いが記録されました
 Payment Reference,支払い参照
 Payment References,支払い参照
@@ -13156,6 +13287,7 @@ Payment Schedule,支払スケジュール
 Payment Schedule based Payment Requests cannot be created because a Payment Entry already exists for this document.,この伝票に対して入出金伝票が既に存在するため、支払スケジュールに基づく支払リクエストは作成できません。
 Payment Schedules,支払スケジュール
 Payment Settings,支払い設定
+Payment Status,支払ステータス
 Payment Term,支払い条件
 Payment Term Name,支払い条件名前
 Payment Term Outstanding,支払い条件未払い
@@ -13165,6 +13297,8 @@ Payment Terms Template,支払条件テンプレート
 Payment Terms Template Detail,支払い条件テンプレート詳細
 Payment Terms from orders will be fetched into the invoices as is,注文からの支払条件は請求書にそのまま取り込まれます。
 Payment Terms:,支払条件:
+Payment Tool,支払ツール
+Payment Tool Detail,支払ツール 明細
 Payment Type,支払いタイプ
 "Payment Type must be one of Receive, Pay and Internal Transfer",支払タイプは、受領、支払い、内部振替のいずれかである必要があります。
 Payment URL,支払いURL
@@ -13184,8 +13318,12 @@ Payment related to {0} is not completed,{0}に関連する支払いは完了し�
 Payment request failed,支払いリクエストが失敗しました
 Payment term {0} not used in {1},{1}で支払条件{0}は使用されていません
 Payments,支払い
+Payments Made,支払額
+Payments Received,入金額
 Payments app is not installed,支払いアプリがインストールされていません
 Payments could not be updated.,支払いを更新できませんでした。
+Payments made during the digest period,対象期間中の支払
+Payments received during the digest period,対象期間中の入金
 Payments updated.,支払いが更新されました。
 Payor Contract,支払者契約
 Payout,支払い
@@ -13231,7 +13369,7 @@ Penalty Amount,ペナルティ金額
 Penalty Capitalization,ペナルティの資本化
 Penalty Charges Accounts,ペナルティ手数料アカウント
 Penalty Charges Rate,ペナルティ手数料率
-Penalty Income Account,ペナルティ収入アカウント
+Penalty Income Account,延滞金収入勘定
 Penalty Income Account is mandatory,ペナルティ収入アカウントは必須です
 Penalty Interest Rate (%),延滞利息率(%)
 Penalty Interest Rate is levied on the pending amount on a daily basis in case of delayed repayment,返済が遅延した場合、未払い金額に対して延滞利息が日割りで課されます 
@@ -13539,6 +13677,7 @@ Please create Landed Cost Vouchers against Invoices that have 'Update Stock' ena
 Please create a new Accounting Dimension if required.,必要であれば、新しい会計ディメンションを作成してください。
 Please create a new {0} for the date {1} first.,まず、日付 {1} の新しい {0} を作成してください。
 Please create chart first,まずチャートを作成してください
+Please create new account from Chart of Accounts.,勘定科目表から新しい勘定を作成してください。
 Please create purchase from internal sale or delivery document itself,内部販売または納品書自体から購買を作成してください。
 Please create purchase receipt or purchase invoice for the item {0},品目 {0} の入荷伝票または仕入請求書を作成してください。
 "Please delete Product Bundle {0}, before merging {1} into {2}",{1} を {2} にマージする前に、製品バンドル {0} を削除してください。
@@ -13587,6 +13726,7 @@ Please enter Item first,まず品目を入力してください。
 Please enter Maintenance Details first,保守詳細
 Please enter Material Requests in the above table,上の表に資材要求を入力してください
 Please enter OpenID Configuration URL,OpenID Configuration URLを入力してください
+Please enter Payment Amount in atleast one row,少なくとも1行に支払金額を入力してください
 Please enter Planned Qty for Item {0} at row {1},行 {1} の品目 {0} の計画数量を入力してください。
 Please enter Production Item first,生産
 Please enter Purchase Receipt first,仕入伝票
@@ -13600,6 +13740,7 @@ Please enter Serial No,シリアル
 Please enter Serial Nos,シリアル個
 Please enter Shipment Parcel information,出荷小包情報を入力してください。
 Please enter Stock Items consumed during the Repair.,修理中に消費した在庫品目を入力してください。
+Please enter Taxes and Charges,税・手数料を入力してください
 Please enter Warehouse and Date,倉庫
 Please enter Write Off Account,書込
 Please enter a valid URL,有効なURLを入力してください
@@ -13870,6 +14011,7 @@ Please set Interest Accrued Account in Loan Product {0},ローン商品{0}に利
 Please set Interest Income Account in Loan Product {0},ローン商品{0}に利息収入アカウントを設定してください
 Please set Leave Approver for the Employee: {0},従業員: {0} の休暇承認者を設定してください
 Please set Loan Account for the Loan Product {0},融資商品 {0} の融資口座を設定してください
+Please set Opening Number of Booked Depreciations,期首の償却済回数を設定してください
 Please set Parent Row No for item {0},品目 {0} の親行番号を設定してください
 Please set Payment Account for the Loan Product {0},融資商品 {0} の支払勘定科目を設定してください
 Please set Payroll Payable Account in Loan Repayment,ローン返済に給与支払アカウントを設定してください
@@ -14403,7 +14545,8 @@ Production Planning Tool,生産計画ツール
 Products,製品
 "Products, Raw Materials, BOM, Work Order, and more.",製品、原材料、部品表、製造指示ほか。
 Prof,教授
-Professional Tax Deductions,住民税控除
+Professional Tax,事業税
+Professional Tax Deductions,事業税の控除
 Proficiency,習熟度
 Profile,プロフィール
 Profile Picture,プロフィール写真
@@ -14600,6 +14743,7 @@ Purchase User,購買ユーザー
 Purchase Value,仕入金額
 Purchase Voucher No,仕入伝票
 Purchase Voucher Type,仕入伝票タイプ
+Purchase an Asset,資産を購入
 Purchase an Asset Item,資産品目を購買
 Purchase orders help you plan and follow up on your purchases,発注書は、購買の計画とフォローアップに役立ちます
 Purchased,購入済
@@ -14805,6 +14949,7 @@ Rate,単価
 Rate & Amount,単価
 Rate (Company Currency),単価 (会社通貨)
 Rate / UOM,単価 / 単位
+Rate Difference with Purchase Invoice,仕入請求との単価差異
 Rate Goals Manually,目標を手動で評価
 Rate Limiting,レート制限
 Rate Of Interest,金利
@@ -14938,6 +15083,7 @@ Receivable / Payable Account,売掛金買掛金
 Receivable Account,売掛金勘定
 Receivable Account is entered more than once for same Company,同じ会社に対して売掛金勘定が複数回入力されています
 Receivable Account not configured for Insurance Payor,保険支払者に対して売掛金勘定が設定されていません
+Receivable Accounts,売掛金勘定
 Receivable/Payable Account,売掛金/買掛金勘定科目
 Receivable/Payable Account: {0} doesn't belong to company {1},売掛金/買掛金勘定科目: {0} は会社 {1} に属していません
 Receivables,売掛金
@@ -15006,6 +15152,7 @@ Record Payment,支払い記録
 Record a payment against a customer or supplier,顧客または仕入先に対する支払いを記録します
 Record a payment entry against a customer or supplier,顧客または仕入先に対する入出金伝票を記録します
 Record a transfer between two bank accounts,2つの銀行口座間の振替を記録します
+Record all transactions against an accounting journal,すべての取引を会計仕訳として記録します
 Record an internal transfer to another bank/credit card/cash account,他の銀行/クレジットカード/現金勘定への内部振替を記録します
 Record an internal transfer to another bank/credit card/cash account.,他の銀行/クレジットカード/現金勘定への内部振替を記録します。
 Record item movement.,品目の入出庫を記録します。
@@ -15022,6 +15169,8 @@ Recoverable Standard Rated expenses should not be set when Reverse Charge Applic
 Recreate Stock Ledgers,在庫元帳を再作成
 Recruitment,採用
 Recruitment Analytics,採用分析
+Recurring Invoice,定期請求書
+Recurring Sales Invoice,定期売上請求
 Recurring Sales Order,定期受注
 Recurse Every (As Per Transaction UOM),繰り返し間隔 (取引UOMに基づく)
 Recurse Over Qty cannot be less than 0,繰り返し数量は0未満にすることはできません
@@ -15271,9 +15420,11 @@ Reorder Qty,再発注数量
 Reorder level based on Warehouse,倉庫に基づく発注点
 Repack,再梱包
 Repair,修理
+Repair Asset,資産を修繕
 Repair Cost,修理コスト
 Repair Purchase Invoices,修理仕入請求書
 Repair Status,修理ステータス
+Repair and Maintenance Account,修繕維持費勘定
 Repay Fixed Amount per Period,期間あたりの固定返済額
 Repay From Salary,給与から返済
 Repay From Salary can be selected only for term loans,給与からの返済は期間ローンでのみ選択可能です
@@ -15283,18 +15434,20 @@ Repayment,返済
 Repayment Account,返済アカウント
 Repayment Amount must be greater than,返済金額は以下より大きい必要があります 
 Repayment Date On,返済日設定
-Repayment Details,返済詳細
+Repayment Details,返済明細
 Repayment Frequency,返済頻度
 Repayment Info,返済情報
 Repayment Method,返済方法
+Repayment Method is mandatory for term loans,期限付貸付には返済方法が必須です
 Repayment Period In Months,返済期間（月数）
-Repayment Period in Months,返済期間（月数）
+Repayment Period in Months,返済期間（月）
 Repayment Periods,返済期間
 Repayment Schedule,返済スケジュール
 Repayment Schedule Detail,返済スケジュール詳細
+Repayment Schedule Name,返済スケジュール名
 Repayment Schedule Type,返済スケジュールタイプ
 Repayment Start Date,返済開始日
-Repayment Start Date is mandatory for term loans,期間ローンには返済開始日が必須です
+Repayment Start Date is mandatory for term loans,期限付貸付には返済開始日が必須です
 Repayment Start Date {0} cannot be before Disbursement Date {1},返済開始日 {0} は実行日 {1} より前であることはできません
 Repayment Type,返済タイプ
 Repayment cannot be made for closed loan,終了済みローンに対する返済はできません
@@ -15703,6 +15856,7 @@ Review Buying Settings,購買設定を確認
 Review Chart of Accounts,勘定科目表を確認
 Review Date,レビュー日
 Review Details,詳細を確認
+Review Fixed Asset Accounts,固定資産勘定を確認
 Review Manufacturing Settings,製造設定を確認
 Review Selling Settings,販売設定を確認
 Review Stock Settings,在庫設定を確認
@@ -15760,10 +15914,12 @@ Roles HTML,ロールHTML
 Roles Html,ロールHTML
 Roles can be set for users from their User page.,ロールはユーザーのユーザーページから設定できます。
 Root,ルート
+Root Account must be a group,ルート勘定はグループである必要があります
 Root Company,ルート
 Root Type,ルートタイプ
 "Root Type for {0} must be one of the Asset, Liability, Income, Expense and Equity",{0} のルートタイプは、資産、負債、収入、経費、純資産のいずれかである必要があります
 Root Type is mandatory,ルートタイプ
+Root account can not be deleted,ルート勘定は削除できません
 Root cannot be edited.,ルートは編集できません。
 Root cannot have a parent cost center,ルートは親コストセンターを持つことはできません
 Root {0} cannot be deleted,ルート {0} は削除できません
@@ -15777,6 +15933,7 @@ Round Off Cost Center,丸めコストセンター
 Round Off Tax Amount,丸め税
 Round Off for Opening,丸め期首
 Round Robin,ラウンドロビン
+Round Tax Amount Row-wise,税額を行単位で丸める
 Round off Work Experience,職務経験を四捨五入
 Round tax amount row-wise,税額を行ごとに丸める
 Round to the Nearest Integer,最も近い整数に丸める
@@ -16204,6 +16361,7 @@ SQL Queries,SQLクエリ
 SQL functions are not allowed as strings in SELECT: {0}. Use dict syntax like {{'COUNT': '*'}} instead.,SELECT句でSQL関数を文字列として使用することはできません: {0}。代わりに{{'COUNT': '*'}}のような辞書構文を使用してください。
 SSL/TLS Mode,SSL/TLSモード
 STATEMENT OF ACCOUNTS,勘定明細書
+STATEMENTS OF ACCOUNTS,取引明細書
 SUCCESS,成功
 "SUCCESS,FAILURE","成功,失敗"
 "SUCCESS,FAILURE,DELAY","成功,失敗,遅延"
@@ -16214,7 +16372,7 @@ Safety Stock,安全在庫
 Salaried,給与所得者
 Salary,給与
 Salary Component,給与構成要素
-Salary Component Account,給与構成要素勘定科目
+Salary Component Account,給与構成要素の勘定
 Salary Component Based,給与構成要素に基づく
 Salary Component Type,Salary Component種類
 Salary Component for timesheet based payroll.,タイムシートに基づく給与計算のための給与構成要素。
@@ -16228,8 +16386,8 @@ Salary Expectation,希望給与
 Salary Information,給与情報
 Salary Mode,給与方法
 Salary Paid Per,給与支払い単位
-Salary Payments Based On Payment Mode,支払方法に基づく給与支払い
-Salary Payments via ECS,ECSによる給与支払い
+Salary Payments Based On Payment Mode,支払方法別の給与支払
+Salary Payments via ECS,ECS による給与支払
 Salary Range,給与範囲
 Salary Register,給与台帳
 Salary Slip,給与明細
@@ -16290,6 +16448,7 @@ Sales Invoice,売上請求書
 Sales Invoice Advance,売上請求書前払い
 Sales Invoice Item,売上請求書品目
 Sales Invoice Item Amount,売上請求書品目金額
+Sales Invoice Message,売上請求メッセージ
 Sales Invoice No,売上請求書
 Sales Invoice Payment,売上請求書支払い
 Sales Invoice Posting Date,売上請求書転記日
@@ -16308,6 +16467,7 @@ Sales Invoice or Patient Encounter is required to create Lab Tests,検査を作�
 Sales Invoice {0} created,売上請求書 {0} が作成されました
 Sales Invoice {0} has already been submitted,売上請求書 {0} は既に提出されています
 Sales Invoice {0} must be deleted before cancelling this Sales Order,この受注をキャンセルする前に、売上請求書 {0} を削除する必要があります
+Sales Invoices Summary,売上請求サマリー
 Sales Manager,営業マネージャー
 Sales Master Manager,販売マスタマネージャー
 Sales Monthly History,売上月次履歴
@@ -16702,7 +16862,7 @@ Select Network Printer,ネットワークプリンターを選択
 Select Page,ページを選択
 Select Patient,患者を選択
 Select Payment,支払いを選択
-Select Payment Account to make Bank Entry,銀行入力を行う支払勘定科目を選択してください
+Select Payment Account to make Bank Entry,銀行伝票を作成する入出金勘定を選択してください
 Select Payment Schedule,支払スケジュールを選択
 Select Payroll Frequency.,給与計算頻度を選択してください。
 Select Payroll Period,給与計算期間を選択
@@ -17154,6 +17314,7 @@ Set by Item Tax Template,税テンプレート
 Set by user,ユーザーが設定
 Set closing balance as per bank statement,銀行取引明細書に従って期末残高を設定
 Set default inventory account for perpetual inventory,永続棚卸資産のデフォルト在庫勘定を設定
+Set default mode of payment,既定の支払方法を設定
 Set default {0} account for non stock items,非在庫品目のデフォルト {0} 勘定を設定
 Set dynamic filter values as Python expressions.,動的フィルター値をPython式として設定します。
 Set dynamic filter values in JavaScript for the required fields here.,必須フィールドの動的フィルター値をJavaScriptでここに設定します。
@@ -17257,6 +17418,7 @@ Setting the account as a Company Account is necessary for Bank Reconciliation,�
 Setting this Address Template as default as there is no other default,他にデフォルトがないため、この住所テンプレートをデフォルトとして設定しています
 Setting up Global Search documents.,グローバル検索ドキュメントを設定しています。
 Setting up company,会社をセットアップ中
+Setting up company and taxes,会社と税を設定しています
 Setting up your system,システムのセットアップ
 Setting {0} is required,{0} の設定は必須です
 Settings,設定
@@ -17380,6 +17542,7 @@ Shipping rule only applicable for Buying,配送ルールは購買にのみ適用
 Shipping rule only applicable for Selling,配送ルールは販売にのみ適用されます
 Shop,ショップ
 Shopping Cart,ショッピングカート
+Shopping Cart Taxes and Charges Master,カートの税・手数料マスタ
 Short Interpretation,短い解釈
 Short Name,不足名前
 Short Term Loan Account,不足条件貸付
@@ -17402,6 +17565,7 @@ Show Aggregate Value from Subsidiary Companies,子会社からの集計値を表
 Show All,すべて表示
 Show Arrow,矢印を表示
 Show Auth Server Metadata,認証サーバーメタデータを表示
+Show Balances in Chart Of Accounts,勘定科目表に残高を表示する
 Show Barcode Field in Stock Transactions,在庫取引でバーコード欄を表示する
 Show Calendar,カレンダーを表示
 Show Cancelled Entries,表示キャンセル済入力
@@ -17432,6 +17596,8 @@ Show Future Payments,将来の支払いを表示
 Show GL Balance,総勘定元帳残高を表示
 Show Group Accounts,表示グループ勘定科目
 Show In Website,表示ウェブサイト
+Show Inclusive Tax In Print,印刷時に内税を表示する
+Show Income Tax Slab List,所得税の税率区分一覧を表示する
 Show Item Name,表示名前
 Show Items,表示
 Show Labels,ラベルを表示
@@ -17474,6 +17640,7 @@ Show Social Login Key as Authorization Server,ソーシャルログインキー�
 Show Stock Ageing Data,表示在庫エージングデータ
 Show Stock Entries,在庫伝票を表示
 Show Tags,タグを表示
+Show Taxes as Table in Print,印刷時に税を表形式で表示する
 Show Template Items,テンプレート品目を表示
 Show Title,タイトルを表示
 Show Title in Link Fields,リンクフィールドにタイトルを表示
@@ -17726,6 +17893,7 @@ Split Qty,分割数量
 Split Quantity must be less than Asset Quantity,分割数量は資産数量より少なくなければなりません。
 Split across {} accounts,{} 勘定科目に分割
 Split commission credit across multiple sales persons.,複数の営業担当者にコミッションクレジットを分割します。
+Split qty cannot be grater than or equal to asset qty,分割数量を資産数量以上にすることはできません
 Splitting {0} {1} into {2} rows as per Payment Terms,支払条件に従って {0} {1} を {2} 行に分割しています。
 Sponsored Amount,協賛金額
 Sports,スポーツ
@@ -17768,7 +17936,7 @@ Standard Selling,標準販売
 Standard Selling Rate,標準販売単価
 Standard Selling Rate should be greater than zero.,標準販売レートはゼロより大きい必要があります。
 Standard Sidebar Menu,標準サイドバーメニュー
-Standard Tax Exemption Amount,標準税控除額
+Standard Tax Exemption Amount,標準控除額
 Standard Template,標準テンプレート
 "Standard Terms and Conditions that can be added to Sales and Purchases. Examples: Validity of the offer, Payment Terms, Safety and Usage, etc.",販売および購買に追加できる標準的な利用規約。例: 提案の有効性、支払条件、安全性と使用法など。
 "Standard Web Forms can not be modified, duplicate the Web Form instead.",標準ウェブフォームは変更できません。代わりにウェブフォームを複製してください。
@@ -18082,7 +18250,7 @@ Submitted Document cannot be converted back to draft. Transition row {0},提出�
 Submitted document cannot be converted back to draft while transitioning from <b>{0} State</b> to <b>{1} State</b>,<b>{0} 状態</b>から<b>{1} 状態</b>への移行中に、提出済ドキュメントを下書きに戻すことはできません
 Submitted via Payroll Entry,給与伝票経由で提出済
 Submitting,提出中
-Submitting Salary Slips and creating Journal Entry...,給与明細を提出し、仕訳伝票を作成しています...
+Submitting Salary Slips and creating Journal Entry...,給与明細を提出し、仕訳を作成しています……
 Submitting Salary Slips...,給与明細を提出しています...
 Submitting {0},{0} を提出中
 Subscription,サブスクリプション
@@ -18166,6 +18334,7 @@ Supplied Item,供給済
 Supplied Items,供給品目
 Supplied Qty,供給済数量
 Supplier,仕入先
+Supplier (Payable) Account,仕入先（買掛金）勘定
 Supplier > Supplier Type,仕入先 > 仕入先タイプ
 Supplier Address,仕入先住所
 Supplier Address Details,仕入先住所詳細
@@ -18256,6 +18425,7 @@ Sync,同期
 Sync Calendar,カレンダー同期
 Sync Contacts,連絡先同期
 Sync Now,今すぐ同期
+Sync Offline Invoices,オフライン請求書を同期
 Sync Started,同期開始
 Sync events from Google as public,Googleからのイベントを公開として同期
 Sync on Migrate,移行時に同期
@@ -18265,12 +18435,14 @@ Sync with Google Contacts,Google連絡先と同期
 Sync {0},{0} を同期
 Sync {0} Fields,{0}フィールドを同期
 Synced Fields,同期済みフィールド
+Synch Taxes and Charges,税・手数料を同期
 Synchronize all accounts every hour,すべての勘定科目を1時間ごとに同期する
 Syncing,同期中
 Syncing Documents ...,ドキュメントを同期中...
 Syncing {0} of {1},{1}件中{0}件を同期中
 Syntax Error,構文エラー
 Syntax error,構文エラー
+Syntax error in Jinja template,Jinja テンプレートの構文エラー
 Syntax error in condition: {0} in Income Tax Slab,条件に構文エラー: 所得税スラブの {0}
 System,システム
 System Console,システムコンソール
@@ -18330,11 +18502,13 @@ Tag Link,タグリンク
 Tags,タグ
 Take Exact Completed Years,正確な完了年数を取得する
 Take Photo,写真を撮る
+Take a quick walk-through of Accounts Settings,勘定設定を一通り確認しましょう
 Take a walk through Stock Settings,在庫設定を一通り確認しましょう
 Target,ターゲット
 Target  Amount,目標
 Target ({}),ターゲット ({})
 Target Asset,目標資産
+Target Asset Location,移動先の資産所在地
 Target Asset {0} cannot be cancelled,ターゲット資産 {0} はキャンセルできません
 Target Asset {0} cannot be submitted,ターゲット資産 {0} は提出できません
 Target Asset {0} cannot be {1},ターゲット資産 {0} は {1} できません
@@ -18349,6 +18523,7 @@ Target Fieldname (Stock Ledger Entry),ターゲットフィールド名 (在庫�
 Target Fixed Asset Account,目標固定資産
 Target Has Batch No,移動先がバッチ管理
 Target Incoming Rate,目標受信単価
+Target Is Fixed Asset,移動先が固定資産
 Target Item Code,目標コード
 Target Item Name,移動先品目名
 Target Item {0} must be a Fixed Asset item,ターゲット品目 {0} は固定資産品目である必要があります
@@ -18397,7 +18572,7 @@ Tasks,タスク
 Tasks Completed,タスク完了
 Tasks Overdue,タスク期限超過
 Tax,税金
-Tax & Benefits,税金と福利厚生
+Tax & Benefits,税と福利厚生
 Tax Account,税
 Tax Amount,税額
 Tax Amount After Discount Amount,税値引き
@@ -18408,15 +18583,17 @@ Tax Breakup,税内訳
 Tax Category,税カテゴリ
 "Tax Category has been changed to ""Total"" because all the Items are non-stock items",すべての品目が非在庫品目であるため、税カテゴリが「合計」に変更されました
 Tax Deducted Till Date,現在までに控除された税金
-Tax Exemption Category,非課税カテゴリ
+Tax Detail,税の明細
+Tax Exemption Category,控除カテゴリ
 Tax Exemption Declaration,非課税申告
-Tax Exemption Proofs,非課税証明
+Tax Exemption Proofs,控除証明
 Tax Expense,税費用
 Tax ID,税ID
 Tax Id,税ID
 Tax Id: {0},税ID: {0}
 Tax Identification,納税者識別
 Tax Inclusive,税込
+Tax Master,税マスタ
 Tax Masters,税マスタ
 Tax Rate,税単価
 Tax Rate %,税率 %
@@ -18426,11 +18603,12 @@ Tax Row,税行
 Tax Rule,税ルール
 Tax Rule Conflicts with {0},税ルールが {0} と競合しています
 Tax Settings,税設定
-Tax Setup,税金設定
+Tax Setup,税の設定
 Tax Template,税テンプレート
 Tax Template is mandatory.,税テンプレートは必須です。
 Tax Total,税合計
 Tax Type,税タイプ
+Tax Withheld Vouchers,源泉徴収の伝票
 Tax Withholding,源泉徴収税
 Tax Withholding Account,税源泉徴収
 Tax Withholding Category,税源泉徴収カテゴリ
@@ -18438,14 +18616,16 @@ Tax Withholding Details,税源泉徴収詳細
 Tax Withholding Entries,税源泉徴収入力
 Tax Withholding Entry,税源泉徴収入力
 Tax Withholding Group,税源泉徴収グループ
+Tax Withholding Net Total,源泉徴収対象 純合計
 Tax Withholding Rate,税源泉徴収単価
 Tax Withholding Rates,源泉徴収税率
 Tax and Charges,税金と手数料
+Tax and other salary deductions.,税およびその他の給与控除。
 "Tax detail table fetched from item master as a string and stored in this field.
 Used for Taxes and Charges","品目マスタから文字列として取得され、このフィールドに保存される税詳細テーブル。
 税金と手数料に使用されます。"
-Tax on additional salary,追加給与に対する税金
-Tax on flexible benefit,柔軟な福利厚生に対する税金
+Tax on additional salary,追加給与に対する税
+Tax on flexible benefit,選択型福利厚生に対する税
 Tax withheld only for amount exceeding cumulative threshold,累積しきい値を超える金額に対してのみ源泉徴収税が適用されます
 Taxable Amount,課税対象額
 Taxable Date,課税対象
@@ -18453,17 +18633,18 @@ Taxable Document Name,課税対象文書名前
 Taxable Document Type,課税対象文書タイプ
 Taxable Earnings Till Date,現在までの課税対象所得
 Taxable Income Relief Threshold Limit,課税所得控除しきい値制限
-Taxable Salary Slab,課税対象給与区分
-Taxable Salary Slabs,課税対象給与区分
+Taxable Salary Slab,課税給与の区分
+Taxable Salary Slabs,課税給与の区分
 Taxes,税金
-Taxes & Charges,税金と手数料
+Taxes & Charges,税・手数料
 Taxes and Charges,税金と手数料
 Taxes and Charges Added,追加された税金・手数料
 Taxes and Charges Added (Company Currency),追加された税金と手数料 (会社通貨)
 Taxes and Charges Calculation,税金・手数料計算
 Taxes and Charges Deducted,控除された税金・手数料
 Taxes and Charges Deducted (Company Currency),控除された税金と手数料 (会社通貨)
-Taxes and Charges on Income Tax,所得税に対する税金と手数料
+Taxes and Charges Template,税・手数料テンプレート
+Taxes and Charges on Income Tax,所得税に対する税・手数料
 Taxes row #{0}: {1} cannot be smaller than {2},税金行 #{0}: {1} は {2} より小さくすることはできません
 Taxi,タクシー
 Team,チーム
@@ -18568,6 +18749,7 @@ The 'From Package No.' field must neither be empty nor it's value less than 1.,�
 The <strong>Doc Status</strong> for all states has been reset to <strong>0</strong> because <strong>{0}</strong> is not submittable,<strong>{0}</strong>は提出できないため、すべての状態の<strong>ドキュメントステータス</strong>が<strong>0</strong>にリセットされました
 The <strong>Doc Status</strong> for all states has been reset to <strong>Draft</strong> because <strong>{0}</strong> is not submittable,<strong>{0}</strong>は提出できないため、すべての状態の<strong>ドキュメントステータス</strong>が<strong>下書き</strong>にリセットされました
 "The Access to Request for Quotation From Portal is Disabled. To Allow Access, Enable it in Portal Settings.",ポータルからの見積依頼書へのアクセスは無効になっています。アクセスを許可するには、ポータル設定で有効化してください。
+The Accounts Module is all set up!,会計モジュールの設定が完了しました。
 The Auto Repeat for this document has been disabled.,このドキュメントの自動繰り返しは無効になりました。
 The BOM which will be replaced,置換される部品表
 "The Batch {0} has negative batch quantity {1}. To fix this, go to the batch and click on Recalculate Batch Qty. If the issue still persists, create an inward entry.",バッチ {0} のバッチ数量 {1} が負の値です。これを修正するには、バッチに移動して「バッチ数量を再計算」をクリックしてください。問題が解決しない場合は、入荷伝票を作成してください。
@@ -18649,6 +18831,7 @@ The current POS opening entry is outdated. Please close it and create a new one.
 The date format detected in the statement file. This is used to parse the date values.,明細ファイルで検出された日付フォーマット。これは、日付値を解析するために使用されます。
 The date of the transaction,取引日
 The date on which Salary Component with Amount will contribute for Earnings/Deduction in Salary Slip.,金額を含む給与コンポーネントが給与明細の収益/控除に寄与する日付。 
+The date on which recurring invoice will be stop,定期請求書を停止する日
 The day of the month when leaves should be allocated,休暇が割り当てられるべき月の日にち
 The day(s) on which you are applying for leave are holidays. You need not apply for leave.,休暇を申請している日は休日です。休暇を申請する必要はありません。
 The days between {0} to {1} are not valid holidays.,{0}から{1}までの日付は有効な休日ではありません。
@@ -19288,7 +19471,9 @@ To be Delivered to Customer,納品済顧客
 To cancel a {} you need to cancel the POS Closing Entry {}.,{}をキャンセルするには、POS締め処理{}をキャンセルする必要があります。
 To cancel this Sales Invoice you need to cancel the POS Closing Entry {0}.,この売上請求書をキャンセルするには、POS期末締め伝票 {0} をキャンセルする必要があります。
 "To configure Auto Repeat, enable ""Allow Auto Repeat"" from {0}.",自動繰り返しを設定するには、{0}から「自動繰り返しを許可」を有効にしてください。
+To create a Bank Account,銀行口座を作成するには
 To create a Payment Request reference document is required,支払リクエストを作成するには参照ドキュメントが必要です
+To create a Tax Account,税勘定を作成するには
 To date can not be equal or less than from date,終了日は開始日以下にすることはできません
 To date can not be greater than employee's relieving date.,終了日は従業員の退職日より大きくすることはできません。
 To date can not be less than from date,終了日は開始日より小さくすることはできません
@@ -19427,6 +19612,7 @@ Total Contribution Amount Against Orders: {0},注文に対する貢献合計額:
 Total Cost,合計コスト
 Total Cost (Company Currency),合計コスト (会社通貨)
 Total Cost To Company (CTC),総CTC (CTC)
+Total Cost(Company Currency),合計原価（会社通貨）
 Total Costing Amount,原価合計金額
 Total Costing Amount (via Timesheet),合計原価計算タイムシート)
 Total Counts Completed,Counts Completed合計
@@ -19453,7 +19639,7 @@ Total Earning,Earning合計
 Total Earnings,Earnings合計
 Total Equity,合計純資産
 Total Errors (last 1 day),Errors (last 1 day)合計
-Total Estimated Budget,Estimated Budget合計
+Total Estimated Budget,見積予算 合計
 Total Estimated Cost,Estimated Cost合計
 Total Estimated Distance,合計推定距離
 Total Exchange Gain/Loss,Exchange Gain/Loss合計
@@ -19477,6 +19663,7 @@ Total Images,画像合計
 Total Income,合計収入
 Total Income Tax,Income Tax合計
 Total Income This Year,合計収入年
+Total Incoming Payment,入金 合計
 Total Incoming Value (Receipt),合計入庫額 (受領)
 Total Installments Overdue,期限超過の分割払い合計 
 Total Installments Paid,支払い済み分割払い合計
@@ -19487,6 +19674,7 @@ Total Interest Amount,Interest Amount合計
 Total Interest Paid,利息支払い総額
 Total Interest Payable,利息支払い予定総額
 Total Invoiced Amount,合計請求額
+Total Invoiced Amt,請求金額 合計
 Total Invoices:,請求書合計:
 Total Issues,合計発行数
 Total Items,合計
@@ -19518,6 +19706,7 @@ Total Orders,注文合計
 Total Other Charges,合計手数料
 Total Outgoing,合計送信
 Total Outgoing Emails,Outgoing Emails合計
+Total Outgoing Payment,支払 合計
 Total Outgoing Value (Consumption),合計出庫額 (消費)
 Total Outstanding,合計未払い
 Total Outstanding Amount,合計未払い
@@ -19530,7 +19719,8 @@ Total Patients,総患者数
 Total Patients Admitted,総入院患者数
 Total Payable Amount,Payable Amount合計
 Total Payable Interest,支払い予定利息合計
-Total Payment,支払い合計
+Total Payment,支払 合計
+Total Payment Amount,支払金額 合計
 Total Payment Amount in Payment Schedule must be equal to Grand / Rounded Total,支払スケジュールの合計支払額は、総計/丸められた合計と等しくなければなりません
 Total Payment Request amount cannot be greater than {0} amount,支払リクエストの合計金額は{0}金額を超えることはできません
 Total Payments,合計支払い
@@ -19785,6 +19975,8 @@ Tree Details,Tree詳細
 Tree Type,Tree種類
 Tree View,ツリー表示
 Tree of Procedures,手順ツリー
+Tree of finanial Cost Centers.,財務コストセンターのツリー。
+Tree of finanial accounts.,財務勘定のツリー。
 Tree structures are implemented using Nested Set,ツリー構造はネストセットを使用して実装されています
 Tree view is not available for {0},{0}ではツリー表示は利用できません
 Trial Balance,試算表
@@ -20051,6 +20243,7 @@ Update Clearance Date,更新消込
 Update Consumed Material Cost In Project,更新消費済資材コストプロジェクト
 Update Cost,更新コスト
 Update Cost Center Name / Number,更新コストセンター名前番号
+Update Cost Center Number,コストセンター番号を更新
 Update Costing and Billing,更新原価計算請求
 Update Current Stock,更新現在在庫
 Update Customer,顧客を更新
@@ -20419,7 +20612,7 @@ Value {0} must in {1} format,値{0}は{1}形式である必要があります
 Values Changed,値が変更されました
 Vara,ヴァラ
 Variable,変数
-Variable Based On Taxable Salary,課税対象給与に基づく変数
+Variable Based On Taxable Salary,課税給与に応じた変動
 Variable Name,変数名前
 Variables,変数
 Variance,差異
@@ -20464,6 +20657,7 @@ Verify ABHA,ABHAの検証
 Verify ABHA Number,ABHA番号の検証
 Verify Email,メールアドレスを検証
 Verify Password,パスワードの確認
+Verify Your Account,アカウントを確認してください
 Verifying...,検証中...
 Version,バージョン
 Version Updated,バージョンが更新されました
@@ -20495,6 +20689,7 @@ View Documentation,ドキュメントを表示
 View Exchange Gain/Loss Journals,為替差損益仕訳伝票を表示
 View File,ファイルを表示
 View Full Log,完全なログを表示
+View General Ledger,総勘定元帳を表示
 View Goals,目標の表示
 View Instructions,手順を表示
 View Job Offer,求人オファーの表示
@@ -20816,12 +21011,14 @@ Will also apply for variants unless overridden,上書きされない限り、バ
 Will be auto-populated,自動入力されます
 Will be serially suffixed to maintain uniquness. Example: 'Ward' will be named as 'Ward-####',一意性を保つために連番が接尾辞として追加されます。例: 「病棟」は「病棟-####」と命名されます。
 Will be set as the default Code System selected in the Codification Table,コード化テーブルで選択されたデフォルトのコードシステムとして設定されます
+Will be updated after Sales Invoice is Submitted.,売上請求の提出後に更新されます。
 Will be updated when batched.,バッチ化されると更新されます。
 Will be your login ID,ログインIDになります
 Will do a deduplication check and auto create a customer when a lead is converted to applicaiton,見込み客が申請に変換された際に、重複排除チェックを行い、顧客を自動作成します  
 Will only be shown if section headings are enabled,セクション見出しが有効な場合にのみ表示されます
 Will run scheduled jobs only once a day for inactive sites. Set it to 0 to avoid automatically disabling the scheduler.,非アクティブなサイトに対しては、スケジュールされたジョブを1日1回のみ実行します。スケジューラーの自動無効化を避けるには、0に設定してください。
 Wire Transfer,電信送金
+With Ledgers,元帳を含む
 With Letter Head,レターヘッド付き
 With Operations,工程
 With Period Closing Entry For Opening Balances,期首残高の期間締め仕訳伝票あり
@@ -21286,6 +21483,7 @@ Zip File,Zipファイル
 `as_iterator` only works with `as_list=True` or `as_dict=True`,`as_iterator`は`as_list=True`または`as_dict=True`の場合にのみ機能します。
 `doctype` and `fieldname` are required for deleting property setters.,プロパティセッターを削除するには、`doctype`と`fieldname`が必要です。
 `job_id` paramater is required for deduplication.,重複排除には`job_id`パラメータが必要です。
+accounts-browser,勘定ブラウザ
 action,アクション
 active,有効
 add,追加
