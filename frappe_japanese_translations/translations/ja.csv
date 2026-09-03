@@ -1872,6 +1872,7 @@ Allow Implicit Pegged Currency Conversion,暗黙的なペッグ通貨換算を�
 Allow Import (via Data Import Tool),インポートを許可（データインポートツール経由）
 Allow In Returns,返品を許可する
 Allow Item to Be Added Multiple Times in a Transaction,取引で品目を複数回追加することを許可する
+Allow Item to be Added Multiple Times in a Transaction,1つの取引で同じ品目の複数回追加を許可
 Allow Item to be added multiple times in a transaction,取引で品目を複数回追加することを許可
 Allow Lead Duplication based on Emails,メールに基づく見込み客の重複を許可する
 Allow Leave Application After (Working Days),休暇申請を許可するまで (営業日数)
@@ -1883,6 +1884,7 @@ Allow Multiple Material Consumption,複数回の資材消費を許可する
 Allow Multiple Shift Assignments for Same Date,同一日の複数シフト割り当てを許可
 Allow Negative Balance,マイナス残高を許可
 Allow Negative Stock,許可マイナス在庫
+Allow Negative rates for Items,品目のマイナス単価を許可
 Allow Or Restrict Dimension,ディメンションを許可または制限する
 Allow Over Allocation,過剰割り当てを許可
 Allow Overlap,重複を許可
@@ -1906,7 +1908,9 @@ Allow Roles,ロールを許可
 Allow Sales,許可売上
 Allow Sales Invoice Creation Without Delivery Note,納品書なしでの売上請求書作成を許可
 Allow Sales Invoice Creation Without Sales Order,受注なしでの売上請求書作成を許可
+Allow Sales Order Creation For Expired Quotation,期限切れの見積書からの受注作成を許可
 Allow Sales Order creation for expired Quotation,期限切れの見積書に対する受注作成を許可する
+Allow Sales Order with Zero Quantity,数量ゼロの受注を許可
 Allow Sales Order with zero quantity,数量ゼロの受注を許可する
 Allow Self Approval,自己承認を許可
 Allow Sending Usage Data for Improving Applications,アプリケーション改善のための利用状況データ送信を許可
@@ -1914,6 +1918,7 @@ Allow Stale Exchange Rates,古い為替レートを許可する
 Allow Stock Consumption,在庫消費を許可
 Allow Supplier Quotation with Zero Quantity,許可仕入先見積書ゼロ数量
 Allow Tax Exemption,免税を許可
+Allow UOM with Conversion Rate Defined in Item,品目に換算率が定義された単位を許可
 Allow UOM with conversion rate defined in Item,品目で定義された換算レートを持つUOMを許可
 Allow User,ユーザーを許可
 Allow User to Edit Discount,許可ユーザー編集値引き
@@ -1963,6 +1968,8 @@ Allow substituting this item with an alternative from the Item Alternative list 
 Allow the following users to approve Leave Applications for block days.,以下のユーザーにブロック日の休暇申請の承認を許可します。
 Allow this item to be used in purchase transactions.,この品目を購買取引で使用することを許可します。
 Allow this item to be used in sales transactions.,この品目を販売取引で使用することを許可します。
+Allow to Edit Stock UOM Qty for Purchase Documents,購買伝票で在庫単位数量の編集を許可
+Allow to Edit Stock UOM Qty for Sales Documents,販売伝票で在庫単位数量の編集を許可
 Allow to edit stock UOM qty for Purchase documents,購買伝票の在庫単位数量の編集を許可
 Allow to edit stock UOM qty for Sales documents,販売伝票の在庫単位数量の編集を許可
 Allow to make Quality Inspection after Purchase / Delivery,購買/納品後に品質検査を行うことを許可
@@ -2663,6 +2670,7 @@ Authors / Maintainers,著者 / メンテナー
 Auto,自動
 Auto Attendance Settings,Auto Attendance設定
 Auto Create Exchange Rate Revaluation,為替レート再評価を自動作成
+Auto Create Serial and Batch Bundle For Outward,出庫時にシリアル・バッチバンドルを自動作成
 Auto Created,自動作成済
 Auto Created (Reorder),自動作成 (再注文)
 Auto Created Serial and Batch Bundle,自動作成済シリアルバッチバンドル
@@ -2670,6 +2678,7 @@ Auto Creation of Contact,自動作成連絡先
 Auto Email Report,Auto Emailレポート
 Auto Fetch,自動取得
 Auto Fetch Serial Numbers,自動取得シリアル番号
+Auto Insert Item Price If Missing,品目価格が無い場合は自動登録
 Auto Leave Encashment,自動休暇買い上げ
 Auto Material Request,自動資材依頼
 Auto Material Requests Generated,自動資材要求生成済
@@ -2691,6 +2700,8 @@ Auto Repeat created for this document,このドキュメントの自動繰り返
 Auto Repeat failed for {0},{0} の自動繰り返しに失敗しました
 Auto Reply,自動返信
 Auto Reply Message,自動返信メッセージ
+Auto Reserve Serial and Batch Nos,シリアル番号・バッチ番号を自動引当
+Auto Reserve Stock for Sales Order on Purchase,購買時に受注向け在庫を自動引当
 Auto Tax Settings Error,自動税設定エラー
 Auto User Creation Error,自動ユーザー作成エラー
 Auto Write Off Amount,自動償却金額 
@@ -3077,7 +3088,7 @@ Bill Amount,請求金額
 Bill Date,請求
 Bill No,請求
 Bill for rejected quantity in Purchase Invoice,仕入請求書における却下数量の請求
-Bill of Materials,請求資材
+Bill of Materials,部品表
 Billables,請求可能項目
 Billed,請求済
 Billed Amount,請求済
@@ -3349,6 +3360,7 @@ Calculate Estimated Arrival Times,推定到着時刻を計算
 Calculate Final Score based on Formula,数式に基づいて最終スコアを計算
 Calculate Gratuity Amount Based On,退職金計算基準
 Calculate Payroll Working Days Based On,給与計算勤務日数基準
+Calculate Product Bundle Price based on Child Items' Rates,構成品目の単価にもとづいて製品バンドル価格を計算
 Calculate Product Bundle price based on child Item's rates,子品目の単価に基づいて製品バンドル価格を計算
 Calculate but don't show on final report,計算するが最終レポートには表示しない
 Calculate daily depreciation using total days in depreciation period,減価償却期間の総日数を使用して日次減価償却を計算
@@ -4392,6 +4404,7 @@ Conversion factor for item {0} has been reset to 1.0 as the uom {1} is same as s
 Conversion rate cannot be 0,換算レートを0にすることはできません。
 "Conversion rate is 1.00, but document currency is different from company currency",換算レートは1.00ですが、伝票通貨が会社通貨と異なります
 Conversion rate must be 1.00 if document currency is same as company currency,伝票通貨が会社通貨と同じ場合、換算レートは1.00である必要があります。
+Convert Item Description to Clean HTML in Transactions,取引内の品目説明を整形済 HTML に変換する
 Convert Item description to clean HTML in transactions,取引で品目説明をクリーンなHTMLに変換する
 Convert to Group,グループに変換
 Convert to Item Based Reposting,品目ベースの再転記に変換
@@ -5585,6 +5598,7 @@ Disable Report,Disableレポート
 Disable Rounded Total,丸められた合計を無効化
 Disable SMTP server authentication,SMTPサーバー認証を無効にする
 Disable Scrolling,スクロールを無効にする
+Disable Serial No And Batch Selector,シリアル番号・バッチ選択を無効にする
 Disable Serial No and Batch selector,シリアル番号とバッチセレクターを無効化
 Disable Sidebar Stats,サイドバー統計を無効にする
 Disable Signup for your site,サイトのサインアップを無効にする
@@ -5699,6 +5713,7 @@ Distance,距離
 Distance UOM,距離単位
 Distance from left edge,左端からの距離
 Distance from top edge,上端からの距離
+Distinct Item and Warehouse,品目と倉庫の組み合わせ
 Distinct unit of an Item,品目の個別単位
 Distribute Additional Costs Based On,追加コストの配分基準 
 Distribute Charges Based On,費用配分の基準
@@ -5717,6 +5732,8 @@ Do Not Create New User,新規ユーザーを作成しない
 Do Not Explode,展開しない
 Do Not Include in Accounting Entries,会計入力に含めない
 Do Not Include in Total,合計に含めない
+Do Not Update Serial / Batch on Creation of Auto Bundle,自動バンドル作成時にシリアル・バッチを更新しない
+Do Not Use Batch-wise Valuation,バッチ別評価を使用しない
 Do Not Use Batchwise Valuation,バッチ別評価を使用しない
 Do not add Video Conferencing,ビデオ会議を追加しない
 Do not confirm if appointment is created for the same day,同日予約の場合は確認しない
@@ -5861,6 +5878,7 @@ Don't Enforce Free Item Qty,無料品目数量を強制しない
 Don't Import,インポートしない
 Don't Override Status,ステータスを上書きしない
 Don't Recompute Tax,税金を再計算しない
+Don't Reserve Sales Order Qty on Sales Return,返品時に受注数量を引き当てない
 Don't Send Emails,メールを送信しない
 "Don't encode HTML tags like &lt;script&gt; or just characters like &lt; or &gt;, as they could be intentionally used in this field",このフィールドでは &lt;script&gt; のようなHTMLタグや &lt; または &gt; のような文字が意図的に使用される可能性があるため、HTMLエンコードしないでください
 Don't have an account?,アカウントをお持ちではありませんか？
@@ -6369,6 +6387,7 @@ Enable Security,セキュリティを有効化
 Enable Separate Reposting for GL,総勘定元帳の個別再転記を有効にする
 Enable Serial / Batch Bundle,シリアル/バッチバンドルを有効にする
 Enable Social Login,ソーシャルログインを有効化
+Enable Stock Reservation,在庫引当を有効にする
 Enable Subscription,サブスクリプションを有効にする
 Enable Subscription tracking in invoice,請求書でのサブスクリプション追跡を有効にする
 Enable System Notification,システム通知を有効化
@@ -7636,6 +7655,7 @@ Get Prescribed Clinical Procedures,処方された臨床処置を取得
 Get Prescribed Therapies,処方された治療法を取得
 Get Raw Materials Cost from Consumption Entry,消費入力から原材料費を取得
 Get Sales Orders,取得売上注文
+Get Scrap Items,スクラップ品目を取得
 Get Secondary Items,副品目を取得
 Get Started Sections,開始セクション
 Get Stock,取得在庫
@@ -7653,6 +7673,7 @@ Get the app on your device for easy access & a better experience!,簡単にア�
 Get the app on your iPhone for easy access & a better experience,簡単にアクセスし、より良い体験をするために、iPhoneでアプリを入手してください
 Get your globally recognized avatar from Gravatar.com,Gravatar.com から世界的に認識されているアバターを取得します。
 Getting From Encounter,診察から取得中
+Getting Scrap Items,スクラップ品目を取得しています
 Getting Secondary Items,副品目を取得中
 Getting Started,はじめに
 Gift Card,ギフトカード
@@ -7872,6 +7893,7 @@ Has Subcontracted,外注済
 Has Unit Price Items,単位価格
 Has Variants,バリアント
 Has Web View,ウェブビューあり
+Have Default Naming Series for Batch ID?,バッチ ID に既定の命名シリーズを使用しますか。
 Have an account? Login,アカウントをお持ちですか？ログイン
 Have default Naming Series for Batch ID?,バッチIDにデフォルトの命名シリーズを使用しますか？
 Head of Marketing and Sales,マーケティングおよび営業責任者
@@ -9080,6 +9102,7 @@ Is Return (Debit Note),返品（借方票）
 Is Salary Released,給与支給済
 Is Salary Withheld,給与保留済
 Is Sales Order required to create Sales Invoice/Delivery Note?,売上請求書/納品書を作成するには受注が必要ですか？
+Is Scrap Item,スクラップ品目
 Is Secured Loan,有担保ローン
 Is Security Amount Refund,担保金額返金
 Is Settlement Write Off,清算償却
@@ -9316,6 +9339,7 @@ Job Card Analysis,ジョブカード分析
 Job Card Item,ジョブカード品目
 Job Card Operation,ジョブカード工程
 Job Card Scheduled Time,ジョブカードスケジュール済時間
+Job Card Scrap Item,ジョブカード スクラップ品目
 Job Card Secondary Item,作業指示書副品目
 Job Card Summary,ジョブカードサマリ
 Job Card Time Log,ジョブカード時間ログ
@@ -10694,6 +10718,7 @@ Multiple POS Opening Entry,複数POS期首入力
 Multiple Shift Assignments,複数シフトの割り当て
 Multiple Tier Program,多段階プログラム
 Multiple Variants,複数バリアント
+Multiple Warehouse Accounts,複数の倉庫勘定
 Multiple company fields available: {0}. Please select manually.,複数の会社フィールドが利用可能です: {0}。手動で選択してください。
 Multiple fiscal years exist for the date {0}. Please set company in Fiscal Year,日付 {0} に複数の会計年度が存在します。会計年度で会社を設定してください。
 Multiple items cannot be marked as finished item,複数の品目を完成品としてマークすることはできません
@@ -11938,6 +11963,7 @@ Over Billing Allowance (%),過剰請求許容範囲 (%)
 Over Billing Allowance exceeded for Purchase Receipt Item {0} ({1}) by {2}%,入荷伝票品目 {0} ({1}) の過剰請求許容範囲が {2}% だけ超過しました
 Over Delivery/Receipt Allowance (%),過剰納品/受領許容範囲 (%)
 Over Order Allowance (%),過剰発注許容率 (%)
+Over Picking Allowance,超過ピッキング許容率
 Over Picking Allowance (%),過剰ピッキング許容率 (%)
 Over Receipt,伝票
 Over Receipt/Delivery of {0} {1} ignored for item {2} because you have {3} role.,品目 {2} の {0} {1} の過剰受領/納品は、あなたが {3} ロールを持っているため無視されました。
@@ -15639,7 +15665,11 @@ Scoring Criteria,スコアリング基準
 Scoring Setup,スコアリングセットアップ
 Scoring Standings,スコアリング順位
 Scrap,スクラップ
+Scrap & Process Loss,スクラップと工程ロス
 Scrap Asset,スクラップ資産
+Scrap Cost Per Qty,数量あたりスクラップ費用
+Scrap Item Code,スクラップ品目コード
+Scrap Item Name,スクラップ品目名
 Scrap Warehouse,スクラップ倉庫
 Scrap date cannot be before purchase date,スクラップ日は購入日より前にすることはできません
 Scrapped,スクラップ済
@@ -15728,6 +15758,7 @@ See the document at {0},ドキュメントを {0} で見る
 Seen,閲覧済
 Seen By,閲覧者
 Seen By Table,閲覧者テーブル
+Segregate Serial / Batch Bundle,シリアル・バッチバンドルを分割
 Select,選択
 Select Accounting Dimension.,会計ディメンションを選択してください。
 Select All,すべて選択
@@ -16012,6 +16043,7 @@ Sequence Id,シーケンスID
 Sequence in Order Group,注文グループ内の順序
 Sequential,連続
 Serial & Batch Item,シリアルバッチ
+Serial & Batch Item Settings,シリアル・バッチ品目の設定
 Serial / Batch,シリアル / バッチ
 Serial / Batch Bundle,シリアルバッチバンドル
 Serial / Batch Bundle Missing,シリアルバッチバンドル不足
@@ -16182,6 +16214,7 @@ Set Naming Series options on your transactions.,トランザクションの命�
 Set New Password,新しいパスワードを設定
 Set New Release Date,新しいリリース日を設定
 Set Number of Backups,バックアップ数を設定
+Set Operating Cost / Scrap Items From Sub-assemblies,サブアセンブリから稼働費用・スクラップ品目を設定
 Set Operating Cost / Secondary Items From Sub-assemblies,サブアセンブリから運用コスト/副次品目を設定
 Set Operating Cost Based On BOM Quantity,運営コスト部品表数量
 Set Parent Row No in Items Table,親行テーブル
@@ -16454,6 +16487,7 @@ Show Aggregate Value from Subsidiary Companies,子会社からの集計値を表
 Show All,すべて表示
 Show Arrow,矢印を表示
 Show Auth Server Metadata,認証サーバーメタデータを表示
+Show Barcode Field in Stock Transactions,在庫取引でバーコード欄を表示する
 Show Calendar,カレンダーを表示
 Show Cancelled Entries,表示キャンセル済入力
 Show Completed,表示完了
@@ -16500,6 +16534,7 @@ Show Open,表示オープン
 Show Opening Entries,表示期首入力
 Show Opening and Closing Balance,表示期首期末残高
 Show Operations,表示工程
+Show Pay Button in Purchase Order Portal,発注ポータルに支払ボタンを表示する
 Show Payment Details,表示支払い詳細
 Show Payment Popup,支払いポップアップを表示
 Show Payment Prompt in Appointment,予約で支払いプロンプトを表示
@@ -16946,7 +16981,9 @@ Stock Settings,在庫設定
 Stock Setup,在庫設定
 Stock Summary,在庫サマリ
 Stock Transactions,在庫取引
+Stock Transactions Settings,在庫取引の設定
 Stock UOM,在庫UOM
+Stock UOM Quantity,在庫単位数量
 Stock Unreservation,在庫予約解除
 Stock Uom,在庫UOM
 Stock Update Not Allowed,在庫更新は許可されていません
@@ -19026,6 +19063,7 @@ Use Posting Datetime for Naming Documents,ドキュメントの命名に転記�
 Use Report Chart,レポートチャートを使用
 Use SSL,SSLを使用
 Use STARTTLS,STARTTLSを使用
+Use Serial / Batch Fields,シリアル・バッチ欄を使用する
 Use Serial / Batch fields,シリアル/バッチフィールドを使用
 Use Serial No / Batch Fields,使用シリアルバッチフィールド
 Use TLS,TLSを使用
@@ -19180,8 +19218,10 @@ Valid till date cannot be before transaction date,有効終了日は取引日よ
 Validate Applied Rule,適用されたルールの検証
 Validate Attendance,勤怠の検証
 Validate Components and Quantities Per BOM,部品表あたりの構成品目と数量を検証
+Validate Consumed Qty (as per BOM),消費数量を検証する（部品表基準）
 Validate Field,フィールドの検証
 Validate Frappe Mail Settings,Validate Frappe Mail設定
+Validate Material Transfer Warehouses,資材移動の倉庫を検証する
 Validate Material Transfer warehouses,倉庫間移動の倉庫を検証する
 Validate Negative Stock,マイナス在庫の検証
 Validate Normal Repayment,通常返済の検証

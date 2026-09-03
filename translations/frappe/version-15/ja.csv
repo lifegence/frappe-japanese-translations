@@ -1491,6 +1491,7 @@ Check this if you want to force the user to select a series before saving. There
 Check this to pull emails from your mailbox,自分のメールボックスからメールを受信する場合チェック,
 "Check to display the full numeric value (e.g., 1,234,567 instead of 1.2M).","完全な数値 (例: 1.2Mではなく1,234,567) を表示するにはチェックしてください。",
 Check which Documents are readable by a User,ユーザーが読み取り可能なドキュメントにチェック,
+Checked items will be shown on desktop,チェックした項目がデスクトップに表示されます
 Checking one moment,一瞬の確認,
 "Checking this will enable tracking page views for blogs, web pages, etc.",これをチェックすると、ブログ、ウェブページなどのページビュー追跡が有効になります。,
 Checking this will hide custom doctypes and reports cards in Links section,これをチェックすると、リンクセクションのカスタムDoctypeとレポートカードが非表示になります,
@@ -2862,6 +2863,7 @@ Footer Details,フッター詳細,
 Footer HTML,フッターHTML,
 Footer HTML set from attachment {0},フッターHTMLは添付ファイル{0}から設定されました,
 Footer Image,フッター画像,
+Footer Item,フッター項目
 Footer Items,フッター項目,
 Footer Logo,フッターロゴ,
 Footer Script,フッタースクリプト,
