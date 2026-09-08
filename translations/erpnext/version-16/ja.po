@@ -69143,3 +69143,3489 @@ msgstr "{} {} はすでに {} {} にリンクされています"
 #, fuzzy
 msgid "{} {} is not affecting bank account {}"
 msgstr "{} {} は銀行口座 {} に影響を与えていません"
+
+#. number_card.label fixture (DB-stored, invisible to get-untranslated)
+msgid "Total Incoming Bills"
+msgstr "受取請求の合計"
+
+#. number_card.label fixture (DB-stored, invisible to get-untranslated)
+msgid "Total Outgoing Bills"
+msgstr "発行請求の合計"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Account Settings\n"
+"\n"
+"In ERPNext, Accounting features are configurable as per your business needs. Accounts Settings is the place to define some of your accounting preferences like:\n"
+"\n"
+" - Credit Limit and over billing settings\n"
+" - Taxation preferences\n"
+" - Deferred accounting preferences\n"
+msgstr ""
+"# アカウント設定\n"
+"\n"
+"ERPNext の会計機能は、業務に合わせて設定できます。アカウント設定では、次のような会計上の設定を定義します。\n"
+"\n"
+" - 与信限度額と過剰請求の設定\n"
+" - 税務の設定\n"
+" - 繰延計上の設定\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Chart Of Accounts\n"
+"\n"
+"ERPNext sets up a simple chart of accounts for each Company you create, but you can modify it according to business and legal requirements."
+msgstr ""
+"# 勘定科目一覧表\n"
+"\n"
+"ERPNext は、作成した会社ごとに簡易な勘定科目一覧表を用意します。業務要件や法的要件に合わせて変更できます。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Account Settings\n"
+"\n"
+"This is a crucial piece of configuration. There are various account settings in ERPNext to restrict and configure actions in the Accounting module.\n"
+"\n"
+"The following settings are avaialble for you to configure\n"
+"\n"
+"1. Account Freezing \n"
+"2. Credit and Overbilling\n"
+"3. Invoicing and Tax Automations\n"
+"4. Balance Sheet configurations\n"
+"\n"
+"There's much more, you can check it all out in this step"
+msgstr ""
+"# アカウント設定\n"
+"\n"
+"これは重要な設定です。ERPNext には、会計モジュールの操作を制限・調整するためのさまざまなアカウント設定があります。\n"
+"\n"
+"次の設定を行えます。\n"
+"\n"
+"1. 会計期間の凍結\n"
+"2. 与信と過剰請求\n"
+"3. 請求と税の自動化\n"
+"4. 貸借対照表の設定\n"
+"\n"
+"このほかにも多数あります。この手順で確認してください。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Cost Centers for Budgeting and Analysis\n"
+"\n"
+"While your Books of Accounts are framed to fulfill statutory requirements, you can set up Cost Center and Accounting Dimensions to address your companies reporting and budgeting requirements.\n"
+"\n"
+"Click here to learn more about how  <b>[Cost Center](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/cost-center)</b> and <b> [Dimensions](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-dimensions)</b> allow you to get advanced financial analytics reports from ERPNext."
+msgstr ""
+"# 予算管理と分析のためのコストセンター\n"
+"\n"
+"会計帳簿は法定要件を満たすために作られますが、コストセンターと会計ディメンションを設定すれば、社内の報告や予算管理の要件にも対応できます。\n"
+"\n"
+"<b>[コストセンター](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/cost-center)</b> と <b>[ディメンション](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-dimensions)</b> を使って ERPNext から高度な財務分析レポートを得る方法は、こちらを参照してください。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "View Cost Center Tree"
+msgstr "コストセンターのツリーを表示"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"## Who is a Customer?\n"
+"\n"
+"A customer, who is sometimes known as a client, buyer, or purchaser is the one who receives goods, services, products, or ideas, from a seller for a monetary consideration.\n"
+"\n"
+"Every customer needs to be assigned a unique id. Customer name itself can be the id or you can set a naming series for ids to be generated in Selling Settings.\n"
+"\n"
+"Just like the supplier, let's quickly create a customer."
+msgstr ""
+"## 顧客とは\n"
+"\n"
+"顧客とは、クライアント・買い手・購入者などとも呼ばれ、対価と引き換えに売り手から商品・サービス・製品・アイデアを受け取る相手を指します。\n"
+"\n"
+"顧客にはそれぞれ一意の ID を割り当てる必要があります。顧客名をそのまま ID にすることも、販売設定で命名シリーズを設定して自動採番することもできます。\n"
+"\n"
+"仕入先と同じ要領で、顧客を作成してみましょう。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"## Products and Services\n"
+"\n"
+"Depending on the nature of your business, you might be selling products or services to your clients or even both. \n"
+"ERPNext is optimized for itemized management of your sales and purchase.\n"
+"\n"
+"The **Item Master**  is where you can add all your sales items. If you are in services, you can create an Item for each service that you offer. If you run a manufacturing business, the same master is used for keeping a record of raw materials, sub-assemblies etc.\n"
+"\n"
+"Completing the Item Master is very essential for the successful implementation of ERPNext. We have a brief video introducing the item master for you, you can watch it in the next step."
+msgstr ""
+"## 製品とサービス\n"
+"\n"
+"業種によって、顧客に販売するものは製品・サービス、またはその両方になります。ERPNext は、販売と購買を品目単位で管理できるように設計されています。\n"
+"\n"
+"**品目マスタ** には、販売するものをすべて登録します。サービス業であれば、提供するサービスごとに品目を作成します。製造業であれば、同じマスタで原材料や半製品も管理します。\n"
+"\n"
+"品目マスタの整備は、ERPNext を導入するうえで最も重要な作業です。次の手順で、品目マスタを紹介する短い動画をご覧いただけます。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"## Who is a Supplier?\n"
+"\n"
+"Suppliers are companies or individuals who provide you with products or services. ERPNext has comprehensive features for purchase cycles. \n"
+"\n"
+"Let's quickly create a supplier with the minimal details required. You need the name of the supplier, assign the supplier to a group, and select the type of the supplier, viz. Company or Individual."
+msgstr ""
+"## 仕入先とは\n"
+"\n"
+"仕入先とは、製品やサービスを提供する会社または個人です。ERPNext には購買サイクルを管理する機能が一通り揃っています。\n"
+"\n"
+"最小限の情報で仕入先を作成してみましょう。必要なのは仕入先の名称、所属させるグループ、そして仕入先の種別（法人または個人）です。"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Create Your First Purchase Invoice "
+msgstr "最初の仕入請求を作成"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create your first Purchase Invoice\n"
+"\n"
+"A Purchase Invoice is a bill received from a Supplier for a product(s) or service(s) delivery to your company. You can track payables through Purchase Invoice and process Payment Entries against it.\n"
+"\n"
+"Purchase Invoices can also be created against a Purchase Order or Purchase Receipt."
+msgstr ""
+"# 最初の仕入請求を作成する\n"
+"\n"
+"仕入請求は、自社への製品やサービスの提供に対して仕入先から受け取る請求です。仕入請求で買掛金を管理し、これに対する支払エントリを処理できます。\n"
+"\n"
+"仕入請求は、発注や購買受領から作成することもできます。"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Create Your First Sales Invoice "
+msgstr "最初の売上請求を作成"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# All about sales invoice\n"
+"\n"
+"A Sales Invoice is a bill that you send to your Customers against which the Customer makes the payment. Sales Invoice is an accounting transaction. On submission of Sales Invoice, the system updates the receivable and books income against a Customer Account.\n"
+"\n"
+"Here's the flow of how a sales invoice is generally created\n"
+"\n"
+"\n"
+"![Sales Flow](https://docs.erpnext.com/docs/assets/img/accounts/so-flow.png)"
+msgstr ""
+"# 売上請求について\n"
+"\n"
+"売上請求は、顧客に対して発行する請求で、顧客はこれに対して支払を行います。売上請求は会計取引であり、提出すると売掛金が更新され、顧客の勘定に対して収益が計上されます。\n"
+"\n"
+"売上請求が作成されるまでの一般的な流れは次のとおりです。\n"
+"\n"
+"\n"
+"![販売の流れ](https://docs.erpnext.com/docs/assets/img/accounts/so-flow.png)"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Financial Statements\n"
+"\n"
+"In ERPNext, you can get crucial financial reports like [Balance Sheet] and [Profit and Loss] statements with a click of a button. You can run in the report for a different period and plot analytics charts premised on statement data. For more reports, check sections like Financial Statements, General Ledger, and Profitability reports.\n"
+"\n"
+"<b>[Check Accounting reports](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-reports)</b>"
+msgstr ""
+"# 財務諸表\n"
+"\n"
+"ERPNext では、[貸借対照表] や [損益計算書] といった重要な財務レポートをボタン 1 つで出力できます。期間を変えて実行したり、諸表のデータをもとに分析チャートを作成したりできます。ほかにも、財務諸表・総勘定元帳・収益性のレポート群を確認してください。\n"
+"\n"
+"<b>[会計レポートを確認する](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-reports)</b>"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Setting up Taxes\n"
+"\n"
+"ERPNext lets you configure your taxes so that they are automatically applied in your buying and selling transactions. You can configure them globally or even on Items. ERPNext taxes are pre-configured for most regions."
+msgstr ""
+"# 税の設定\n"
+"\n"
+"ERPNext では、購買・販売の取引に税が自動で適用されるように設定できます。全体に対しても、品目ごとにも設定できます。主要な地域については、あらかじめ設定が用意されています。"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Updating Opening Balances"
+msgstr "期首残高の更新"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Updating Opening Balances\n"
+"\n"
+"Once you close the financial statement in previous accounting software, you can update the same as opening in your ERPNext's Balance Sheet accounts. This will allow you to get complete financial statements from ERPNext in the coming years, and discontinue the parallel accounting system right away."
+msgstr ""
+"# 期首残高の更新\n"
+"\n"
+"従来の会計ソフトで決算を締めたら、その残高を ERPNext の貸借対照表の勘定に期首残高として登録します。これにより、翌期以降は ERPNext から完全な財務諸表を得られるようになり、並行運用をすぐに終了できます。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Learn how to update opening balances"
+msgstr "期首残高の更新方法を見る"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Bank and Cash Payment Voucher"
+msgstr "銀行・現金支払伝票"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Cheque Printing Format"
+msgstr "小切手印刷書式"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Journal Auditing Voucher"
+msgstr "仕訳監査伝票"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Payment Receipt Voucher"
+msgstr "入金伝票"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Purchase Auditing Voucher"
+msgstr "購買監査伝票"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Sales Auditing Voucher"
+msgstr "販売監査伝票"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Sales Invoice Print"
+msgstr "売上請求 印刷"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Sales Invoice Return"
+msgstr "売上請求 返品"
+
+#. dashboard_chart.chart_name fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Location-wise Asset Value"
+msgstr "拠点別の資産価額"
+
+#. module_onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "The Assets Module is all set up!"
+msgstr "資産モジュールの設定がすべて完了しました。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Asset Category\n"
+"\n"
+"An Asset Category classifies different assets of a Company.\n"
+"\n"
+"You can create an Asset Category based on the type of assets. For example, all your desktops and laptops can be part of an Asset Category named \"Electronic Equipments\". Create a separate category for furniture. Also, you can update default properties for each category, like:\n"
+" - Depreciation type and duration\n"
+" - Fixed asset account\n"
+" - Depreciation account\n"
+msgstr ""
+"# 資産カテゴリー\n"
+"\n"
+"資産カテゴリーは、会社の資産を分類するものです。\n"
+"\n"
+"資産の種類に応じて資産カテゴリーを作成します。たとえば、デスクトップやノートパソコンは「電子機器」という資産カテゴリーにまとめ、什器は別のカテゴリーにします。カテゴリーごとに次のような既定値を設定できます。\n"
+" - 減価償却の方法と期間\n"
+" - 固定資産勘定\n"
+" - 減価償却費勘定\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Asset Item\n"
+"\n"
+"Asset items are created based on Asset Category. You can create one or multiple items against once Asset Category. The sales and purchase transaction for Asset is done via Asset Item. "
+msgstr ""
+"# 資産品目\n"
+"\n"
+"資産品目は資産カテゴリーをもとに作成します。1 つの資産カテゴリーに対して 1 つでも複数でも品目を作成できます。資産の販売・購買の取引は、資産品目を通じて行います。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Purchase an Asset\n"
+"\n"
+"Assets purchases process if done following the standard Purchase cycle. If capital work in progress is enabled in Asset Category, Asset will be created as soon as Purchase Receipt is created for it. You can quickly create a Purchase Receipt for Asset and see its impact on books of accounts."
+msgstr ""
+"# 資産を購入する\n"
+"\n"
+"資産の購入は、通常の購買サイクルに沿って行います。資産カテゴリーで建設仮勘定を有効にしている場合、購買受領を作成した時点で資産が作成されます。資産の購買受領を作成して、会計帳簿への反映を確認してみましょう。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Add an Existing Asset\n"
+"\n"
+"If you are just starting with ERPNext, you will need to enter Assets you already possess. You can add them as existing fixed assets in ERPNext. Please note that you will have to make a Journal Entry separately updating the opening balance in the fixed asset account."
+msgstr ""
+"# 既存の資産を追加する\n"
+"\n"
+"ERPNext を使い始める際は、すでに保有している資産を登録する必要があります。既存の固定資産として追加できます。なお、固定資産勘定の期首残高の更新は、別途仕訳で行う必要があります。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Fixed Asset Accounts\n"
+"\n"
+"With the company, a host of fixed asset accounts are pre-configured. To ensure your asset transactions are leading to correct accounting entries, you can review and set up following asset accounts as per your business  requirements.\n"
+" - Fixed asset accounts (Asset account)\n"
+" - Accumulated depreciation\n"
+" - Capital Work in progress (CWIP) account\n"
+" - Asset Depreciation account (Expense account)"
+msgstr ""
+"# 固定資産の勘定\n"
+"\n"
+"会社を作成すると、固定資産関連の勘定が一通り設定されます。資産の取引が正しい会計仕訳になるよう、次の勘定を業務要件に合わせて確認・設定してください。\n"
+" - 固定資産勘定（資産勘定）\n"
+" - 減価償却累計額\n"
+" - 建設仮勘定（CWIP）\n"
+" - 減価償却費勘定（費用勘定）"
+
+#. dashboard_chart.chart_name fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Material Request Analysis"
+msgstr "資材要求の分析"
+
+#. dashboard_chart.chart_name fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Top Suppliers"
+msgstr "主要仕入先"
+
+#. module_onboarding.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Let's Set Up the Buying Module."
+msgstr "購買モジュールを設定しましょう。"
+
+#. module_onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "The Buying Module is all set up!"
+msgstr "購買モジュールの設定がすべて完了しました。"
+
+#. number_card.label fixture (DB-stored, invisible to get-untranslated)
+msgid "Active Suppliers"
+msgstr "取引中の仕入先"
+
+#. number_card.label fixture (DB-stored, invisible to get-untranslated)
+msgid "Annual Purchase"
+msgstr "年間購買額"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Track Material Request\n"
+"\n"
+"\n"
+"Also known as Purchase Request or an Indent, is a document identifying a requirement of a set of items (products or services) for various purposes like procurement, transfer, issue, or manufacturing. Once the Material Request is validated, a purchase manager can take the next actions for purchasing items like requesting RFQ from a supplier or directly placing an order with an identified Supplier.\n"
+"\n"
+msgstr ""
+"# 資材要求を管理する\n"
+"\n"
+"\n"
+"購買依頼や請求依頼とも呼ばれ、調達・移動・出庫・製造などの目的で必要となる品目（製品またはサービス）をまとめた文書です。資材要求が承認されると、購買担当者は仕入先への見積依頼や、決定した仕入先への発注といった次の作業に進めます。\n"
+"\n"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Create a Product"
+msgstr "製品を作成"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create first Purchase Order\n"
+"\n"
+"Purchase Order is at the heart of your buying transactions. In ERPNext, Purchase Order can can be created against a Purchase Material Request (indent) and Supplier Quotation as well.  Purchase Orders is also linked to Purchase Receipt and Purchase Invoices, allowing you to keep a birds-eye view on your purchase deals.\n"
+"\n"
+msgstr ""
+"# 最初の発注を作成する\n"
+"\n"
+"発注は購買取引の中心となる文書です。ERPNext では、購買の資材要求やサプライヤー見積から発注を作成することもできます。発注は購買受領や仕入請求とも連携しており、購買取引の全体を俯瞰できます。\n"
+"\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Buying Settings\n"
+"\n"
+"\n"
+"Buying module’s features are highly configurable as per your business needs. Buying Settings is the place where you can set your preferences for:\n"
+"\n"
+"- Supplier naming and default values\n"
+"- Billing and shipping preference in buying transactions\n"
+"\n"
+"\n"
+msgstr ""
+"# 購入設定\n"
+"\n"
+"\n"
+"購買モジュールの機能は、業務に合わせて細かく設定できます。購入設定では、次のような既定値を設定します。\n"
+"\n"
+"- 仕入先の採番と既定値\n"
+"- 購買取引における請求先・配送先の設定\n"
+"\n"
+"\n"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Drop Shipping Format"
+msgstr "直送用書式"
+
+#. module_onboarding.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Let's Set Up Your CRM."
+msgstr "CRM を設定しましょう。"
+
+#. module_onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "The CRM Module is all set up!"
+msgstr "CRM モジュールの設定がすべて完了しました。"
+
+#. number_card.label fixture (DB-stored, invisible to get-untranslated)
+msgid "Open Opportunity"
+msgstr "進行中の機会"
+
+#. onboarding.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Let's Setup Your CRM"
+msgstr "CRM を設定しましょう"
+
+#. onboarding.subtitle fixture (DB-stored, invisible to get-untranslated)
+msgid "Campaign, Lead, Opportunity, Customer and more"
+msgstr "キャンペーン、リード、機会、顧客など"
+
+#. onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "CRM Module is all setup!"
+msgstr "CRM モジュールの設定がすべて完了しました。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# CRM Settings\n"
+"\n"
+"CRM module’s features are configurable as per your business needs. CRM Settings is the place where you can set your preferences for:\n"
+"- Campaign\n"
+"- Lead\n"
+"- Opportunity\n"
+"- Quotation"
+msgstr ""
+"# CRM 設定\n"
+"\n"
+"CRM モジュールの機能は、業務に合わせて設定できます。CRM 設定では、次の項目について既定値を設定します。\n"
+"- キャンペーン\n"
+"- リード\n"
+"- 機会\n"
+"- 見積"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Introduction to CRM"
+msgstr "CRM の概要"
+
+#. module_onboarding.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Let's Set Up the Manufacturing Module."
+msgstr "製造モジュールを設定しましょう。"
+
+#. module_onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Manufacturing module is all set up!"
+msgstr "製造モジュールの設定がすべて完了しました。"
+
+#. number_card.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Monthly Completed Work Order"
+msgstr "月次の完了製造指示"
+
+#. number_card.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Monthly Quality Inspection"
+msgstr "月次の品質検査"
+
+#. number_card.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Monthly Total Work Order"
+msgstr "月次の製造指示合計"
+
+#. number_card.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Ongoing Job Card"
+msgstr "進行中のジョブカード"
+
+#. onboarding.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Let's Setup Manufacturing Module"
+msgstr "製造モジュールを設定しましょう"
+
+#. onboarding.subtitle fixture (DB-stored, invisible to get-untranslated)
+msgid "Products, Raw Materials, BOM, Work Order and more."
+msgstr "製品、原材料、部品表、製造指示など。"
+
+#. onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Manufacturing module is all setup!"
+msgstr "製造モジュールの設定がすべて完了しました。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create a Bill of Materials\n"
+"\n"
+"A Bill of Materials (BOM) is a list of items and sub-assemblies with quantities required to manufacture an Item.\n"
+"\n"
+"BOM also provides cost estimation for the production of the item. It takes raw-materials cost based on valuation and operations to cost based on routing, which gives total costing for a BOM."
+msgstr ""
+"# 部品表を作成する\n"
+"\n"
+"部品表（BOM）は、品目を製造するために必要な品目・半製品とその数量の一覧です。\n"
+"\n"
+"部品表は製造原価の見積にも使われます。原材料は評価額から、作業はルーティングから原価を算出し、部品表全体の原価が求められます。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Create your first Bill of Materials"
+msgstr "最初の部品表を作成する"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create Items for Bill of Materials\n"
+"\n"
+"One of the prerequisites of a BOM is the creation of raw materials, sub-assembly, and finished items. Once these items are created, you will be able to proceed to the Bill of Materials master, which is composed of items and routing.\n"
+msgstr ""
+"# 部品表用の品目を作成する\n"
+"\n"
+"部品表を作成するには、原材料・半製品・完成品の品目があらかじめ必要です。これらの品目を作成すると、品目とルーティングで構成される部品表マスタに進めます。\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Review Manufacturing Settings\n"
+"\n"
+"In ERPNext, the Manufacturing module’s features are configurable as per your business needs. Manufacturing Settings is the place where you can set your preferences for:\n"
+"\n"
+"- Capacity planning for allocating jobs to workstations\n"
+"- Raw-material consumption based on BOM or actual\n"
+"- Default values and over-production allowance\n"
+msgstr ""
+"# 製造設定を確認する\n"
+"\n"
+"ERPNext の製造モジュールの機能は、業務に合わせて設定できます。製造設定では、次のような既定値を設定します。\n"
+"\n"
+"- 作業所への作業割り当てのための能力計画\n"
+"- 部品表基準か実績基準かの原材料消費\n"
+"- 既定値と過剰生産の許容範囲\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create Operations\n"
+"\n"
+"An Operation refers to any manufacturing operation performed on the raw materials to process it further in the manufacturing path. As an example, if you are into garments manufacturing, you will create Operations like fabric cutting, stitching, and washing as some of the operations."
+msgstr ""
+"# 作業を作成する\n"
+"\n"
+"作業とは、原材料を次の工程へ進めるために行う製造上の工程を指します。たとえば衣料品の製造であれば、裁断・縫製・洗いといった工程をそれぞれ作業として作成します。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Let’s create an Operation"
+msgstr "作業を作成しましょう"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# How Production Planning Works\n"
+"\n"
+"Production Plan helps in production and material planning for the Items planned for manufacturing. These production items can be committed via Sales Order (to Customers) or Material Requests (internally).\n"
+msgstr ""
+"# 生産計画の仕組み\n"
+"\n"
+"生産計画は、製造対象の品目について生産と資材の計画を立てるためのものです。対象となる品目は、受注（顧客向け）または資材要求（社内向け）から引き当てられます。\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Setup Routing\n"
+"\n"
+"A Routing stores all Operations along with the description, hourly rate, operation time, batch size, etc. Click below to learn how the Routing template can be created, for quick selection in the BOM."
+msgstr ""
+"# ルーティングを設定する\n"
+"\n"
+"ルーティングには、作業の一覧と、その説明・時間単価・作業時間・バッチサイズなどが保持されます。部品表からすぐに選べるルーティングのテンプレートを作成する方法は、下記を参照してください。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Check help to setup Routing"
+msgstr "ルーティングの設定方法を確認する"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create a Work Order\n"
+"\n"
+"A Work Order or a Job order is given to the manufacturing shop floor by the Production Manager to initiate the manufacturing of a certain quantity of an item. Work Order carriers details of production Item, its BOM, quantities to be manufactured, and operations.\n"
+"\n"
+"Through Work Order, you can track various production status like:\n"
+"\n"
+"- Issue of raw-material to shop material\n"
+"- Progress on each Workstation via Job Card\n"
+"- Manufactured Quantity against Work Order\n"
+msgstr ""
+"# 製造指示を作成する\n"
+"\n"
+"製造指示は、ある品目を一定数量製造するために、製造管理者から製造現場へ出される指示です。製造指示には、製造対象の品目、その部品表、製造数量、作業の内容が含まれます。\n"
+"\n"
+"製造指示では、次のような進捗を追跡できます。\n"
+"\n"
+"- 現場への原材料の出庫\n"
+"- ジョブカードによる作業所ごとの進捗\n"
+"- 製造指示に対する製造済数量\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create Workstations\n"
+"\n"
+"A Workstation stores information regarding the place where the workstation operations are performed. As an example, if you have ten sewing machines doing stitching jobs, each machine will be added as a workstation."
+msgstr ""
+"# 作業所を作成する\n"
+"\n"
+"作業所には、作業を行う場所の情報を登録します。たとえば縫製を行うミシンが 10 台あるなら、1 台ずつを作業所として追加します。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Let’s create a Workstation"
+msgstr "作業所を作成しましょう"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Detailed Tax Invoice"
+msgstr "税額請求書（詳細）"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Purchase eInvoice"
+msgstr "購買 eInvoice"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Simplified Tax Invoice"
+msgstr "税額請求書（簡易）"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Tax Invoice"
+msgstr "税額請求書"
+
+#. dashboard_chart.chart_name fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Item-wise Annual Sales"
+msgstr "品目別の年間売上"
+
+#. dashboard_chart.chart_name fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Top Customers"
+msgstr "主要顧客"
+
+#. module_onboarding.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Let's Set Up the Selling Module."
+msgstr "販売モジュールを設定しましょう。"
+
+#. module_onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "The Selling Module is all set up!"
+msgstr "販売モジュールの設定がすべて完了しました。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"A Sales Order is a confirmation of an order from your customer. It is also referred to as Proforma Invoice.\n"
+"\n"
+"Sales Order at the heart of your sales and purchase transactions. Sales Orders are linked in Delivery Note, Sales Invoices, Material Request, and Maintenance transactions. Through Sales Order, you can track fulfillment of the overall deal towards the customer."
+msgstr ""
+"受注は、顧客からの注文を確定したものです。プロフォーマインボイスとも呼ばれます。\n"
+"\n"
+"受注は販売・購買取引の中心にあります。受注は納品書・売上請求・資材要求・保守の各取引と連携しており、受注を通じて顧客との取引全体の履行状況を追跡できます。"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Create a Finished Good"
+msgstr "完成品を作成"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Introduction to Selling"
+msgstr "販売の概要"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Sales Order\n"
+"\n"
+"A Sales Order is a confirmation of an order from your customer. It is also referred to as Proforma Invoice.\n"
+"\n"
+"Sales Order at the heart of your sales and purchase transactions. Sales Orders are linked in Delivery Note, Sales Invoices, Material Request, and Maintenance transactions. Through Sales Order, you can track fulfillment of the overall deal towards the customer."
+msgstr ""
+"# 受注\n"
+"\n"
+"受注は、顧客からの注文を確定したものです。プロフォーマインボイスとも呼ばれます。\n"
+"\n"
+"受注は販売・購買取引の中心にあります。受注は納品書・売上請求・資材要求・保守の各取引と連携しており、受注を通じて顧客との取引全体の履行状況を追跡できます。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Selling Settings\n"
+"\n"
+"CRM and Selling module’s features are configurable as per your business needs. Selling Settings is the place where you can set your preferences for:\n"
+" - Customer naming and default values\n"
+" - Billing and shipping preference in sales transactions\n"
+msgstr ""
+"# 販売設定\n"
+"\n"
+"CRM モジュールと販売モジュールの機能は、業務に合わせて設定できます。販売設定では、次のような既定値を設定します。\n"
+" - 顧客の採番と既定値\n"
+" - 販売取引における請求先・配送先の設定\n"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Return POS Invoice"
+msgstr "POS 請求書の返品"
+
+#. module_onboarding.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Let's begin your journey with ERPNext"
+msgstr "ERPNext をはじめましょう"
+
+#. module_onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "You're ready to start your journey with ERPNext"
+msgstr "ERPNext を使い始める準備が整いました"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Set Up a Company"
+msgstr "会社を設定する"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Set Up a Company\n"
+"\n"
+"A company is a legal entity for which you will set up your books of account and create accounting transactions. In ERPNext, you can create multiple companies, and establish relationships (group/subsidiary) among them.\n"
+"\n"
+"Within the company master, you can capture various default accounts for that Company and set crucial settings related to the accounting methodology followed for a company.\n"
+msgstr ""
+"# 会社を設定する\n"
+"\n"
+"会社とは、会計帳簿を作成し、会計取引を記録する対象となる法人です。ERPNext では複数の会社を作成し、その間に親子（グループ／子会社）の関係を持たせることができます。\n"
+"\n"
+"会社マスタでは、その会社の各種既定勘定を設定し、会計方針に関わる重要な設定を行います。\n"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Let's review your Company"
+msgstr "会社の内容を確認しましょう"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create a Customer\n"
+"\n"
+"The Customer master is at the heart of your sales transactions. Customers are linked in Quotations, Sales Orders, Invoices, and Payments. Customers can be either numbered or identified by name (you would typically do this based on the number of customers you have).\n"
+"\n"
+"Through Customer’s master, you can effectively track essentials like:\n"
+" - Customer’s multiple address and contacts\n"
+" - Account Receivables\n"
+" - Credit Limit and Credit Period\n"
+msgstr ""
+"# 顧客を作成する\n"
+"\n"
+"顧客マスタは販売取引の中心にあります。顧客は見積・受注・請求・入金と連携します。顧客は採番することも、名称で識別することもできます（顧客数に応じて選びます）。\n"
+"\n"
+"顧客マスタでは、次のような重要な情報を管理できます。\n"
+" - 顧客の複数の住所と連絡先\n"
+" - 売掛金\n"
+" - 与信限度額と与信期間\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create a Quotation\n"
+"\n"
+"Let’s get started with business transactions by creating your first Quotation. You can create a Quotation for an existing customer or a prospect. It will be an approved document, with items you sell and the proposed price + taxes applied. After completing the instructions, you will get a Quotation in a ready to share print format."
+msgstr ""
+"# 見積を作成する\n"
+"\n"
+"最初の見積を作成して、業務取引を始めましょう。既存の顧客に対しても、見込客に対しても作成できます。見積は、販売する品目と提示価格・税を記載した承認済みの文書です。手順を終えると、そのまま共有できる印刷書式の見積が得られます。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create a Supplier\n"
+"\n"
+"Also known as Vendor, is a master at the center of your purchase transactions. Suppliers are linked in Request for Quotation, Purchase Orders, Receipts, and Payments. Suppliers can be either numbered or identified by name.\n"
+"\n"
+"Through Supplier’s master, you can effectively track essentials like:\n"
+" - Supplier’s multiple address and contacts\n"
+" - Account Receivables\n"
+" - Credit Limit and Credit Period\n"
+msgstr ""
+"# 仕入先を作成する\n"
+"\n"
+"ベンダーとも呼ばれ、購買取引の中心となるマスタです。仕入先は見積依頼・発注・受領・支払と連携します。仕入先は採番することも、名称で識別することもできます。\n"
+"\n"
+"仕入先マスタでは、次のような重要な情報を管理できます。\n"
+" - 仕入先の複数の住所と連絡先\n"
+" - 買掛金\n"
+" - 与信限度額と与信期間\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create an Item\n"
+"\n"
+"Item is a product or a service offered by your company, or something you buy as a part of your supplies or raw materials.\n"
+"\n"
+"Items are integral to everything you do in ERPNext - from billing, purchasing to managing inventory. Everything you buy or sell, whether it is a physical product or a service is an Item. Items can be stock, non-stock, variants, serialized, batched, assets, etc.\n"
+msgstr ""
+"# 品目を作成する\n"
+"\n"
+"品目とは、自社が提供する製品やサービス、あるいは仕入れる資材や原材料のことです。\n"
+"\n"
+"品目は、請求から購買、在庫管理まで、ERPNext で行うあらゆる業務の基礎になります。売買するものは、物理的な製品であれサービスであれ、すべて品目です。品目には在庫品・非在庫品・バリアント・シリアル管理・バッチ管理・資産などがあります。\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# All about sales invoice\n"
+"\n"
+"A Sales Invoice is a bill that you send to your Customers against which the Customer makes the payment. Sales Invoice is an accounting transaction. On submission of Sales Invoice, the system updates the receivable and books income against a Customer Account."
+msgstr ""
+"# 売上請求について\n"
+"\n"
+"売上請求は、顧客に対して発行する請求で、顧客はこれに対して支払を行います。売上請求は会計取引であり、提出すると売掛金が更新され、顧客の勘定に対して収益が計上されます。"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Import Data from Spreadsheet"
+msgstr "スプレッドシートからデータを取り込む"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Import Data from Spreadsheet\n"
+"\n"
+"In ERPNext, you can easily migrate your historical data using spreadsheets. You can use it for migrating not just masters (like Customer, Supplier, Items), but also for transactions like (outstanding invoices, opening stock and accounting entries, etc)."
+msgstr ""
+"# スプレッドシートからデータを取り込む\n"
+"\n"
+"ERPNext では、スプレッドシートを使って過去のデータを簡単に移行できます。顧客・仕入先・品目といったマスタだけでなく、未決済の請求、期首在庫、会計仕訳などの取引データも取り込めます。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Learn more about data migration"
+msgstr "データ移行について詳しく見る"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Setup Your Letterhead"
+msgstr "レターヘッドを設定する"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create a Letter Head\n"
+"\n"
+"A Letter Head contains your organization's name, logo, address, etc which appears at the header and footer portion in documents. You can learn more about Setting up Letter Head in ERPNext here.\n"
+msgstr ""
+"# レターヘッドを作成する\n"
+"\n"
+"レターヘッドには、組織名・ロゴ・住所などを登録します。これらは文書のヘッダーとフッターに表示されます。ERPNext でのレターヘッドの設定方法は、こちらで確認できます。\n"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Let’s setup your first Letter Head"
+msgstr "最初のレターヘッドを設定しましょう"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "How to Navigate in ERPNext"
+msgstr "ERPNext の画面の移動方法"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Navigation in ERPNext\n"
+"\n"
+"Ease of navigating and browsing around the ERPNext is one of our core strengths. In the following video, you will learn how to reach a specific feature in ERPNext via module page or AwesomeBar."
+msgstr ""
+"# ERPNext での画面移動\n"
+"\n"
+"ERPNext は、画面間の移動と探索のしやすさを大きな特長としています。次の動画では、モジュールページや検索バーから目的の機能にたどり着く方法を説明します。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Learn about  Navigation options"
+msgstr "画面移動の方法について学ぶ"
+
+#. dashboard_chart.chart_name fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Delivery Trends"
+msgstr "納品の推移"
+
+#. dashboard_chart.chart_name fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Item Shortage Summary"
+msgstr "品目の不足状況"
+
+#. dashboard_chart.chart_name fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Oldest Items"
+msgstr "滞留期間の長い品目"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Check Stock Reports\n"
+"Based on the various stock transactions, you can get a host of one-click Stock Reports in ERPNext like Stock Ledger, Stock Balance, Projected Quantity, and Ageing analysis."
+msgstr ""
+"# 在庫レポートを確認する\n"
+"在庫取引をもとに、在庫元帳・在庫残高・予定数量・滞留分析といった在庫レポートを、ERPNext からワンクリックで出力できます。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Manage Stock Movements\n"
+"Stock entry allows you to register the movement of stock for various purposes like transfer, received, issues, repacked, etc. To address issues related to theft and pilferages,  you can always ensure that the movement of goods happens against a document reference Stock Entry in ERPNext.\n"
+"\n"
+"Let’s get a quick walk-through on the various scenarios covered in Stock Entry by watching [*this video*](https://www.youtube.com/watch?v=Njt107hlY3I)."
+msgstr ""
+"# 在庫の移動を管理する\n"
+"在庫エントリでは、移動・入庫・出庫・再梱包など、さまざまな目的の在庫の動きを登録できます。盗難や紛失に対応するため、ERPNext ではモノの移動を必ず在庫エントリという文書に紐づけて記録できます。\n"
+"\n"
+"在庫エントリで扱えるさまざまな場面については、[*この動画*](https://www.youtube.com/watch?v=Njt107hlY3I) で概要をご覧ください。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Create a Material Transfer Entry"
+msgstr "資材移動のエントリを作成"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create a Supplier\n"
+"In this step we will create a **Supplier**. If you have already created a **Supplier** you can skip this step."
+msgstr ""
+"# 仕入先を作成する\n"
+"この手順では **仕入先** を作成します。すでに **仕入先** を作成済みの場合は、この手順を飛ばせます。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Setup a Warehouse\n"
+"The warehouse can be your location/godown/store where you maintain the item's inventory, and receive/deliver them to various parties.\n"
+"\n"
+"In ERPNext, you can maintain a Warehouse in the tree structure, so that location and sub-location of an item can be tracked. Also, you can link a Warehouse to a specific Accounting ledger, where the real-time stock value of that warehouse’s item will be reflected."
+msgstr ""
+"# 倉庫を設定する\n"
+"倉庫とは、品目の在庫を保管し、各取引先との入出庫を行う場所・保管庫・店舗を指します。\n"
+"\n"
+"ERPNext では倉庫をツリー構造で管理できるため、品目の保管場所とその下位の場所まで追跡できます。また、倉庫を特定の会計元帳に紐づけると、その倉庫の品目の在庫金額がリアルタイムに反映されます。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Let’s create your first  warehouse "
+msgstr "最初の倉庫を作成しましょう"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Create an Item\n"
+"The Stock module deals with the movement of items.\n"
+"\n"
+"In this step we will create an  [**Item**](https://docs.erpnext.com/docs/user/manual/en/stock/item)."
+msgstr ""
+"# 品目を作成する\n"
+"在庫モジュールは品目の移動を扱います。\n"
+"\n"
+"この手順では [**品目**](https://docs.erpnext.com/docs/user/manual/en/stock/item) を作成します。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Introduction to Stock Entry\n"
+"This video will give a quick introduction to [**Stock Entry**](https://docs.erpnext.com/docs/user/manual/en/stock/stock-entry)."
+msgstr ""
+"# 在庫エントリの概要\n"
+"この動画では [**在庫エントリ**](https://docs.erpnext.com/docs/user/manual/en/stock/stock-entry) の概要を説明します。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Update Stock Opening Balance\n"
+"It’s an entry to update the stock balance of an item, in a warehouse, on a date and time you are going live on ERPNext.\n"
+"\n"
+"Once opening stocks are updated, you can create transactions like manufacturing and stock deliveries, where this opening stock will be consumed."
+msgstr ""
+"# 在庫の期首残高を更新する\n"
+"ERPNext の稼働を開始する日時における、倉庫ごとの品目の在庫残高を登録するエントリです。\n"
+"\n"
+"期首在庫を登録すると、製造や出荷といった取引を作成でき、その際にこの期首在庫が消費されます。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# Review Stock Settings\n"
+"\n"
+"In ERPNext, the Stock module’s features are configurable as per your business needs. Stock Settings is the place where you can set your preferences for:\n"
+"- Default values for Item and Pricing\n"
+"- Default valuation method for inventory valuation\n"
+"- Set preference for serialization and batching of item\n"
+"- Set tolerance for over-receipt and delivery of items"
+msgstr ""
+"# 在庫設定を確認する\n"
+"\n"
+"ERPNext の在庫モジュールの機能は、業務に合わせて設定できます。在庫設定では、次のような既定値を設定します。\n"
+"- 品目と価格の既定値\n"
+"- 在庫評価の既定の評価方法\n"
+"- 品目のシリアル管理・バッチ管理の設定\n"
+"- 入荷・出荷の過不足の許容範囲"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"# View Warehouse\n"
+"In ERPNext the term 'warehouse' can be thought of as a storage location.\n"
+"\n"
+"Warehouses are arranged in ERPNext in a tree like structure, where multiple sub-warehouses can be grouped under a single warehouse.\n"
+"\n"
+"In this step we will view the [**Warehouse Tree**](https://docs.erpnext.com/docs/user/manual/en/stock/warehouse#21-tree-view) to view the [**Warehouses**](https://docs.erpnext.com/docs/user/manual/en/stock/warehouse) that are set by default."
+msgstr ""
+"# 倉庫を表示する\n"
+"ERPNext における「倉庫」は、保管場所と考えることができます。\n"
+"\n"
+"倉庫はツリー構造で管理され、1 つの倉庫の下に複数の下位倉庫をまとめられます。\n"
+"\n"
+"この手順では [**倉庫ツリー**](https://docs.erpnext.com/docs/user/manual/en/stock/warehouse#21-tree-view) を開き、既定で設定されている [**倉庫**](https://docs.erpnext.com/docs/user/manual/en/stock/warehouse) を確認します。"
+
+#. print_format.name fixture (DB-stored, invisible to get-untranslated)
+msgid "Purchase Receipt Serial and Batch Bundle Print"
+msgstr "購買受領 シリアル・バッチバンドル 印刷"
+
+#. erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.js
+msgid ""
+"Note: On checking Is Mandatory the accounting dimension will become "
+"mandatory against that specific account for all accounting transactions"
+msgstr "注: 「必須」をチェックすると、その勘定に対するすべての会計取引でこの会計ディメンションが必須になります"
+
+#. erpnext/accounts/report/accounts_receivable/accounts_receivable.html
+msgid "Tax Id: "
+msgstr "税務ID: "
+
+#. erpnext/accounts/report/calculated_discount_mismatch/calculated_discount_mismatch.js
+msgid "My Filter"
+msgstr "マイフィルター"
+
+#. erpnext/manufacturing/doctype/production_plan/production_plan.js
+msgid ""
+"Select whether to get items from a Sales Order or a Material Request. For "
+"now select <b>Sales Order</b>.\\n A Production Plan can also be created "
+"manually where you can select the Items to manufacture."
+msgstr ""
+"受注と資材要求のどちらから品目を取得するかを選択します。ここでは <b>受注</b> を選択してください。\n"
+" 生産計画は手動でも作成でき、その場合は製造する品目を自分で選択します。"
+
+#. erpnext/manufacturing/doctype/routing/routing.js
+msgid ""
+"Enter the Operation, the table will fetch the Operation details like Hourly "
+"Rate, Workstation automatically.\\n\\n After that, set the Operation Time in"
+" minutes and the table will calculate the Operation Costs based on the "
+"Hourly Rate and Operation Time."
+msgstr ""
+"作業を入力すると、時間単価や作業所などの情報がテーブルに自動で取得されます。\n"
+"\n"
+" その後、作業時間を分単位で設定すると、時間単価と作業時間から作業原価が計算されます。"
+
+#. erpnext/projects/doctype/project/project.js
+msgid "For project {0}, update your status"
+msgstr "プロジェクト {0} について、状況を更新してください"
+
+#. erpnext/public/js/bank_reconciliation_tool/dialog_manager.js
+msgid "No Matching Vouchers Found"
+msgstr "該当する伝票が見つかりません"
+
+#. erpnext/public/js/bom_configurator/bom_configurator.bundle.js
+msgid "Edit Qty"
+msgstr "数量を編集"
+
+#. erpnext/public/js/utils/demo.js
+msgid "Clear Demo Data"
+msgstr "デモデータを削除"
+
+#. erpnext/selling/doctype/sales_order/sales_order.js
+msgid ""
+"Note: Please create Sales Orders from individual Quotations to select from "
+"among Alternative Items."
+msgstr "注: 代替品目から選択するには、個々の見積から受注を作成してください。"
+
+#. erpnext/selling/page/point_of_sale/pos_controller.js
+msgid "Full Screen"
+msgstr "全画面表示"
+
+#. erpnext/selling/page/point_of_sale/pos_controller.js
+msgid "Exit Full Screen"
+msgstr "全画面表示を終了"
+
+#. erpnext/selling/page/point_of_sale/pos_payment.js
+msgid "{0} is a mandatory field."
+msgstr "{0} は必須項目です。"
+
+#. erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js
+msgid "Start Deletion"
+msgstr "削除を開始"
+
+#. erpnext/stock/doctype/pick_list/pick_list.js
+msgid ""
+"Cleared auto-assigned serial numbers and batch numbers for manual picking"
+msgstr "手動ピッキングのため、自動割当のシリアル番号とバッチ番号を解除しました"
+
+#. erpnext/stock/doctype/shipment/shipment.js
+msgid ""
+"Last Name, Email or Phone/Mobile of the user are mandatory to continue."
+msgstr "続行するには、ユーザーの姓・メールアドレス・電話番号のいずれかが必要です。"
+
+#. erpnext/stock/doctype/shipment/shipment.js
+msgid "Please first set Last Name, Email and Phone for the user"
+msgstr "先にユーザーの姓・メールアドレス・電話番号を設定してください"
+
+#. carried over from the deployable CSV
+msgid "3D printing"
+msgstr "3D プリント"
+
+#. carried over from the deployable CSV
+msgid "<span class=\"h4\"><b>Quick Access</b></span>"
+msgstr "<span class=\"h4\"><b>クイックアクセス</b></span>"
+
+#. carried over from the deployable CSV
+msgid "<span class=\"h4\"><b>Reports & Masters</b></span>"
+msgstr "<span class=\"h4\"><b>レポートとマスタ</b></span>"
+
+#. carried over from the deployable CSV
+msgid "A Lead with this email id should exist"
+msgstr "このメールアドレスのリードが存在している必要があります"
+
+#. carried over from the deployable CSV
+msgid "A user with \"Expense Approver\" role"
+msgstr "「経費承認者」ロールを持つユーザー"
+
+#. carried over from the deployable CSV
+msgid "Account Balance (From)"
+msgstr "勘定残高（開始）"
+
+#. carried over from the deployable CSV
+msgid "Account Balance (To)"
+msgstr "勘定残高（終了）"
+
+#. carried over from the deployable CSV
+msgid "Account Info"
+msgstr "勘定情報"
+
+#. carried over from the deployable CSV
+msgid "Account No"
+msgstr "勘定番号"
+
+#. carried over from the deployable CSV
+msgid "Accounting Entry Number"
+msgstr "会計仕訳番号"
+
+#. carried over from the deployable CSV
+msgid "Accounting Reports"
+msgstr "会計レポート"
+
+#. carried over from the deployable CSV
+msgid "Accounting Statements"
+msgstr "会計諸表"
+
+#. carried over from the deployable CSV
+msgid "Accounts Browser"
+msgstr "勘定ブラウザ"
+
+#. carried over from the deployable CSV
+msgid "Accounts Frozen Upto"
+msgstr "勘定の凍結期限"
+
+#. carried over from the deployable CSV
+msgid "Accounts Missing Error"
+msgstr "勘定が設定されていません"
+
+#. carried over from the deployable CSV
+msgid "Accounts Payable Ageing"
+msgstr "買掛金の年齢調べ"
+
+#. carried over from the deployable CSV
+msgid "Accounts Receivable Ageing"
+msgstr "売掛金の年齢調べ"
+
+#. carried over from the deployable CSV
+msgid "Accounts Receivable/Payable"
+msgstr "売掛金・買掛金"
+
+#. carried over from the deployable CSV
+msgid "Accounts, Invoices, Taxation, and more."
+msgstr "勘定、請求、税務ほか。"
+
+#. carried over from the deployable CSV
+msgid "Action If Quality Inspection Is Rejected"
+msgstr "品質検査が不合格の場合の動作"
+
+#. carried over from the deployable CSV
+msgid "Action If Same Rate is Not Maintained"
+msgstr "同一単価が維持されない場合の動作"
+
+#. carried over from the deployable CSV
+msgid "Action if Same Rate is Not Maintained Throughout  Internal Transaction"
+msgstr "社内取引全体で同一単価が維持されない場合の動作"
+
+#. carried over from the deployable CSV
+msgid "Action if Same Rate is Not Maintained Throughout Sales Cycle"
+msgstr "販売サイクル全体で同一単価が維持されない場合の動作"
+
+#. carried over from the deployable CSV
+msgid "Add All Suppliers"
+msgstr "すべての仕入先を追加"
+
+#. carried over from the deployable CSV
+msgid "Add Taxes"
+msgstr "税を追加"
+
+#. carried over from the deployable CSV
+msgid "Add Users"
+msgstr "ユーザーを追加"
+
+#. carried over from the deployable CSV
+msgid "Add an Existing Asset"
+msgstr "既存の資産を追加"
+
+#. carried over from the deployable CSV
+msgid "Add an existing Asset"
+msgstr "既存の資産を追加"
+
+#. carried over from the deployable CSV
+msgid "Add rows to set annual budgets on Accounts."
+msgstr "行を追加して勘定ごとの年次予算を設定します。"
+
+#. carried over from the deployable CSV
+msgid "Add users to your organization, other than yourself."
+msgstr "自分以外のユーザーを組織に追加します。"
+
+#. carried over from the deployable CSV
+msgid "Adjust Asset Value"
+msgstr "資産価額を調整"
+
+#. carried over from the deployable CSV
+msgid "Advance Tax"
+msgstr "前払税金"
+
+#. carried over from the deployable CSV
+msgid "Affected Transactions"
+msgstr "影響を受ける取引"
+
+#. carried over from the deployable CSV
+msgid "Against Invoice"
+msgstr "対象の請求書"
+
+#. carried over from the deployable CSV
+msgid "Against Invoice Posting Date"
+msgstr "対象請求書の記帳日"
+
+#. carried over from the deployable CSV
+msgid "Against Journal Entry"
+msgstr "対象の仕訳"
+
+#. carried over from the deployable CSV
+msgid "Against Purchase Invoice"
+msgstr "対象の仕入請求"
+
+#. carried over from the deployable CSV
+msgid "Ageing Report based on"
+msgstr "年齢調べレポートの基準"
+
+#. carried over from the deployable CSV
+msgid "All Supplier Types"
+msgstr "すべての仕入先タイプ"
+
+#. carried over from the deployable CSV
+msgid "Allow Cost Center In Entry of Balance Sheet Account"
+msgstr "貸借対照表勘定の入力でコストセンターを許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Internal Transfers at Arm's Length Price"
+msgstr "独立企業間価格での社内移動を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Item to be Added Multiple Times in a Transaction"
+msgstr "1つの取引で同じ品目の複数回追加を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Negative rates for Items"
+msgstr "品目のマイナス単価を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Partial Reservation"
+msgstr "一部引当を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Print Before Pay"
+msgstr "支払前の印刷を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Quotation with Zero Quantity"
+msgstr "数量ゼロの見積書を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Resetting SLA"
+msgstr "SLA のリセットを許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Sales Order Creation For Expired Quotation"
+msgstr "期限切れの見積書からの受注作成を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Sales Order with Zero Quantity"
+msgstr "数量ゼロの受注を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Tax Exemption"
+msgstr "非課税を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow UOM with Conversion Rate Defined in Item"
+msgstr "品目に換算率が定義された単位を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow User"
+msgstr "ユーザーを許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Users"
+msgstr "ユーザーを許可"
+
+#. carried over from the deployable CSV
+msgid "Allow to Edit Stock UOM Qty for Purchase Documents"
+msgstr "購買伝票で在庫単位数量の編集を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow to Edit Stock UOM Qty for Sales Documents"
+msgstr "販売伝票で在庫単位数量の編集を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow to Make Quality Inspection after Purchase / Delivery"
+msgstr "購買・納品後の品質検査を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow user to edit Discount"
+msgstr "ユーザーによる割引の編集を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow user to edit Price List Rate in transactions"
+msgstr "取引内で価格表レートの編集を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow user to edit Rate"
+msgstr "ユーザーによる単価の編集を許可"
+
+#. carried over from the deployable CSV
+msgid "Allowed Doctypes"
+msgstr "許可する DocType"
+
+#. carried over from the deployable CSV
+msgid ""
+"Allows users to submit Quotations with zero quantity. Useful when rates are "
+"fixed but the quantities are not. Eg. Rate Contracts."
+msgstr "数量ゼロの見積書の提出を許可します。単価は決まっているが数量が決まっていない場合（単価契約など）に使います。"
+
+#. carried over from the deployable CSV
+msgid ""
+"Allows users to submit Sales Orders with zero quantity. Useful when rates "
+"are fixed but the quantities are not. Eg. Rate Contracts."
+msgstr "数量ゼロの受注の提出を許可します。単価は決まっているが数量が決まっていない場合（単価契約など）に使います。"
+
+#. carried over from the deployable CSV
+msgid "Amount in Words"
+msgstr "金額（漢数字表記）"
+
+#. carried over from the deployable CSV
+msgid "Annual Sales"
+msgstr "年間売上"
+
+#. carried over from the deployable CSV
+msgid "Applicant Email Address"
+msgstr "応募者のメールアドレス"
+
+#. carried over from the deployable CSV
+msgid "Approving Role"
+msgstr "承認ロール"
+
+#. carried over from the deployable CSV
+msgid "Approving User"
+msgstr "承認ユーザー"
+
+#. carried over from the deployable CSV
+msgid "Asset Depreciation Details"
+msgstr "資産の減価償却明細"
+
+#. carried over from the deployable CSV
+msgid "Assets, Depreciations, Repairs, and more."
+msgstr "資産、減価償却、修繕ほか。"
+
+#. carried over from the deployable CSV
+msgid "Auto Create Purchase Receipt"
+msgstr "入荷を自動作成する"
+
+#. carried over from the deployable CSV
+msgid "Auto Create Serial and Batch Bundle For Outward"
+msgstr "出庫時にシリアル・バッチバンドルを自動作成"
+
+#. carried over from the deployable CSV
+msgid "Auto Create Subcontracting Order"
+msgstr "外注注文を自動作成する"
+
+#. carried over from the deployable CSV
+msgid "Auto Insert Item Price If Missing"
+msgstr "品目価格が無い場合は自動登録"
+
+#. carried over from the deployable CSV
+msgid "Auto Reconcile Payments"
+msgstr "入出金を自動消込する"
+
+#. carried over from the deployable CSV
+msgid "Auto Reconciliation Job Trigger"
+msgstr "自動消込ジョブの起動条件"
+
+#. carried over from the deployable CSV
+msgid "Auto Reserve Serial and Batch Nos"
+msgstr "シリアル番号・バッチ番号を自動引当"
+
+#. carried over from the deployable CSV
+msgid "Auto Reserve Stock for Sales Order on Purchase"
+msgstr "購買時に受注向け在庫を自動引当"
+
+#. carried over from the deployable CSV
+msgid "Auto close Opportunity after 15 days"
+msgstr "15日後に商談を自動クローズする"
+
+#. carried over from the deployable CSV
+msgid "Automatically Add Taxes from Taxes and Charges Template"
+msgstr "税・手数料テンプレートから税を自動追加する"
+
+#. carried over from the deployable CSV
+msgid "Automatically Fetch Payment Terms from Order"
+msgstr "注文から支払条件を自動取得する"
+
+#. carried over from the deployable CSV
+msgid "Balances of Accounts of type \"Bank\" or \"Cash\""
+msgstr "「銀行」または「現金」種別の勘定残高"
+
+#. carried over from the deployable CSV
+msgid "Bank Account, From Date and To Date are Mandatory"
+msgstr "銀行口座、開始日、終了日は必須です"
+
+#. carried over from the deployable CSV
+msgid "Base Tax Withholding Net Total"
+msgstr "源泉徴収対象 純合計（基準通貨）"
+
+#. carried over from the deployable CSV
+msgid "Bill for Rejected Quantity in Purchase Invoice"
+msgstr "仕入請求で不合格数量も請求する"
+
+#. carried over from the deployable CSV
+msgid "Billing (Sales Invoice)"
+msgstr "請求（売上請求）"
+
+#. carried over from the deployable CSV
+msgid "Bonus Payment Date"
+msgstr "賞与支給日"
+
+#. carried over from the deployable CSV
+msgid "Bonus Payment Date cannot be a past date"
+msgstr "賞与支給日を過去の日付にすることはできません"
+
+#. carried over from the deployable CSV
+msgid "Book Tax Loss on Early Payment Discount"
+msgstr "早期支払割引の税務上の損失を計上する"
+
+#. carried over from the deployable CSV
+msgid ""
+"Booking stock value across multiple accounts will make it harder to track "
+"stock and account value."
+msgstr "在庫金額を複数の勘定に計上すると、在庫と勘定の金額を追跡しにくくなります。"
+
+#. carried over from the deployable CSV
+msgid "Budget Allocated"
+msgstr "配分済予算"
+
+#. carried over from the deployable CSV
+msgid "Budget and Cost Center"
+msgstr "予算とコストセンター"
+
+#. carried over from the deployable CSV
+msgid "Budget cannot be set for Group Cost Centers"
+msgstr "グループのコストセンターには予算を設定できません"
+
+#. carried over from the deployable CSV
+msgid "Calculate Product Bundle Price based on Child Items' Rates"
+msgstr "構成品目の単価にもとづいて製品バンドル価格を計算"
+
+#. carried over from the deployable CSV
+msgid "Campaign Name is required"
+msgstr "キャンペーン名は必須です"
+
+#. carried over from the deployable CSV
+msgid "Campaign-.####"
+msgstr "Campaign-.####"
+
+#. carried over from the deployable CSV
+msgid "Cancel Invoice After Grace Period"
+msgstr "猶予期間の経過後に請求書を取り消す"
+
+#. carried over from the deployable CSV
+msgid "Cannot set a received RFQ to No Quote"
+msgstr "受領済の見積依頼を「見積なし」にすることはできません"
+
+#. carried over from the deployable CSV
+msgid "Capitalize this asset to confirm"
+msgstr "確定するにはこの資産を資産計上してください"
+
+#. carried over from the deployable CSV
+msgid "Chart Of Accounts"
+msgstr "勘定科目表"
+
+#. carried over from the deployable CSV
+msgid "Choose a WIP composite asset"
+msgstr "仕掛の複合資産を選択"
+
+#. carried over from the deployable CSV
+msgid "Clearly Defined Role"
+msgstr "明確に定義された役割"
+
+#. carried over from the deployable CSV
+msgid "Company Email ID not found, hence mail not sent"
+msgstr "会社のメールアドレスが見つからないため、メールは送信されませんでした"
+
+#. carried over from the deployable CSV
+msgid "Company and Accounts"
+msgstr "会社と勘定"
+
+#. carried over from the deployable CSV
+msgid "Configure Account Settings"
+msgstr "勘定の設定を構成"
+
+#. carried over from the deployable CSV
+msgid "Configure Buying Settings."
+msgstr "購買設定を構成します。"
+
+#. carried over from the deployable CSV
+msgid "Consider Entire Party Ledger Amount"
+msgstr "取引先元帳の全額を対象とする"
+
+#. carried over from the deployable CSV
+msgid "Contact & Address"
+msgstr "連絡先と住所"
+
+#. carried over from the deployable CSV
+msgid "Contact Number"
+msgstr "電話番号"
+
+#. carried over from the deployable CSV
+msgid "Contact master."
+msgstr "連絡先マスタ。"
+
+#. carried over from the deployable CSV
+msgid "Contacts and Address"
+msgstr "連絡先と住所"
+
+#. carried over from the deployable CSV
+msgid "Convert Item Description to Clean HTML in Transactions"
+msgstr "取引内の品目説明を整形済 HTML に変換する"
+
+#. carried over from the deployable CSV
+msgid "Cost Centers for Budgeting and Analysis"
+msgstr "予算編成・分析用のコストセンター"
+
+#. carried over from the deployable CSV
+msgid "Cost center is required to book an expense claim"
+msgstr "経費精算の計上にはコストセンターが必要です"
+
+#. carried over from the deployable CSV
+msgid "Cost of New Capitalized Asset"
+msgstr "新規資産計上額"
+
+#. carried over from the deployable CSV
+msgid "Country Settings"
+msgstr "国の設定"
+
+#. carried over from the deployable CSV
+msgid "Create Custom Fields"
+msgstr "カスタムフィールドを作成"
+
+#. carried over from the deployable CSV
+msgid "Create Depreciation Entry"
+msgstr "減価償却の仕訳を作成"
+
+#. carried over from the deployable CSV
+msgid "Create Income Tax Slab"
+msgstr "所得税の税率区分を作成"
+
+#. carried over from the deployable CSV
+msgid "Create Lab Test(s) on Sales Invoice Submit"
+msgstr "売上請求の提出時に検査を作成する"
+
+#. carried over from the deployable CSV
+msgid "Create Payment Entries against Orders or Invoices."
+msgstr "注文または請求書に対する入出金伝票を作成します。"
+
+#. carried over from the deployable CSV
+msgid "Create Separate Payment Entry Against Benefit Claim"
+msgstr "福利厚生請求に対して個別の入出金伝票を作成する"
+
+#. carried over from the deployable CSV
+msgid "Create Your First Purchase Invoice"
+msgstr "最初の仕入請求を作成"
+
+#. carried over from the deployable CSV
+msgid "Create Your First Sales Invoice"
+msgstr "最初の売上請求を作成"
+
+#. carried over from the deployable CSV
+msgid "Create a Quotation"
+msgstr "見積書を作成"
+
+#. carried over from the deployable CSV
+msgid "Create a Supplier"
+msgstr "仕入先を作成"
+
+#. carried over from the deployable CSV
+msgid "Create a new composite asset"
+msgstr "新しい複合資産を作成"
+
+#. carried over from the deployable CSV
+msgid "Create an Asset"
+msgstr "資産を作成"
+
+#. carried over from the deployable CSV
+msgid "Create an Asset Category"
+msgstr "資産カテゴリを作成"
+
+#. carried over from the deployable CSV
+msgid "Create and Send Quotation"
+msgstr "見積書を作成して送信"
+
+#. carried over from the deployable CSV
+msgid ""
+"Create and send emails to a specific group of subscribers periodically."
+msgstr "特定の購読者グループに定期的にメールを作成・送信します。"
+
+#. carried over from the deployable CSV
+msgid "Create in Draft Status"
+msgstr "ドラフト状態で作成する"
+
+#. carried over from the deployable CSV
+msgid "Create your first Quotation"
+msgstr "最初の見積書を作成しましょう"
+
+#. carried over from the deployable CSV
+msgid "Creating Payment Entries......"
+msgstr "入出金伝票を作成しています……"
+
+#. carried over from the deployable CSV
+msgid "Credit Limit Settings"
+msgstr "与信限度の設定"
+
+#. carried over from the deployable CSV
+msgid "Credit To account must be a Balance Sheet account"
+msgstr "貸方勘定は貸借対照表の勘定である必要があります"
+
+#. carried over from the deployable CSV
+msgid "Credit To account must be a Payable account"
+msgstr "貸方勘定は買掛金勘定である必要があります"
+
+#. carried over from the deployable CSV
+msgid "Credit To account must be a liability account"
+msgstr "貸方勘定は負債勘定である必要があります"
+
+#. carried over from the deployable CSV
+msgid "Custom Document Types"
+msgstr "カスタム文書タイプ"
+
+#. carried over from the deployable CSV
+msgid ""
+"Custom Field, Custom Doctype, Naming Series, Role Permission, Workflow, "
+"Print Formats, Reports"
+msgstr "カスタムフィールド、カスタム DocType、命名シリーズ、ロール権限、ワークフロー、印刷フォーマット、レポート"
+
+#. carried over from the deployable CSV
+msgid "Customize Print Formats"
+msgstr "印刷フォーマットをカスタマイズ"
+
+#. carried over from the deployable CSV
+msgid "DUPLICATE FOR SUPPLIER"
+msgstr "仕入先控（2枚目）"
+
+#. carried over from the deployable CSV
+msgid "Daily Work Summary Group User"
+msgstr "日次業務サマリー グループユーザー"
+
+#. carried over from the deployable CSV
+msgid "Daily Work Summary Settings"
+msgstr "日次業務サマリーの設定"
+
+#. carried over from the deployable CSV
+msgid "Daily Work Summary Settings Company"
+msgstr "日次業務サマリー設定 会社"
+
+#. carried over from the deployable CSV
+msgid "Data Fetch Method"
+msgstr "データ取得方式"
+
+#. carried over from the deployable CSV
+msgid "Debit To account must be a Balance Sheet account"
+msgstr "借方勘定は貸借対照表の勘定である必要があります"
+
+#. carried over from the deployable CSV
+msgid "Debit To account must be a Receivable account"
+msgstr "借方勘定は売掛金勘定である必要があります"
+
+#. carried over from the deployable CSV
+msgid "Debit To account must be a liability account"
+msgstr "借方勘定は負債勘定である必要があります"
+
+#. carried over from the deployable CSV
+msgid "Deduct Full Tax on Selected Payroll Date"
+msgstr "指定した給与支給日に税を全額控除する"
+
+#. carried over from the deployable CSV
+msgid "Deduct Tax For Unclaimed Employee Benefits"
+msgstr "未請求の福利厚生分について税を控除する"
+
+#. carried over from the deployable CSV
+msgid "Deduct Tax For Unsubmitted Tax Exemption Proof"
+msgstr "未提出の控除証明について税を控除する"
+
+#. carried over from the deployable CSV
+msgid "Deduction Reports"
+msgstr "控除レポート"
+
+#. carried over from the deployable CSV
+msgid "Default Down Payment Payable Account"
+msgstr "既定の前渡金（買掛）勘定"
+
+#. carried over from the deployable CSV
+msgid "Default Down Payment Receivable Account"
+msgstr "既定の前受金（売掛）勘定"
+
+#. carried over from the deployable CSV
+msgid "Default Receivable Accounts"
+msgstr "既定の売掛金勘定"
+
+#. carried over from the deployable CSV
+msgid "Default Settings"
+msgstr "既定の設定"
+
+#. carried over from the deployable CSV
+msgid "Default Supplier Type"
+msgstr "既定の仕入先タイプ"
+
+#. carried over from the deployable CSV
+msgid "Default settings for accounting transactions."
+msgstr "会計取引の既定設定。"
+
+#. carried over from the deployable CSV
+msgid "Define Asset Category"
+msgstr "資産カテゴリを定義"
+
+#. carried over from the deployable CSV
+msgid "Delete Accounting and Stock Ledger Entries on deletion of Transaction"
+msgstr "取引の削除時に会計元帳・在庫元帳のエントリも削除する"
+
+#. carried over from the deployable CSV
+msgid "Depends on Payment Days"
+msgstr "支払日数に依存"
+
+#. carried over from the deployable CSV
+msgid "Depreciation Start Date"
+msgstr "減価償却開始日"
+
+#. carried over from the deployable CSV
+msgid "Diagnostic Report"
+msgstr "診断レポート"
+
+#. carried over from the deployable CSV
+msgid "Disable Last Purchase Rate"
+msgstr "最終購買単価を使用しない"
+
+#. carried over from the deployable CSV
+msgid "Disable Serial No And Batch Selector"
+msgstr "シリアル番号・バッチ選択を無効にする"
+
+#. carried over from the deployable CSV
+msgid "Discount Amount (Company Currency)"
+msgstr "割引金額（会社通貨）"
+
+#. carried over from the deployable CSV
+msgid "Distinct Item and Warehouse"
+msgstr "品目と倉庫の組み合わせ"
+
+#. carried over from the deployable CSV
+msgid "Do Not Update Serial / Batch on Creation of Auto Bundle"
+msgstr "自動バンドル作成時にシリアル・バッチを更新しない"
+
+#. carried over from the deployable CSV
+msgid "Do Not Use Batch-wise Valuation"
+msgstr "バッチ別評価を使用しない"
+
+#. carried over from the deployable CSV
+msgid "Don't Reserve Sales Order Qty on Sales Return"
+msgstr "返品時に受注数量を引き当てない"
+
+#. carried over from the deployable CSV
+msgid "Dont Recompute tax"
+msgstr "税を再計算しない"
+
+#. carried over from the deployable CSV
+msgid "Drop Procedures"
+msgstr "プロシージャを削除"
+
+#. carried over from the deployable CSV
+msgid ""
+"Drops existing SQL Procedures and Function setup by Accounts Receivable "
+"report"
+msgstr "売掛金レポートが作成した SQL のプロシージャと関数を削除します"
+
+#. carried over from the deployable CSV
+msgid "E Commerce Settings"
+msgstr "EC の設定"
+
+#. carried over from the deployable CSV
+msgid "Email Ids"
+msgstr "メールアドレス"
+
+#. carried over from the deployable CSV
+msgid "Email Notifications"
+msgstr "メール通知"
+
+#. carried over from the deployable CSV
+msgid "Email Sent To"
+msgstr "メール送信先"
+
+#. carried over from the deployable CSV
+msgid "Email ids separated by commas."
+msgstr "メールアドレスをカンマ区切りで入力します。"
+
+#. carried over from the deployable CSV
+msgid "Emergency Contact Details"
+msgstr "緊急連絡先の詳細"
+
+#. carried over from the deployable CSV
+msgid "Employee Exit"
+msgstr "従業員の退職"
+
+#. carried over from the deployable CSV
+msgid "Employee Tax Exemption Category"
+msgstr "従業員 控除カテゴリ"
+
+#. carried over from the deployable CSV
+msgid "Employee Tax Exemption Declaration"
+msgstr "従業員 控除申告"
+
+#. carried over from the deployable CSV
+msgid "Employee Tax Exemption Declaration Category"
+msgstr "従業員 控除申告カテゴリ"
+
+#. carried over from the deployable CSV
+msgid "Employee Tax Exemption Proof Submission"
+msgstr "従業員 控除証明の提出"
+
+#. carried over from the deployable CSV
+msgid "Employee Tax Exemption Proof Submission Detail"
+msgstr "従業員 控除証明の提出明細"
+
+#. carried over from the deployable CSV
+msgid "Employee Tax Exemption Sub Category"
+msgstr "従業員 控除サブカテゴリ"
+
+#. carried over from the deployable CSV
+msgid "Enable Discount Accounting for Selling"
+msgstr "販売の割引会計を有効にする"
+
+#. carried over from the deployable CSV
+msgid "Enable Stock Reservation"
+msgstr "在庫引当を有効にする"
+
+#. carried over from the deployable CSV
+msgid "Enter department to which this Contact belongs"
+msgstr "この連絡先が所属する部門を入力します"
+
+#. carried over from the deployable CSV
+msgid "Enter designation of this Contact"
+msgstr "この連絡先の役職を入力します"
+
+#. carried over from the deployable CSV
+msgid "Exempted from Income Tax"
+msgstr "所得税が非課税"
+
+#. carried over from the deployable CSV
+msgid "Expense Account is mandatory"
+msgstr "費用勘定は必須です"
+
+#. carried over from the deployable CSV
+msgid "Expense Claim Account"
+msgstr "経費精算勘定"
+
+#. carried over from the deployable CSV
+msgid "Expense Taxes and Charges"
+msgstr "費用の税・手数料"
+
+#. carried over from the deployable CSV
+msgid "Explore Healthcare Settings"
+msgstr "ヘルスケアの設定を確認"
+
+#. carried over from the deployable CSV
+msgid "Explore Sales Cycle"
+msgstr "販売サイクルを確認"
+
+#. carried over from the deployable CSV
+msgid "Failed to setup taxes"
+msgstr "税の設定に失敗しました"
+
+#. carried over from the deployable CSV
+msgid "Fetch Valuation Rate for Internal Transaction"
+msgstr "社内取引の評価単価を取得する"
+
+#. carried over from the deployable CSV
+msgid "Fetching Error"
+msgstr "取得エラー"
+
+#. carried over from the deployable CSV
+msgid "Find Invoices to Match"
+msgstr "消込対象の請求書を検索"
+
+#. carried over from the deployable CSV
+msgid "Fixed Asset Accounts"
+msgstr "固定資産勘定"
+
+#. carried over from the deployable CSV
+msgid "Follow via Email"
+msgstr "メールでフォローする"
+
+#. carried over from the deployable CSV
+msgid "For Default Supplier (optional)"
+msgstr "既定の仕入先向け（任意）"
+
+#. carried over from the deployable CSV
+msgid "From Opportunity"
+msgstr "商談から"
+
+#. carried over from the deployable CSV
+msgid "From Purchase Receipt"
+msgstr "入荷から"
+
+#. carried over from the deployable CSV
+msgid "From Quotation"
+msgstr "見積書から"
+
+#. carried over from the deployable CSV
+msgid "From Supplier Quotation"
+msgstr "仕入先見積から"
+
+#. carried over from the deployable CSV
+msgid "Generate Custom Reports"
+msgstr "カスタムレポートを生成"
+
+#. carried over from the deployable CSV
+msgid "Get Last Purchase Rate"
+msgstr "最終購買単価を取得"
+
+#. carried over from the deployable CSV
+msgid "Get Scrap Items"
+msgstr "スクラップ品目を取得"
+
+#. carried over from the deployable CSV
+msgid "Getting Scrap Items"
+msgstr "スクラップ品目を取得しています"
+
+#. carried over from the deployable CSV
+msgid "Global Settings"
+msgstr "全体設定"
+
+#. carried over from the deployable CSV
+msgid "Go to Suppliers"
+msgstr "仕入先一覧へ"
+
+#. carried over from the deployable CSV
+msgid "Go to Users"
+msgstr "ユーザー一覧へ"
+
+#. carried over from the deployable CSV
+msgid "Goods received from Suppliers."
+msgstr "仕入先からの入荷。"
+
+#. carried over from the deployable CSV
+msgid "HR & Payroll Settings"
+msgstr "人事・給与の設定"
+
+#. carried over from the deployable CSV
+msgid "HR Settings"
+msgstr "人事の設定"
+
+#. carried over from the deployable CSV
+msgid "Have Default Naming Series for Batch ID?"
+msgstr "バッチ ID に既定の命名シリーズを使用しますか。"
+
+#. carried over from the deployable CSV
+msgid "Helpdesk Reports"
+msgstr "ヘルプデスクのレポート"
+
+#. carried over from the deployable CSV
+msgid "Hiring Settings"
+msgstr "採用の設定"
+
+#. carried over from the deployable CSV
+msgid "House Rent Payment Amount"
+msgstr "家賃支払額"
+
+#. carried over from the deployable CSV
+msgid "How often should Project be updated of Total Purchase Cost ?"
+msgstr "プロジェクトの購買原価合計をどの頻度で更新しますか。"
+
+#. carried over from the deployable CSV
+msgid "Hub Settings"
+msgstr "Hub の設定"
+
+#. carried over from the deployable CSV
+msgid "IRS 1099 Form"
+msgstr "IRS 1099 フォーム"
+
+#. carried over from the deployable CSV
+msgid "If Monthly Budget Exceeded"
+msgstr "月次予算を超過した場合"
+
+#. carried over from the deployable CSV
+msgid "If Yearly Budget Exceeded"
+msgstr "年次予算を超過した場合"
+
+#. carried over from the deployable CSV
+msgid ""
+"If you still want to proceed, please disable 'Skip Available Sub Assembly "
+"Items' checkbox."
+msgstr "それでも続行する場合は、「在庫のあるサブアセンブリ品目をスキップ」のチェックを外してください。"
+
+#. carried over from the deployable CSV
+msgid "Ignore Account Closing Balance"
+msgstr "勘定の期末残高を無視する"
+
+#. carried over from the deployable CSV
+msgid "Ignore Exchange Rate Revaluation Journals"
+msgstr "為替評価替の仕訳を無視する"
+
+#. carried over from the deployable CSV
+msgid "Income Tax Amount"
+msgstr "所得税額"
+
+#. carried over from the deployable CSV
+msgid "Income Tax Component"
+msgstr "所得税の構成要素"
+
+#. carried over from the deployable CSV
+msgid "Income Tax Computation"
+msgstr "所得税の計算"
+
+#. carried over from the deployable CSV
+msgid "Income Tax Deductions"
+msgstr "所得控除"
+
+#. carried over from the deployable CSV
+msgid "Income Tax Slab"
+msgstr "所得税の税率区分"
+
+#. carried over from the deployable CSV
+msgid "Income Tax Slab Other Charges"
+msgstr "所得税 税率区分のその他負担"
+
+#. carried over from the deployable CSV
+msgid "Incoming Bills (Purchase Invoice)"
+msgstr "受領した請求（仕入請求）"
+
+#. carried over from the deployable CSV
+msgid "Incoming Leads"
+msgstr "新規リード"
+
+#. carried over from the deployable CSV
+msgid "Incorrect Data Report"
+msgstr "データ不整合レポート"
+
+#. carried over from the deployable CSV
+msgid "Interest Income Account"
+msgstr "受取利息勘定"
+
+#. carried over from the deployable CSV
+msgid "Internal Supplier"
+msgstr "社内仕入先"
+
+#. carried over from the deployable CSV
+msgid "Introduction to Assets"
+msgstr "資産の概要"
+
+#. carried over from the deployable CSV
+msgid "Invalid Company for Inter Company Invoice."
+msgstr "会社間請求の会社が不正です。"
+
+#. carried over from the deployable CSV
+msgid "Invoice Appointments Automatically"
+msgstr "予約を自動で請求する"
+
+#. carried over from the deployable CSV
+msgid "Invoice ID"
+msgstr "請求書 ID"
+
+#. carried over from the deployable CSV
+msgid "Invoice Ref"
+msgstr "請求書 参照"
+
+#. carried over from the deployable CSV
+msgid "Invoiced Amount (Exculsive Tax)"
+msgstr "請求金額（税抜）"
+
+#. carried over from the deployable CSV
+msgid "Is Composite Asset"
+msgstr "複合資産"
+
+#. carried over from the deployable CSV
+msgid "Is IRS 1099 reporting required for supplier"
+msgstr "この仕入先は IRS 1099 の報告対象ですか"
+
+#. carried over from the deployable CSV
+msgid "Is IRS 1099 reporting required for supplier?"
+msgstr "この仕入先は IRS 1099 の報告対象ですか。"
+
+#. carried over from the deployable CSV
+msgid "Is Income Tax Component"
+msgstr "所得税の構成要素"
+
+#. carried over from the deployable CSV
+msgid "Is Invoiced"
+msgstr "請求済"
+
+#. carried over from the deployable CSV
+msgid "Is Scrap Item"
+msgstr "スクラップ品目"
+
+#. carried over from the deployable CSV
+msgid "Is Tax Applicable"
+msgstr "課税対象"
+
+#. carried over from the deployable CSV
+msgid "Is Tax Included"
+msgstr "税込"
+
+#. carried over from the deployable CSV
+msgid "Is customer exempted from sales tax"
+msgstr "この顧客は売上税が免除されますか"
+
+#. carried over from the deployable CSV
+msgid "Is customer exempted from sales tax?"
+msgstr "この顧客は売上税が免除されますか。"
+
+#. carried over from the deployable CSV
+msgid "Issue a debit note with 0 qty against an existing Sales Invoice"
+msgstr "既存の売上請求に対して数量0のデビットノートを発行する"
+
+#. carried over from the deployable CSV
+msgid "Job Card Scrap Item"
+msgstr "ジョブカード スクラップ品目"
+
+#. carried over from the deployable CSV
+msgid "Journal Energy Point"
+msgstr "仕訳のエナジーポイント"
+
+#. carried over from the deployable CSV
+msgid "Journal Entry Detail No"
+msgstr "仕訳 明細番号"
+
+#. carried over from the deployable CSV
+msgid "Journals have been created"
+msgstr "仕訳を作成しました"
+
+#. carried over from the deployable CSV
+msgid "KSA VAT Report"
+msgstr "サウジアラビア VAT レポート"
+
+#. carried over from the deployable CSV
+msgid "KSA VAT Setting"
+msgstr "サウジアラビア VAT 設定"
+
+#. carried over from the deployable CSV
+msgid "LMS Setting"
+msgstr "LMS の設定"
+
+#. carried over from the deployable CSV
+msgid "Lead Id"
+msgstr "リード ID"
+
+#. carried over from the deployable CSV
+msgid "Lead must be set if Opportunity is made from Lead"
+msgstr "リードから商談を作成する場合はリードの指定が必要です"
+
+#. carried over from the deployable CSV
+msgid "LeaderBoard"
+msgstr "ランキング"
+
+#. carried over from the deployable CSV
+msgid "Learn Accounting"
+msgstr "会計を学ぶ"
+
+#. carried over from the deployable CSV
+msgid "Learn Procurement"
+msgstr "購買を学ぶ"
+
+#. carried over from the deployable CSV
+msgid "Learn Sales Management"
+msgstr "販売管理を学ぶ"
+
+#. carried over from the deployable CSV
+msgid "Learn more about Chart of Accounts"
+msgstr "勘定科目表について詳しく見る"
+
+#. carried over from the deployable CSV
+msgid "Leave Ledger Entry"
+msgstr "休暇元帳エントリ"
+
+#. carried over from the deployable CSV
+msgid "Let's Set Up Your Accounts and Taxes."
+msgstr "勘定と税を設定しましょう。"
+
+#. carried over from the deployable CSV
+msgid "Let's Set Up the Assets Module."
+msgstr "資産モジュールを設定しましょう。"
+
+#. carried over from the deployable CSV
+msgid "Let's create a Purchase Receipt"
+msgstr "入荷を作成しましょう"
+
+#. carried over from the deployable CSV
+msgid "Let's review existing Asset Category"
+msgstr "既存の資産カテゴリを確認しましょう"
+
+#. carried over from the deployable CSV
+msgid "Let's walk-through Chart of Accounts to review setup"
+msgstr "勘定科目表を一通り確認して設定を見直しましょう"
+
+#. carried over from the deployable CSV
+msgid "Let’s create your first Purchase Invoice"
+msgstr "最初の仕入請求を作成しましょう"
+
+#. carried over from the deployable CSV
+msgid "Let’s create your first Quotation"
+msgstr "最初の見積書を作成しましょう"
+
+#. carried over from the deployable CSV
+msgid "Let’s create your first Supplier"
+msgstr "最初の仕入先を作成しましょう"
+
+#. carried over from the deployable CSV
+msgid "Let’s walk-through Selling Settings"
+msgstr "販売設定を一通り確認しましょう"
+
+#. carried over from the deployable CSV
+msgid "Let’s walk-through few Buying Settings"
+msgstr "購買設定をいくつか確認しましょう"
+
+#. carried over from the deployable CSV
+msgid "Loan Account"
+msgstr "貸付金勘定"
+
+#. carried over from the deployable CSV
+msgid "Loan Account and Payment Account cannot be same"
+msgstr "貸付金勘定と入出金勘定を同じにすることはできません"
+
+#. carried over from the deployable CSV
+msgid "Loan Repayment"
+msgstr "貸付金の返済"
+
+#. carried over from the deployable CSV
+msgid "Loan Repayment Detail"
+msgstr "貸付金返済 明細"
+
+#. carried over from the deployable CSV
+msgid "Loan Repayment Entry"
+msgstr "貸付金返済 伝票"
+
+#. carried over from the deployable CSV
+msgid "Loan Repayment and Closure"
+msgstr "貸付金の返済と完済"
+
+#. carried over from the deployable CSV
+msgid "Main Reports"
+msgstr "主要レポート"
+
+#. carried over from the deployable CSV
+msgid "Maintain Same Rate Throughout Internal Transaction"
+msgstr "社内取引全体で同一単価を維持する"
+
+#. carried over from the deployable CSV
+msgid "Maintain same rate throughout purchase cycle"
+msgstr "購買サイクル全体で同じ単価を維持する"
+
+#. carried over from the deployable CSV
+msgid "Make Excise Invoice"
+msgstr "物品税請求書を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Inter Company Journal Entry"
+msgstr "会社間仕訳を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Invoice"
+msgstr "請求書を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Invoices"
+msgstr "請求書を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Lead"
+msgstr "リードを作成"
+
+#. carried over from the deployable CSV
+msgid "Make Opening Sales and Purchase Invoices"
+msgstr "期首の売上請求・仕入請求を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Payment Entries"
+msgstr "入出金伝票を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Payment Entry"
+msgstr "入出金伝票を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Purchase Receipt"
+msgstr "入荷を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Repayment Entry"
+msgstr "返済伝票を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Supplier Quotation"
+msgstr "仕入先見積を作成"
+
+#. carried over from the deployable CSV
+msgid "Make Tax Template"
+msgstr "税テンプレートを作成"
+
+#. carried over from the deployable CSV
+msgid "Make User"
+msgstr "ユーザーを作成"
+
+#. carried over from the deployable CSV
+msgid "Make new POS Setting"
+msgstr "新しい POS 設定を作成"
+
+#. carried over from the deployable CSV
+msgid "Manage Sales Tax Templates"
+msgstr "売上税テンプレートを管理"
+
+#. carried over from the deployable CSV
+msgid "Mapping Purchase Receipt ..."
+msgstr "入荷を対応付けています……"
+
+#. carried over from the deployable CSV
+msgid "Masters & Reports"
+msgstr "マスタとレポート"
+
+#. carried over from the deployable CSV
+msgid "Material User"
+msgstr "資材ユーザー"
+
+#. carried over from the deployable CSV
+msgid "Max Taxable Income"
+msgstr "課税所得の上限"
+
+#. carried over from the deployable CSV
+msgid "Mention if a non-standard receivable account"
+msgstr "標準以外の売掛金勘定を使う場合に指定します"
+
+#. carried over from the deployable CSV
+msgid "Merge Similar Account Heads"
+msgstr "同種の勘定科目を統合"
+
+#. carried over from the deployable CSV
+msgid "Min Taxable Income"
+msgstr "課税所得の下限"
+
+#. carried over from the deployable CSV
+msgid "Minutes to First Response for Opportunity"
+msgstr "商談の初回応答までの分数"
+
+#. carried over from the deployable CSV
+msgid "Mobile:"
+msgstr "携帯:"
+
+#. carried over from the deployable CSV
+msgid "Mode of payment is required to make a payment"
+msgstr "支払を行うには支払方法が必要です"
+
+#. carried over from the deployable CSV
+msgid "Module Settings"
+msgstr "モジュールの設定"
+
+#. carried over from the deployable CSV
+msgid "Monthly Repayment Amount"
+msgstr "月次返済額"
+
+#. carried over from the deployable CSV
+msgid "Monthly Sales Target ("
+msgstr "月次売上目標（"
+
+#. carried over from the deployable CSV
+msgid "Multiple Warehouse Accounts"
+msgstr "複数の倉庫勘定"
+
+#. carried over from the deployable CSV
+msgid "Multiple default mode of payment is not allowed"
+msgstr "既定の支払方法を複数設定することはできません"
+
+#. carried over from the deployable CSV
+msgid "My Invoices"
+msgstr "自分の請求書"
+
+#. carried over from the deployable CSV
+msgid "Naming Series and Price Defaults"
+msgstr "命名シリーズと価格の既定値"
+
+#. carried over from the deployable CSV
+msgid "New Account"
+msgstr "新規勘定"
+
+#. carried over from the deployable CSV
+msgid "New Cost Center"
+msgstr "新規コストセンター"
+
+#. carried over from the deployable CSV
+msgid "New Leads"
+msgstr "新規リード"
+
+#. carried over from the deployable CSV
+msgid "New Purchase Receipts"
+msgstr "新規の入荷"
+
+#. carried over from the deployable CSV
+msgid "New Supplier Quotations"
+msgstr "新規の仕入先見積"
+
+#. carried over from the deployable CSV
+msgid "No permission to use Payment Tool"
+msgstr "支払ツールを使用する権限がありません"
+
+#. carried over from the deployable CSV
+msgid "No repayments available for Journal Entry"
+msgstr "仕訳に利用できる返済がありません"
+
+#. carried over from the deployable CSV
+msgid "No repayments selected for Journal Entry"
+msgstr "仕訳に返済が選択されていません"
+
+#. carried over from the deployable CSV
+msgid "No. of print"
+msgstr "印刷部数"
+
+#. carried over from the deployable CSV
+msgid "Notification Email Address"
+msgstr "通知先メールアドレス"
+
+#. carried over from the deployable CSV
+msgid "Notify users by email"
+msgstr "ユーザーにメールで通知する"
+
+#. carried over from the deployable CSV
+msgid "On Lead Creation"
+msgstr "リードの作成時"
+
+#. carried over from the deployable CSV
+msgid "On Supplier Creation"
+msgstr "仕入先の作成時"
+
+#. carried over from the deployable CSV
+msgid "Opportunities via Campaigns"
+msgstr "キャンペーン経由の商談"
+
+#. carried over from the deployable CSV
+msgid "Opportunity From field is mandatory"
+msgstr "商談の作成元は必須です"
+
+#. carried over from the deployable CSV
+msgid "Opportunity List"
+msgstr "商談一覧"
+
+#. carried over from the deployable CSV
+msgid "Opportunity Lost"
+msgstr "商談失注"
+
+#. carried over from the deployable CSV
+msgid "Opportunity Trends"
+msgstr "商談の推移"
+
+#. carried over from the deployable CSV
+msgid "Other Taxes and Charges"
+msgstr "その他の税・手数料"
+
+#. carried over from the deployable CSV
+msgid "Outgoing Bills (Sales Invoice)"
+msgstr "発行した請求（売上請求）"
+
+#. carried over from the deployable CSV
+msgid "Over Picking Allowance"
+msgstr "超過ピッキング許容率"
+
+#. carried over from the deployable CSV
+msgid "Over Transfer Allowance"
+msgstr "超過移動の許容率"
+
+#. carried over from the deployable CSV
+msgid "PF Account"
+msgstr "積立基金勘定"
+
+#. carried over from the deployable CSV
+msgid "POS Closing Voucher Taxes"
+msgstr "POS 締め伝票の税"
+
+#. carried over from the deployable CSV
+msgid "POS Setting"
+msgstr "POS 設定"
+
+#. carried over from the deployable CSV
+msgid "POS Setting required to make POS Entry"
+msgstr "POS 伝票の作成には POS 設定が必要です"
+
+#. carried over from the deployable CSV
+msgid "Partial Payment in POS Invoice is not allowed."
+msgstr "POS 請求では一部支払はできません。"
+
+#. carried over from the deployable CSV
+msgid "Party Tax Withholding Config"
+msgstr "取引先の源泉徴収設定"
+
+#. carried over from the deployable CSV
+msgid "Patient History Settings"
+msgstr "患者履歴の設定"
+
+#. carried over from the deployable CSV
+msgid "Patients, Practitioner Schedules, Settings, and more."
+msgstr "患者、医師のスケジュール、設定ほか。"
+
+#. carried over from the deployable CSV
+msgid "Payment Account is mandatory"
+msgstr "入出金勘定は必須です"
+
+#. carried over from the deployable CSV
+msgid "Payment Date"
+msgstr "支払日"
+
+#. carried over from the deployable CSV
+msgid "Payment Days"
+msgstr "支払日数"
+
+#. carried over from the deployable CSV
+msgid "Payment Reconciliations"
+msgstr "入出金の消込"
+
+#. carried over from the deployable CSV
+msgid "Payment Status"
+msgstr "支払ステータス"
+
+#. carried over from the deployable CSV
+msgid "Payment Tool"
+msgstr "支払ツール"
+
+#. carried over from the deployable CSV
+msgid "Payment Tool Detail"
+msgstr "支払ツール 明細"
+
+#. carried over from the deployable CSV
+msgid "Payments Made"
+msgstr "支払額"
+
+#. carried over from the deployable CSV
+msgid "Payments Received"
+msgstr "入金額"
+
+#. carried over from the deployable CSV
+msgid "Payments made during the digest period"
+msgstr "対象期間中の支払"
+
+#. carried over from the deployable CSV
+msgid "Payments received during the digest period"
+msgstr "対象期間中の入金"
+
+#. carried over from the deployable CSV
+msgid "Payroll Reports"
+msgstr "給与レポート"
+
+#. carried over from the deployable CSV
+msgid "Payroll Settings"
+msgstr "給与の設定"
+
+#. carried over from the deployable CSV
+msgid "Penalty Income Account"
+msgstr "延滞金収入勘定"
+
+#. carried over from the deployable CSV
+msgid "Period Closing Settings"
+msgstr "期末締めの設定"
+
+#. carried over from the deployable CSV
+msgid "Please create new account from Chart of Accounts."
+msgstr "勘定科目表から新しい勘定を作成してください。"
+
+#. carried over from the deployable CSV
+msgid "Please enter Employee Id of this sales parson"
+msgstr "この営業担当者の従業員 ID を入力してください"
+
+#. carried over from the deployable CSV
+msgid "Please enter Payment Amount in atleast one row"
+msgstr "少なくとも1行に支払金額を入力してください"
+
+#. carried over from the deployable CSV
+msgid "Please enter Purchase Receipt No to proceed"
+msgstr "続行するには入荷番号を入力してください"
+
+#. carried over from the deployable CSV
+msgid "Please enter Purchase Receipts"
+msgstr "入荷を入力してください"
+
+#. carried over from the deployable CSV
+msgid "Please enter Repayment Periods"
+msgstr "返済期間を入力してください"
+
+#. carried over from the deployable CSV
+msgid "Please enter Taxes and Charges"
+msgstr "税・手数料を入力してください"
+
+#. carried over from the deployable CSV
+msgid "Please enter email address"
+msgstr "メールアドレスを入力してください"
+
+#. carried over from the deployable CSV
+msgid "Please enter repayment Amount"
+msgstr "返済額を入力してください"
+
+#. carried over from the deployable CSV
+msgid "Please set Opening Number of Booked Depreciations"
+msgstr "期首の償却済回数を設定してください"
+
+#. carried over from the deployable CSV
+msgid "Please set Payroll based on in Payroll settings"
+msgstr "給与設定で給与計算の基準を設定してください"
+
+#. carried over from the deployable CSV
+msgid "Point-of-Sale Setting"
+msgstr "POS の設定"
+
+#. carried over from the deployable CSV
+msgid "Posting Date Inheritance for Exchange Gain / Loss"
+msgstr "為替差損益の記帳日を継承する"
+
+#. carried over from the deployable CSV
+msgid "Print Format for Online"
+msgstr "オンライン用の印刷フォーマット"
+
+#. carried over from the deployable CSV
+msgid "Print and Stationary"
+msgstr "印刷と文房具"
+
+#. carried over from the deployable CSV
+msgid "Procedures dropped"
+msgstr "プロシージャを削除しました"
+
+#. carried over from the deployable CSV
+msgid "Processing Sales! Please Wait..."
+msgstr "販売を処理しています。お待ちください……"
+
+#. carried over from the deployable CSV
+msgid "Products, Purchases, Analysis, and more."
+msgstr "製品、購買、分析ほか。"
+
+#. carried over from the deployable CSV
+msgid "Products, Sales, Analysis, and more."
+msgstr "製品、販売、分析ほか。"
+
+#. carried over from the deployable CSV
+msgid "Professional Tax"
+msgstr "事業税"
+
+#. carried over from the deployable CSV
+msgid "Professional Tax Deductions"
+msgstr "事業税の控除"
+
+#. carried over from the deployable CSV
+msgid "Prompt for Email on Submission of"
+msgstr "提出時にメールを促す対象"
+
+#. carried over from the deployable CSV
+msgid "Provide email id registered in company"
+msgstr "会社に登録されているメールアドレスを指定します"
+
+#. carried over from the deployable CSV
+msgid "Purchase Common"
+msgstr "購買 共通"
+
+#. carried over from the deployable CSV
+msgid "Purchase Discounts"
+msgstr "購買割引"
+
+#. carried over from the deployable CSV
+msgid "Purchase Receipt Message"
+msgstr "入荷メッセージ"
+
+#. carried over from the deployable CSV
+msgid "Purchase Receipt must be submitted"
+msgstr "入荷は提出済である必要があります"
+
+#. carried over from the deployable CSV
+msgid "Purchase Returned"
+msgstr "購買返品"
+
+#. carried over from the deployable CSV
+msgid "Purchase an Asset"
+msgstr "資産を購入"
+
+#. carried over from the deployable CSV
+msgid "Purchase demande"
+msgstr "購買依頼"
+
+#. carried over from the deployable CSV
+msgid "Quality Inspection Settings"
+msgstr "品質検査の設定"
+
+#. carried over from the deployable CSV
+msgid "Quantity Requested for Purchase"
+msgstr "購買依頼数量"
+
+#. carried over from the deployable CSV
+msgid "Quantity must be greater than zero, and less or equal to {0}"
+msgstr "数量は 0 より大きく、{0} 以下である必要があります"
+
+#. carried over from the deployable CSV
+msgid "Quantity to Produce should be greater than zero."
+msgstr "製造数量は 0 より大きい必要があります。"
+
+#. carried over from the deployable CSV
+msgid "Questionnaire Email Sent"
+msgstr "アンケートのメールを送信しました"
+
+#. carried over from the deployable CSV
+msgid "Quotation Message"
+msgstr "見積書メッセージ"
+
+#. carried over from the deployable CSV
+msgid "Rate Difference with Purchase Invoice"
+msgstr "仕入請求との単価差異"
+
+#. carried over from the deployable CSV
+msgid "Raw SQL"
+msgstr "生の SQL"
+
+#. carried over from the deployable CSV
+msgid "Recalculating Purchase Cost against this Project..."
+msgstr "このプロジェクトの購買原価を再計算しています……"
+
+#. carried over from the deployable CSV
+msgid "Receivable Accounts"
+msgstr "売掛金勘定"
+
+#. carried over from the deployable CSV
+msgid "Reconciliation Queue Size"
+msgstr "消込キューのサイズ"
+
+#. carried over from the deployable CSV
+msgid "Record all transactions against an accounting journal"
+msgstr "すべての取引を会計仕訳として記録します"
+
+#. carried over from the deployable CSV
+msgid "Recurring Invoice"
+msgstr "定期請求書"
+
+#. carried over from the deployable CSV
+msgid "Recurring Sales Invoice"
+msgstr "定期売上請求"
+
+#. carried over from the deployable CSV
+msgid "Repair Asset"
+msgstr "資産を修繕"
+
+#. carried over from the deployable CSV
+msgid "Repair and Maintenance Account"
+msgstr "修繕維持費勘定"
+
+#. carried over from the deployable CSV
+msgid "Repayment Details"
+msgstr "返済明細"
+
+#. carried over from the deployable CSV
+msgid "Repayment Info"
+msgstr "返済情報"
+
+#. carried over from the deployable CSV
+msgid "Repayment Method"
+msgstr "返済方法"
+
+#. carried over from the deployable CSV
+msgid "Repayment Method is mandatory for term loans"
+msgstr "期限付貸付には返済方法が必須です"
+
+#. carried over from the deployable CSV
+msgid "Repayment Period in Months"
+msgstr "返済期間（月）"
+
+#. carried over from the deployable CSV
+msgid "Repayment Schedule"
+msgstr "返済スケジュール"
+
+#. carried over from the deployable CSV
+msgid "Repayment Schedule Name"
+msgstr "返済スケジュール名"
+
+#. carried over from the deployable CSV
+msgid "Repayment Start Date"
+msgstr "返済開始日"
+
+#. carried over from the deployable CSV
+msgid "Repayment Start Date is mandatory for term loans"
+msgstr "期限付貸付には返済開始日が必須です"
+
+#. carried over from the deployable CSV
+msgid "Report Setting"
+msgstr "レポートの設定"
+
+#. carried over from the deployable CSV
+msgid "Reports To"
+msgstr "上長"
+
+#. carried over from the deployable CSV
+msgid "Reposting Completed {0}%"
+msgstr "再計上が {0}% 完了しました"
+
+#. carried over from the deployable CSV
+msgid "Reposting Info"
+msgstr "再計上の情報"
+
+#. carried over from the deployable CSV
+msgid "Result Emailed"
+msgstr "結果をメールで送信しました"
+
+#. carried over from the deployable CSV
+msgid "Result Printed"
+msgstr "結果を印刷しました"
+
+#. carried over from the deployable CSV
+msgid "Review Fixed Asset Accounts"
+msgstr "固定資産勘定を確認"
+
+#. carried over from the deployable CSV
+msgid "Role Allowed to Create/Edit Back-dated Transactions"
+msgstr "遡及日付の取引を作成・編集できるロール"
+
+#. carried over from the deployable CSV
+msgid "Role Allowed to Over Bill"
+msgstr "超過請求を許可するロール"
+
+#. carried over from the deployable CSV
+msgid "Role Allowed to Override Stop Action"
+msgstr "停止操作を上書きできるロール"
+
+#. carried over from the deployable CSV
+msgid "Role Preference"
+msgstr "ロールの優先設定"
+
+#. carried over from the deployable CSV
+msgid "Role allowed to bypass Credit Limit"
+msgstr "与信限度を超過できるロール"
+
+#. carried over from the deployable CSV
+msgid "Root Account must be a group"
+msgstr "ルート勘定はグループである必要があります"
+
+#. carried over from the deployable CSV
+msgid "Root account can not be deleted"
+msgstr "ルート勘定は削除できません"
+
+#. carried over from the deployable CSV
+msgid "Round Tax Amount Row-wise"
+msgstr "税額を行単位で丸める"
+
+#. carried over from the deployable CSV
+msgid "Row #{0}: Finished Good reference is mandatory for Scrap Item {1}."
+msgstr "行 #{0}: スクラップ品目 {1} には完成品の参照が必須です。"
+
+#. carried over from the deployable CSV
+msgid "Row #{0}: Rejected Qty cannot be set for Scrap Item {1}."
+msgstr "行 #{0}: スクラップ品目 {1} に不合格数量は設定できません。"
+
+#. carried over from the deployable CSV
+msgid "Row #{0}: Scrap Item Qty cannot be zero"
+msgstr "行 #{0}: スクラップ品目の数量を 0 にすることはできません"
+
+#. carried over from the deployable CSV
+msgid "STATEMENTS OF ACCOUNTS"
+msgstr "取引明細書"
+
+#. carried over from the deployable CSV
+msgid "Salary Component Account"
+msgstr "給与構成要素の勘定"
+
+#. carried over from the deployable CSV
+msgid "Salary Payments Based On Payment Mode"
+msgstr "支払方法別の給与支払"
+
+#. carried over from the deployable CSV
+msgid "Salary Payments via ECS"
+msgstr "ECS による給与支払"
+
+#. carried over from the deployable CSV
+msgid "Sales Browser"
+msgstr "販売ブラウザ"
+
+#. carried over from the deployable CSV
+msgid "Sales Discounts"
+msgstr "販売割引"
+
+#. carried over from the deployable CSV
+msgid "Sales Extras"
+msgstr "販売の追加設定"
+
+#. carried over from the deployable CSV
+msgid "Sales Invoice Message"
+msgstr "売上請求メッセージ"
+
+#. carried over from the deployable CSV
+msgid "Sales Invoices Summary"
+msgstr "売上請求サマリー"
+
+#. carried over from the deployable CSV
+msgid "Sales Partner Addresses And Contacts"
+msgstr "販売パートナーの住所と連絡先"
+
+#. carried over from the deployable CSV
+msgid "Sales Partners and Territory"
+msgstr "販売パートナーと地域"
+
+#. carried over from the deployable CSV
+msgid "Sales Returned"
+msgstr "販売返品"
+
+#. carried over from the deployable CSV
+msgid "Sales Update Frequency in Company and Project"
+msgstr "会社とプロジェクトの売上更新頻度"
+
+#. carried over from the deployable CSV
+msgid "Sales and Purchase"
+msgstr "販売と購買"
+
+#. carried over from the deployable CSV
+msgid "Scrap & Process Loss"
+msgstr "スクラップと工程ロス"
+
+#. carried over from the deployable CSV
+msgid "Scrap Cost Per Qty"
+msgstr "数量あたりスクラップ費用"
+
+#. carried over from the deployable CSV
+msgid "Scrap Item Code"
+msgstr "スクラップ品目コード"
+
+#. carried over from the deployable CSV
+msgid "Scrap Item Name"
+msgstr "スクラップ品目名"
+
+#. carried over from the deployable CSV
+msgid "Segregate Serial / Batch Bundle"
+msgstr "シリアル・バッチバンドルを分割"
+
+#. carried over from the deployable CSV
+msgid "Select Payment Account to make Bank Entry"
+msgstr "銀行伝票を作成する入出金勘定を選択してください"
+
+#. carried over from the deployable CSV
+msgid "Select Sales Orders"
+msgstr "受注を選択"
+
+#. carried over from the deployable CSV
+msgid "Select Users"
+msgstr "ユーザーを選択"
+
+#. carried over from the deployable CSV
+msgid "Seller Email"
+msgstr "販売者のメールアドレス"
+
+#. carried over from the deployable CSV
+msgid "Send Emails At"
+msgstr "メールの送信時刻"
+
+#. carried over from the deployable CSV
+msgid "Send Supplier Emails"
+msgstr "仕入先にメールを送信"
+
+#. carried over from the deployable CSV
+msgid "Sending..."
+msgstr "送信しています……"
+
+#. carried over from the deployable CSV
+msgid "Serial & Batch Item Settings"
+msgstr "シリアル・バッチ品目の設定"
+
+#. carried over from the deployable CSV
+msgid "Set Operating Cost / Scrap Items From Sub-assemblies"
+msgstr "サブアセンブリから稼働費用・スクラップ品目を設定"
+
+#. carried over from the deployable CSV
+msgid "Set Valuation Rate for Rejected Materials"
+msgstr "不合格資材の評価単価を設定する"
+
+#. carried over from the deployable CSV
+msgid "Set default mode of payment"
+msgstr "既定の支払方法を設定"
+
+#. carried over from the deployable CSV
+msgid "Setting Up"
+msgstr "設定しています"
+
+#. carried over from the deployable CSV
+msgid "Setting up company and taxes"
+msgstr "会社と税を設定しています"
+
+#. carried over from the deployable CSV
+msgid "Setting {} is required"
+msgstr "設定 {} は必須です"
+
+#. carried over from the deployable CSV
+msgid "Settings & Configurations"
+msgstr "設定と構成"
+
+#. carried over from the deployable CSV
+msgid "Settings for HR Module"
+msgstr "人事モジュールの設定"
+
+#. carried over from the deployable CSV
+msgid "Setup Approval Workflows"
+msgstr "承認ワークフローを設定"
+
+#. carried over from the deployable CSV
+msgid "Setup Limited Access for a User"
+msgstr "ユーザーのアクセスを限定して設定"
+
+#. carried over from the deployable CSV
+msgid "Setup Naming Series"
+msgstr "命名シリーズを設定"
+
+#. carried over from the deployable CSV
+msgid "Shift Settings"
+msgstr "シフトの設定"
+
+#. carried over from the deployable CSV
+msgid "Shopping Cart Taxes and Charges Master"
+msgstr "カートの税・手数料マスタ"
+
+#. carried over from the deployable CSV
+msgid "Show Balances in Chart Of Accounts"
+msgstr "勘定科目表に残高を表示する"
+
+#. carried over from the deployable CSV
+msgid "Show Barcode Field in Stock Transactions"
+msgstr "在庫取引でバーコード欄を表示する"
+
+#. carried over from the deployable CSV
+msgid "Show Inclusive Tax In Print"
+msgstr "印刷時に内税を表示する"
+
+#. carried over from the deployable CSV
+msgid "Show Income Tax Slab List"
+msgstr "所得税の税率区分一覧を表示する"
+
+#. carried over from the deployable CSV
+msgid "Show PDC in Print"
+msgstr "印刷に先日付小切手を表示する"
+
+#. carried over from the deployable CSV
+msgid "Show Pay Button in Purchase Order Portal"
+msgstr "発注ポータルに支払ボタンを表示する"
+
+#. carried over from the deployable CSV
+msgid "Show Price in Quotation"
+msgstr "見積書に価格を表示する"
+
+#. carried over from the deployable CSV
+msgid "Show Taxes as Table in Print"
+msgstr "印刷時に税を表形式で表示する"
+
+#. carried over from the deployable CSV
+msgid "Skip e-mail workflow"
+msgstr "メールのワークフローを省略する"
+
+#. carried over from the deployable CSV
+msgid "Split qty cannot be grater than or equal to asset qty"
+msgstr "分割数量を資産数量以上にすることはできません"
+
+#. carried over from the deployable CSV
+msgid "Standard Tax Exemption Amount"
+msgstr "標準控除額"
+
+#. carried over from the deployable CSV
+msgid "Stock Transactions Settings"
+msgstr "在庫取引の設定"
+
+#. carried over from the deployable CSV
+msgid "Stock UOM Quantity"
+msgstr "在庫単位数量"
+
+#. carried over from the deployable CSV
+msgid "Sub Total"
+msgstr "小計"
+
+#. carried over from the deployable CSV
+msgid "Submitting Salary Slips and creating Journal Entry..."
+msgstr "給与明細を提出し、仕訳を作成しています……"
+
+#. carried over from the deployable CSV
+msgid "Supplier (Payable) Account"
+msgstr "仕入先（買掛金）勘定"
+
+#. carried over from the deployable CSV
+msgid "Supplier (vendor) name as entered in supplier master"
+msgstr "仕入先マスタに登録されている仕入先名"
+
+#. carried over from the deployable CSV
+msgid "Supplier Addresses and Contacts"
+msgstr "仕入先の住所と連絡先"
+
+#. carried over from the deployable CSV
+msgid "Supplier Detail"
+msgstr "仕入先 明細"
+
+#. carried over from the deployable CSV
+msgid "Supplier Type / Supplier"
+msgstr "仕入先タイプ／仕入先"
+
+#. carried over from the deployable CSV
+msgid "Supplier Type master."
+msgstr "仕入先タイプ マスタ。"
+
+#. carried over from the deployable CSV
+msgid "Supplier Variables"
+msgstr "仕入先の変数"
+
+#. carried over from the deployable CSV
+msgid "Supplier master."
+msgstr "仕入先マスタ。"
+
+#. carried over from the deployable CSV
+msgid "Suppress default email toast"
+msgstr "既定のメール通知トーストを表示しない"
+
+#. carried over from the deployable CSV
+msgid "Sync Offline Invoices"
+msgstr "オフライン請求書を同期"
+
+#. carried over from the deployable CSV
+msgid "Synch Taxes and Charges"
+msgstr "税・手数料を同期"
+
+#. carried over from the deployable CSV
+msgid "TRIPLICATE FOR SUPPLIER"
+msgstr "仕入先控（3枚目）"
+
+#. carried over from the deployable CSV
+msgid "Take a quick walk-through of Accounts Settings"
+msgstr "勘定設定を一通り確認しましょう"
+
+#. carried over from the deployable CSV
+msgid "Take a walk-through of Manufacturing Settings"
+msgstr "製造設定を一通り確認しましょう"
+
+#. carried over from the deployable CSV
+msgid "Target Asset Location"
+msgstr "移動先の資産所在地"
+
+#. carried over from the deployable CSV
+msgid "Target Is Fixed Asset"
+msgstr "移動先が固定資産"
+
+#. carried over from the deployable CSV
+msgid "Tax & Benefits"
+msgstr "税と福利厚生"
+
+#. carried over from the deployable CSV
+msgid "Tax Detail"
+msgstr "税の明細"
+
+#. carried over from the deployable CSV
+msgid "Tax Exemption Category"
+msgstr "控除カテゴリ"
+
+#. carried over from the deployable CSV
+msgid "Tax Exemption Proofs"
+msgstr "控除証明"
+
+#. carried over from the deployable CSV
+msgid "Tax Master"
+msgstr "税マスタ"
+
+#. carried over from the deployable CSV
+msgid "Tax Setup"
+msgstr "税の設定"
+
+#. carried over from the deployable CSV
+msgid "Tax Withheld Vouchers"
+msgstr "源泉徴収の伝票"
+
+#. carried over from the deployable CSV
+msgid "Tax Withholding Net Total"
+msgstr "源泉徴収対象 純合計"
+
+#. carried over from the deployable CSV
+msgid "Tax and other salary deductions."
+msgstr "税およびその他の給与控除。"
+
+#. carried over from the deployable CSV
+msgid "Tax on additional salary"
+msgstr "追加給与に対する税"
+
+#. carried over from the deployable CSV
+msgid "Tax on flexible benefit"
+msgstr "選択型福利厚生に対する税"
+
+#. carried over from the deployable CSV
+msgid "Taxable Salary Slab"
+msgstr "課税給与の区分"
+
+#. carried over from the deployable CSV
+msgid "Taxable Salary Slabs"
+msgstr "課税給与の区分"
+
+#. carried over from the deployable CSV
+msgid "Taxes & Charges"
+msgstr "税・手数料"
+
+#. carried over from the deployable CSV
+msgid "Taxes and Charges Template"
+msgstr "税・手数料テンプレート"
+
+#. carried over from the deployable CSV
+msgid "Taxes and Charges on Income Tax"
+msgstr "所得税に対する税・手数料"
+
+#. carried over from the deployable CSV
+msgid "Taxi"
+msgstr "タクシー"
+
+#. carried over from the deployable CSV
+msgid "Territory Wise Opportunity Count"
+msgstr "地域別 商談件数"
+
+#. carried over from the deployable CSV
+msgid "Territory Wise Sales"
+msgstr "地域別 売上"
+
+#. carried over from the deployable CSV
+msgid "Test Email Id"
+msgstr "テスト用メールアドレス"
+
+#. carried over from the deployable CSV
+msgid "The Accounts Module is all set up!"
+msgstr "会計モジュールの設定が完了しました。"
+
+#. carried over from the deployable CSV
+msgid "The date on which recurring invoice will be stop"
+msgstr "定期請求書を停止する日"
+
+#. carried over from the deployable CSV
+msgid "This will be used for setting rule in HR module"
+msgstr "人事モジュールのルール設定に使用されます"
+
+#. carried over from the deployable CSV
+msgid "To create a Bank Account"
+msgstr "銀行口座を作成するには"
+
+#. carried over from the deployable CSV
+msgid "To create a Tax Account"
+msgstr "税勘定を作成するには"
+
+#. carried over from the deployable CSV
+msgid ""
+"To include sub-assembly costs and scrap items in Finished Goods on a work "
+"order without using a job card, when the 'Use Multi-Level BOM' option is "
+"enabled."
+msgstr "「多階層部品表を使用」が有効なとき、ジョブカードを使わずに製造指示の完成品へサブアセンブリ原価とスクラップ品目を含めます。"
+
+#. carried over from the deployable CSV
+msgid "To use Google Indexing, enable Google Settings."
+msgstr "Google インデックスを使うには Google 設定を有効にしてください。"
+
+#. carried over from the deployable CSV
+msgid "Total Cost(Company Currency)"
+msgstr "合計原価（会社通貨）"
+
+#. carried over from the deployable CSV
+msgid "Total Estimated Budget"
+msgstr "見積予算 合計"
+
+#. carried over from the deployable CSV
+msgid "Total Incoming Payment"
+msgstr "入金 合計"
+
+#. carried over from the deployable CSV
+msgid "Total Invoiced Amt"
+msgstr "請求金額 合計"
+
+#. carried over from the deployable CSV
+msgid "Total Outgoing Payment"
+msgstr "支払 合計"
+
+#. carried over from the deployable CSV
+msgid "Total Payment"
+msgstr "支払 合計"
+
+#. carried over from the deployable CSV
+msgid "Total Payment Amount"
+msgstr "支払金額 合計"
+
+#. carried over from the deployable CSV
+msgid "Total Purchase Cost has been updated"
+msgstr "購買原価の合計を更新しました"
+
+#. carried over from the deployable CSV
+msgid "Total Reposting Count"
+msgstr "再計上の総件数"
+
+#. carried over from the deployable CSV
+msgid "Track Leads by Industry Type."
+msgstr "業種別にリードを追跡します。"
+
+#. carried over from the deployable CSV
+msgid "Trainer Email"
+msgstr "講師のメールアドレス"
+
+#. carried over from the deployable CSV
+msgid "Transactions & Reports"
+msgstr "取引とレポート"
+
+#. carried over from the deployable CSV
+msgid "Tree of finanial Cost Centers."
+msgstr "財務コストセンターのツリー。"
+
+#. carried over from the deployable CSV
+msgid "Tree of finanial accounts."
+msgstr "財務勘定のツリー。"
+
+#. carried over from the deployable CSV
+msgid "Try the new Print Format Builder"
+msgstr "新しい印刷フォーマットビルダーを試す"
+
+#. carried over from the deployable CSV
+msgid "Unstructured Role"
+msgstr "非定型の役割"
+
+#. carried over from the deployable CSV
+msgid "Update Cost Center Number"
+msgstr "コストセンター番号を更新"
+
+#. carried over from the deployable CSV
+msgid "Update Email Group"
+msgstr "メールグループを更新"
+
+#. carried over from the deployable CSV
+msgid "Update Existing Price List Rate"
+msgstr "既存の価格表レートを更新する"
+
+#. carried over from the deployable CSV
+msgid "Update Price List Based On"
+msgstr "価格表の更新基準"
+
+#. carried over from the deployable CSV
+msgid "Update Total Purchase Cost"
+msgstr "購買原価の合計を更新"
+
+#. carried over from the deployable CSV
+msgid "Update frequency of Project"
+msgstr "プロジェクトの更新頻度"
+
+#. carried over from the deployable CSV
+msgid "Use Legacy Controller For Period Closing Voucher"
+msgstr "期末締め伝票に旧コントローラを使用する"
+
+#. carried over from the deployable CSV
+msgid "Use Prices from Default Price List as Fallback"
+msgstr "既定の価格表の価格をフォールバックとして使用する"
+
+#. carried over from the deployable CSV
+msgid "Use Serial / Batch Fields"
+msgstr "シリアル・バッチ欄を使用する"
+
+#. carried over from the deployable CSV
+msgid "User Category"
+msgstr "ユーザーカテゴリ"
+
+#. carried over from the deployable CSV
+msgid "User Remark will be added to Auto Remark"
+msgstr "ユーザーの備考が自動備考に追加されます"
+
+#. carried over from the deployable CSV
+msgid "User Specific"
+msgstr "ユーザー固有"
+
+#. carried over from the deployable CSV
+msgid "Users List"
+msgstr "ユーザー一覧"
+
+#. carried over from the deployable CSV
+msgid "Validate Consumed Qty (as per BOM)"
+msgstr "消費数量を検証する（部品表基準）"
+
+#. carried over from the deployable CSV
+msgid "Validate Material Transfer Warehouses"
+msgstr "資材移動の倉庫を検証する"
+
+#. carried over from the deployable CSV
+msgid "Variable Based On Taxable Salary"
+msgstr "課税給与に応じた変動"
+
+#. carried over from the deployable CSV
+msgid "View General Ledger"
+msgstr "総勘定元帳を表示"
+
+#. carried over from the deployable CSV
+msgid ""
+"Warehouse's Stock Value has already been booked in the following accounts:"
+msgstr "この倉庫の在庫金額は、すでに次の勘定に計上されています:"
+
+#. carried over from the deployable CSV
+msgid "Will be updated after Sales Invoice is Submitted."
+msgstr "売上請求の提出後に更新されます。"
+
+#. carried over from the deployable CSV
+msgid "Your Suppliers"
+msgstr "自社の仕入先"
+
+#. carried over from the deployable CSV
+msgid "accounts-browser"
+msgstr "勘定ブラウザ"
+
+#. carried over from the deployable CSV
+msgid "doctype"
+msgstr "doctype"
+
+#. carried over from the deployable CSV
+msgid "sales-browser"
+msgstr "販売ブラウザ"
+
+#. carried over from the deployable CSV
+msgid "user@example.com"
+msgstr "user@example.com"
+
+#. carried over from the deployable CSV
+msgid "{0} {1} not allowed to be reposted. Modify {2} to enable reposting."
+msgstr "{0} {1} は再計上できません。再計上するには {2} を変更してください。"
+
+#. carried over from the deployable CSV
+msgid "{} Active"
+msgstr "{} 件が有効"
+
+#. carried over from the deployable CSV
+msgid "{} Published"
+msgstr "{} 件が公開済"

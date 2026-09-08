@@ -20,11 +20,13 @@ override, `lending` would reword Age as 期間 and `healthcare` would reword
 Active as アクティブ for every site that installs this, including the ones with
 neither app.
 
-Source strings are stripped, because `frappe._()` strips the message before it
-looks the translation up (`frappe/utils/translations.py`). An entry keyed on
-" Status " can therefore never match anything, and upstream ships a few hundred
-of them. Where stripping collides with an entry that was already correct, the
-correct one is kept.
+Padded source strings are emitted twice, stripped and verbatim. `frappe._()`
+strips the message before it looks the translation up, so an entry keyed on
+" Status " could never match server-side, and upstream ships a few hundred of
+them. The client-side `__()` does not strip, though, so dropping the padded key
+outright loses every string the desk renders in JavaScript from a fixture that
+carries upstream's stray whitespace. Where stripping collides with an entry that
+was already correct, the correct one is kept.
 
 Rows whose translation equals the source, or is empty, are dropped: they change
 nothing on screen and only add weight.
@@ -71,14 +73,23 @@ def load(path: str) -> tuple[dict[str, str], int]:
 		for row in csv.reader(f):
 			if len(row) < 2 or not row[0].strip():
 				continue
-			key = row[0].strip()
-			(exact if row[0] == key else padded)[key] = row[1]
+			if row[0] == row[0].strip():
+				exact[row[0]] = row[1]
+			else:
+				padded[row[0]] = row[1]
 
 	recovered = 0
-	for key, value in padded.items():
+	for raw, value in padded.items():
+		key = raw.strip()
 		if key not in exact:
 			exact[key] = value
 			recovered += 1
+		# The padded form has to survive as a key of its own as well: only the
+		# Python `_()` strips before it looks a message up. The client-side
+		# `__()` (frappe/public/js/frappe/translate.js) uses the string
+		# verbatim, and the strings the desk renders from fixture records --
+		# Onboarding Step titles among them -- carry upstream's stray spaces.
+		exact.setdefault(raw, value)
 	return exact, recovered
 
 
